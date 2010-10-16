@@ -1,0 +1,89 @@
+body, td, th {
+  background-color:#000000;
+  margin:0;
+  padding:5px 20px;
+  color:#FFFFFF;
+  font-family:tahoma,helvetica,serif;
+  font-size:small;
+}
+
+img{
+  border:none;
+}
+a {
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 2px;
+  empty-cells: show;
+  background-color:#303030;
+  border-color:#454545 black black #454545;
+  border-style:solid;
+  border-width:1px;
+}
+table th {
+  color:#D0D0FF;
+  background-color: #282828;
+}
+table td{
+  text-alignment: left;
+  vertical-align: top;
+  padding: 4px;
+  background-color:#505050;
+  border-color:#707070 black black #707070;
+  border-style:solid;
+  border-width:1px;
+  color:#FFFFFF;
+  font-family:tahoma,helvetica,serif;
+}
+
+ul {
+  list-style-type:square;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+.best {
+  color: #65ff00;
+  font-weight: 900;
+}
+
+.medium {
+  color: #ffff00;
+}
+
+.worst {
+  color: #ff6500;
+}
+
+.copy{
+  text-align:center;
+}
+
+#logo{
+  text-align:center;
+}
+
+table.move-review caption{
+  text-align:center;
+  font-weight:900;
+  font-size:1.4em;
+}
+
+table.move-review th{
+  text-align:right;
+  padding:2px;
+  font-size:0.8em;
+}
+
+table.move-review td{
+  text-align:left;
+  font-size:0.8em;
+}

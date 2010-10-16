@@ -1,0 +1,55 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",30,50,20,"Sp*Su ",4,2,10,-1,2
+"Close Medium Punch ","HL ",80,100,40,"Su ",6,2,10,2,5
+"Close Hard Punch ","HL ","110[90] ","200[150] ",60,"Su ",7,4,22,-7,-1
+"Close Light Kick ","HL ",40,50,20,"Sp*Su ",4,3,10,-2,1
+"Close Medium Kick ","HL ","40*40 ","50*50 ","40*20 ","Su ",5,"2(3)2 ",12,0,3
+"Close Hard Kick ","HL ","100[80] ","200[150] ",60,"Su ",7,6,19,-6,-1
+"Far Light Punch ","HL ",30,50,20,"Sp*Su ",3,2,9,0,3
+"Far Medium Punch ","HL ",80,100,40,"- ",7,4,9,1,4
+"Far Hard Punch ","HL ",120,200,60,"Su ",7,6,20,-5,-2
+"Far Light Kick ","HL ",30,50,20,"Su ",5,2,12,-3,0
+"Far Medium Kick ","HL ",90,100,40,"- ",5,2,19,-7,-2
+"Far Hard Kick ","HL ","100[80] ","200[150] ",60,"Sp*Su ",3,6,23,-8,-5
+"Crouch Light Punch ","HL ",30,50,20,"Su ",4,2,9,0,3
+"Crouch Medium Punch ","HL ",90,100,40,"Su ",7,4,15,-5,-2
+"Crouch Hard Punch ","HL ",100,200,60,"Sp*Su ",8,4,25,-10,-4
+"Crouch Light Kick ","L ",30,50,20,"Sp*Su ",4,3,7,1,4
+"Crouch Medium Kick ","L ",70,100,40,"Su ",5,2,11,1,4
+"Crouch Hard Kick ","L ",90,150,60,"- ",6,5,21,-7,"D "
+"Back or Forward + Medium Punch (Close) ","HL ","50*40 ","50*50 ","40*20 ","Sp*Su ",7,"2(1)5 ",12,-3,2
+"Overhead ","H ","50*40 ","50*50 ","40*20 ","- ",25,"2(1)4 ",12,-2,3
+"Down Forward + Hard Punch ","L ",100,200,60,"- ",10,19,16,-14,"D "
+"Forward Hop ","- ","- ","- ","- ","- ","- ","- ",22,"- ","- "
+"Back Hop ","- ","- ","- ","- ","- ","- ","- ",29,"- ","- "
+"Coward Crouch ","- ","- ","- ","- ","Sp*Su ","- ","- ",53,"- ","- "
+"Coward Crouch (???) ",,,,,"Sp*Su ",,,90,,
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",20,2,38,-24,-24
+"Focus Attack Level 2 ","HL ",90,150,40,"- ",28,2,38,-18,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",63,2,39,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",20,2,38,-5,-5
+"Focus Attack Level 2 (Dash Cancel) ","HL ",90,150,40,"- ",28,2,38,1,"D "
+"Forward Throw ",0.9,130,140,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,120,120,40,"- ",3,2,20,"- ","D "
+"Rolling Attack Light Punch ","HL ",100,100,"30/30 ","Su ",6,18,"4+2 ",-24,-15
+"Rolling Attack Medium Punch ","HL ",110,150,"30/30 ","Su ",6,33,"4+2 ",-24,-15
+"Rolling Attack Hard Punch ","HL ",120,200,"30/30 ","Su ",6,33,"4+3 ",-24,-15
+"Rolling Attack EX ","HL ",110,150,"-250/0 ","Su ",6,33,"4+3 ",-24,-15
+"Backstep Rolling Light Kick ","HL ",110,200,"30/40 ","- ",28,25,6,"- ","D "
+"Backstep Rolling Medium Kick ","HL ",120,200,"30/40 ","- ",28,29,6,"- ","D "
+"Backstep Rolling Hard Kick ","HL ",130,200,"30/40 ","- ",28,33,6,"- ","D "
+"Backstep Rolling EX ","HL ",120,200,"-250/0 ","- ",28,33,6,"- ","D "
+"Anti Air Rolling Light Kick ","HL ",100,200,"30/30 ","- ",4,18,"40+5 ",-21,-17
+"Anti Air Rolling Medium Kick ","HL ",110,200,"30/30 ","- ",4,15,"42+10 ",-21,-17
+"Anti Air Rolling Hard Kick ","HL ",120,200,"30/30 ","- ",4,12,"46+4 ",-21,-17
+"Anti Air Rolling EX ","HL ",120,200,"-250/0 ","- ",4,18,"47+10 ",-21,-17
+"Electricity Light Punch ","HL ",120,200,"20/20 ","Su ",5,"4x4 ",9,5,"D "
+"Electricity Medium Punch ","HL ",130,200,"20/20 ","Su ",7,"2x8 ",9,8,"D "
+"Electricity Hard Punch ","HL ",140,200,"20/20 ","Su ",10,"1x16*2 ",9,10,"D "
+"Electricity EX ","HL ",150,200,"-250/0 ","Su ",10,"1x16*2 ",11,8,"D "
+"Super Light Punch ","HL ","100x5 ",0,"-1000/0 ","- ",5,"16*1x14 ",12,-34,"D "
+"Super Medium Punch ","HL ","100x5 ",0,"-1000/0 ","- ",5,"22*1x14 ",12,-34,"D "
+"Super Hard Punch ","HL ","100x5 ",0,"-1000/0 ","- ",5,"22*1x14 ",19,-34,"D "
+"Ultra 1 ","L * H * H * HLx4 ","0*100x5 ",0,"0/0 ","- ",4,"2(20) 26 * 1x20 ",17,-41,"D "
+"Ultra 2 Kick ",,"120x2 * 90x3 ",0,"0/0 ","- ",12,"2(7) 2(33) 90 ",31,-57,"- "
+"Ultra 2 Punch ",,"30 * 195 [470] ",0,"0/0 ","- ",7,"55(10)6 ",80,"- ","- "

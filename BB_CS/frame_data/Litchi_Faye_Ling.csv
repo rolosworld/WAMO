@@ -1,0 +1,71 @@
+"move","input","cancel","damage","p1","p2","guard","level","attribute","startup","active","recovery","frame_adv_block","counterhit","untechable"
+,"5A","cSJR",170,80,84,"All",1,"HB",6,3,6,3,8,12
+,"5B[m]","SJR",720,90,85,"All",3,"HB",11,3,22,-6,23,17
+,"5C[m]","SJhR","400x2",100,85,"All",3,"HB",17,"3(3)3",23,-9,30,17
+,"5B[e]","SJR",450,80,89,"All",3,"HB",9,3,14,0,15,17
+,"5C[e]","SJR",620,100,89,"All",3,"HBP",15,3,30,-16,29,17
+,"2A","SJR",150,80,84,"All",1,"F",7,3,8,1,9,12
+,"2B[m]","SR",680,80,89,"LA",3,"F",17,4,26,-13,39,17
+,"2C[m]","SR",700,100,89,"HL",3,"HBF",14,9,22,-14,37,30
+,"2B[e]","SR",390,70,86,"LA",2,"F",12,2,22,-10,29,14
+,"2C[e]","SJR",600,100,89,"HL",3,"HBF",12,3,19,-5,27,17
+,"6A[m]","R",620,80,89,"HA",3,"HBF",22,3,20,-2,34,42
+,"6B[m]","JhR",820,80,85,"All",3,"HB",17,6,18,-7,33,17
+,"6C[m]","JhR","410x4",70,90,"All",3,"HB",22,"3x4",27,-13,50,28
+,"3C[m]","SJhR",720,100,84,"LA",4,"F",20,12,15,-8,39,40
+,"6A[e]","SR",440,80,89,"HA",3,"HBF",22,3,27,-13,36,26
+,"6B[e]","SJR",740,100,89,"All",3,"HB",17,4,23,-10,33,17
+,"6C[e]","ShR","300, 900",100,89,"All, HA",3,"HB",11,"2(15)3","7+6landing",1,"All",39
+,"3C[e]","SR",670,100,84,"LA",3,"F",16,3,21,-7,27,40
+,"j.A","SJR",180,100,84,"HA",1,"H",7,4,8,"-",14,12
+,"j.B[m]","SJR",720,85,89,"HA",3,"H",11,3,18,"-",19,17
+,"j.C[m]","SJR",860,85,92,"HA",4,"H",15,4,14,"-",22,19
+,"j.B[e]","SJR",500,90,89,"HA",3,"H",9,4,12,"-",16,20
+,"j.C[e]","SJR",600,90,89,"HA",3,"H",12,3,22,"-",20,19
+,"Forward throw","-, SRx2","0, 1250",100,"100, 70, 60",80000,"0, 0, 3","Throw",7,3,22,"-","All","-, 40, 45"
+,"Back throw","-, SR","0, 600",100,"100, 55",80000,"0, 3","Throw",8,3,22,"-","All","-, 52"
+,"Air throw","-, SR","0, 800",100,"100, 60",90000,"0, 3","Throw",7,3,15,"-","All","-, 60"
+,447,"-","-","-","-","-","-","-","-","-","Total 43F","-","-","-"
+,"Counter Assault","R",0,50,84,"All",0,"HB",13,2,28,-20,30,10
+,"5D[m]","-","-","-","-","-","-","-","-","-","Total 23F","-","All","-"
+,"2D[m]","-","-","-","-","-","-","-","-","-","Total 27F","-","All","-"
+,"6D[m]","SR, R","600x2",100,80,"All",4,"HB",15,"12(9)3",19,2,49,31
+,"4D[m]","SR",600,80,89,"HA",3,"HB",22,9,"12+8landing",-12,39,36
+,"j.D[m]","-",540,100,89,"All",3,"HBFP",14,"-","Total 53","-",23,30
+,"j.2D[m]","R","740, 480",100,89,"HA, LA",3,"H, F",17,"Until landing, (8)3",9,5,"11F after landing",17
+,"5D","see notes","-","-","-","-","-","-",9,"-","Total 48F",10,20,"-"
+,"2D","see notes","-","-","-","-","-","-",10,"-","Total 30F",9,19,"-"
+,"j.D","-","-","-","-","-","-","-",12,"-","Total 30F","-",20,"-"
+,"Staff return","-","-","-","-","-","-","-",43,"-","Total 16F",-1,"-","-"
+,"Launch (5D)","-","200x2",80,90,"All",3,"HBP","-","-","-","-","-",30
+,"Launch (2D)","-","200x2",80,90,"All",3,"HBP","-","-","-","-","-",30
+"Straight Through","41236D[m]","-","-","-","-","-","-","-","-","-","Total 54F","-","All","-"
+"A Followup","A after Straight Through","-","600, 730","75, 100","90, 100","HL, All",2,"HBP",16,8,32,-14,"All","28, 40"
+"B Followup","B after Straight Through","-","550, 520","90, 100","80, 100","All","2, 3","HBP",14,8,40,-26,"All","28, 17"
+"C Followup","C after Straight Through","-","620, 710","80, 100","80, 100","LA, All",2,"FP, HBP",16,8,39,-24,"All","40, 32"
+"D Followup","D after Straight Through","-","-","-","-","-","-","-","-","-","Total 7+17F","-","All","-"
+"Tsubame Gaeshi","623D[m]","-","480, 500, 440, 1400",80,"86x3, 40","HLx3, All",4,"HBPx3, HBFP",11,"3, 3, 23, 24","Total 58F",-23,"All",50
+"Three Dragons: White","236A[e]","R",710,90,90,"LA",4,"F",11,3,30,-14,28,34
+"Three Dragons: White (followup)","236A[e]","R",710,90,90,"LA",4,"HB",11,3,30,-14,28,34
+"Three Dragons: Green","236B[e]","R",740,100,90,"All",4,"HB",10,4,"23+15landing",-23,"4F after landing",44
+"Three Dragons: Green (air)","j.236B[e]","R",760,100,90,"All",4,"H",5,4,"15landing","-","4F after landing",44
+"Three Dragons: Red","236C[e]","R",700,80,80,"HA",4,"H",26,3,"11+12landing",-7,"5F after landing",38
+"Three Dragons: Red (followup)","236C[e]","R",800,90,90,"HA",4,"HB",23,2,"15+12landing",-10,"5F after landing",38
+"Three Dragons: Red (air)","j.236C[e]","R",690,80,80,"HA",4,"H",26,3,"11landing",3,"4F after landing",34
+"Three Dragons: Red (air, followup)","j.236C[e]","R",790,90,90,"HA",4,"H",21,3,"10landing","-","4F after landing",34
+"Reach: Last Chance","63214A[e]","-","-","-","-","-","-","-","-","-","Total ~30F","-","see notes","-"
+"One Shot","A while standing on staff","R",720,100,90,"All",2,"H",11,2,17,"-","All",48
+"Three Dragons: Green","B while standing on staff","R",760,100,100,"All",4,"H",17,4,"5+11landing",-1,"before landing",40
+"Three Dragons: Red","C while standing on staff","R",690,80,80,"HA",4,"H",21,3,"5+11landing",0,"4F after landing",34
+"Reach: Robbing the Kong","63214B[e]","-",690,90,92,"All",4,"HBP","-",33,"Total 32",12,"All",19
+"Reach: Kong on Kong","63214C[e]","-","-","-","-","-","-","-","-","-","see notes","-","All","-"
+"The Four Winds (5D placement)","41236D[e]","-","520x7",80,80,"All",4,"HBP",44,54,"Total 38","-","All",32
+"The Four Winds (2D placement)","41236D[e]","-","480x4",80,80,"All",4,"HBP",45,34,"Total 44","-","All",28
+"Kote Gaeshi (forwards)","623D[e]","see notes","-","-","-","-","-","-","-","-","Total 22","-","All","-"
+"Kote Gaeshi (backwards)","421D[e]","see notes","-","-","-","-","-","-","-","-","Total 21","-","All","-"
+"Kote Gaeshi (air, forwards)","j.623D[e]","see notes","-","-","-","-","-","-","-","-","Total 20","-","All","-"
+"Kote Gaeshi (air, backwards)","j.421D[e]","see notes","-","-","-","-","-","-","-","-","Total 19","-","All","-"
+"Thirteen Orphans","632146D[e]","-","250x16",85,85,"All",3,"HBP",30,"see notes","Total 61",202,"All",40
+"All Green","6428C","R",2000,75,85,"All",4,"HBFP",6,2,"Total 37",-9,"All",70
+"The Great Wheel","632146D[m]","-","360xn, 1020","85, 100","90, 92","All",4,"HBP, HBFP",27,"see notes","Total 66","-","All","60, 120"
+"Nine Gates of Heaven","while standing on staff [4]6D","-","Death","-","-","All",4,"HB",26,"before landing","75F after landing","-","24F after landing","-"

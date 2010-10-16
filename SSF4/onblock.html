@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+<link type="text/css" rel="stylesheet" href="../wamo.css">
+
+<title>WAMO On Block? - by bubafeast</title>
+</head>
+
+<body>
+<div id="logo"><a href="http://www.fgapr.com"><img src="http://fgapr.com/pic/Logo%20fga%20front%20page%202.jpg"/></a></div>
+<img src="ssf4-logo.png"/>
+<h1>What Are My Options?</h1>
+<h1>On Block &middot; <a href="onhit.html">On Hit</a></h1>
+
+<p>This little program tells you the possible punishments that can be used against blocked attacks. Possible punishments are calculated using the frame data. Not necessarily works since it depends on the distance, position, throw.... etc.</p>
+
+Blocker:<span id="bloqueante_dd"></span>
+Attacker:<span id="atacante_dd"></span>
+
+<ul>
+  <li class="best">Green: Best</li>
+  <li class="medium">Yellow: Medium</li>
+  <li class="worst">Orange: Worst</li>
+  <li>The numbers that are in () mean: ("Frames you have to press the button and its a sure punishment", "Frames you have to press the button and connect a counterhit")</li>
+</ul>
+<hr/>
+<div id="box"></div>
+
+<script src="../meta.min.js"></script>
+<script src="dropdown.js"></script>
+<script src="../wamo.js"></script>
+
+<script>
+load_dropdown( Meta.dom.$().select('#bloqueante_dd'), 'bloqueante_select', 'onblock();return false;' );
+load_dropdown( Meta.dom.$().select('#atacante_dd'), 'atacante_select', 'onblock();return false;' );
+onblock();
+</script>
+
+<div class="copy">All trademarks and copyrights on this page are owned by their respective owners. The Rest &copy; 2010 bubafeast</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-250504-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body> </html>

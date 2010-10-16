@@ -1,0 +1,47 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,10,-1,2
+"Close Medium Punch ","HL ",70,100,40,"Sp*Su ",6,2,11,1,4
+"Close Hard Punch ","HL ",90,200,60,"Sp*Su ",6,2,19,-3,1
+"Close Light Kick ","HL ",40,50,20,"Sp*Su ",4,2,10,-1,2
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",7,3,11,0,3
+"Close Hard Kick ","HL ",100,200,60,"Sp*Su ",7,2,18,-2,3
+"Far Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,11,-2,1
+"Far Medium Punch ","HL ",70,100,40,"Sp*Su ",7,2,12,0,3
+"Far Hard Punch ","HL ",100,200,60,"- ",11,5,18,-5,-1
+"Far Light Kick ","HL ",30,50,20,"- ",4,2,10,-1,2
+"Far Medium Kick ","HL ",70,100,40,"- ",6,2,13,-1,2
+"Far Hard Kick ","HL ",100,200,60,"- ",9,2,19,-3,1
+"Crouch Light Punch ","HL ",20,50,20,"sp/chp/Su ",3,3,8,0,3
+"Crouch Medium Punch ","HL ",60,100,40,"Sp*Su ",4,3,14,-3,0
+"Crouch Hard Punch ","HL ",100,150,60,"Sp*Su ",5,5,28,-15,-10
+"Crouch Light Kick ","L ",30,50,20,"- ",4,4,6,1,4
+"Crouch Medium Kick ","L ",60,100,40,"Sp*Su ",7,2,12,0,3
+"Crouch Hard Kick ","L ",90,200,60,"- ",9,2,26,-10,"D "
+"Slide ","L ",60,100,40,"- ",7,8,12,-6,-3
+"Forward + Hard Kick ","HL ",100,200,60,"- ",11,2,21,-5,-1
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",80,150,40,"- ",31,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",120,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,35,-5,-5
+"Focus Attack Level 2 (Dash Cancel) ","HL ",80,150,40,"- ",31,2,35,1,"D "
+"Forward Throw ",1,140,100,40,"- ",3,2,20,"- ","D "
+"Back Throw ",1,140,100,40,"- ",3,2,20,"- ","D "
+"Soul Spark Light Punch ","HL ",80,50,"30/20 ","Su ",14,"- ",52,-12,-8
+"Soul Spark Medium Punch ","HL ",80,50,"30/20 ","Su ",22,"- ",52,-4,0
+"Soul Spark Hard Punch ","HL ",80,50,"30/20 ","Su ",29,"- ",53,2,6
+"Soul Spark EX ","HL ","30*70 ","50*50 ","-250/0 ","Su ",14,"- ",48,0,4
+"Soul Spiral Light Kick ","HL ",100,100,"20/40 ","Su ",12,6,23,-8,"D "
+"Soul Spiral Medium Kick ","HL ",100,100,"20/40 ","Su ",15,6,21,-6,"D "
+"Soul Spiral Hard Kick ","HL ",100,100,"20/40 ","Su ",16,6,19,-4,"D "
+"Soul Spiral EX ","HL ",100,100,"-250/0 ","Su ",13,6,21,-6,"D "
+"Soul Reflect Light Punch ","HL ",50,100,"20/30 ","Su ",13,2,27,-8,"D "
+"Soul Reflect Medium Punch ","HL ",50,100,"20/30 ","Su ",13,3,25,-7,"D "
+"Soul Reflect Hard Punch ","HL ",50,100,"20/30 ","Su ",12,2,26,-7,"D "
+"Soul Reflect EX ","HL ",50,100,"-250/0 ","Su ",8,2,24,-5,"D "
+"Soul Throw Light Punch ",0.4,160,100,"20/40 ","- ",6,10,"26+8 ","D ","D "
+"Soul Throw Medium Punch ",0.4,160,100,"20/40 ","- ",6,11,"27+8 ","D ","D "
+"Soul Throw Hard Punch ",0.4,160,100,"20/40 ","- ",6,11,"30+8 ","D ","D "
+"Soul Throw EX ",0.4,160,100,"-250/0 ","- ",6,11,"30+8 ","D ","D "
+"Super ","HL ","50x4*100 ",0,"-1000/0 ","- ",9,"- ",53,16,"D "
+"Ultra 1 ","HL ",498,0,"0/0 ","- ",12,14,44,-37,"D "
+"Ultra 2 ","HL ","120*120 ",0,"0/0 ","- ",5,600,4,"- ","D "

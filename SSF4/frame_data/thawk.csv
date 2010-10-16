@@ -1,0 +1,44 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",40,50,20,"C*Sp*Su ",3,2,6,3,7
+"Close Medium Punch ","HL ",90,100,40,"Sp*Su ",5,4,10,0,4
+"Close Hard Punch ","HL ",130,200,60,"- ",8,3,14,2,6
+"Close Light Kick ","HL ",30,50,20,"Sp*Su ",3,3,10,-2,1
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",6,3,12,-1,2
+"Close Hard Kick ","HL ",140,200,60,"- ",8,3,17,0,4
+"Far Light Punch ","HL ",40,50,20,"Sp*Su ",4,2,7,3,6
+"Far Medium Punch ","HL ",90,100,40,"- ",6,3,12,-1,2
+"Far Hard Punch ","HL ",120,200,60,"- ",8,2,21,-5,-1
+"Far Light Kick ","HL ",30,50,20,"Sp*Su ",4,4,9,-2,1
+"Far Medium Kick ","HL ",70,100,40,"- ",6,3,11,0,3
+"Far Hard Kick ","HL ",120,200,60,"- ",10,5,22,-9,-5
+"Crouch Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,3,8,0,3
+"Crouch Medium Punch ","HL ",80,100,40,"- ",6,3,13,-2,1
+"Crouch Hard Punch ","HL ","90*50 ","100*100 ","60*20 ","- ",8,"2*3 ",20,-5,-1
+"Crouch Light Kick ","L ",40,50,20,"Sp*Su ",4,3,8,0,3
+"Crouch Medium Kick ","L ",70,100,40,"- ",6,4,12,-2,1
+"Crouch Hard Kick ","L ","120*50 ","100*100 ","20*20 ","- ",11,"2(9)2 ",20,-7,"- "
+"Thrust Peak (DF+Light Punch) ","HL ",40,50,20,"Sp*Su ",3,7,"- ",-8,-5
+"Focus Attack Level 1 ","HL ",90,100,20,"- ",23,5,32,-21,-21
+"Focus Attack Level 2 ","HL ",120,150,40,"- ",33,5,32,-16,"- "
+"Focus Attack Level 3 ","- ",170,200,60,"- ",65,5,32,"- ","- "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",90,100,20,"- ",23,5,32,-7,-7
+"Focus Attack Level 2 (Dash Cancel) ","HL ",120,150,40,"- ",33,5,32,-1,"- "
+"Forward Throw ",0.9,130,140,40,"- ",3,2,20,"- ","- "
+"Back Throw ",0.9,160,140,40,"- ",3,2,20,"- ","- "
+"Mexican Typhoon Light Punch ",1.5,150,200,"40/100 ","- ",2,2,52,"- ","- "
+"Mexican Typhoon Medium Punch ",1.45,200,200,"40/100 ","- ",2,2,50,"- ","- "
+"Mexican Typhoon Hard Punch ",1.4,230,200,"40/100 ","- ",2,2,48,"- ","- "
+"Mexican Typhoon EX ",1.45,200,150,"-250/0 ","- ",4,2,47,"- ","- "
+"Tomahawk Buster Light Punch ","HL ",130,200,"30/40 ","- ",5,"4*7 ","17+11 ",-18,"- "
+"Tomahawk Buster Medium Punch ","HL ",150,200,"30/40 ","- ",6,"4*7 ","21+11 ",-23,"- "
+"Tomahawk Buster Hard Punch ","HL ",160,200,"30/40 ","- ",8,"4*7 ","26+11 ",-26,"- "
+"Tomahawk Buster EX ","HL ","80*50 ","150*150 ","-250/0 ","- ",5,"4*7 ","29+11 ",-35,"- "
+"Condor Dive ","HL ",120,100,"20/30 ","- ",11,"until ground ",22,"- ","- "
+"Condor Dive EX ","H ",100,50,"-250/0 ","- ",11,"until ground ",22,"- ","- "
+"Condor Spire Light Punch ","HL ",120,200,"20/30 ","- ",20,9,"4+7 ",-7,-5
+"Condor Spire Medium Punch ","HL ",120,200,"20/30 ","- ",20,10,"4+7 ",-8,-6
+"Condor Spire Hard Punch ","HL ",120,200,"20/30 ","- ",20,11,"5+7 ",-10,-8
+"Condor Spire EX ","HL ",150,150,"-250/0 ","- ",15,9,"4+7 ",-3,"- "
+"Super ",1.35,430,0,"-1000/0 ","- ",1,2,41,"- ","- "
+"Ultra 1 ",1.4,510,0,"0/0 ","- ",1,2,41,"- ","- "
+"Ultra 2 ",1.1,450,0,"0/0 ","- ",4,6,"17+26 ","- ","- "

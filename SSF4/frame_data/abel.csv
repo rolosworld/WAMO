@@ -1,0 +1,54 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ","25*15 ","30*20 ","20*20 ","C*Sp*Su ",4,"3(8)3 ",11,-3,0
+"Close Medium Punch ","HL ","50*30 ","50*50 ","40*20 ","Sp*Su ",5,"3(8)2 ",14,-2,4
+"Close Hard Punch ","HL ","80*30 ","100*100 ","60*20 ","Sp*Su ",4,"3(8)2 ",20,-4,0
+"Close Light Kick ","HL ",30,50,20,"- ",5,2,9,0,3
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",7,2,16,-4,-1
+"Close Hard Kick ","HL[H] ","100[30] ","150[50] ","60[20] ","- ",6,6,16,-4,0
+"Far Light Punch ","HL ",30,50,20,"Sp*Su ",5,3,6,3,4
+"Far Medium Punch ","HL ",80,100,40,"Su ",5,6,11,-3,1
+"Far Hard Punch ","HL ",130,200,60,"- ",12,3,17,-2,2
+"Far Light Kick ","HL ",40,50,20,"- ",5,3,8,0,3
+"Far Medium Kick ","HL ",80,100,40,"- ",8,3,15,-4,-1
+"Far Hard Kick ","HL ",100,200,60,"- ",14,2,19,-3,1
+"Crouch Light Punch ","HL ",30,50,20,"C*Sp*Su ",5,2,6,3,6
+"Crouch Medium Punch ","HL ",70,100,40,"Sp*Su ",7,3,10,1,4
+"Crouch Hard Punch ","HL ","70*40 ","100*50 ","60*20 ","Sp*Su ",8,"2*2 ",22,-6,"D "
+"Crouch Light Kick ","L ",20,50,20,"C*Sp*Su ",5,3,7,1,4
+"Crouch Medium Kick ","HL ",70,100,40,"Sp*Su ",8,5,13,-4,1
+"Crouch Hard Kick ","L ",100,200,60,"Sp*Su ",11,3,25,-10,"D "
+"F+Medium Kick ","HL ",80,100,40," ??? ",7,2,16,0,3
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",80,150,40,"- ",30,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",140,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,35,0,0
+"Focus Attack Level 2 (Dash Cancel) ","HL ",80,150,40,"- ",30,2,35,6,"D "
+"Forward Throw ",0.9,130,140,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,130,140,40,"- ",3,2,20,"- ","D "
+"Change of Direction Light Punch ","HL ",30,50,"20/30 ","Su ",14,3,25,-3,2
+"Change of Direction Medium Punch ","HL ",35,50,"20/30 ","Su ",16,3,25,-3,2
+"Change of Direction Hard Punch ","HL ",40,50,"20/30 ","Su ",17,3,25,-3,2
+"Change of Direction EX ","HL ",40,50,"-250/0 ","Su ",16,3,25,-3,2
+"Punch Change of Direction 2nd Hit ","H ",40,50,"10/20/10","- ",15,4,28,-9,-4
+"Kick Change of Direction 2nd Hit ","L ",50,50,"20/30 ","Su ",22,4,24,-5,-1
+"Punch Change of Direction 3rd Hit ","H ",100,100,"10/30/10","- ",10,2,44,-35,"D "
+"Kick Change of Direction 3nd Hit ","L ",150,100,"30/30 ","- ",22,2,53,-44,"D "
+"Kick Wheel Light Kick ","H ",120,200,"30/40 ","- ",20,7,"2+19 ",-10,-5
+"Kick Wheel Medium Kick ","H ",140,200,"30/40 ","- ",24,7,"2+20 ",-11,-6
+"Kick Wheel Hard Kick ","H ",160,200,"30/40 ","- ",27,7,"1+22 ",-12,-7
+"Kick Wheel EX ","H ","60*120 ","100*100 ","-250/0 ","-- ",17,"7*3 ","2+19 ",-6,0
+"Marseilles Roll Light Kick ","- ","- ","- ","20/- ","- ","- ","- ",27,"- ","- "
+"Marseilles Roll Medium Kick ","- ","- ","- ","20/- ","- ","- ","- ",30,"- ","- "
+"Marseilles Roll Hard Kick ","- ","- ","- ","20/- ","- ","- ","- ",32,"- ","- "
+"Marseilles Roll EX ","- ","- ","- ","-250/- ","- ","- ","- ",32,"- ","- "
+"Sky Fall Light Punch ","- ","0*140 ",100,"30/0*100 ","- ",5,2,31,"- ","D "
+"Sky Fall Medium Punch ","- ","0*150 ",150,"30/0*100 ","- ",6,4,31,"- ","D "
+"Sky Fall Hard Punch ","- ","0*160 ",200,"30/0*100 ","- ",9,6,31,"- ","D "
+"Sky Fall EX ","- ","0*160 ",150,"-250/0 ","- ",6,2,31,"- ","D "
+"Tornado Throw Light Punch ",1.3,160,100,"30/80 ","- ",5,2,51,"- ","D "
+"Tornado Throw Medium Punch ",1.1,180,150,"30/80 ","- ",5,2,45,"- ","D "
+"Tornado Throw Hard Punch ",0.9,200,200,"30/80 ","- ",5,2,39,"- ","D "
+"Tornado Throw EX ",1.25,200,150,"-250/0 ","- ",5,2,54,"- ","D "
+"Super ","HL ","0*335 ",0,"-1000/0 ","- ",6,2,41,-32,"D "
+"Ultra 1 ","HL ","45*455 ",0,"0/0 ","- ",14,2,46,-30,"D "
+"Ultra 2 ",1,480,0,"0/0 ","- ",7,6,51,"- ","- "

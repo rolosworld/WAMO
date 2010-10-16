@@ -1,0 +1,48 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",25,50,20,"C*Sp*Su ",3,2,5,4,7
+"Close Medium Punch ","HL ",65,100,40,"Sp*Su ",4,2,12,0,3
+"Close Hard Punch ","HL ","100[80] ","120[100] ",60,"Sp*Su ",3,4,20,-6,-1
+"Close Light Kick ","HL ",25,50,20,"Sp*Su ",3,2,8,-1,2
+"Close Medium Kick ","HL ",60,100,40,"Sp*Su ",4,3,15,-4,-1
+"Close Hard Kick ","HL ","120[100] ",200,60,"Su ",6,3,21,-6,-1
+"Far Light Punch ","HL ",25,50,20,"C*Sp*Su ",3,2,5,4,7
+"Far Medium Punch ","HL ",75,100,40,"Su ",7,3,12,0,2
+"Far Hard Punch ","HL ",110,200,60,"- ",8,3,17,-2,2
+"Far Light Kick ","HL ",30,50,20,"Sp*Su ",3,2,8,-1,2
+"Far Medium Kick ","HL ",75,100,40,"- ",9,2,12,0,3
+"Far Hard Kick ","HL ",110,200,60,"- ",10,3,15,0,2
+"Crouch Light Punch ","HL ",20,50,20,"C*Sp*Su ",3,2,6,3,6
+"Crouch Medium Punch ","HL ",65,80,40,"Sp*Su ",5,3,11,0,3
+"Crouch Hard Punch ","HL ","90[80] ","120[100] ",60,"Sp*Su ",4,5,23,-10,-5
+"Crouch Light Kick ","L ",20,50,20,"C*Sp*Su ",3,3,8,0,3
+"Crouch Medium Kick ","L ",60,100,40,"Sp*Su ",5,4,13,-3,0
+"Crouch Hard Kick ","L ",90,150,60,"- ",7,3,22,-7,"D "
+"Flower Kick Overhead ","H ",80,100,40,"- ",16,2,15,-3,2
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",80,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",130,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,35,-2,-2
+"Focus Attack Level 2 (Dash Cancel) ","HL ",80,150,40,"- ",29,2,35,4,"D "
+"Forward Throw ",0.9,120,120,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,135,140,40,"- ",3,2,20,"- ","D "
+"Fireball (Level 1) ","HL ","60[40*60] ",75,"10/20/10","Su ",15,71,48,-7,-3
+"Fireball (Level 2) ","HL ","80[50*70] ",100,"10/20/10","Su ",27,71,60,-7,-3
+"Fireball (Level 3) ","HL ","120[60*80] ",150,"10/20/10","Su ",39,44,72,-7,-3
+"Fireball EX (Level 1) ","HL ","40*60 ","50*50 ","-250/0 ","Su ",15,"- ",48,-4,"D "
+"Fireball EX (Level 2) ","HL ","50*70 ","60*60 ","-250/0 ","Su ",27,"- ",60,-4,"D "
+"Fireball EX (Level 3) ","HL ","60*80 ","75*75 ","-250/0 ","Su ",39,"- ",72,-4,"D "
+"Dragon Punch Light Punch ","HL ","90*15 ","50*50 ","30/10x2 ","Su ",6,"2*4 ","18+11 ",-12,"D "
+"Dragon Punch Medium Punch ","HL ","90*15x3 ","50*35x3 ","30/10x4 ","Su ",7,"2x3*8 ","22+11 ",-20,"D "
+"Dragon Punch Hard Punch ","HL ","80*15x5 ","50*30x5 ","30/10x6 ","Su ",12,"2x5*10 ","20+11 ",-20,"D "
+"Dragon Punch EX ","HL ","45 * 15+45 * 15x5 ","40 * 20 * 40 * 20x5 ","-250/0 ","Su ",12,"2 * 4(19) 2x5 * 9 ","22+11 ",-20,"D "
+"Arcing Hurricane Kick Light Kick ","HL ",60,100,"20/15 ","- ",16,6,15,0,4
+"Arcing Hurricane Kick Medium Kick ","HL ","60*60 ","50*50 ","20/20*20 ","- ",17,"3(8)6 ",18,-3,1
+"Arcing Hurricane Kick Hard Kick ","HL ","60x3 ","50x3 ","20/15x3 ","- ",12,"2(6) 3(7) 2 ",21,-2,0
+"Arcing Hurricane Kick EX ","HL ","30x3*35 ","50*30x3 ","-250/0 ","Su ",12,"3(6) 3(7) 2(12) 3 ",15,4,"D "
+"Jump Smash ","HL ","- ","- ","20/- ","- ","- ","- ",36,"- ","D "
+"Jump Smash EX ","HL ","- ","- ","-250/- ","- ","- ","- ",77,"- ","D "
+"Jump Smash (???) ","HL ","50 * 50 * 60 [60x3] ","70 * 70 * 100 [100x3] ","0/15[0] ","- ",28,3,16,,
+"Super ","Lx6*HL ","45x6*80 ",0,"-1000/0 ","- ",7,"{2(5)} x5 * x(13) 4 ",24,-7,"D "
+"Ultra 1 ","Lx2*HL ","75 * 75 * 68 * 233 ",0,"0/0 ","- ",11,"2(7) 2(11) 2 ",47,-28,"D "
+"Ultra 2 ","HL ","56x4*105 ",0,"0/0 ","- ",12,"- ",96,-27,"D "
+"Ultra 2 (Anti Air) ","HL ","56x4*105 ",0,"0/0 ","- ",8,"- ",92,-27,"D "
