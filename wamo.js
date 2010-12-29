@@ -16,6 +16,16 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**************************
+ * 
+ * - Cargar array si no esta cargado
+ * - Cargar startup minimo
+ * - Calcular frame data differences
+ * 
+ **************************/
+
+var frmdata = {};
+
 function load_dropdown( select, id, onchange ) {
   var data = frame_data, rows = [];
   for( var i in data ) {
@@ -68,7 +78,7 @@ function csv_to_objArray( csv ) {
     });
 
   return objArray;
-}
+};
 
 function moveReview( move ) {
   var arr = [];
@@ -87,39 +97,67 @@ function moveReview( move ) {
   return '<table class="move-review">' + arr.join('') + '</table>';
 };
 
-function onblock() {
-  var atacante = Meta.dom.$().select('#atacante_select').val(),
-  bloqueante = Meta.dom.$().select('#bloqueante_select').val(),
+function fastest_startup( attacks ) {
+  var fast_startup = 10;
+
+  Meta.array.$( attacks ).forEach( function( attack ) {
+    if ( attack.stun && attack.startup < fast_startup ) {
+      fast_startup = attack.startup;
+    }
+  } );
+
+  return fast_startup;
+};
+
+function drawLi( type, a, diff, diff2 ) {
+  return '<li class="' + type + '">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>';
+};
+
+function drawTr( punish, review ) {
+  return '<tr><td>' + moveReview( punish.ataque ) + '</td><td><ul>' + review.join('') + '</li></td></tr>';
+};
+
+function dothis( callback ) {
+  var p1 = Meta.dom.$().select('#p1_select').val(),
+  p2 = Meta.dom.$().select('#p2_select').val(),
   done = 0,
   dataSrc = 'frame_data/';
-  Meta.ajax( {
-    url: dataSrc + bloqueante,
-    callbacks: function(a) {
-      bloqueante = csv_to_objArray( a.text() );
-      process();
+  
+  function getData( indx ) {
+    if ( ! ( indx in frmdata ) )  {
+      done++;
+      Meta.ajax( {
+        url: dataSrc + indx,
+        callbacks: function(a) {
+          frmdata[indx] = csv_to_objArray( a.text() );
+          --done;
+          if ( ! done ) {
+            callback( p1, p2 );
+          }
+        }
+      } );
     }
-  } );
+  }
+  
+  getData( p2 );
+  getData( p1 );
 
-  Meta.ajax( {
-    url: dataSrc + atacante,
-    callbacks: function(a) {
-      atacante = csv_to_objArray( a.text() );
-      process();
-    }
-  } );
+  if ( ! done ) {
+    callback( p1, p2 );
+  }
+}
 
-  function process() {
-    if ( ! done++ ) {
-      return;
-    }
+function onblock() {
+  dothis( process );
+
+  function process( p1, p2 ) {
+    var atacante = frmdata[p1];
+    var bloqueante = frmdata[p2];
 
     var fast_startup = 100,castigos_lista = [];
 
-    Meta.array.$( atacante ).forEach( function( ataque ) {
-      if ( ataque.stun && ataque.startup < fast_startup ) {
-        fast_startup = ataque.startup;
-      }
-    } );
+    // Fastest startup
+    fast_startup = fastest_startup( atacante );
 
     Meta.array.$( atacante ).forEach( function( ataque ) {
       var castigos = [];
@@ -147,16 +185,15 @@ function onblock() {
           var diff2 = adv - a.startup;
 
           if ( adv > a.startup ) {
-            review.push( '<li class="best">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+            review.push( drawLi( 'best', a, diff, diff2 ) );
           } else if ( adv == a.startup ) {
-            review.push( '<li class="medium">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+            review.push( drawLi( 'medium', a, diff, diff2 ) );
           } else {
-            review.push( '<li class="worst">' + ( a.move || a.input ) +'(' + diff2 + ', ' + diff + ')</li>' );
+            review.push( drawLi( 'worst', a, diff, diff2 ) );
           }
         } );
 
-      //rows.push( '<tr><td>' + ( castigos.ataque.move || castigos.ataque.input ) + '</td><td><ul>' + review.join('') + '</li></td></tr>' );
-      rows.push( '<tr><td>' + moveReview( castigos.ataque ) + '</td><td><ul>' + review.join('') + '</li></td></tr>' );
+      rows.push( drawTr( castigos, review ) );
     } );
 
     Meta.dom.$().select('#box').inner('<table>' + rows.join('') + '</table>');
@@ -172,38 +209,16 @@ function counterhitAdv( focusPassed, ataque ) {
 };
 
 function onhit() {
-  var atacante = Meta.dom.$().select('#atacante_select').val(),
-  victima = Meta.dom.$().select('#victima_select').val(),
-  done = 0,
-  dataSrc = 'frame_data/';
-  Meta.ajax( {
-    url: dataSrc + victima,
-    callbacks: function(a) {
-      victima = csv_to_objArray( a.text() );
-      process();
-    }
-  } );
+  dothis( process );
 
-  Meta.ajax( {
-    url: dataSrc + atacante,
-    callbacks: function(a) {
-      atacante = csv_to_objArray( a.text() );
-      process();
-    }
-  } );
-
-  function process() {
-    if ( ! done++ ) {
-      return;
-    }
-
+  function process( p1, p2 ) {
+    var atacante = frmdata[p1];
+    var victima = frmdata[p2];
+    
     var fast_startup = 100, links_lista = [];
 
-    Meta.array.$( victima ).forEach( function( ataque ) {
-      if ( ataque.stun && ataque.startup < fast_startup ) {
-        fast_startup = ataque.startup;
-      }
-    } );
+    // Fastest startup
+    fast_startup = fastest_startup( victima );
 
     Meta.array.$( atacante ).forEach( function( ataque ) {
       var links = [];
@@ -234,21 +249,21 @@ function onhit() {
           var adv = ataque.ataque.frame_adv_hit;
           var diff = adv + fast_startup - a.startup + 1;
           var diff2 = adv - a.startup + 1;
-
+                   
           if ( diff2 < 1 ) {
             return;
           }
-                   
+
           if ( adv > a.startup ) {
             if ( "block" in a && isFinite( a.block ) ) {
-              review.push( '<li class="medium">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+              review.push( drawLi( 'medium', a, diff, diff2 ) );
             } else {
-              review.push( '<li class="best">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+              review.push( drawLi( 'best', a, diff, diff2 ) );
             }
           } else if ( adv == a.startup ) {
-            review.push( '<li class="medium">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+            review.push( drawLi( 'medium', a, diff, diff2 ) );
           } else {
-            review.push( '<li class="worst">' + ( a.move || a.input ) +'(' + diff2 + ', ' + diff + ')</li>' );
+            review.push( drawLi( 'worst', a, diff, diff2 ) );
           }
         });
 
@@ -273,19 +288,18 @@ function onhit() {
 
           if ( adv > a.startup ) {
             if ( "block" in a && isFinite( a.block ) ) {
-              review.push( '<li class="medium">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+              review.push( drawLi( 'medium', a, diff, diff2 ) );
             } else {
-              review.push( '<li class="best">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+              review.push( drawLi( 'best', a, diff, diff2 ) );
             }
           } else if ( adv == a.startup ) {
-            review.push( '<li class="medium">' + ( a.move || a.input ) + '(' + diff2 + ',<span class="worst">' + diff + '</span>)</li>' );
+            review.push( drawLi( 'medium', a, diff, diff2 ) );
           } else {
-            review.push( '<li class="worst">' + ( a.move || a.input ) +'(' + diff2 + ', ' + diff + ')</li>' );
+            review.push( drawLi( 'worst', a, diff, diff2 ) );
           }
         });
                                            
-      //rows.push( '<tr><td>' + ( ataque.ataque.move || ataque.ataque.input ) + '</td><td><ul>' + review.join('') + '</ul></td></tr>' );
-      rows.push( '<tr><td>' + moveReview( ataque.ataque ) + '</td><td><ul>' + review.join('') + '</ul></td></tr>' );
+      rows.push( drawTr( ataque, review ) );
     } );
 
     Meta.dom.$().select('#box').inner('<table>' + rows.join('') + '</table>');

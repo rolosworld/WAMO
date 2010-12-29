@@ -15,13 +15,13 @@
 
 <p>This little program tells you the possible links that can be used after connected attacks. Possible links are calculated using the frame data. It may not work because of distance, character position, throw... etc.</p>
 
-Attacker:<span id="atacante_dd"></span>
-Got Hit:<span id="victima_dd"></span>
+Attacker:<span id="p1_dd"></span>
+Got Hit:<span id="p2_dd"></span>
 
 <ul>
   <li class="best">Green: Best</li>
   <li class="medium">Yellow: Medium</li>
-<!--  <li class="worst">Orange: Worst</li> -->
+<!--  <li class="worst">Orange: Worst ( Doesn't combo but connects counterhit )</li> -->
   <li>The numbers that are in () mean: ("Frames you have to press the button and its a sure punishment", "Frames you have to press the button and connect a counterhit")</li>
 </ul>
 <hr/>
@@ -33,8 +33,8 @@ Got Hit:<span id="victima_dd"></span>
 <script src="../wamo.js"></script>
 
 <script>
-load_dropdown( Meta.dom.$().select('#atacante_dd'), 'atacante_select', 'onhit();return false;' );
-load_dropdown( Meta.dom.$().select('#victima_dd'), 'victima_select', 'onhit();return false;' );
+load_dropdown( Meta.dom.$().select('#p1_dd'), 'p1_select', 'onhit();return false;' );
+load_dropdown( Meta.dom.$().select('#p2_dd'), 'p2_select', 'onhit();return false;' );
 onhit();
 </script>
 

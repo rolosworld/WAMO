@@ -15,8 +15,8 @@
 
 <p>This little program tells you the possible punishments that can be used against blocked attacks. Possible punishments are calculated using the frame data. Not necessarily works since it depends on the distance, position, throw.... etc.</p>
 
-Blocker:<span id="bloqueante_dd"></span>
-Attacker:<span id="atacante_dd"></span>
+Blocker:<span id="p2_dd"></span>
+Attacker:<span id="p1_dd"></span>
 
 <ul>
   <li class="best">Green: Best</li>
@@ -32,8 +32,8 @@ Attacker:<span id="atacante_dd"></span>
 <script src="../wamo.js"></script>
 
 <script>
-load_dropdown( Meta.dom.$().select('#bloqueante_dd'), 'bloqueante_select', 'onblock();return false;' );
-load_dropdown( Meta.dom.$().select('#atacante_dd'), 'atacante_select', 'onblock();return false;' );
+load_dropdown( Meta.dom.$().select('#p2_dd'), 'p2_select', 'onblock();return false;' );
+load_dropdown( Meta.dom.$().select('#p1_dd'), 'p1_select', 'onblock();return false;' );
 onblock();
 </script>
 
