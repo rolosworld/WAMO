@@ -16,14 +16,6 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 
-/**************************
- * 
- * - Cargar array si no esta cargado
- * - Cargar startup minimo
- * - Calcular frame data differences
- * 
- **************************/
-
 var frmdata = {};
 
 function load_dropdown( select, id, onchange ) {
@@ -145,7 +137,21 @@ function dothis( callback ) {
   if ( ! done ) {
     callback( p1, p2 );
   }
-}
+};
+
+function _sort( a, b ) {
+  return a.startup - b.startup;
+};
+
+function preferenceType( adv, a ) {
+  if ( adv > a.startup ) {
+    return 'best';
+  } else if ( adv == a.startup ) {
+    return 'medium';
+  }
+  
+  return 'worst';
+};
 
 function onblock() {
   dothis( process );
@@ -159,6 +165,7 @@ function onblock() {
     // Fastest startup
     fast_startup = fastest_startup( atacante );
 
+    // Calculate punishments
     Meta.array.$( atacante ).forEach( function( ataque ) {
       var castigos = [];
       Meta.array.$( bloqueante ).forEach(function( castigo ) {
@@ -171,26 +178,19 @@ function onblock() {
 
     var rows = ['<tr><th>Blocked Move</th><th>Available Options</th></tr>'];
 
+    // Sort and draw the rows
     Meta.array.$( castigos_lista ).forEach( function( castigos ) {
       var review = [],
       adv = castigos.ataque.frame_adv_block * -1,
       hit_adv = fast_startup + adv;
 
       Meta.array.$( castigos.castigos ).
-        sort( function( a, b ) {
-          return (hit_adv - b.startup) - (hit_adv - a.startup);
-        } ).
+        sort( _sort ).
         forEach( function( a ) {
           var diff = hit_adv - a.startup;
           var diff2 = adv - a.startup;
 
-          if ( adv > a.startup ) {
-            review.push( drawLi( 'best', a, diff, diff2 ) );
-          } else if ( adv == a.startup ) {
-            review.push( drawLi( 'medium', a, diff, diff2 ) );
-          } else {
-            review.push( drawLi( 'worst', a, diff, diff2 ) );
-          }
+	  review.push( drawLi( preferenceType( adv, a ), a, diff, diff2 ) );
         } );
 
       rows.push( drawTr( castigos, review ) );
@@ -242,38 +242,31 @@ function onhit() {
       var review = [];
 
       Meta.array.$( ataque.contra_ataque ).
-        sort( function( a, b ) {
-          return a.startup - b.startup;
-        } ).
+        sort( _sort ).
         forEach( function( a ) {
           var adv = ataque.ataque.frame_adv_hit;
           var diff = adv + fast_startup - a.startup + 1;
           var diff2 = adv - a.startup + 1;
-                   
+          
           if ( diff2 < 1 ) {
             return;
           }
 
-          if ( adv > a.startup ) {
-            if ( "block" in a && isFinite( a.block ) ) {
-              review.push( drawLi( 'medium', a, diff, diff2 ) );
-            } else {
-              review.push( drawLi( 'best', a, diff, diff2 ) );
-            }
-          } else if ( adv == a.startup ) {
-            review.push( drawLi( 'medium', a, diff, diff2 ) );
-          } else {
-            review.push( drawLi( 'worst', a, diff, diff2 ) );
-          }
+	  var preference = preferenceType( adv, a );
+	  if ( preference == 'best' &&
+	       "block" in a &&
+	       isFinite( a.block ) ) {
+	    preference = 'medium';
+	  }
+	  
+	  review.push( drawLi( preference, a, diff, diff2 ) );
         });
 
       review.push('<h2>On Counterhit:</h2>');
 
       var focusPassed = false;
       Meta.array.$( ataque.contra_ataque ).
-        sort( function( a, b ) {
-          return a.startup - b.startup;
-        } ).
+        sort( _sort ).
         forEach( function( a ) {
           if ( ! focusPassed && ataque.ataque.move.search(/focus/i) != -1 ) {
             focusPassed = true;
@@ -286,17 +279,14 @@ function onhit() {
             return;
           }
 
-          if ( adv > a.startup ) {
-            if ( "block" in a && isFinite( a.block ) ) {
-              review.push( drawLi( 'medium', a, diff, diff2 ) );
-            } else {
-              review.push( drawLi( 'best', a, diff, diff2 ) );
-            }
-          } else if ( adv == a.startup ) {
-            review.push( drawLi( 'medium', a, diff, diff2 ) );
-          } else {
-            review.push( drawLi( 'worst', a, diff, diff2 ) );
-          }
+	  var preference = preferenceType( adv, a );
+	  if ( preference == 'best' &&
+	       "block" in a &&
+	       isFinite( a.block ) ) {
+	    preference = 'medium';
+	  }
+	  
+	  review.push( drawLi( preference, a, diff, diff2 ) );
         });
                                            
       rows.push( drawTr( ataque, review ) );
