@@ -153,51 +153,68 @@ function preferenceType( adv, a ) {
   return 'worst';
 };
 
-function onblock() {
-  dothis( process );
+function onhitDrawLi( ataque, fast_startup, a, counterhitAdv ) {
+  var adv = ataque.ataque.frame_adv_hit + counterhitAdv;
+  var diff = adv + fast_startup - a.startup + 1;
+  var diff2 = adv - a.startup + 1;
+  
+  if ( diff2 < 1 ) {
+    return null;
+  }
 
-  function process( p1, p2 ) {
-    var atacante = frmdata[p1];
-    var bloqueante = frmdata[p2];
+  var preference = preferenceType( adv, a );
+  if ( preference == 'best' &&
+       "block" in a &&
+       isFinite( a.block ) ) {
+    preference = 'medium';
+  }
+  
+  return drawLi( preference, a, diff, diff2 );
+};
 
-    var fast_startup = 100,castigos_lista = [];
+function getPossibleLinks( atacante ) {
+  var links_lista = [];
+  Meta.array.$( atacante ).forEach( function( ataque ) {
+    var links = [];
+    Meta.array.$( atacante ).forEach(function( segundo_ataque ) {
+      var counter_frames = segundo_ataque.startup - ataque.frame_adv_hit;
+      if ( isNaN( counter_frames ) ) {
+        return;
+      }
 
-    // Fastest startup
-    fast_startup = fastest_startup( atacante );
+      //if ( counter_frames < fast_startup ) {
+      links.push( segundo_ataque );
+      //}
+    });
+    
+    links_lista.push( { ataque: ataque, contra_ataque: links } );
+  } );
+  
+  return links_lista;
+};
 
-    // Calculate punishments
-    Meta.array.$( atacante ).forEach( function( ataque ) {
-      var castigos = [];
-      Meta.array.$( bloqueante ).forEach(function( castigo ) {
-        if ( fast_startup - ataque.frame_adv_block >= castigo.startup ) {
-          castigos.push( castigo );
-        }
-      } );
-      castigos_lista.push( { ataque: ataque, castigos: castigos } );
+function getPossiblePunishments( atacante, bloqueante ) {
+  var castigos_lista = [];
+  var fast_startup = fastest_startup( atacante );
+
+  Meta.array.$( atacante ).forEach( function( ataque ) {
+    var castigos = [];
+    Meta.array.$( bloqueante ).forEach(function( castigo ) {
+      if ( fast_startup - ataque.frame_adv_block >= castigo.startup ) {
+        castigos.push( castigo );
+      }
     } );
+    castigos_lista.push( { ataque: ataque, castigos: castigos } );
+  } );
+  
+  return castigos_lista;
+};
 
-    var rows = ['<tr><th>Blocked Move</th><th>Available Options</th></tr>'];
-
-    // Sort and draw the rows
-    Meta.array.$( castigos_lista ).forEach( function( castigos ) {
-      var review = [],
-      adv = castigos.ataque.frame_adv_block * -1,
-      hit_adv = fast_startup + adv;
-
-      Meta.array.$( castigos.castigos ).
-        sort( _sort ).
-        forEach( function( a ) {
-          var diff = hit_adv - a.startup;
-          var diff2 = adv - a.startup;
-
-	  review.push( drawLi( preferenceType( adv, a ), a, diff, diff2 ) );
-        } );
-
-      rows.push( drawTr( castigos, review ) );
-    } );
-
-    Meta.dom.$().select('#box').inner('<table>' + rows.join('') + '</table>');
-  };
+function onblockDrawLi( hit_adv, a ) {
+  var diff = hit_adv - a.startup;
+  var diff2 = adv - a.startup;
+  
+  return drawLi( preferenceType( adv, a ), a, diff, diff2 );
 };
 
 function counterhitAdv( focusPassed, ataque ) {
@@ -208,6 +225,38 @@ function counterhitAdv( focusPassed, ataque ) {
   return ataque.move.search(/light/i) != -1 ? 1 : 3;
 };
 
+function onblock() {
+  dothis( process );
+
+  function process( p1, p2 ) {
+    var atacante = frmdata[p1];
+    var bloqueante = frmdata[p2];
+
+    var fast_startup = 100;
+
+    // Fastest startup
+    fast_startup = fastest_startup( atacante );
+
+    var rows = ['<tr><th>Blocked Move</th><th>Available Options</th></tr>'];
+
+    Meta.array.$( getPossiblePunishments( atacante, bloqueante ) ).forEach( function( castigos ) {
+      var review = [],
+      adv = castigos.ataque.frame_adv_block * -1,
+      hit_adv = fast_startup + adv;
+
+      Meta.array.$( castigos.castigos ).
+        sort( _sort ).
+        forEach( function( a ) {
+	  review.push( onblockDrawLi( hit_adv, a ) );
+        } );
+
+      rows.push( drawTr( castigos, review ) );
+    } );
+
+    Meta.dom.$().select('#box').inner('<table>' + rows.join('') + '</table>');
+  };
+};
+
 function onhit() {
   dothis( process );
 
@@ -215,51 +264,23 @@ function onhit() {
     var atacante = frmdata[p1];
     var victima = frmdata[p2];
     
-    var fast_startup = 100, links_lista = [];
+    var fast_startup = 100;
 
     // Fastest startup
     fast_startup = fastest_startup( victima );
 
-    Meta.array.$( atacante ).forEach( function( ataque ) {
-      var links = [];
-      Meta.array.$( atacante ).forEach(function( segundo_ataque ) {
-        var counter_frames = segundo_ataque.startup - ataque.frame_adv_hit;
-        if ( isNaN( counter_frames ) ) {
-          return;
-        }
-
-        //if ( counter_frames < fast_startup ) {
-          links.push( segundo_ataque );
-        //}
-      });
-
-      links_lista.push( { ataque: ataque, contra_ataque: links } );
-    } );
-
     var rows = ['<tr><th>Connected Move</th><th>Available Options</th></tr>'];
 
-    Meta.array.$( links_lista ).forEach( function( ataque ) {
+    Meta.array.$( getPossibleLinks( atacante ) ).forEach( function( ataque ) {
       var review = [];
 
       Meta.array.$( ataque.contra_ataque ).
         sort( _sort ).
         forEach( function( a ) {
-          var adv = ataque.ataque.frame_adv_hit;
-          var diff = adv + fast_startup - a.startup + 1;
-          var diff2 = adv - a.startup + 1;
-          
-          if ( diff2 < 1 ) {
-            return;
-          }
-
-	  var preference = preferenceType( adv, a );
-	  if ( preference == 'best' &&
-	       "block" in a &&
-	       isFinite( a.block ) ) {
-	    preference = 'medium';
+	  var li = onhitDrawLi( ataque, fast_startup, a, 0 )
+	  if ( li ) {
+	    review.push( li );
 	  }
-	  
-	  review.push( drawLi( preference, a, diff, diff2 ) );
         });
 
       review.push('<h2>On Counterhit:</h2>');
@@ -271,24 +292,13 @@ function onhit() {
           if ( ! focusPassed && ataque.ataque.move.search(/focus/i) != -1 ) {
             focusPassed = true;
           }
-          var adv = ataque.ataque.frame_adv_hit + counterhitAdv( focusPassed, ataque.ataque );
-          var diff = adv + fast_startup - a.startup + 1;
-          var diff2 = adv - a.startup + 1;
-
-          if ( diff2 < 1 ) {
-            return;
-          }
-
-	  var preference = preferenceType( adv, a );
-	  if ( preference == 'best' &&
-	       "block" in a &&
-	       isFinite( a.block ) ) {
-	    preference = 'medium';
-	  }
 	  
-	  review.push( drawLi( preference, a, diff, diff2 ) );
-        });
-                                           
+	  var li = onhitDrawLi( ataque, fast_startup, a, counterhitAdv( focusPassed, ataque.ataque ) );
+	  if ( li ) {
+	    review.push( li );
+	  }
+	});
+
       rows.push( drawTr( ataque, review ) );
     } );
 
