@@ -210,7 +210,7 @@ function getPossiblePunishments( atacante, bloqueante ) {
   return castigos_lista;
 };
 
-function onblockDrawLi( hit_adv, a ) {
+function onblockDrawLi( hit_adv, a, adv ) {
   var diff = hit_adv - a.startup;
   var diff2 = adv - a.startup;
   
@@ -247,7 +247,7 @@ function onblock() {
       Meta.array.$( castigos.castigos ).
         sort( _sort ).
         forEach( function( a ) {
-	  review.push( onblockDrawLi( hit_adv, a ) );
+	  review.push( onblockDrawLi( hit_adv, a, adv ) );
         } );
 
       rows.push( drawTr( castigos, review ) );
