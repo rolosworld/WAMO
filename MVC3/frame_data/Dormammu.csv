@@ -1,0 +1,33 @@
+"move","startup","active","recovery","frame_adv_hit","frame_adv_block"
+"st.L",6,2,12,0,-1
+"st.M",8,10,16,-7,-8
+"st.H",13,5,21,-2,-3
+"E",9,20,12,"*",-9
+"cr.L",7,2,13,-1,-2
+"cr.M",9,8,17,6,-7
+"cr.H",13,4,24,"*",-5
+"air.L",7,3,16,7,
+"air.M",10,11,10,,
+"air.H",10,5,29,,
+"air.E",14,5,27,,
+"fwd+H",20,"*",26,"*",-3
+"dfwd+H",15,"*",21,5,4
+"dark spell: destruction",15,"*",20,"*","*"
+"dark spell: creation",15,"*",20,"*","*"
+"liberation",15,5,21,5,-3
+"Liberation(destruction1)",15,10,16,"*",1
+"Liberation(destruction2)",15,10,16,"*",1
+"Liberation(destruction3)",15,15,21,"*",-5
+"Liberation(creation1)",12,10,24,"*",-10
+"Liberation(creation2)",12,"10(9)10(10)10",35,"*",-10
+"Liberation(creation3)",15,"*",36,-21,-23
+"Liberation( mix)",15,54,36,"*","*"
+"Liberation(destruction mix)",20,20,21,"*","*"
+"Liberation(creation mix)",27,79,14,"*","*"
+"dark hole",26,34,6,"*",7
+"purification",21,23,11,11,2
+"mass change",13,"*",17,"*","*"
+"fligth",13,"*",17,"*","*"
+"Chaotic Flame","8+3",59,41,8,-21
+"Stalking Flare","31+4","*",62,19,-18
+"Dark Dimension","8+0",20,72,,-69

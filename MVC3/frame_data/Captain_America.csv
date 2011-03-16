@@ -1,0 +1,26 @@
+"move","startup","active","recovery","frame_adv_hit","frame_adv_block"
+"st.L",5,3,12,0,-2
+"st.M",10,2,20,-2,-4
+"st.H",16,4,24,-4,-6
+"E",10,4,22,"*",-4
+"cr.L",4,3,15,-3,-5
+"cr.M",9,4,19,-3,-5
+"cr.H",13,4,26,"*",-3
+"air.L",5,3,14,,
+"air.M",9,4,20,,
+"air.H",12,10,16,,
+"air.E",15,5,21,,
+"shield slash.L",21,"*",30,"*","*"
+"shield slash.M",17,"*",34,"*","*"
+"shield slash.H",13,"*",38,"*","*"
+"(air) shield slash.L",15,"*","~1","*","*"
+"stars & stripes.L",5,5,44,-25,-27
+"stars & stripes.M",5,11,50,-32,-39
+"stars & stripes.H",5,12,57,-37,-17
+"charging star.L",5,9,30,"*",-12
+"charging star.M",5,11,35,-12,-22
+"charging star.H",5,13,43,"*",-17
+"backflip","*",34,"*","*","*"
+"hyper starts and stripes","12+0","11(7)12(7)13",38,-2,-25
+"hyper charging star","5+2",11,45,"*",-23
+"final justice (lvl3)","22+2",116,18,"*",-12

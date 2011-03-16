@@ -1,0 +1,34 @@
+"move","startup","active","recovery","frame_adv_hit","frame_adv_block"
+"st.L",4,3,12,-2,-3
+"st.M",8,6,17,-3,-4
+"st.H",11,4,19,3,-1
+"E",5,6,34,"*",-18
+"cr.L",5,2,14,-3,-4
+"cr.M",7,3,19,-5,-5
+"cr.H",12,13,19,"*",-10
+"air.L",5,3,15,,
+"air.M",8,3,22,,
+"air.H",12,8,11,,
+"air.E",13,3,20,,
+"fwd.M",25,7,14,"*",3
+"Taunt",10,5,95,-74,-75
+"trigger happy",15,21,20,-8,-14
+"air trigger happy.L",15,21,20,,
+"air trigger happy.M",15,21,20,,
+"air trigger happy.H",15,21,20,,
+"ninja gift.L",10,"*",35,-5,-9
+"ninja gift.M",10,"*",35,"*",5
+"ninja gift.H",10,"*",35,"*",-6
+"quick work.L",13,4,34,"*",-16
+"quick work.M",18,4,34,"*",-16
+"quick work.H",23,4,34,"*",-16
+"katana-rama.L",13,3,30,8,-11
+"katana-rama.M",13,3,30,"*",-11
+"katana-rama.H",13,3,30,"*",-11
+"chimichangas!!",13,3,30,"*","*"
+"teleport",18,"*",12,"*","*"
+"teleport malfunction",18,2,31,"*","*"
+"Happy Happy Trigger","13+1",114,41,-11,-20
+"air Happy Happy Trigger","13+1",97,24,-2,-5
+"Cuttinn' Time","15+0",10,35,-17,-23
+"4th Wall Crisis (lvl 3)","5+1",80,24,"*","*"

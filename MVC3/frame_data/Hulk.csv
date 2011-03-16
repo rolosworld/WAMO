@@ -1,0 +1,33 @@
+"move","startup","active","recovery","frame_adv_hit","frame_adv_block"
+"st.L",9,3,27,-11,-14
+"st.M",13,3,33,-10,-10
+"st.H",15,4,37,"*",-15
+"E",10,"2(2)3",36,"*",-13
+"cr.L",9,3,19,-3,-6
+"cr.M",14,3,26,-5,-9
+"cr.H",12,4,34,"*",-12
+"air.L",7,,3,18,
+"air.M",13,,3,19,
+"air.H",16,,5,18,
+"air.E",17,,3,16,
+"gamma wave.L",19,"*",34,"*",-1
+"gamma wave.M",23,"*",36,"*",-5
+"gamma wave.H",27,"*",36,"*",-6
+"gamma charge.L",9,6,36,-12,-12
+"gamma charge.M",9,8,39,-15,-15
+"gamma charge.H",9,10,34,-18,-18
+"gamma charge 2nd.L",9,10,27,,
+"gamma charge 2nd.M",7,10,35,,
+"gamma charge 2nd.H",9,10,32,,
+"gamma charge (anti-air).L",5,3,44,-20,-22
+"gamma charge (anti-air).M",5,19,38,-25,-29
+"gamma charge (anti-air).H",5,25,48,-39,-43
+"gamma charge(anti-air) 2nd .L",10,6,,"*","*"
+"gamma charge(anti-air) 2nd.M",10,6,,"*","*"
+"gamma charge(anti-air) 2nd.H",10,6,,"*",5
+"gamma tornado.L",11,2,28,"*","*"
+"gamma tornado,M",16,2,23,"*","*"
+"gamma tornado.H",18,2,21,"*","*"
+"Gamma Tsunami","6+15",24,39,"*",-11
+"Gamma Crush","5+10",56,48,"*",-25
+"Gamma Quake","6+9",81,89,"*",13
