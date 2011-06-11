@@ -277,7 +277,7 @@ function onhit() {
       Meta.array.$( ataque.contra_ataque ).
         sort( _sort ).
         forEach( function( a ) {
-	  var li = onhitDrawLi( ataque, fast_startup, a, 0 )
+	  var li = onhitDrawLi( ataque, fast_startup, a, 0 );
 	  if ( li ) {
 	    review.push( li );
 	  }
