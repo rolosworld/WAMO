@@ -1,0 +1,64 @@
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,"Block Stun","Hit Stun",Notes
+s.lp," HL"," 25*15"," 30*20"," 20*20"," ch/sp/su*su",4," 3(8)3",11,-3,0,-0,-0,
+s.mp," HL"," 50*30"," 50*50"," 40*20"," sp/su*su",5," 3(8)2",14,-2,4,-0,-0," [Hit] Forces stand"
+s.hp," HL"," 80*30"," 100*100"," 60*20"," sp/su*su",4," 3(8)2",20,-4,0,-0,-0," [Hit] Forces stand"
+s.lk," HL",30,50,20,-0,5,2,9,0,3,-0,-0,
+s.mk," HL",70,100,40," sp/su",7,2,16,-4,-1,-0,-0,
+s.hk," HL[H]"," 100[30]"," 150[50]"," 60[20]",-0,6,6,16,-4,0,-0,-0," [Hit] Forces stand, active frame 1-4 wont hit crouchers, active frames 5-6 refer to [] (overhead)"
+"far s.lp"," HL",30,50,20," sp/su",5,3,6,3,6,-0,-0,
+"far s.mp"," HL",80,100,40," su",5,6,11,-3,1,-0,-0,
+"far s.hp"," HL",130,200,60,-0,12,3,17,-2,2,-0,-0,
+"far s.lk"," HL",40,50,20,-0,5,3,8,0,3,-0,-0,
+"far s.mk"," HL",80,100,40,-0,8,3,15,-4,-1,-0,-0," Whiff against crouchers"
+"far s.hk"," HL",100,200,60,-0,14,2,19,-3,1,-0,-0,
+c.lp," HL",30,50,20," ch/sp/su",5,2,6,3,6,-0,-0,
+c.mp," HL",70,100,40," sp/su",7,3,10,1,4,-0,-0,
+c.hp," HL"," 70*40"," 100*50"," 60*20"," sp/su",8," 2*2",22,-6,-0,-0,-0," 1st part [Ground Hit] Forces Stand, 2nd [Hit] Floats opponent"
+c.lk," L",20,50,20," ch/sp/su",5,3,7,1,4,-0,-0,
+c.mk," HL",70,100,40," sp/su",8,5,13,-4,1,-0,-0,
+c.hk," L",100,200,60," sp/su",11,3,25,-10,-0,-0,-0," [Hit] Hard Knockdown cannot fast recover"
+j.lp," H",50,50,20,-0,5,4,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+j.mp," H",80,100,40,-0,5,6,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+j.hp," H",100,200,60,-0,5,4,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+j.lk," H",50,50,20,-0,5,8,-0,-0,-0,-0,-0," [Projectile Invulnerability] Until just before startup (leg part only)"
+j.mk," H",80,100,40,-0,4,6,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+j.hk," H",100,200,60,-0,5,4,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+jf.lp," H",50,50,20,-0,5,8,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+jf.mp," H",80,100,40,-0,5,10,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+jf.hp," H",100,200,60,-0,5,8,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+jf.lk," H",50,50,20,-0,4,5,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+jf.mk," H",70,100,40,-0,5,6,-0,-0,-0,-0,-0," [Projectile Invulnerability] Until just before startup (leg part only)"
+jf.hk," H",110,200,60,-0,5,5,-0,-0,-0,-0,-0," [Projectile Invulnerability] Till end of active frames (leg part only)"
+0," HL",80,100,40," dash",7,2,16,0,3,-0,-0," Dash cancellable"
+"Focus Attack LVL 1"," HL",60,100,20,-0,21,2,35,-21,-21,-0,-0," 1~10F or 1F after button's are released: Has super armor. Crumples on ground Counter Hit. Puts opponent in jugglable state on air hit. From frames 5~11 or on hit/block can cancel into dash/back dash. If charged, saving attack hits on frame 13 after releasing the buttons."
+"Focus attack LVL 2"," HL",80,150,40,-0," 17+13",2,35,-15,-0,-0,-0," 1~1F after button's are released: Has super armor. Crumples on ground hit. Floats opponent on air hit. From frames 5~ buttons released or on hit/block can cancel into dash/back dash. Charge time: 17-49F. If charged, saving attack hits on frame 13 after releasing the buttons."
+"Focus attack LVL 3",-0,140,200,60,-0,65,2,35,-0,-0,-0,-0," 1~64F has super armor. Breaks super armor. Crumples on ground hit. Floats opponent on air hit. From frames 5~50 can cancel into dash/back dash. Charge time: 50F."
+"Forward Throw",0.9,130,140,40,-0,3,2,20,-0,-0,-0,-0," Hard Knockdown / Opponent gets up 68F after throw recovers (from SF4 vanilla)"
+"Back throw",0.9,130,140,40,-0,3,2,20,-0,-0,-0,-0," Hard Knockdown / Opponent gets up 57F after throw recovers (from SF4 vanilla)"
+"Change of Direction "," HL",30,50," 20/30"," su",14,3,25,-3,2,-0,-0," [Ground Hit] Forces Stand/ [Air Hit] Puts opponent in jugglable state / 25-26F can follow with second middle/low"
+"Change of Direction "," HL",35,50," 20/30"," su",16,3,25,-3,2,-0,-0," [Ground Hit] Forces Stand/ [Air Hit] Puts opponent in jugglable state / 27-28F can follow with second middle/low"
+"Change of Direction "," HL",40,50," 20/30"," su",17,3,25,-3,2,-0,-0," [Ground Hit] Forces Stand/ [Air Hit] Puts opponent in jugglable state / 28-29F can follow with second middle/low"
+"Change of Direction "," HL",40,50," -250/0"," su",16,3,25,-3,2,-0,-0," 1-18F [Armor] / [Ground Hit] Forces Stand/ [Air Hit] Puts opponent in jugglable state / 27-28F can follow with second middle/low"
+"Second Mid"," H",40,50," 10/20",-0,15,4,28,-9,-4,-0,-0," [Crouch Hit] Frame Adv -5 / [Air Hit] Puts opponent in jugglable state / 30-31F can follow with finish middle/low"
+"Second Low"," L",50,50," 20/30"," su",22,4,24,-5,-1,-0,-0," [Air Hit] Puts opponent in jugglable state / 36-37F can follow with finish middle/low"
+"Finish Mid"," H",100,100," 10/30",-0,10,2,44,-35,-0,-0,-0," [Hit] Hard Knockdown / Armor Break / Opponent gets up 43F after throw recovers (from SF4 vanilla)"
+"Finish Low"," L",150,100," 30/30",-0,22,2,53,-44,-0,-0,-0," [Hit] Hard Knockdown / Armor Break / Opponent gets up 70F after throw recovers (from SF4 vanilla)"
+"Wheel Kick "," H",120,200," 30/40",-0,20,7," 2+19",-10,-5,-0,-0," 1-17F [Hit/Projectile Invul.] (lower half part only) / 11F onwards [Air Attack] / [Ground Hit] Forces Stand / [Air Hit] Puts opponent in jugglable state / Armor Break / Hit on crouching opp on the 25F (opp Ryu)"
+"Wheel Kick "," H",140,200," 30/40",-0,24,7," 2+20",-11,-6,-0,-0," 1-20F [Hit/Projectile Invul.] (lower half part only) / 14F onwards [Air Attack] / [Ground Hit] Forces Stand / [Air Hit] Puts opponent in jugglable state / Armor Break / Hit on crouching opp on the 29F (opp Ryu)"
+"Wheel Kick "," H",160,200," 30/40",-0,27,7," 1+22",-12,-7,-0,-0," 1-22F [Hit/Projectile Invul.] (lower half part only) / 15F onwards [Air Attack] / [Ground Hit] Forces Stand / [Air Hit] Puts opponent in jugglable state / Armor Break / Hit on crouching opp on the 31F (opp Ryu)"
+"Wheel Kick "," H"," 60*120"," 100*100"," -250/0"," --",17," 7*3"," 2+19",-6,0,-0,-0," 1-26F [Hit Invul.] (lower half part only) / 1-26F [Projectile Invul.] / 11F onwards [Air Attack] / [Ground Hit] Forces Stand / [Air Hit] Puts opponent in jugglable state / Armor Break / 2nd hit can juggle / Hit on crouching opp on the 23F (opp Ryu)"
+"Marseilles Roll ",-0,-0,-0," 20/-",-0,-0,-0,27,-0,-0,-0,-0," 5-26 [Hit Invul.] / 5-23F can cross opponent"
+"Marseilles Roll ",-0,-0,-0," 20/-",-0,-0,-0,30,-0,-0,-0,-0," 5-29 [Hit Invul.] / 5-25F can cross opponent"
+"Marseilles Roll ",-0,-0,-0," 20/-",-0,-0,-0,32,-0,-0,-0,-0," 5-31 [Hit Invul.] / 5-27F can cross opponent"
+"Marseilles Roll ",-0,-0,-0," -250/-",-0,-0,-0,32,-0,-0,-0,-0," 1-32 [Hit Invul.] / 5-27F can cross opponent"
+"Sky Fall ",-0," 0*140",100," 30/0*100",-0,5,2,31,-0,-0,-0,-0," 1st Part [Hit] Puts opponent in jugglable state / 2nd Part [Hit] Hard Knockdown / Whiff on grounded opp / Opponent gets up 59F after throw recovers (from SF4 vanilla)"
+"Sky Fall ",-0," 0*150",150," 30/0*100",-0,6,4,31,-0,-0,-0,-0," 1st Part [Hit] Puts opponent in jugglable state / 2nd Part [Hit] Hard Knockdown / Whiff on grounded opp / Opponent gets up 59F after throw recovers (from SF4 vanilla)"
+"Sky Fall ",-0," 0*160",200," 30/0*100",-0,9,6,31,-0,-0,-0,-0," 1st Part [Hit] Puts opponent in jugglable state / 2nd Part [Hit] Hard Knockdown / Whiff on grounded opp / Opponent gets up 59F after throw recovers (from SF4 vanilla)"
+"Sky Fall ",-0," 0*160",150," -250/0",-0,6,2,31,-0,-0,-0,-0," 1-5F [Hit Invul.] / 6-7F [Hit Invul.] (upper half only) / 1st Part [Hit] Puts opponent in jugglable state / 2nd Part [Hit] Hard Knockdown / Whiff on grounded opp / Opponent gets up 62F after throw recovers (from SF4 vanilla) / CAN JUGGLE !!!"
+"Tornado Throw ",1.3,160,100," 30/80",-0,5,2,51,-0,-0,-0,-0," 1-6F [Throw Invul.] / Hard Knockdown / Opponent gets up 51F after throw recovers (from SF4 vanilla)"
+"Tornado Throw ",1.1,180,150," 30/80",-0,5,2,45,-0,-0,-0,-0," 1-6F [Throw Invul.] / Hard Knockdown / Opponent gets up 51F after throw recovers (from SF4 vanilla)"
+"Tornado Throw ",0.9,200,200," 30/80",-0,5,2,39,-0,-0,-0,-0," 1-6F [Throw Invul.] / Hard Knockdown / Opponent gets up 51F after throw recovers (from SF4 vanilla)"
+"Tornado Throw ",1.25,200,150," -250/0",-0,5,2,54,-0,-0,-0,-0," 1-6F [Hit Invul.] / Hard Knockdown / Opponent gets up 49F after throw recovers (from SF4 vanilla)"
+"Super Combo"," HL"," 0*335",0," -1000/0",-0," 1+5",2,41,-32,-0,-0,-0," 1F-blackout [Full Invul.] / after blackout, 1-6F : [Hit Invul], :[Throw Invul.], :[Projectile Invul.] / Hard Knockdown / Armor Break / Opponent gets up 57F after throw recovers (from SF4 vanilla)"
+"Ultra Combo 1"," HL"," 45*455",0," 0/0",-0," 1+13",2,46,-30,-0,-0,-0," 1-blackout+7 [Full Invul.] / 8-16F [Hit Invul.](Except feet) / 8-16F [Projectile Invul.] / Hard Knockdown / Armor Break / CAN JUGGLE !!! / Opponent gets up 57F after throw recovers (from SF4 vanilla)"
+"Ultra Combo 2",1,480,0," 0/0",-0," 1+7",6,51,-0,-0,-0,-0," 1F-end of blackout [Full Invul.] / 1F after blackout till end of active frames [Armor][Throw Invul.] / [Hit] Hard Knockdown / Hold button to delay (up to 92F) / Active frames come 7F after button release / Can be cancelled with any Punch (20F recovery) / Ground Throw range 1.0"

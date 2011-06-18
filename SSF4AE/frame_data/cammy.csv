@@ -1,0 +1,60 @@
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,"Block Stun","Hit Stun",Notes
+s.lp," HL",25,50,20," ch/sp/su",3,2,8,1,4,10,13,
+s.mp," HL"," 70[60]",100,40," sp/su",4," 2+2",15,2,6,20,24,
+s.hp," HL"," 100[80]",200,60," sp/su",4," 2+2",15,-1,3,17,21,
+s.lk," HL",25,50,20," ch/sp/su",4,2,8,1,4,10,13,
+s.mk," HL",65,100,40," sp/su",4,3,17,-6,-3,13,16,
+s.hk," HL",110,200,60,-0,9,5,24,-11,-7,17,21,
+"far s.lp"," HL",25,50,20," ch/sp/su",3,3,7,1,4,10,13,
+"far s.mp"," HL",70,100,40," sp/su",7,4,14,-4,-1,13,16,
+"far s.hp"," HL",120,200,60,-0,7,2,19,-3,1,17,21,
+"far s.lk"," HL",30,50,20," sp/su",4,3,6,2,5,10,13,
+"far s.mk"," HL",70,100,40,-0,7,2,13,-1,2,13,16,
+"far s.hk"," HL",110,200,60,-0,8,2,22,-6,-2,17,21,
+c.lp," HL",20,50,20," ch/sp/su",3,2,8,1,4,10,13,
+c.mp," HL",65,100,40," sp/su",5,4,10,0,3,13,16,
+c.hp," HL",90,200,60,-0,6,4,12,2,7,17,22," Forces stand"
+c.lk," L",25,50,20," ch/sp/su",3,3,9,-1,2,10,13,
+c.mk," L",65,100,40," sp/su",6,4,12,-2,1,13,16,
+c.hk," L",95,150,60,-0,7,2,24,-8,-0,17,-0," untechable knockdown"
+j.lp," H",50,50,20,-0,4,4,-0,-0,-0,8,11," startup leg projectile invincibility"
+j.mp," H",80,100,40,-0,5,4,-0,-0,-0,10,13," startup leg projectile invincibility"
+j.hp," H",100,200,60,-0,5,3,-0,-0,-0,16,20," startup leg projectile invincibility"
+j.lk," H",30,50,20,-0,5,5,-0,-0,-0,8,11," startup leg projectile invincibility"
+j.mk," H",70,100,40,-0,5,7,-0,-0,-0,11,15," startup leg projectile invincibility"
+j.hk," H",100,200,60,-0,5,3,-0,-0,-0,15,18," startup leg projectile invincibility"
+jf.lp," H",50,50,20,-0,4,5,-0,-0,-0,8,11," startup leg projectile invincibility"
+jf.mp," H",80,100,40,-0,5,3,-0,-0,-0,11,15," startup leg projectile invincibility"
+jf.hp," H",100,200,60,-0,6,4,-0,-0,-0,15,18," startup leg projectile invincibility"
+jf.lk," H",30,50,20,-0,4,7,-0,-0,-0,8,11," startup leg projectile invincibility"
+jf.mk," H",70,100,40,-0,5,4,-0,-0,-0,11,15," startup leg projectile invincibility"
+jf.hk," H",100,200,60,-0,6,5,-0,-0,-0,15,18," startup leg projectile invincibility"
+"Focus Attack LVL 1"," H",60,100,20," da"," (10~17)​+11",2,35,-21,-21,15,15," armor during charge, launch vs air, 4f~release dash cancellable"
+"Focus attack LVL 2"," H",80,150,40," da"," (18~50)​+11",2,35,-15,-0,21,-0," armor during charge, crumple vs ground, launch vs air (fully hittable), 4f~release dash cancellable"
+"Focus attack LVL 3"," H",120,200,60," da"," 51+14",2,35,-0,-0,-0,-0," 1-64f armor, armor break, crumple vs ground, launch vs air (fully hittable), 4~51f dash cancellable"
+"Forward Throw",0.8,140,130,40,-0,3,2,20,-0,-0,-0,-0," untechable knockdown"
+"Back throw",0.8,135,140,40,-0,3,2,20,-0,-0,-0,-0," untechable knockdown"
+"Air Throw",1,150,150,40,-0,5,2,-0,-0,-0,-0,-0," untechable knockdown"
+"Cannon Spike "," HL"," 100[120]"," 100[150]"," 30/40"," su",5," 2+19"," 20+12",-30,-0,20,-0," 1~4f invincible, 5f unthrowable + upper body invincible, 7~45f airborne, launch, grounded part juggles(1x)"
+"Cannon Spike "," HL"," 100[140]"," 100[180]"," 30/40"," su",5," 2+24"," 18+12",-30,-0,20,-0," 1~5f invincible, 7~48f airborne, launch, grounded part juggles(1x)"
+"Cannon Spike "," HL"," 100[160]"," 100[200]"," 30/40"," su",5," 2+29"," 17+12",-30,-0,20,-0," 1~5f invincible, 7~52f airborne, launch, grounded part juggles(1x)"
+"Cannon Spike "," HL"," 150[95]"," 200[100]"," -250/0"," su",5," 2+24"," 18+12",-30,-0,20,-0," 1~6f invincible, 7~48f airborne, launch, airborne part juggles(1x)"
+"Spiral Arrow "," L",100,150," 30/30",-0,7,19," 4+5",-17,-0,20,-0," 14~29f airborne, launch"
+"Spiral Arrow "," L",120,150," 30/30",-0,7,19," 4+5",-17,-0,20,-0," 14~29f airborne, launch"
+"Spiral Arrow "," L"," 80*60"," 100*80"," 30/​30*30"," su",7," 7*12"," 4+5",-10,-0,20," 24*-"," 14~29f airborne, 2nd hit launch, 1st hit cancellable"
+"Spiral Arrow "," L"," 100*60"," 100*100"," -250/0"," su",7," 7*12"," 4+5",-10,-0,20," 24*-"," 2~25f projectile invincible, 14~29f airborne, 2nd hit launch, 1st hit cancellable"
+"Spin Knuckle "," HL"," 80*80"," 100*100"," 30/​20*20"," su",35," 3*8",9,4,-0,20," 24*-"," 1f strike invincible, 2~25f mid-body invincibility + lower body projectile invincibility, 6~25f airborne, Armor break, 1st hit launch vs air, 2nd hit launch, 1st hit cancellable"
+"Spin Knuckle "," HL"," 80*80"," 100*100"," 30/​20*20"," su",33," 3*8",10,3,-0,20," 24*-"," 1f strike invincible, 2~24f mid-body invincibility + lower body projectile invincibility, 6~24f airborne, Armor break, 1st hit launch vs air, 2nd hit launch, 1st hit cancellable"
+"Spin Knuckle "," HL"," 80*80"," 100*100"," 30/​20*20"," su",36," 3*8",10,3,-0,20," 24*-"," 1f strike invincible, 2~27f mid-body invincibility + lower body projectile invincibility, 6~27f airborne, Armor break, 1st hit launch vs air, 2nd hit launch, 1st hit cancellable"
+"Spin Knuckle "," HL"," 80*80"," 100*100"," -250/0"," su",33," 3*8",10,3,-0,20," 24*-"," 1~25f strike invincible, 6~24f airborne, Armor break, 1st hit launch vs air, 2nd hit launch, 1st hit cancellable"
+"Razor's Edge Slicer "," L",100,150," 30/30"," su"," 53+10",9,13,-1,-0,20,-0," 7~62f airborne, 31~53f cancellable into grab, launch"
+"Razor's Edge Slicer "," L",100,150," 30/30"," su"," 45+10",9,13,-1,-0,20,-0," 7~53f airborne, 31~45f cancellable into grab, launch"
+"Razor's Edge Slicer "," L",100,150," 30/30"," su"," 39+10",9,13,-1,-0,20,-0," 7~48f airborne, 31~39f cancellable into grab, launch"
+"Razor's Edge Slicer "," L",120,200," -250/0"," su"," 43+10",9,13,-1,-0,20,-0," 7~52f airborne, 31~43f cancellable into grab, launch"
+"Fatal Leg Twister",1,130,140," 0/40",-0," 31+1",1," until ground +5",-0,-0,-0,-0," untechable knockdown"
+"Crossed Scissors",1,140,150," 0/40",-0," 31+1",1," until ground +5",-0,-0,-0,-0," untechable knockdown"
+"Cannon Strike"," HL",60,100," 10/20",-0," 12[17]"," 11[3]"," until ground +5[5]"," [+8]"," [+11]",15,18," recovery after landing, brackets represent instant air cannon strike"
+"Cannon Strike "," HL",80,100," -250/0",-0," 12[17]"," 11[3]"," until ground +4[4]"," [+14]"," [+18]",20,24," recovery after landing, brackets represent instant air cannon strike"
+"Super Combo"," HL"," 40x6​*110",0," -1000/0",-0," 1+5​[1+4]"," 6*6*6​(3)2*2​(2)2​(11)8"," 30+21",-35,-0," ?",-0," 1~6f invincible, 7~26f 46~83f airborne, juggle, 1st~6th hit launch vs air (untechable), 7th hit launch (untechable), see notes below"
+"Ultra Combo 1"," HL"," 30x6​*210​[30x5​*330]",0," 0/0",-0," 1+9"," 6*6*6​(3)2*2​(2)2​(11)8"," 30+21",-35,-0," ?",-0," 1~10f invincible, 11~34f 50~87f airborne, juggle, 1st~6th hit launch vs air (untechable), 7th hit launch (untechable), 5th hit vs ground triggers full animation"
+"Ultra Combo 2",-0,470,0," 0/0",-0," 1+0",35,61,-0,-0,-0,-0,

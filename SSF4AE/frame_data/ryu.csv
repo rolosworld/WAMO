@@ -1,0 +1,55 @@
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,"Block Stun","Hit Stun",Notes
+s.lp," HL",30,50,20," ch/sp/su",3,3,6,2,5,10,13,
+s.mp," HL",70,100,40," sp/su",3,3,21,-3,3,20,26,
+s.hp," HL"," 100[80]"," 200[150]",60," sp/su",5,7,26,-15,-10,17,22," Forces stand"
+s.lk," HL",30,50,20,-0,5,5,7,-1,2,10,13,
+s.mk," HL",70,100,40," sp/su",3,5,16,-7,-2,13,18,
+s.hk," HL"," 40*70"," 125*75"," 60*20"," su",8," 8(2)4",17,-3,2,17," 21*22"," 1st hit cancellable"
+"far s.lp"," HL",30,50,20," ch/sp/su",4,3,6,2,5,10,13,
+"far s.mp"," HL",80,100,40," su",5,4,14,-4,-1,13,16,
+"far s.hp"," HL",120,200,60,-0,8,3,15,0,4,17,21,
+"far s.lk"," HL",40,50,20,-0,5,6,6,-1,2,10,13,
+"far s.mk"," HL",80,100,40,-0,8,2,17,-5,-2,13,16,
+"far s.hk"," HL",110,200,60,-0,9,4,20,-6,-2,17,21,
+c.lp," HL",30,50,20," ch/sp/su",3,2,7,2,5,10,13,
+c.mp," HL",60,100,40," sp/su",4,4,8,2,5,13,16,
+c.hp," HL",90,200,60," sp/su",4,8,28,-18,-13,17,22," Forces stand, cannot super cancel until 7f"
+c.lk," L",20,50,20," ch/sp/su",4,3,9,-1,2,10,13,
+c.mk," L",60,100,40," sp/su",5,5,12,-3,0,13,16,
+c.hk," L",90,100,60,-0,5,4,28,-14,-0,17,-0," untechable knockdown"
+j.lp," H",50,50,20,-0,10,7,-0,-0,-0,8,11," startup leg projectile invincibility"
+j.mp," H",80,100,40,-0,5,5,-0,-0,-0,10,13," leg projectile invincibility"
+j.hp," H",100,200,60,-0,6,5,-0,-0,-0,17,20," startup leg projectile invincibility"
+j.lk," H",40,50,20,-0,5,9,-0,-0,-0,8,11," startup leg projectile invincibility"
+j.mk," H",80,100,40,-0,6,10,-0,-0,-0,11,15," startup leg projectile invincibility"
+j.hk," H",100,200,60,-0,4,4,-0,-0,-0,15,18," startup leg projectile invincibility"
+jf.lp," H",50,50,20,-0,4,7,-0,-0,-0,8,11," startup leg projectile invincibility"
+jf.mp," H"," 50*30"," 50*50"," 40*20",-0,7," 3*4",-0,-0,-0,11,15," startup leg projectile invincibility, 1st hit launch vs air (fully hittable), 2nd hit launch vs air"
+jf.hp," H",100,200,60,-0,6,5,-0,-0,-0,15,18," startup leg projectile invincibility"
+jf.lk," H",40,50,20,-0,4,8,-0,-0,-0,8,11," startup leg projectile invincibility"
+jf.mk," H",70,100,40,-0,6,6,-0,-0,-0,11,15," startup leg projectile invincibility"
+jf.hk," H",100,200,60,-0,7,7,-0,-0,-0,15,18," startup leg projectile invincibility"
+0," H"," 30*50"," 50*50"," 40*20",-0,17," 1(1)2",14,-2," +3[+1]",13," 20*18​[16]",{{{14}}}
+0," HL"," 40*80"," 50*50"," 60*20",-0,17," 2*2",18,0,4,19," 25*23"," Last few frames are special/super cancellable."
+"Focus Attack LVL 1"," HL",60,100,20," da"," (10~17)​+11",2,35,-21,-21,15,15," armor during charge, launch vs air, 4f~release dash cancellable"
+"Focus attack LVL 2"," HL",80,150,40," da"," (18~50)​+11",2,35,-15,-0,21,-0," armor during charge, crumple vs ground, launch vs air (fully hittable), 4f~release dash cancellable"
+"Focus attack LVL 3",-0,140,200,60," da"," 51+14",2,35,-0,-0,-0,-0," 1-64f armor, armor break, crumple vs ground, launch vs air (fully hittable), 4~51f dash cancellable"
+"Forward Throw",0.9,130,140,40,-0,3,2,20,-0,-0,-0,-0," untechable knockdown"
+"Back throw",0.9,130,120,40,-0,3,2,20,-0,-0,-0,-0," untechable knockdown"
+Hadoken," HL",60,100," 10/20"," su"," 12+1",-0," 45 (total duration)",-6,-2," 8+18"," 8+22"," launch vs air, 15~16f cancellable, see notes below"
+"Hadoken "," HL"," 50*50"," 50*50"," -250/0"," su"," 11+1",-0," 40 (total duration)",1,-0," 8+13​[29]",-0,{{{14}}}
+"Shoryuken "," HL"," 100[70]"," 200[100]"," 30/40"," su",3," 2+12"," 14+10",-17,-0,20,-0," 1~2f invincible, 3~4f unthrowable, 3~16f lower body invincibility, 3~30f airborne, launch, 3~4f hit cancellable"
+"Shoryuken "," HL"," 80*50"," 150*50"," 20/​20*20"," su",3," 2*12"," 25+18",-34,-0,20,-0," 1~4f invincible, 5~16f lower body invincibility, 5~41f airborne, launch, 1st hit cancellable, 2nd hit juggle(1)"
+"Shoryuken "," HL"," 100*50"," 150*50"," 20/​20*20"," su",3," 2*12"," 28+18",-37,-0,20,-0," 1~2f invincible, 3~4f unthrowable, 3~16f lower body invincibility, 3~44f airborne, launch, 1st hit cancellable, 2nd hit juggle(1)"
+"Shoryuken "," HL"," 80*60"," 100*100"," -250/0"," su",3," 2*1+11"," 30+18",-39,-0,20,-0," 1~16f invincible, 6~46f airborne, 1st~2nd hit cancellable until airborne, launch, 2nd hit juggle(1)"
+"Hurricane Kick "," HL",100,200," 30/30",-0,11," 2(6)2"," 12+5",-6,-0,20,-0," 7~20f lower body projectile invincibility, 7~32f airborne, launch, armor break, whiff vs crouch, 2nd hit aimed backwards, advantage based on 1st hit"
+"Hurricane Kick "," HL",110,200," 30/30",-0,12," 2(6)2(6)​2(6)2(6)2"," 18+3",-2,-0,20,-0," 7~45f lower body projectile invincibility, 7~63f airborne, launch, armor break, whiff vs crouch, 2nd/4th hit aimed backwards"
+"Hurricane Kick "," HL",120,200," 30/30",-0,12," 2(6)2(6)​2(6)2(6)2"," 18+3",-2,-0,20,-0," 7~45f lower body projectile invincibility, 7~63f airborne, launch, armor break, whiff vs crouch, 2nd/4th hit aimed backwards"
+"Hurricane Kick "," HL"," 30x4*40"," 50x5"," -250/0",-0,11," 1(3)1(3)​1(3)1(3)1"," 18+3",-1,-0,20,-0," 6~27f lower body projectile invincibility, 6~45f airborne, 1~4 hit forces stand + launch vs air, 5th hit launch, armor break, juggle(5), 2nd/4th hit aimed backwards"
+"Hurricane Kick (air)"," HL",70,100," 10/40",-0,9," 2(6)2(6)2"," until ground +10",-0,-0,20,-0," launch, 2nd hit aimed backwards"
+"Hurricane Kick (air)"," HL",80,100," 10/40",-0,9," 2(6)2(6)2"," until ground +10",-0,-0,20,-0," launch, 2nd hit aimed backwards"
+"Hurricane Kick (air)"," HL",90,100," 10/40",-0,9," 2(6)2(6)2"," until ground +10",-0,-0,20,-0," launch, 2nd hit aimed backwards"
+"Hurricane Kick (air)"," HL"," 40x5"," 50x5"," -250/0",-0,7," 1(3)1(3)​1(3)1(3)1"," until ground +4",-0,-0,20,-0," launch, 2~5 hit juggle(4), 2nd/4th hit aimed backwards"
+"Super Combo"," HL"," 50x4​*100",0," -1000/0",-0," 1+1+1",-0," 52 (post-freeze duration)",11,-0," 8+20​[60]",-0,{{{14}}}
+"Ultra Combo 1"," HL"," 42x7*75",0," 0/0",-0," 1+10",-0," 120 (post-freeze duration)",-25,-0," 8+20​[84]",-0,{{{14}}}
+"Ultra Combo 2"," HL"," 270​*38x4​*50x3​[270*233]",0," 0/0",-0," 1+7"," 2*3x7"," 43+41",-84,-0,20,-0," 1~8f invincible, 9~30f lower body invincibility, 10~73f airborne, launch (untechable), 2~8 hit juggle(6), 1st hit armor break, 1st hit triggers full animation, advantage based on 2nd hit"

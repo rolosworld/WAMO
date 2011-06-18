@@ -1,0 +1,63 @@
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
+s.lp,HL,20,50,20,ch/sp/su,3,2,7,3,6,
+s.mp,HL,60,100,40,sp/su,4,4,10,2,4,
+s.hp,HL,70*50,80*120,30*30,sp/su,6,1*3,20,-5,0,"Forces stand"
+s.lk,HL,30,50,20,sp/su,4,3,7,1,4,
+s.mk,HL,60,80,40,SJ,7,4,15,-5,-0,"Floats opponent"
+s.hk,HL,110,200,60,-0,12,4,21,-7,-0,"Techable knockdown"
+"far s.lp",HL,20,50,20,ch/sp/su,4,2,6,3,6,
+"far s.mp",HL,50,80,40,sp/su,5,5,14,-5,-2,
+"far s.hp",HL,120,200,60,-0,9,3,20,-5,-1,
+"far s.lk",HL,30,50,20,sp/su,4,3,7,1,4,
+"far s.mk",HL,70,100,40,-0,6,3,13,-2,1,
+"far s.hk",HL,110,200,60,-0,12,4,16,-4,-0,"Techable knockdown"
+c.lp,HL,30,50,20,ch/sp/su,3,2,8,2,4,
+c.mp,HL,60,100,40,sp/su,5,4,6,2,6,
+c.hp,HL,50*60,100*80,30*30,-0,6,2(4)4,17,-3,1,
+c.lk,L,20,50,20,ch/sp/su,4,2,8,1,4,
+c.mk,L,60,100,40,sp/su,5,3,14,-3,0,
+c.hk,L,80,100,60,-0,10,4,23,-12,-0,"Untechable knockdown"
+j.lp,H,35,50,20,-0,3,13,-0,-0,-0,
+j.mp,H,80,100,40,-0,4,6[8],-0,-0,-0,"[] refers to neutral jump"
+j.hp,H,110,200,60,-0,6,4,-0,-0,-0,
+j.lk,H,40,50,20,-0,4,10,-0,-0,-0,
+j.mk,H,70,100,40,-0,7,8,-0,-0,-0,
+j.hk,H,100,200,60,-0,5,4,-0,-0,-0,
+"Jump up ",H,110,200,60,-0,5,5,-0,-0,-0,
+"Senpuukyaku (+)",H,70,100,40,-0,20,4,13,-1,2,"6~23f Feet invincible, 7~23f airborne"
+"Dakai (+)",HL,110,200,60,-0,14,6,20,-8,-0,"Techable knockdown"
+"Raigekishuu (+)",HL,60,100,20,-0,7,"until ground","After landing 4",-3,3,"Can juggle, advantage refers to (translate) jump where startup is (9+7f)"
+"Raigekishuu (+)",HL,60,100,20,-0,8,"until ground","After landing 4",-3,3,"Can juggle, advantage refers to (translate) jump where startup is (9+8f)"
+"Raigekishuu (+)",HL,60,100,20,-0,7,"until ground","After landing 4",-4,2,"Can juggle, advantage refers to (translate) jump where startup is (9+7f)"
+"far  > ",HL,30,50,20,-0,4,2,8,1,4,
+"far  >  > ",HL,50,80,40,sp/su,5,5,14,-2,-1,
+" > ",HL,50,50,30,-0,9,3,18,-3,1,
+" >  > +",HL,75,62,30,su,13,5,24,-8,-0,"Floats opponent, projectile hitbox, armor break"
+"crouch  > crouch ",HL,40*50,50*100,30*30,su,5,2(4)4,18,-4,0,
+"crouch  > ",HL,70,100,40,-0,7,4,24,-9,-0,"Techable knockdown, can juggle"
+"Jump   > +",H,90,150,60,-0,3,5,-0,-0,-0,
+"Focus Attack LVL1",HL,60,100,20,-0,21,2,35,-21,-21,
+"Focus Attack LVL2",HL,80,150,40,-0,17+12,2,35,-15,-0,
+"Focus Attack LVL3",-0,140,200,60,-0,65,2,34,-0,-0,
+"Forward Throw",0.9,110,150,40,-0,3,2,20,-0,-0,"Untechable knockdown"
+"Back Throw",0.9,130,110,40,-0,3,2,20,-0,-0,"Untechable knockdown"
+"Zesshou Hohou ",HL,90,150,30/30,su,9,7,10+12,-9,-0,"9~19f feet invincible, 9f~ airborne, techable knockdown, armor break, can juggle"
+"Zesshou Hohou ",HL,110,150,30/30,su,14,9,6+11,-7,-0,"14~22f feet invincible, 14f~ airborne, techable knockdown, armor break, can juggle"
+"Zesshou Hohou ",HL,130,150,30/30,su,17,11,8+6,-9,-0,"17~30f feet invincible, 17f~ airborne, techable knockdown, armor break, can juggle"
+"Zesshou Hohou ",HL,80*60,100*100,-250/0,su,17,7*2,4+11,1,-0,"17~25f feet invincible, 9f~ airborne, techable knockdown, armor break, can juggle"
+"Tetsuzan Kou ",HL,100,200,30/60,su,16,6,14,-3,2,"[air hit] Techable knockdown"
+"Tetsuzan Kou ",HL,125,200,30/60,su,21,5,18,-6,-0,"4~18f (low hitbox ?), techable knockdown"
+"Tetsuzan Kou ",HL,140,200,30/60,su,25,4,22,-7,-0,"6~22f (low hitbox ?), techable knockdown"
+"Tetsuzan Kou ",HL,80*70,150*100,-250/0,su,13,1(1)4,20,-6,-0,"4~13f (low hitbox ?), techable knockdown, [2nd hit] cannot juggle/standard knockdown, can juggle"
+Kobokushi(feint),-0,-0,-0,-0,-0,-0,-0,"Total 23",-0,-0,
+Kobokushi,HL,160,250,30/60,su,23,15,5,1,-0,"Floats opponent, armor break, projectile hitbox"
+"Kobokushi ",HL,160,300,-250/0,su,23,13,21,-13,-0,"1~20f lower body invincibility, floats opponent (wall bounce), armor break, projectile hitbox, can juggle"
+"Nishou Kyaku ",HL,70*50,100*50,30/20*20,-0,5,2(6)4,14+8,-5,-0,"1~7f Invincible, 4f~ airborne, 8~16f legs projectile invincible, techable knockdown, [2nd hit] can juggle, cannot hit crouching opponent"
+"Nishou Kyaku ",HL,70*60,100*50,30/30*20,-0,6,2(6)4,18+14,-23,-0,"1~7f lower body invincible, 1~7f unthrowable, 5f~ airborne, 8~17f legs projectile invincible, techable knockdown, [2nd hit] can juggle, cannot hit crouching opponent"
+"Nishou Kyaku ",HL,70*70,100*100,30/30*30,-0,8,2(6)4,24+14,-29,-0,"1~7f Invincible, 7f~ airborne, 8~19f legs projectile invincible, techable knockdown, [2nd hit] can juggle"
+"Nishou Kyaku ",HL,60*40,100*100,-250/0,-0,4,2(6)4,18+14,-23,-0,"1~5f Invincible, 3f~ airborne, 6~15f legs projectile invincible, floats opponent, can juggle"
+"Zenpou Tenshin",1.1,0,0,20/30,-0,7,2,45,-0,7,"Forces stand"
+"Zenpou Tenshin ",1.3,0,0,-250/0,-0,5,2,45,-0,7,"Forces stand"
+"Super Combo",-0,-0,-0,-1000/0,-0,1+0,430,"Total 8",-0,-0,"1~3f Invincible, move properties change, certain moves dash/backdash/jump cancellable, lasts 430 frames"
+"Ultra Combo 1",HL,105*45x2*135[375],0,0/0,-0,0+9,3(14)3(20)4(34)3,39,-21,-0,"1~11f Invincible, floats opponent, 1st hit goes into animation, armor break, can juggle, [] refers to animation, last 5 frames of animation recovery is special move cancellable"
+"Ultra Combo 2",HL,60*45x3*255,0,0/0,-0,0+10,3(6)3(7)3(10)3(9)1,46,-26,-0,"1~12f Invincible, 13~19f projectile invincible, [1st-4th air hit] untechable knockdown, 5th hit goes into animation"

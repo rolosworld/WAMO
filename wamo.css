@@ -71,6 +71,10 @@ h1 {
   text-align:center;
 }
 
+table.move-review{
+  width:320px;
+}
+
 table.move-review caption{
   text-align:center;
   font-weight:900;
