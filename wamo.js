@@ -222,7 +222,7 @@ function counterhitAdv( focusPassed, ataque ) {
     return 3;
   }
   
-  return ataque.move.search(/light/i) != -1 ? 1 : 3;
+  return (ataque.move + '').search(/light/i) != -1 ? 1 : 3;
 };
 
 function onblock() {
@@ -289,7 +289,7 @@ function onhit() {
       Meta.array.$( ataque.contra_ataque ).
         sort( _sort ).
         forEach( function( a ) {
-          if ( ! focusPassed && ataque.ataque.move.search(/focus/i) != -1 ) {
+          if ( ! focusPassed && (ataque.ataque.move + '').search(/focus/i) != -1 ) {
             focusPassed = true;
           }
 	  
