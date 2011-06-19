@@ -56,7 +56,9 @@ wamo.model = {
     var links = [];
     var framedata = wamo.framedata[wamo.game][wamo.me];
     Meta.array.$( framedata ).forEach( function( nextMove ) {
-      if ( nextMove.startup - move.frame_adv_hit <= 0 ) {
+      var normalLink = nextMove.startup - move.frame_adv_hit;
+      if ( normalLink <= 0 ) {
+        nextMove.frames = Math.abs( normalLink );
         links.push( nextMove );
       }
     });
@@ -64,7 +66,29 @@ wamo.model = {
     return links;
   },
 
-  getCounterhitLinks: function() {
+  counterhitBonus: function( move ) {
+    var moveName = move.move + '';
+    if ( moveName.search(/focus/i) != -1 ) {
+      return 3;
+    }
+  
+    return moveName.search(/light|lp|lk/i) != -1 ? 1 : 3;
+  },
+
+  getCounterhitLinks: function( move ) {
+    var links = [];
+    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var chBonus = wamo.model.counterhitBonus( move );
+
+    Meta.array.$( framedata ).forEach( function( nextMove ) {
+      var normalLink = nextMove.startup - move.frame_adv_hit;
+      if ( !(normalLink <= 0) && (normalLink - chBonus <= 0) ) {
+        nextMove.frames = chBonus - normalLink;
+        links.push( nextMove );
+      }
+    });
+    
+    return links;
   },
 
   getPunishments: function( move ) {
@@ -72,7 +96,9 @@ wamo.model = {
     var framedata = wamo.framedata[wamo.game][wamo.me];
 
     Meta.array.$( framedata ).forEach( function( punish ) {
-      if ( punish.startup + move.frame_adv_block <= 0 ) {
+      var normalPunish = punish.startup + move.frame_adv_block;
+      if ( normalPunish <= 0 ) {
+        punish.frames = Math.abs( normalPunish );
         punishments.push( punish );
       }
     } );
@@ -86,7 +112,9 @@ wamo.model = {
     var fast_startup = wamo.model.fastest_startup( framedata );
 
     Meta.array.$( framedata ).forEach( function( punish ) {
-      if ( fast_startup - move.frame_adv_block >= punish.startup ) {
+      var normalPunish = punish.startup + move.frame_adv_block;
+      if ( !(normalPunish <= 0) && normalPunish <= fast_startup ) {
+        punish.frames = fast_startup - normalPunish;
         punishments.push( punish );
       }
     } );

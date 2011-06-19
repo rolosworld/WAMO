@@ -31,7 +31,7 @@ table th {
   background-color: #282828;
 }
 table td{
-  text-alignment: left;
+  text-align: left;
   vertical-align: top;
   padding: 4px;
   background-color:#505050;

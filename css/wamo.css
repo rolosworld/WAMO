@@ -1,0 +1,34 @@
+body {
+  margin:0;
+  padding:5px 20px;
+  font-family:tahoma,helvetica,serif;
+  font-size:small;
+}
+img{
+  border:none;
+}
+a {
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+.copy{
+  text-align:center;
+}
+.rightAlign{
+  text-align: right;
+}
+.leftAlign{
+  text-align: left;
+}
+.best {
+  color: #65ff00;
+  font-weight: 900;
+}
+.medium {
+  color: #ffff00;
+}
+.worst {
+  color: #ff6500;
+}

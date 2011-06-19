@@ -26,16 +26,30 @@ wamo.controller = {
   },
 
   getMoveObject: function() {
-    var meFrameData = wamo.controller.getMeFrameData();
-    return meFrameData[wamo.controller.getMove()];      
+    var framedata;
+    var controller = wamo.controller;
+    if ( controller.getAction() == 'hit' ) {
+      framedata = wamo.controller.getMeFrameData();
+    } else {
+      framedata = wamo.controller.getOpponentFrameData();
+    }
+    return framedata[wamo.controller.getMove()];      
   },
 
   getLinks: function() {
     return wamo.model.getLinks(wamo.controller.getMoveObject());
   },
 
+  getCounterhitLinks: function() {
+    return wamo.model.getCounterhitLinks(wamo.controller.getMoveObject());
+  },
+
   getPunishments: function() {
     return wamo.model.getPunishments(wamo.controller.getMoveObject());
+  },
+
+  getCounterhitPunishments: function() {
+    return wamo.model.getCounterhitPunishments(wamo.controller.getMoveObject());
   },
 
   onGameChange: function() {
