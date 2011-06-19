@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WAMO - by bubafeast</title>
+
+    <style>
+      .rightAlign{
+        text-align: right;
+      }
+      .leftAlign{
+        text-align: left;
+      }
+    </style>
+    
+  </head>
+  
+  <body>
+
+    <form type="post" action="#" onsubmit="return false;">
+      <table>
+	<caption><a href="#">Fix frame data</a></caption>
+	<thead>
+	  <tr>
+	    <th class="rightAlign">Game:</th>
+	    <th class="leftAlign">
+	      <select name="game" id="game">
+		<option value="SSF4">SSF4</option>
+		<option value="SSF4AE">SSF4AE</option>
+	      </select>
+	    </th>
+	  </tr>
+	  <tr>
+	    <th class="rightAlign">Me:</th>
+	    <th class="leftAlign">
+	      <select name="myChar" id="myChar">
+		<option value="0">...</option>
+	      </select>
+	    </th>
+	  </tr>
+	  <tr>
+	    <th class="rightAlign">Opponent:</th>
+	    <th class="leftAlign">
+	      <select name="opponentChar" id="opponentChar">
+		<option value="0">...</option>
+	      </select>
+	    </th>
+	  </tr>
+	  
+	  <tr>
+	    <th class="rightAlign">
+	      <select name="action" id="action">
+		<option value="blocked">Blocked</option>
+		<option value="hit">Hit with</option>
+	      </select>
+	    </th>
+	    <th class="leftAlign">
+	      <select name="move" id="move">
+		<option value="0">Move</option>
+	      </select>
+	    </th>
+	  </tr>
+	</thead>
+      </table>
+    </form>
+      
+    <div id="details"></div>
+      
+    <div class="copy">
+      All trademarks and copyrights on this page are owned by their respective owners. The Rest &copy; 2011 bubafeast
+    </div>
+    
+    <script src="meta.min.js"></script>
+    <script src="js/wamo.js"></script>
+    <script src="js/wamo.model.js"></script>
+    <script src="js/wamo.ui.js"></script>
+    <script src="js/wamo.view.js"></script>
+    <script src="js/wamo.controller.js"></script>
+
+    <script>
+    wamo.init();
+    </script>
+    
+  </body>
+</html>
