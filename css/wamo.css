@@ -1,11 +1,16 @@
 body {
   margin:0;
   padding:5px 20px;
-  font-family:tahoma,helvetica,serif;
   font-size:small;
+}
+body * {
+  font-family:tahoma,helvetica,serif;
 }
 img{
   border:none;
+}
+h3 {
+  margin: 10px 0px 10px 0px;
 }
 a {
   text-decoration:none;

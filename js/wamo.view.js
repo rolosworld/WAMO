@@ -32,28 +32,28 @@ wamo.view = {
     var usedMove = wamo.controller.getMoveObject();
 
     if ( wamo.controller.getAction() == 'hit' ) {
-      content.push('<h1>Links available</h1>');
+      content.push('<h3>Links available</h3>');
       Meta.array.$( wamo.controller.getLinks() ).forEach( function( move ) {
-        content.push(move.move + '(' + move.frames + ')');
+        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
       } );
 
-      content.push('<h1>Counterhit Links available</h1>');
+      content.push('<h3>Counterhit Links available</h3>');
       Meta.array.$( wamo.controller.getCounterhitLinks() ).forEach( function( move ) {
-        content.push(move.move + '(' + move.frames + ')');
+        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
       } );
     } else {
-      content.push('<h1>Punishments available</h1>');
+      content.push('<h3>Punishments available</h3>');
       Meta.array.$( wamo.controller.getPunishments() ).forEach( function( move ) {
-        content.push(move.move + '(' + move.frames + ')');
+        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
       } );
 
-      content.push('<h1>Counterhit Punishments available</h1>');
+      content.push('<h3>Counterhit Punishments available</h3>');
       Meta.array.$( wamo.controller.getCounterhitPunishments() ).forEach( function( move ) {
-        content.push(move.move + '(' + move.frames + ')');
+        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
       } );
     }
 
-    wamo.ui.details.inner(content.join('<br/>'));
+    wamo.ui.details.inner(content.join(''));
   },
   resetAction: function() {
     wamo.ui.opponent.attr('disabled', wamo.controller.getAction() == 'hit' ? 'disabled' : null);
