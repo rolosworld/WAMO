@@ -1,5 +1,5 @@
 /*
- Copyright (c) 2012 Rolando González Chévere <rolosworld@gmail.com>
+ Copyright (c) 2011 Rolando González Chévere <rolosworld@gmail.com>
 
  This file is part of "WAMO".
 
