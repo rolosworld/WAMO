@@ -7,7 +7,7 @@ s.mk," HL",60,100,40,-0,6,3,12,-1,2,-0,-0,
 s.hk," HL",120,200,60,-0,12,4,17,-3,0,-0,-0,
 f.lp," HL",40,50,20,-0,4,3,13,-2,1,-0,-0,
 f.mp," HL",90,100,40," sp/su",10,7,14,-5,-2,-0,-0,
-f.hp," HL",150,200,60,-0,12,6,16,-4,0,-0,-0,"Automatic TechThrow when Oiled"
+f.hp," HL",150,200,60,-0,12,6,16,-4,0,-0,-0,
 f.lk," HL",40,50,20,-0,4,4,10,0,3,-0,-0,
 f.mk," HL",80,100,40,-0,7,4,13,-3,0,-0,-0,
 f.hk," L",120,200,60,-0,10,3,20,-5,-1,-0,-0,"Automatic TechThrow when Oiled"
@@ -36,36 +36,36 @@ jf.hk," H",110,200,60,-0,12,7,-0,-0,-0,-0,-0,
 "Forward Throw",0.9,130,100,40,-0,3,2,20,-0,-0,-0,-0,
 "Back Throw",0.9,140,100,40,-0,3,2,20,-0,-0,-0,-0,
 "Air Throw",1.1,140,150,40,-0,2,2,-0,-0,-0,-0,-0,
-"Oil Shower ",-0,-0,-0," 20/-",-0," ???"," ???",53,-0,-0,-0,-0," Min 3 sec; mid 4 sec; almost full 5 sec; full 6 sec"
-"Oil Shower ",-0,-0,-0," 30/-",-0," ???",-0,74,-0,-0,-0,-0," Min 4 sec; mid 5 sec; almost full 7 sec; full 9 sec"
-"Oil Shower ",-0,-0,-0," 40/-",-0," ???",-0,88,-0,-0,-0,-0," Min 5 sec; mid 8 sec; almost full 10 sec; full 12 sec"
-"Oil Shower ",-0,-0,-0," -250/-",-0," ???",-0,88,-0,-0,-0,-0," Min 6 sec; mid 9 sec; almost full 12 sec; full 15 sec"
-"dry Oil Slide "," L",50,100," 30/30"," su",14,21,17,-17,-0,-0,-0,
-"dry Oil Slide "," L",60,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
-"dry Oil Slide "," L",70,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
-"dry Oil Slide "," L",80,100," -250/0"," su",14,21,17,-17,-0,-0,-0,
+"Oil Shower lk",-0,-0,-0," 20/-",-0," ???"," ???",53,-0,-0,-0,-0," Min 3 sec; mid 4 sec; almost full 5 sec; full 6 sec"
+"Oil Shower mk",-0,-0,-0," 30/-",-0," ???",-0,74,-0,-0,-0,-0," Min 4 sec; mid 5 sec; almost full 7 sec; full 9 sec"
+"Oil Shower hk",-0,-0,-0," 40/-",-0," ???",-0,88,-0,-0,-0,-0," Min 5 sec; mid 8 sec; almost full 10 sec; full 12 sec"
+"Oil Shower ex",-0,-0,-0," -250/-",-0," ???",-0,88,-0,-0,-0,-0," Min 6 sec; mid 9 sec; almost full 12 sec; full 15 sec"
+"dry Oil Slide lp"," L",50,100," 30/30"," su",14,21,17,-17,-0,-0,-0,
+"dry Oil Slide mp"," L",60,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
+"dry Oil Slide hp"," L",70,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
+"dry Oil Slide ex"," L",80,100," -250/0"," su",14,21,17,-17,-0,-0,-0,
 "dry Oil Slide Follow Up",-0,80,100," 0/20",-0,-0,-0,-0,-0,-0,-0,-0," Oil slide always does 100 stun regardless of follow up"
-"dry Oil Rocket ",0.95,150,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"dry Oil Rocket ",0.95,160,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"dry Oil Rocket ",0.95,180,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"dry Oil Rocket ",0.95,210,160," -250/0",-0,3,2,56,-0,-0,-0,-0,"Strike Invincibles on Frames 1 to 4"
-"dry Oil Dive ",1,150,100," 40/60",-0,14,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"dry Oil Dive ",1,180,150," 40/60",-0,20,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"dry Oil Dive ",1,210,200," 40/60",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"dry Oil Dive ",1,240,150," -250/0",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"oiled Oil Slide "," L",50,100," 30/30"," su",14,21,17,-17,-0,-0,-0,
-"oiled Oil Slide "," L",60,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
-"oiled Oil Slide "," L",70,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
-"oiled Oil Slide "," L",80,100," -250/0"," su"," ???"," ???"," ???"," ???",-0,-0,-0,
+"dry Oil Rocket lp",0.95,150,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"dry Oil Rocket mp",0.95,160,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"dry Oil Rocket hp",0.95,180,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"dry Oil Rocket ex",0.95,210,160," -250/0",-0,3,2,56,-0,-0,-0,-0,"Strike Invincibles on Frames 1 to 4"
+"dry Oil Dive lk",1,150,100," 40/60",-0,14,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"dry Oil Dive mk",1,180,150," 40/60",-0,20,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"dry Oil Dive hk",1,210,200," 40/60",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"dry Oil Dive ex",1,240,150," -250/0",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"oiled Oil Slide lp"," L",50,100," 30/30"," su",14,21,17,-17,-0,-0,-0,
+"oiled Oil Slide mp"," L",60,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
+"oiled Oil Slide hp"," L",70,100," 30/30"," su"," ???"," ???",17,-17,-0,-0,-0,
+"oiled Oil Slide ex"," L",80,100," -250/0"," su"," ???"," ???"," ???"," ???",-0,-0,-0,
 "oiled Oil Slide Follow Up",-0,80,100," 0/20",-0,-0,-0,-0,-0,-0,-0,-0," Oil slide always does 100 stun regardless of follow up"
-"oiled Oil Rocket ",1.6,170,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"oiled Oil Rocket ",1.6,180,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"oiled Oil Rocket ",1.6,200,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
-"oiled Oil Rocket ",1.6,230,160," -250/0",-0,3,2,56,-0,-0,-0,-0," Strike Invincibles on Frames 1 to 4"
-"oiled Oil Dive ",1,180,100," 40/60",-0,14,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"oiled Oil Dive ",1,200,150," 40/60",-0,20,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"oiled Oil Dive ",1,220,200," 40/60",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
-"oiled Oil Dive ",1,250,150," -250/0",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"oiled Oil Rocket lp",1.6,170,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"oiled Oil Rocket mp",1.6,180,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"oiled Oil Rocket hp",1.6,200,100," 40/100",-0,3,2,56,-0,-0,-0,-0,
+"oiled Oil Rocket ex",1.6,230,160," -250/0",-0,3,2,56,-0,-0,-0,-0," Strike Invincibles on Frames 1 to 4"
+"oiled Oil Dive lk",1,180,100," 40/60",-0,14,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"oiled Oil Dive mk",1,200,150," 40/60",-0,20,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"oiled Oil Dive hk",1,220,200," 40/60",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
+"oiled Oil Dive ex",1,250,150," -250/0",-0,22,4," 14+52",-0,-0,-0,-0," Startup can be charged up to 98 frames"
 "Super Combo (Dry)",1,400,0," -1000/0",-0," 1+18",3," 17+51",-0,-0,-0,-0,
 "Super Combo (Oiled)",1,450,0," -1000/0",-0," 1+18",3," 17+51",-0,-0,-0,-0,
 "Ultra Combo 1 (Dry)",1.5,480,0," 0/0",-0," 1+0",3,51,-0,-0,-0,-0,
