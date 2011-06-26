@@ -17,6 +17,9 @@ a {
 a:hover{
   text-decoration:underline;
 }
+select {
+  width: 100%;
+}
 .copy{
   text-align:center;
 }
