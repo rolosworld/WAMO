@@ -25,8 +25,11 @@ wamo.view = {
     }
 
     rows = rows.join('');
-    wamo.ui.me.inner(rows);
-    wamo.ui.opponent.inner(rows);
+    wamo.ui.meParent.inner( '<select name="myChar">' + rows + '</select>' );
+    wamo.ui.resetMe();
+
+    wamo.ui.opponentParent.inner( '<select name="opponentChar">' + rows + '</select>' );
+    wamo.ui.resetOpponent();
   },
   resetMoves: function() {
     var who;
@@ -37,12 +40,14 @@ wamo.view = {
     }
     var framedata = wamo.model.getFrameData(who);
     
-    var rows = [];
+    var rows = ['<select name="move">'];
     for( var i in framedata ) {
       rows.push('<option value="' + i + '">' + framedata[i].move + '</option>');
     }
+    rows.push('</select>');
 
-    wamo.ui.move.inner(rows.join(''));
+    wamo.ui.moveParent.inner(rows.join(''));
+    wamo.ui.resetMove();
   },
   resetDetails: function() {
     var content = [];

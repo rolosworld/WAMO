@@ -81,8 +81,7 @@ wamo.controller = {
     var me = wamo.controller.getMe();
     wamo.model.setMe(me);
     wamo.model.loadFrameData(me,function(){
-      wamo.view.resetMoves();
-      wamo.controller.onMoveChange();
+      wamo.controller.onActionChange();
     });
   },
 
@@ -90,8 +89,7 @@ wamo.controller = {
     var opponent = wamo.controller.getOpponent();
     wamo.model.setOpponent(opponent);
     wamo.model.loadFrameData(opponent,function(){
-      wamo.view.resetMoves();
-      wamo.controller.onMoveChange();
+      wamo.controller.onActionChange();
     });
   },
 

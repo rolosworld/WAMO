@@ -17,9 +17,24 @@
 */
 wamo.ui = {
   game: Meta.dom.$().select('#game'),
-  me: Meta.dom.$().select('#myChar'),
-  opponent: Meta.dom.$().select('#opponentChar'),
+  meParent: Meta.dom.$().select('#myChar'),
+  opponentParent: Meta.dom.$().select('#opponentChar'),
   action: Meta.dom.$().select('#action'),
-  move: Meta.dom.$().select('#move'),
-  details: Meta.dom.$().select('#details')
+  moveParent: Meta.dom.$().select('#move'),
+  details: Meta.dom.$().select('#details'),
+  me: null,
+  opponent: null,
+  move: null,
+  resetMe: function() {
+    wamo.ui.me = Meta.dom.$(wamo.ui.meParent.first());
+    wamo.ui.me.on('change',wamo.controller.onMeChange);
+  },
+  resetOpponent: function() {
+    wamo.ui.opponent = Meta.dom.$(wamo.ui.opponentParent.first());
+    wamo.ui.opponent.on('change',wamo.controller.onOpponentChange);
+  },
+  resetMove: function() {
+    wamo.ui.move = Meta.dom.$(wamo.ui.moveParent.first());
+    wamo.ui.move.on('change',wamo.controller.onMoveChange);
+  }
 };

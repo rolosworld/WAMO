@@ -65,28 +65,16 @@ var wamo = {
   framedata: {},
   characters: {},
 
-  game: null,
-  me: null,
-  opponent: null,
-  action: null,
-
   init: function() {
     var controller = wamo.controller;
     var model = wamo.model;
     var ui = wamo.ui;
 
-    model.setGame(controller.getGame());
-    model.setMe(controller.getMe());
-    model.setOpponent(controller.getOpponent());
-    model.setAction(controller.getAction());
+    // Init defaults
+    controller.onGameChange();
 
     // Set UI callbacks
     ui.game.on('change',controller.onGameChange);
-    ui.me.on('change',controller.onMeChange);
-    ui.opponent.on('change',controller.onOpponentChange);
     ui.action.on('change',controller.onActionChange);
-    ui.move.on('change',controller.onMoveChange);
-
-    // Init defaults
-    controller.onGameChange();
-  }};
+  }
+};
