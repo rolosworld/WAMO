@@ -43,13 +43,7 @@ wamo.controller = {
   },
 
   getMoveObject: function() {
-    var framedata;
-    var controller = wamo.controller;
-    if ( controller.getAction() == 'hit' ) {
-      framedata = wamo.controller.getMeFrameData();
-    } else {
-      framedata = wamo.controller.getOpponentFrameData();
-    }
+    var framedata = wamo.type.get().getFrameData();
     return framedata[wamo.controller.getMove()];      
   },
 

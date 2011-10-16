@@ -32,13 +32,7 @@ wamo.view = {
     wamo.ui.resetOpponent();
   },
   resetMoves: function() {
-    var who;
-    if ( wamo.controller.getAction() == 'hit' ) {
-      who = wamo.controller.getMe();
-    } else {
-      who = wamo.controller.getOpponent();
-    }
-    var framedata = wamo.model.getFrameData(who);
+    var framedata = wamo.model.getFrameData(wamo.type.get().getObj());
     
     var rows = ['<select name="move">'];
     for( var i in framedata ) {
@@ -50,34 +44,9 @@ wamo.view = {
     wamo.ui.resetMove();
   },
   resetDetails: function() {
-    var content = [];
-    var usedMove = wamo.controller.getMoveObject();
-
-    if ( wamo.controller.getAction() == 'hit' ) {
-      content.push('<h3>Links available</h3>');
-      Meta.array.$( wamo.controller.getLinks() ).forEach( function( move ) {
-        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
-      } );
-
-      content.push('<h3>Counterhit Links available</h3>');
-      Meta.array.$( wamo.controller.getCounterhitLinks() ).forEach( function( move ) {
-        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
-      } );
-    } else {
-      content.push('<h3>Punishments available</h3>');
-      Meta.array.$( wamo.controller.getPunishments() ).forEach( function( move ) {
-        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
-      } );
-
-      content.push('<h3>Counterhit Punishments available</h3>');
-      Meta.array.$( wamo.controller.getCounterhitPunishments() ).forEach( function( move ) {
-        content.push('<div>' + move.move + '(' + move.frames + ')</div>');
-      } );
-    }
-
-    wamo.ui.details.inner(content.join(''));
+    wamo.ui.details.inner(wamo.type.get().details().join(''));
   },
   resetAction: function() {
-    wamo.ui.opponent.attr('disabled', wamo.controller.getAction() == 'hit' ? 'disabled' : null);
+    wamo.ui.opponent.attr('disabled', wamo.controller.getAction() != 'blocked' ? 'disabled' : null);
   }
 };
