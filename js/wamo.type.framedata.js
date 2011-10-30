@@ -25,10 +25,23 @@ wamo.type.framedata = {
   details: function() {
     var content = ['<h3>Frame Data</h3><table>'];
     var data = wamo.controller.getMoveObject();
+
+    var subTotal = function( s ) {
+      var sub = 0;
+      Meta.array.$( (s + '').match(/(\d+)/g) || [] ).forEach( function( v ) {
+        sub += Meta.string.$( v ).toInt();
+      } );
+      return sub;
+    };
+
     Meta.array.$( data ).forEach( function( move ) {
       for ( var i in move ) {
         content.push('<tr><th style="text-align:right;">' + i + ':</th><td>' + move[i] + '</td></tr>');
       }
+
+      var total = subTotal( move.startup ) + subTotal( move.active ) + subTotal( move.recovery );
+
+      content.push('<tr><th style="text-align:right;">Total Frames:</th><td>' + total + '</td></tr>');
     } );
     content.push('</table>');
     return content;
