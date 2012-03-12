@@ -1,67 +1,67 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,5,2,8, +7, +3,-,-,-,Rapid fire cancelable into light normal attacks
-Far MP,,H,60,6,6,14, +1,-3,-,-,-,-
-Far HP,,H,90,12,3,20, +2,-3,-,-,-,-
-Far LK,,H,30,5,3,10, +4,0,-,-,-,-
-Far MK,,H,60,7,2,17,0,-4,-,-,-,-
-Far HK,,H,90,15,2,21, +2,-3,-,-,-,-
-Close LP,,H,"20,10",4,3(7)3,11, +3,-1,"1st hit SM,EX,SA,CA",-,-,Rapid fire cancelable into light normal attacks
-Close MP,,H,40/20,5,3(7)2,18, +1,-3,"1st hit SM,EX,SA,CA",-,-,-
-Close HP,,H,60/30,4,3(7)2,22, +1,-4,"1st hit SM,EX,SA,CA",-,-,-
-Close LK,,L,30,5,2,8, +7, +3,-,-,-,-
-Close MK,,H,60,8,2,20,-1,-5,"SM,EX,SA,CA",-,-,-
-Close HK,,H/M,90,7,"4,2",22," -3,+1",-9,-,-,-,"Mid on final 2 active frames, mid attack ground bounces on crouching Counter Hit"
-Crouch LP,,H,30,5,2,8, +7, +3,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light normal attacks
-Crouch MP,,H,60,6,3,17, +1,-3,"SM,EX,SA,CA",-,-,-
-Crouch HP,,H,"60,30",9,4,21,floats,-1,"SM,EX,SA,CA",-,-,-
-Crouch LK,,L,30,5,2,8, +6, +2,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light normal attacks
-Crouch MK,,H,60,8,5,15, +1,-3,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,11,3,25,hard knockdown,-8,"SM,EX,SA,CA",-,-,-
-Jump up LP,,M,40,5,4,until ground+4f, +12, +4,-,-,-,-
-Jump up MP,,M,70,6,7,until ground+4f, +16, +5,-,-,-,-
-Jump up HP,,M,100,9,4,until ground+4f, +20, +8,-,-,-,-
-Jump up LK,,M,40,6,10,until ground+4f, +12, +4,-,-,-,-
-Jump up MK,,M,70,6,5,until ground+4f, +16, +5,-,-,-,-
-Jump up HK,,M,100,9,4,until ground+4f, +20, +8,-,-,-,-
-Jump forward LP,,M,40,5,7,until ground+4f, +12, +4,-,-,-,-
-Jump forward MP,,M,70,6,10,until ground+4f, +16, +5,-,-,-,-
-Jump forward HP,,M,100,5,8,until ground+4f, +20, +8,-,-,-,-
-Jump forward LK,,M,40,5,5,until ground+4f, +12, +4,-,-,-,-
-Jump forward MK,,M,70,6,6,until ground+4f, +16, +5,-,-,-,-
-Jump forward HK,,M,100,6,5,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,-,-,-,-,24,-,-,-,-,-,"Similar to LP Marseilles Roll, full body invulnerability frames 1-23"
-Pincer Throw,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Drop Throw,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Forward Kick,f+MK,H,80,8,2,15,-1,-1,forward dash,-,-,-
-Wheel Kick LK,qcb+LK,M,100,21,7,22, -2,-7,-,-,-,Airborne frames 12-29
-Wheel Kick MK,qcb+MK,M,110,25,7,24, -4, -9,-,-,-,Airborne frames 15-33
-Wheel Kick HK,qcb+HK,M,120,28,7,25, -5, -10,-,-,-,Airborne frames 17-36
-Wheel Kick EX,qcb+KK,M,"50,100",19,10,22, -2, -7,-,-,-,"Full body projectile invulnerability frames 1-18, attacking leg projectile invulnerability frames 19-28, airborne frames 13-30"
-Marseilles Roll LK,qcf+LK,-,-,-,-,28,-,-,-,-,-,"Full body invulnerability frames 6-23, vulnerable to throws"
-Marseilles Roll MK,qcf+MK,-,-,-,-,31,-,-,-,-,-,"Full body invulnerability frames 6-26, vulnerable to throws"
-Marseilles Roll HK,qcf+HK,-,-,-,-,33,-,-,-,-,-,"Full body invulnerability frames 6-27, vulnerable to throws"
-Marseilles Roll EX,qcf+KK,-,-,-,-,34,-,-,-,-,-,"Full body invulnerability frames 1-29, vulnerable to throws"
-Falling Sky LP,"f,d,df+LP",throw,140,6,2,31,hard knockdown,-,-,-,-,-
-Falling Sky MP,"f,d,df+MP",throw,150,7,4,31,hard knockdown,-,-,-,-,-
-Falling Sky HP,"f,d,df+HP",throw,160,10,7,32,hard knockdown,-,-,-,-,-
-Falling Sky EX,"f,d,df+PP",throw,160,8,2,31,hard knockdown,-,-,-,-,"Full body invulnerability frames 1-9, vulnerable to throws"
-Tornado Throw LP,hcb+LP,throw,140,6,2,51,hard knockdown,-,-,-,-,-
-Tornado Throw MP,hcb+MP,throw,150,6,2,46,hard knockdown,-,-,-,-,-
-Tornado Throw HP,hcb+HP,throw,160,6,2,40,hard knockdown,-,-,-,-,-
-Tornado Throw EX,hcb+PP,throw,200,7,2,55,hard knockdown,-,-,-,-,"Full body invulnerability frames 1-6, vulnerable to throws"
-Shoulder Tackle LP,"charge b,f+LP",H,90,24,8,19,knockdown, -5,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Shoulder Tackle MP,"charge b,f+MP",H,90,24,8,20,knockdown, -6,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Shoulder Tackle HP,"charge b,f+HP",H,90,24,8,21,knockdown, -7,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Shoulder Tackle EX,"charge b,f+PP",H,100,10,10,14,knockdown, -2,-,-,-,Can be Super Charged: 100 frames for Super Art
-Change of Direction LP,qcf+LP,H,30,15,3,24, +3, -5,"second mid, second low",-,-,Forces standing on hit
-Change of Direction MP,qcf+MP,H,40,17,3,25, +2, -6,"second mid, second low",-,-,Forces standing on hit
-Change of Direction HP,qcf+HP,H,50,18,3,24, +3, -5,"second mid, second low",-,-,Forces standing on hit
-Change of Direction EX,qcf+PP,H,50,18,3,24, +3, -5,"second mid, second low",-,-,"Armor frames 1-20, forces standing on hit"
-Second Mid,P after change of direction,M,70,16,4,26, -3, -9,"finish mid, finish low",-,-,Forces standing on hit
-Second Low,K after change of direction,L,90,23,4,24, -1, -6,"finish mid, finish low",-,-,-
-Finish Mid,P after second mid or low,M,100,11,2,45,knockdown, -30,-,-,-,-
-Finish Low,K after second mid or low,L,140,23,2,54,ground bounce, -39,-,-,-,-
-Breathless,"charge b,f+PPP",throw,300,6,6,72,hard knockdown, -,-,-,-,"64 frame cinematic freeze before attack begins, armor invulnerability frames 1 release, hold PPP to delay attack frames 1-90, input K to cancel attack between frames 1-75"
-Breathless (cancel),K during breathless,-,-,-,-,22,-, -,-,-,-,-
-Cross Art,qcf+MP+MK,H,"20,10x5,30",9,2,41,switch, -21,-,-,-,"74f cinematic freeze before attack begins, full body invincibility f1-10"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,2,8,7,3,-0,-0,-0,"Rapid fire cancelable into light normal attacks"
+"Far MP",,"H",60,6,6,14,1,-3,-0,-0,-0,-0
+"Far HP",,"H",90,12,3,20,2,-3,-0,-0,-0,-0
+"Far LK",,"H",30,5,3,10,4,0,-0,-0,-0,-0
+"Far MK",,"H",60,7,2,17,0,-4,-0,-0,-0,-0
+"Far HK",,"H",90,15,2,21,2,-3,-0,-0,-0,-0
+"Close LP",,"H","20,10",4,"3(7)3",11,3,-1,"1st hit SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Close MP",,"H","40/20",5,"3(7)2",18,1,-3,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H","60/30",4,"3(7)2",22,1,-4,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"L",30,5,2,8,7,3,-0,-0,-0,-0
+"Close MK",,"H",60,8,2,20,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H/M",90,7,"4,2",22," -3,+1",-9,-0,-0,-0,"Mid on final 2 active frames, mid attack ground bounces on crouching Counter Hit"
+"Crouch LP",,"H",30,5,2,8,7,3,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Crouch MP",,"H",60,6,3,17,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H","60,30",9,4,21,"floats",-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LK",,"L",30,5,2,8,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Crouch MK",,"H",60,8,5,15,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,11,3,25,"hard knockdown",-8,"SM,EX,SA,CA",-0,-0,-0
+"Jump up LP",,"M",40,5,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,6,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,9,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",40,6,10,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,9,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,5,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,6,10,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,5,8,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,5,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,6,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,6,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,-0,-0,-0,-0,24,-0,-0,-0,-0,-0,"Similar to LP Marseilles Roll, full body invulnerability frames 1-23"
+"Pincer Throw","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Drop Throw","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Forward Kick","f+MK","H",80,8,2,15,-1,-1,"forward dash",-0,-0,-0
+"Wheel Kick LK","qcb+LK","M",100,21,7,22,-2,-7,-0,-0,-0,"Airborne frames 12-29"
+"Wheel Kick MK","qcb+MK","M",110,25,7,24,-4,-9,-0,-0,-0,"Airborne frames 15-33"
+"Wheel Kick HK","qcb+HK","M",120,28,7,25,-5,-10,-0,-0,-0,"Airborne frames 17-36"
+"Wheel Kick EX","qcb+KK","M","50,100",19,10,22,-2,-7,-0,-0,-0,"Full body projectile invulnerability frames 1-18, attacking leg projectile invulnerability frames 19-28, airborne frames 13-30"
+"Marseilles Roll LK","qcf+LK",-0,-0,-0,-0,28,-0,-0,-0,-0,-0,"Full body invulnerability frames 6-23, vulnerable to throws"
+"Marseilles Roll MK","qcf+MK",-0,-0,-0,-0,31,-0,-0,-0,-0,-0,"Full body invulnerability frames 6-26, vulnerable to throws"
+"Marseilles Roll HK","qcf+HK",-0,-0,-0,-0,33,-0,-0,-0,-0,-0,"Full body invulnerability frames 6-27, vulnerable to throws"
+"Marseilles Roll EX","qcf+KK",-0,-0,-0,-0,34,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-29, vulnerable to throws"
+"Falling Sky LP","f,d,df+LP","throw",140,6,2,31,"hard knockdown",-0,-0,-0,-0,-0
+"Falling Sky MP","f,d,df+MP","throw",150,7,4,31,"hard knockdown",-0,-0,-0,-0,-0
+"Falling Sky HP","f,d,df+HP","throw",160,10,7,32,"hard knockdown",-0,-0,-0,-0,-0
+"Falling Sky EX","f,d,df+PP","throw",160,8,2,31,"hard knockdown",-0,-0,-0,-0,"Full body invulnerability frames 1-9, vulnerable to throws"
+"Tornado Throw LP","hcb+LP","throw",140,6,2,51,"hard knockdown",-0,-0,-0,-0,-0
+"Tornado Throw MP","hcb+MP","throw",150,6,2,46,"hard knockdown",-0,-0,-0,-0,-0
+"Tornado Throw HP","hcb+HP","throw",160,6,2,40,"hard knockdown",-0,-0,-0,-0,-0
+"Tornado Throw EX","hcb+PP","throw",200,7,2,55,"hard knockdown",-0,-0,-0,-0,"Full body invulnerability frames 1-6, vulnerable to throws"
+"Shoulder Tackle LP","charge b,f+LP","H",90,24,8,19,"knockdown",-5,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Shoulder Tackle MP","charge b,f+MP","H",90,24,8,20,"knockdown",-6,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Shoulder Tackle HP","charge b,f+HP","H",90,24,8,21,"knockdown",-7,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Shoulder Tackle EX","charge b,f+PP","H",100,10,10,14,"knockdown",-2,-0,-0,-0,"Can be Super Charged: 100 frames for Super Art"
+"Change of Direction LP","qcf+LP","H",30,15,3,24,3,-5,"second mid, second low",-0,-0,"Forces standing on hit"
+"Change of Direction MP","qcf+MP","H",40,17,3,25,2,-6,"second mid, second low",-0,-0,"Forces standing on hit"
+"Change of Direction HP","qcf+HP","H",50,18,3,24,3,-5,"second mid, second low",-0,-0,"Forces standing on hit"
+"Change of Direction EX","qcf+PP","H",50,18,3,24,3,-5,"second mid, second low",-0,-0,"Armor frames 1-20, forces standing on hit"
+"Second Mid","P after change of direction","M",70,16,4,26,-3,-9,"finish mid, finish low",-0,-0,"Forces standing on hit"
+"Second Low","K after change of direction","L",90,23,4,24,-1,-6,"finish mid, finish low",-0,-0,-0
+"Finish Mid","P after second mid or low","M",100,11,2,45,"knockdown",-30,-0,-0,-0,-0
+"Finish Low","K after second mid or low","L",140,23,2,54,"ground bounce",-39,-0,-0,-0,-0
+"Breathless","charge b,f+PPP","throw",300,6,6,72,"hard knockdown",-0,-0,-0,-0,"64 frame cinematic freeze before attack begins, armor invulnerability frames 1 release, hold PPP to delay attack frames 1-90, input K to cancel attack between frames 1-75"
+"Breathless (cancel)","K during breathless",-0,-0,-0,-0,22,-0,-0,-0,-0,-0,-0
+"Cross Art","qcf+MP+MK","H","20,10x5,30",9,2,41,"switch",-21,-0,-0,-0,"74f cinematic freeze before attack begins, full body invincibility f1-10"

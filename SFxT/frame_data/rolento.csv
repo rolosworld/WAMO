@@ -1,57 +1,57 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,7,7,18,-4,-8,-,-,-,-
-Far HP,,H,"40,50",9,3,23,0,-5,-,-,-,-
-Far LK,,H,30,4,5,7, +5, +1,-,-,-,-
-Far MK,,H,60,7,7,11, +3,-1,-,-,-,-
-Far HK,,H,90,7,4,15, +6, +1,-,-,-,-
-Close LP,,H,30,4,3,5, +9, +5,"SM,EX,SA,CA",-,-,-
-Close HP,,H,90,9,5,24,-3,-9,"SM,EX,SA,CA",-,-,forces standing
-Close MK,,H,60,6,5,11, +5, +1,"SM,EX,SA,CA",-,-,-
-Close HK,,H,90,7,4,15, +7, +1,-,-,-,forces standing
-Crouch LP,,H,30,5,2,7, +8, +4,"SM,EX,SA,CA",-,-,-
-Crouch MP,,H,20x3,9,6,10, +9, +5,-,-,-,-
-Crouch HP,,H,90,10,4,15, +6, +1,-,-,-,-
-Crouch LK,,L,30,4,3,12, +2,-2,"SM,EX,SA,CA",-,-,-
-Crouch MK,,L,60,6,5,15, +1, +3,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,9,11,18,sweep knockdown,-9,-,-,-,-
-Jump LP,,M,40,5,3,until ground+4f, +12, +4,-,-,-,-
-Jump MP,,M,20x3,6,6,until ground+4f, +16, +5,-,-,-,"Knockdown against airborne opponents (but all
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,4,3,8,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,7,7,18,-4,-8,-0,-0,-0,-0
+"Far HP",,"H","40,50",9,3,23,0,-5,-0,-0,-0,-0
+"Far LK",,"H",30,4,5,7,5,1,-0,-0,-0,-0
+"Far MK",,"H",60,7,7,11,3,-1,-0,-0,-0,-0
+"Far HK",,"H",90,7,4,15,6,1,-0,-0,-0,-0
+"Close LP",,"H",30,4,3,5,9,5,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,9,5,24,-3,-9,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Close MK",,"H",60,6,5,11,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,7,4,15,7,1,-0,-0,-0,"forces standing"
+"Crouch LP",,"H",30,5,2,7,8,4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H","20x3",9,6,10,9,5,-0,-0,-0,-0
+"Crouch HP",,"H",90,10,4,15,6,1,-0,-0,-0,-0
+"Crouch LK",,"L",30,4,3,12,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,6,5,15,1,3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,9,11,18,"sweep knockdown",-9,-0,-0,-0,-0
+"Jump LP",,"M",40,5,3,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M","20x3",6,6,"until ground+4f",16,5,-0,-0,-0,"Knockdown against airborne opponents (but all
 juggle potential is used up)"
-Jump HP,,M,100,9,3,until ground+4f, +20, +8,-,-,-,-
-Jump LK,,M,40,4,7,until ground+4f, +12, +4,-,-,-,-
-Jump MK,,M,70,7,6,until ground+4f, +16, +5,-,-,-,-
-Jump HK,,M,100,7,4,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,"switch,float",-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,H,120,15,21,30,float,-9,-,-,-,"Invulnerable frames 1-15, resembles EX Patriot Circle but juggling afterward isn’t possible"
-Colonel Carrier,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Deadly Package,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Trick Rod,f+MK,H,60,8,6,12, +1, -3,-,-,-,"Airborne frames 3-20, knocks down airborne opponent"
-Spike Rod,d+MK (air),H,60,6,until ground,33, -15, -19,-,-,-,"Knocks down airborne opponent on hit, leave input N or hold d/f/b to direct hop after Spike Rod, if non-N input is held normal moves are possible after 13th frame of hop"
-Trick Landing,KKK before landing,-,-,-,-,33,-,-,-,-,-,"Input command between frames 27-34 of jump, leave input N or hold d/f/b to direct hop after Trick Landing, if non-N input is held normal
+"Jump HP",,"M",100,9,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,4,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,7,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,7,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch,float",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,15,21,30,"float",-9,-0,-0,-0,"Invulnerable frames 1-15, resembles EX Patriot Circle but juggling afterward isn’t possible"
+"Colonel Carrier","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Deadly Package","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Trick Rod","f+MK","H",60,8,6,12,1,-3,-0,-0,-0,"Airborne frames 3-20, knocks down airborne opponent"
+"Spike Rod","d+MK (air)","H",60,6,"until ground",33,-15,-19,-0,-0,-0,"Knocks down airborne opponent on hit, leave input N or hold d/f/b to direct hop after Spike Rod, if non-N input is held normal moves are possible after 13th frame of hop"
+"Trick Landing","KKK before landing",-0,-0,-0,-0,33,-0,-0,-0,-0,-0,"Input command between frames 27-34 of jump, leave input N or hold d/f/b to direct hop after Trick Landing, if non-N input is held normal
 moves are possible after 13th frame of hop"
-Stinger LK,"f,d,df+LK",-,-,-,-,53,-,-,-,-,-,Input P between frames 16-46 for follow-up
-Stinger LK,"f,d,df+LK",-,-,-,-,57,-,-,-,-,-,Input P between frames 16-46 for follow-up
-Stinger LK,"f,d,df+LK",-,-,-,-,59,-,-,-,-,-,Input P between frames 16-47 for follow-up
-Stinger LK,"f,d,df+LK",-,-,-,-,58,-,-,-,-,-,Input P between frames 13-47 for follow-up
-Stinger follow-up,P during stinger,H,50,16,-,until ground+7f, +21, +13,-,-,-,"Button strength determines angle of knife, knife is destroyed by normal projectiles and attacks, knocks down airborne opponent"
-Stinger EX follow-up,P during EX stinger,H,40,16,-,until ground+6f,knockdown, +3,-,-,-,"Knocks down on hit, knives are destroyed by normal projectiles and attacks"
-Mekong Delta Attack (no input),PPP,-,-,-,-,47,-,-,-,-,-,"Input P between frames 12-44 for attack, frame 39 earliest starting point of attack"
-Mekong Delta Attack LP,PPP > LP while landing,H,60,4,14,9(wiff) 24 (hit or block), -4, -8,-,-,-,Knocks down airborne opponent
-Mekong Delta Attack MP,PPP > MP while landing,H,60,4,14,9(wiff) 24 (hit or block), -4, -8,-,-,-,Knocks down airborne opponent
-Mekong Delta Attack HP,PPP > HP while landing,H,60,4,16,9(wiff) 24 (hit or block), -4, -8,-,-,-,Knocks down airborne opponent
-Mekong Delta Attack EX,PPP > PP while landing,H,140,3,21,19, +1, -3,-,-,-,"Projectile invincible frames 1-23, knocks down airborne opponent"
-Mekong Delta Air Raid LP,qcb+LP,-,-,-,-,23,-,-,-,-,-,Input P between frames 6-16 for follow-up
-Mekong Delta Air Raid MP,qcb+MP,-,-,-,-,37,-,-,-,-,-,Input P between frames 6-30 for follow-up
-Mekong Delta Air Raid HP,qcb+HP,-,-,-,-,48,-,-,-,-,-,Input P between frames 6-41 for follow-up
-Mekong Delta Air Raid EX,qcb+PP,-,-,-,-,46,-,-,-,-,-,"Projectile invincible frames 1-41, input P between frames 5-41 for follow-up"
-Mekong Delta Air Raid follow-up,qcb+P > P,M,60,31,3,16, +5, -4,-,-,-,Knocks down airborne opponents
-Mekong Delta Air Raid EX follow-up,qcb+PP > P,M,80,31,2,16, +7, -3,-,-,-,"Projectile invincible frames 1-30, knocks down airborne opponents, causes ground bounce on Counter Hit"
-Mekong Delta Escape,qcb+K,-,-,-,-,varies,-,-,-,-,-,"May cancel into any air normal move or Spike Rod after wall jump, wall jump can be directed by holding f or b"
-Mekong Delta Escape EX,qcb+KK,-,-,-,-,varies,-,-,-,-,-,"Invulnerable until Rolento touches back wall, may cancel into any air normal move or Spike Rod after wall jump, wall jump can be directed by holding f or b"
-Patriot Circle,qcf+P,H,40,15,12,22, +3, -1,-,-,-,"Can be Super Charged 51 frames for EX version or 100 frames for Super Art, input qcf+P between frames 7-33 for next attack"
-Patriot Circle 2nd,qcf+P > qcf+P,H,60,20,12,27, +1, -6,-,-,-,Input qcf+P between frames 1-34 for next attack
-Patriot Circle 3rd,qcf+P > qcf+P > qcf+P,H,55,25,9,30,float, -9,-,-,-,Sets up juggle on hit
-Patriot Circle EX,qcf+PP,H,120,19,21,28,float, -3,-,-,-,"Can be Super Charged 51 frames for Super Art, invulnerable frames 1-19, sets up juggle on hit"
-Patriot Sweeper,qcf+PPP,H,"10x3,10x4,30,55x4",14,6(13)8(25)11,32,-,-11,-,-,-,"52 frame freeze before attack begins, invulnerable frames 1-14, causes hard knockdown"
-Cross Art,qcf+MP+MK,H,100,67,2,47,-,-27,-,-,-,"63 frame freeze before attack begins, invulnerable frames 1-8"
+"Stinger LK","f,d,df+LK",-0,-0,-0,-0,53,-0,-0,-0,-0,-0,"Input P between frames 16-46 for follow-up"
+"Stinger LK","f,d,df+LK",-0,-0,-0,-0,57,-0,-0,-0,-0,-0,"Input P between frames 16-46 for follow-up"
+"Stinger LK","f,d,df+LK",-0,-0,-0,-0,59,-0,-0,-0,-0,-0,"Input P between frames 16-47 for follow-up"
+"Stinger LK","f,d,df+LK",-0,-0,-0,-0,58,-0,-0,-0,-0,-0,"Input P between frames 13-47 for follow-up"
+"Stinger follow-up","P during stinger","H",50,16,-0,"until ground+7f",21,13,-0,-0,-0,"Button strength determines angle of knife, knife is destroyed by normal projectiles and attacks, knocks down airborne opponent"
+"Stinger EX follow-up","P during EX stinger","H",40,16,-0,"until ground+6f","knockdown",3,-0,-0,-0,"Knocks down on hit, knives are destroyed by normal projectiles and attacks"
+"Mekong Delta Attack (no input)","PPP",-0,-0,-0,-0,47,-0,-0,-0,-0,-0,"Input P between frames 12-44 for attack, frame 39 earliest starting point of attack"
+"Mekong Delta Attack LP","PPP > LP while landing","H",60,4,14,"9(wiff) 24 (hit or block)",-4,-8,-0,-0,-0,"Knocks down airborne opponent"
+"Mekong Delta Attack MP","PPP > MP while landing","H",60,4,14,"9(wiff) 24 (hit or block)",-4,-8,-0,-0,-0,"Knocks down airborne opponent"
+"Mekong Delta Attack HP","PPP > HP while landing","H",60,4,16,"9(wiff) 24 (hit or block)",-4,-8,-0,-0,-0,"Knocks down airborne opponent"
+"Mekong Delta Attack EX","PPP > PP while landing","H",140,3,21,19,1,-3,-0,-0,-0,"Projectile invincible frames 1-23, knocks down airborne opponent"
+"Mekong Delta Air Raid LP","qcb+LP",-0,-0,-0,-0,23,-0,-0,-0,-0,-0,"Input P between frames 6-16 for follow-up"
+"Mekong Delta Air Raid MP","qcb+MP",-0,-0,-0,-0,37,-0,-0,-0,-0,-0,"Input P between frames 6-30 for follow-up"
+"Mekong Delta Air Raid HP","qcb+HP",-0,-0,-0,-0,48,-0,-0,-0,-0,-0,"Input P between frames 6-41 for follow-up"
+"Mekong Delta Air Raid EX","qcb+PP",-0,-0,-0,-0,46,-0,-0,-0,-0,-0,"Projectile invincible frames 1-41, input P between frames 5-41 for follow-up"
+"Mekong Delta Air Raid follow-up","qcb+P > P","M",60,31,3,16,5,-4,-0,-0,-0,"Knocks down airborne opponents"
+"Mekong Delta Air Raid EX follow-up","qcb+PP > P","M",80,31,2,16,7,-3,-0,-0,-0,"Projectile invincible frames 1-30, knocks down airborne opponents, causes ground bounce on Counter Hit"
+"Mekong Delta Escape","qcb+K",-0,-0,-0,-0,"varies",-0,-0,-0,-0,-0,"May cancel into any air normal move or Spike Rod after wall jump, wall jump can be directed by holding f or b"
+"Mekong Delta Escape EX","qcb+KK",-0,-0,-0,-0,"varies",-0,-0,-0,-0,-0,"Invulnerable until Rolento touches back wall, may cancel into any air normal move or Spike Rod after wall jump, wall jump can be directed by holding f or b"
+"Patriot Circle","qcf+P","H",40,15,12,22,3,-1,-0,-0,-0,"Can be Super Charged 51 frames for EX version or 100 frames for Super Art, input qcf+P between frames 7-33 for next attack"
+"Patriot Circle 2nd","qcf+P > qcf+P","H",60,20,12,27,1,-6,-0,-0,-0,"Input qcf+P between frames 1-34 for next attack"
+"Patriot Circle 3rd","qcf+P > qcf+P > qcf+P","H",55,25,9,30,"float",-9,-0,-0,-0,"Sets up juggle on hit"
+"Patriot Circle EX","qcf+PP","H",120,19,21,28,"float",-3,-0,-0,-0,"Can be Super Charged 51 frames for Super Art, invulnerable frames 1-19, sets up juggle on hit"
+"Patriot Sweeper","qcf+PPP","H","10x3,10x4,30,55x4",14,"6(13)8(25)11",32,-0,-11,-0,-0,-0,"52 frame freeze before attack begins, invulnerable frames 1-14, causes hard knockdown"
+"Cross Art","qcf+MP+MK","H",100,67,2,47,-0,-27,-0,-0,-0,"63 frame freeze before attack begins, invulnerable frames 1-8"

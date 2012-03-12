@@ -1,63 +1,63 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,4,2,11, +4,0,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,7,2,17, +2,-2,-,-,-,-
-Far HP,,H,90,8,3,23,-1,-6,-,-,-,Crumples on standing Counter Hit
-Far LK,,H,30,5,2,10, +5, +1,-,-,-,-
-Far MK,,H,60,8,2,18, +1,-3,-,-,-,-
-Far HK,,H,"50,40",5,4,27,-4,-9,-,-,-,-
-Close LP,,H,30,4,2,11, +4,0,"SM,EX,SA,CA",-,-,-
-Close MP,,H,60,7,2,16, +3,-1,"SM,EX,SA,CA",-,-,-
-Close HP,,H,45x2,7,3(6)3,16, +7,0,"1st hit SM,EX,SA,CA",-,-,forces standing
-Close LK,,H,30,4,2,11, +4,0,-,-,-,-
-Close MK,,H,60,6,2,13, +6, +2,"SM,EX,SA,CA",-,-,-
-Close HK,,H,"50,40",4,4,23,0,-6,-,-,-,-
-Crouch LP,,H,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,-
-Crouch MP,,H,60,4,2,20,-1,-5,"SM,EX,SA,CA",-,-,-
-Crouch HP,,H,90,4,2,27,-3,-9,-,-,-,-
-Crouch LK,,L,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,forces standing
-Crouch MK,,L,60,6,3,13, +5, +1,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,9,13,17,sweep knockdown,-10,-,-,-,-
-Jump up LP,,M,40,5,5,until ground+4f, +12, +4,-,-,-,-
-Jump up MP,,M,70,5,3,until ground+4f, +16, +5,-,-,-,-
-Jump up HP,,M,100,6,2,until ground+4f, +20, +8,-,-,-,-
-Jump up LK,,M,40,6,9,until ground+4f, +12, +4,-,-,-,-
-Jump up MK,,M,70,6,6,until ground+4f, +16, +5,-,-,-,-
-Jump up HK,,M,100,4,5,until ground+4f, +20, +8,-,-,-,-
-Jump forward LP,,M,40,5,5,until ground+4f, +12, +4,-,-,-,-
-Jump forward MP,,M,70,5,5,until ground+4f, +16, +5,-,-,-,-
-Jump forward HP,,M,100,6,4,until ground+4f, +20, +8,-,-,-,-
-Jump forward LK,,M,40,6,7,until ground+4f, +12, +4,-,-,-,-
-Jump forward MK,,M,70,6,7,until ground+4f, +16, +5,-,-,-,-
-Jump forward HK,,M,100,6,6,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,H,120,16,5,17,hard knockdown,-4,-,-,-,"Similar to Cosmic Heel, full body invulnerability frames 1-16"
-Rainbow Suplex,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Crescent Line,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Stardust Drop,LP+LK (air),throw,150,7,2,until ground+4f,hard knockdown,-,-,-,-,-
-Piece of Mercury,df+MK,M,60,22,3,12, +4,0,-,-,-,Knockdown on airborne foes
-Cosmic Heel,df+HK,H,90,13,5,17,knockdown, -4,-,-,-,-
-Back Slash,PPP,-,-,-,-,67,-,-,-,-,-,Full body invulnerability frames 1-60
-Short Back Slash,KKK,-,-,-,-,43,-,-,-,-,-,Full body invulnerability frames 1-33
-Wall Jump,uf near wall,-,-,-,-,28,-,-,-,-,-,-
-Rolling Crystal Flash LP,"charge b,f+LP",H,"20,70",10,9(6)4,28, -1, -3,-,-,-,Requires b charge of 58 frames to execute
-Rolling Crystal Flash MP,"charge b,f+MP",H,"10x3,80",22,9(5)8(5)8(5)4,26, +1, -5,-,-,-,Requires b charge of 58 frames to execute
-Rolling Crystal Flash HP,"charge b,f+HP",H,"10x4,90",25,9(5)8(5)9(5)8(5)4,26, +4, -7,-,-,-,Requires b charge of 58 frames to execute
-Rolling Crystal Flash EX,"charge b,f+PP",H,"25x4,30",25,9(5)8(5)9(5)8(5)4,16, +8, +3,-,-,-,"Requires b charge of 58 frames to execute, projectile invulnerable frames 1-83"
-Scarlet Terror LK,"charge db,f+LK",H,70,8,10,23,floats, -18,-,-,-,Requires db charge of 34 frames to execute
-Scarlet Terror MK,"charge db,f+MK",H,"60,40",8,10,24,floats, -19,-,-,-,Requires db charge of 34 frames to execute
-Scarlet Terror HK,"charge db,f+HK",H,"60,40",5,12,24,floats, -21,-,-,-,Requires db charge of 34 frames to execute
-Scarlet Terror EX,"charge db,f+KK",H,"80,70",6,12,23,floats, -20,-,-,-,Requires db charge of 34 frames to execute
-Flying Barcelona Attack LK,"charge d,u+LK",-,-,-,-,91/102,-,-,-,-,-,Requires d charge of 34 frames to execute
-Flying Barcelona Attack MK,"charge d,u+MK",-,-,-,-,91/105,-,-,-,-,-,Requires d charge of 34 frames to execute
-Flying Barcelona Attack HK,"charge d,u+HK",-,-,-,-,91/106,-,-,-,-,-,Requires d charge of 34 frames to execute
-Flying Barcelona Attack EX,"charge d,u+KK",H,50,10,1/16,81/86,floats, -2,-,-,-,"Requires d charge of 34 frames to execute, attack is active until Vega reaches the wall"
-Flying Barcelona Attack follow-up,P during barcelona attack,M,120,4,11,until ground+31f,floats, -13,-,-,-,-
-Flying Barcelona Attack EX,P during barcelona attack EX,M,30x2,1,2(1)11,until ground+31f,floats, -11,-,-,-,-
-Izuna Drop,b or f+P during FBA near opponent,throw,150,1,2,until ground+31f,hard knockdown,-,-,-,-,-
-Remove Claw,"f,d,df+LP",-,-,-,-,41,-,-,-,-,-,"Removes claw, all P attacks receive 10% damage penalty"
-Remove Claw EX,"f,d,df+LP+MP",-,-,-,-,41,-,-,-,-,-,"Removes mask, all attacks receive 10% damage penalty, Vega suffers 10% more damage while mask is removed"
-Sky High Claw,"charge d,u+HP",H,110,26/42,until reaches opponent or wall,35/40, -13/-15, -6/ -7,-,-,-,"Position determines startup/recovery frames, causes wall bounce on Counter Hit"
-Sky High Claw EX,"charge d,u+PP",H,60x2,21/30,21,30,floats, -14,-,-,-,Position determines startup frames
-Bloody High Claw (toward opponent),"charge d,u+PPP",H,"50,70,40x4",6,until reaches opponent or wall,4,hard knockdown, -23,-,-,-,"65 frame cinematic freeze before attack begins, full body strike invulnerable until Vega reaches wall"
-Bloody High Claw(away from opponent),"charge d,u+PPP",H,"70,40x4",34,until reaching opposite wall,4,-, -17,-,-,-,"65 frame cinematick before attack begins, strike invulnerable frames 1-4"
-Cross Art,qcf+MP+MK,H,"20,40x2",9,15,40,switch,-33,-,-,-,"Requires d charge of 34 frames to execute, 62 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,4,2,11,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,7,2,17,2,-2,-0,-0,-0,-0
+"Far HP",,"H",90,8,3,23,-1,-6,-0,-0,-0,"Crumples on standing Counter Hit"
+"Far LK",,"H",30,5,2,10,5,1,-0,-0,-0,-0
+"Far MK",,"H",60,8,2,18,1,-3,-0,-0,-0,-0
+"Far HK",,"H","50,40",5,4,27,-4,-9,-0,-0,-0,-0
+"Close LP",,"H",30,4,2,11,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Close MP",,"H",60,7,2,16,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H","45x2",7,"3(6)3",16,7,0,"1st hit SM,EX,SA,CA",-0,-0,"forces standing"
+"Close LK",,"H",30,4,2,11,4,0,-0,-0,-0,-0
+"Close MK",,"H",60,6,2,13,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H","50,40",4,4,23,0,-6,-0,-0,-0,-0
+"Crouch LP",,"H",30,4,2,10,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,4,2,20,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,4,2,27,-3,-9,-0,-0,-0,-0
+"Crouch LK",,"L",30,4,2,10,5,1,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch MK",,"L",60,6,3,13,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,9,13,17,"sweep knockdown",-10,-0,-0,-0,-0
+"Jump up LP",,"M",40,5,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,5,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,6,2,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",40,6,9,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,6,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,4,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,5,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,5,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,6,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,6,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,6,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,6,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,16,5,17,"hard knockdown",-4,-0,-0,-0,"Similar to Cosmic Heel, full body invulnerability frames 1-16"
+"Rainbow Suplex","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Crescent Line","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Stardust Drop","LP+LK (air)","throw",150,7,2,"until ground+4f","hard knockdown",-0,-0,-0,-0,-0
+"Piece of Mercury","df+MK","M",60,22,3,12,4,0,-0,-0,-0,"Knockdown on airborne foes"
+"Cosmic Heel","df+HK","H",90,13,5,17,"knockdown",-4,-0,-0,-0,-0
+"Back Slash","PPP",-0,-0,-0,-0,67,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-60"
+"Short Back Slash","KKK",-0,-0,-0,-0,43,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-33"
+"Wall Jump","uf near wall",-0,-0,-0,-0,28,-0,-0,-0,-0,-0,-0
+"Rolling Crystal Flash LP","charge b,f+LP","H","20,70",10,"9(6)4",28,-1,-3,-0,-0,-0,"Requires b charge of 58 frames to execute"
+"Rolling Crystal Flash MP","charge b,f+MP","H","10x3,80",22,"9(5)8(5)8(5)4",26,1,-5,-0,-0,-0,"Requires b charge of 58 frames to execute"
+"Rolling Crystal Flash HP","charge b,f+HP","H","10x4,90",25,"9(5)8(5)9(5)8(5)4",26,4,-7,-0,-0,-0,"Requires b charge of 58 frames to execute"
+"Rolling Crystal Flash EX","charge b,f+PP","H","25x4,30",25,"9(5)8(5)9(5)8(5)4",16,8,3,-0,-0,-0,"Requires b charge of 58 frames to execute, projectile invulnerable frames 1-83"
+"Scarlet Terror LK","charge db,f+LK","H",70,8,10,23,"floats",-18,-0,-0,-0,"Requires db charge of 34 frames to execute"
+"Scarlet Terror MK","charge db,f+MK","H","60,40",8,10,24,"floats",-19,-0,-0,-0,"Requires db charge of 34 frames to execute"
+"Scarlet Terror HK","charge db,f+HK","H","60,40",5,12,24,"floats",-21,-0,-0,-0,"Requires db charge of 34 frames to execute"
+"Scarlet Terror EX","charge db,f+KK","H","80,70",6,12,23,"floats",-20,-0,-0,-0,"Requires db charge of 34 frames to execute"
+"Flying Barcelona Attack LK","charge d,u+LK",-0,-0,-0,-0,"91/102",-0,-0,-0,-0,-0,"Requires d charge of 34 frames to execute"
+"Flying Barcelona Attack MK","charge d,u+MK",-0,-0,-0,-0,"91/105",-0,-0,-0,-0,-0,"Requires d charge of 34 frames to execute"
+"Flying Barcelona Attack HK","charge d,u+HK",-0,-0,-0,-0,"91/106",-0,-0,-0,-0,-0,"Requires d charge of 34 frames to execute"
+"Flying Barcelona Attack EX","charge d,u+KK","H",50,10,"1/16","81/86","floats",-2,-0,-0,-0,"Requires d charge of 34 frames to execute, attack is active until Vega reaches the wall"
+"Flying Barcelona Attack follow-up","P during barcelona attack","M",120,4,11,"until ground+31f","floats",-13,-0,-0,-0,-0
+"Flying Barcelona Attack EX","P during barcelona attack EX","M","30x2",1,"2(1)11","until ground+31f","floats",-11,-0,-0,-0,-0
+"Izuna Drop","b or f+P during FBA near opponent","throw",150,1,2,"until ground+31f","hard knockdown",-0,-0,-0,-0,-0
+"Remove Claw","f,d,df+LP",-0,-0,-0,-0,41,-0,-0,-0,-0,-0,"Removes claw, all P attacks receive 10% damage penalty"
+"Remove Claw EX","f,d,df+LP+MP",-0,-0,-0,-0,41,-0,-0,-0,-0,-0,"Removes mask, all attacks receive 10% damage penalty, Vega suffers 10% more damage while mask is removed"
+"Sky High Claw","charge d,u+HP","H",110,"26/42","until reaches opponent or wall","35/40"," -13/-15"," -6/ -7",-0,-0,-0,"Position determines startup/recovery frames, causes wall bounce on Counter Hit"
+"Sky High Claw EX","charge d,u+PP","H","60x2","21/30",21,30,"floats",-14,-0,-0,-0,"Position determines startup frames"
+"Bloody High Claw (toward opponent)","charge d,u+PPP","H","50,70,40x4",6,"until reaches opponent or wall",4,"hard knockdown",-23,-0,-0,-0,"65 frame cinematic freeze before attack begins, full body strike invulnerable until Vega reaches wall"
+"Bloody High Claw(away from opponent)","charge d,u+PPP","H","70,40x4",34,"until reaching opposite wall",4,-0,-17,-0,-0,-0,"65 frame cinematick before attack begins, strike invulnerable frames 1-4"
+"Cross Art","qcf+MP+MK","H","20,40x2",9,15,40,"switch",-33,-0,-0,-0,"Requires d charge of 34 frames to execute, 62 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

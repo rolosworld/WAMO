@@ -1,58 +1,58 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,5,4,7, +6, +2,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,6,5,9, +7, +3,-,-,-,-
-Far HP,,H,90,11,3,23,-1,-6,-,-,-,-
-Far LK,,H,30,4,3,11, +3,-1,-,-,-,-
-Far MK,,H,60,7,3,18,0,-4,-,-,-,-
-Far HK,,H,90,13,3,25,-3,-8,-,-,-,Causes crumple on Counter Hit
-Close LP,,H,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light attacks
-Close MP,,H,60,7,3,23,-5,-9,"SM,EX,SA,CA",-,-,-
-Close HP,,H,90,5,3,24,-1,-7,"SM,EX,SA,CA",-,-,-
-Close LK,,H,30,6,2,12, +4,-1,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light attacks
-Close MK,,H,60,8,3,9, +7, +4,"SM,EX,SA,CA",-,-,-
-Close HK,,H,90,8,3,26,-3,-8,"SM,EX,SA,CA",-,-,-
-Crouch LP,,H,30,4,3,9, +3,-1,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light attacks
-Crouch MP,,H,60,6,5,11, +4,0,"SM,EX,SA,CA",-,-,-
-Crouch HP,,H,90,6,5,25,-4,-10,"SM,EX,SA,CA",-,-,-
-Crouch LK,,L,30,3,4,11, +2,-2,"SM,EX,SA,CA",-,-,Rapid fire cancelable into light attacks
-Crouch MK,,L,60,5,4,17,-1,-5,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,8,3,21,sweep,-4,-,-,-,sweep knockdown
-Jump up LP,,M,40,7,9,until ground+4f, +12, +3,-,-,-,-
-Jump up MP,,M,70,6,4,until ground+4f, +16, +5,-,-,-,-
-Jump up HP,,M,100,8,4,until ground+4f, +20, +8,-,-,-,-
-Jump up LK,,M,40,7,10,until ground+4f, +13, +4,-,-,-,-
-Jump up MK,,M,70,7,7,until ground+4f, +16, +5,-,-,-,-
-Jump up HK,,M,100,7,2,until ground+4f, +20, +8,-,-,-,-
-Jump forward LP,,M,40,8,8,until ground+4f, +12, +4,-,-,-,-
-Jump forward MP,,M,70,5,6,until ground+4f, +16, +5,-,-,-,-
-Jump forward HP,,M,100,6,4,until ground+4f, +20, +8,-,-,-,-
-Jump forward LK,,M,40,5,8,until ground+4f, +12, +4,-,-,-,-
-Jump forward MK,,M,70,7,4,until ground+4f, +16, +5,-,-,-,-
-Jump forward HK,,M,100,6,6,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,53,switch,-34,-,-,-,"Crushes crouching attacks, on hit floats target while switching in partner"
-Cross Cancel,,H,"40,40,40",5,16,42,knockdown,-32,-,-,-,"Looks like EX Shoryuken, invulnerable frames 1-6"
-Shoulder Throw,f+LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
-Hell Wheel,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Knee Bash,n+LP+LK,throw,140,7,2,20,hard knockdown,-,-,-,-,-
-Inazuma Kick,b+MK,M,60,15,2,18, +2, -4,-,-,-,Ground bounce on airborne foe or on Counter Hit against crouching foe
-Forward Step Kick,f+MK,H,80,11,5,14, +2, -2,-,-,-,-
-Thunder Kick,f+HK,M,100,21,2,24,0, -6,-,-,-,Ground bounce on airborne foe or on Counter Hit against crouching foe
-Thunder Kick (feint),f+HK(hold),-,-,-,-,27,-,-,-,-,-,-
--,close MP,H,60,7,3,23,-5,-9,"SM,EX,SA,CA",-,-,-
-Target Combo,close MP > HP,H,90,5,3,24,-7,-1,"SM,EX,SA,CA",-,-,-
-Hadoken,qcf+P,H,60,15,-,34, -4, -9,-,-,-,Projectile has 1 hit point
-Hadoken EX,qcf+PP,H,90,16,-,34, +5, -1,-,-,-,Projectile has 2 hit points
-Tatsumaki Senpukyaku LK,qcb+LK,H,"50,30",7,1(4)2(6)2,17, -2, -5,-,-,-,"Lower body projectile invulnerability frames 7-32, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Tatsumaki Senpukyaku MK,qcb+MK,H,"40,20,20,20",7,2(5)2(5)1(5)2(5)2(5)1,23, 0, -3,-,-,-,"Lower body projectile invulnerability frames 9-55, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Tatsumaki Senpukyaku HK,qcb+HK,H,"40,20,20,20,20",7,2(6)1(5)1(5)1(5)1(5)1(5)2(5)2,24, -1, -4,-,-,-,"Lower body projectile invulnerability frames 7-63, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
-Tatsumaki Senpukyaku EX,qcb+KK,H,125,8,2(4)1(3)1(4)1(4)1(2)1(4)1(3)1,25, +5,0,-,-,-,"Lower body projectile invulnerability frames 8-48, can be Super Charged 51 frames for Super Art"
-Tatsumaki Senpukyaku LK (air),qcb+LK,H,50 per hit,9,1(6)2(6)2(5)2,until ground+10f, +15, +10,-,-,-,-
-Tatsumaki Senpukyaku MK (air),qcb+MK,H,60 per hit,8,1(3)2(3)2(3)1(4)1,until ground+10f, +14, +9,-,-,-,-
-Tatsumaki Senpukyaku HK (air),qcb+HK,H,70 per hit,7,1(2)1(3)1(2)1(3)1(3)1(2)1,until ground+10f, +15, +10,-,-,-,-
-Tatsumaki Senpukyaku EX (air),qcb+KK,H,60 per hit,8,1(2)1(2)1(2)1(2)1(2)1(1)1,until ground+3f, +25, +17,-,-,-,-
-Shoryuken LP,"f,d,df+LP",H,80(50),4,11,23,-, -12,-,-,-,"Full body invulnerable frames 1-2, lower body invulnerable frames 3-6, airborne frame 7, knocks down"
-Shoryuken MP,"f,d,df+MP",H,"80,50",5,14,39,-, -28,-,-,-,"Full body invulnerable frames 1-7, lower body invulnerable frame 8, airborne frame 9, knocks down"
-Shoryuken HP,"f,d,df+HP",H,"80,50,20",3,16,40,-, -30,-,-,-,"Full body invulnerable frames 1-4, lower body invulnerable frames 5-6, airborne frame 7, knocks down"
-Shoryuken EX,"f,d,df+PP",H,"100,40,30,10",3,16,51,-, -40,-,-,-,"Full body invulnerable frames 1-10, airborne frame 8, knocks down"
-Shippu Jinraikyaku,qcb+KKK,H,300,2,4(16)2(12)2(10)2(20)2,38,-,-19,-,-,-,"60 frame cinematic + 12 frame freeze before attack begins, knocks down, invulnerable first 3 frames"
-Cross Art,qcf+MP+MK,H,100,8,2(15)2(16)2,42,-,-23,-,-,-,"59 frame cinematic + 4 frame freeze before attack begins, invulnerable first 9 frames"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,4,7,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,6,5,9,7,3,-0,-0,-0,-0
+"Far HP",,"H",90,11,3,23,-1,-6,-0,-0,-0,-0
+"Far LK",,"H",30,4,3,11,3,-1,-0,-0,-0,-0
+"Far MK",,"H",60,7,3,18,0,-4,-0,-0,-0,-0
+"Far HK",,"H",90,13,3,25,-3,-8,-0,-0,-0,"Causes crumple on Counter Hit"
+"Close LP",,"H",30,4,2,10,5,1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Close MP",,"H",60,7,3,23,-5,-9,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,5,3,24,-1,-7,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"H",30,6,2,12,4,-1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Close MK",,"H",60,8,3,9,7,4,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,8,3,26,-3,-8,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",30,4,3,9,3,-1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Crouch MP",,"H",60,6,5,11,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,6,5,25,-4,-10,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LK",,"L",30,3,4,11,2,-2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Crouch MK",,"L",60,5,4,17,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,8,3,21,"sweep",-4,-0,-0,-0,"sweep knockdown"
+"Jump up LP",,"M",40,7,9,"until ground+4f",12,3,-0,-0,-0,-0
+"Jump up MP",,"M",70,6,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,8,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",40,7,10,"until ground+4f",13,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,7,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,7,2,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,8,8,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,5,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,6,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,5,8,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,7,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,6,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,53,"switch",-34,-0,-0,-0,"Crushes crouching attacks, on hit floats target while switching in partner"
+"Cross Cancel",,"H","40,40,40",5,16,42,"knockdown",-32,-0,-0,-0,"Looks like EX Shoryuken, invulnerable frames 1-6"
+"Shoulder Throw","f+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Hell Wheel","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Knee Bash","n+LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Inazuma Kick","b+MK","M",60,15,2,18,2,-4,-0,-0,-0,"Ground bounce on airborne foe or on Counter Hit against crouching foe"
+"Forward Step Kick","f+MK","H",80,11,5,14,2,-2,-0,-0,-0,-0
+"Thunder Kick","f+HK","M",100,21,2,24,0,-6,-0,-0,-0,"Ground bounce on airborne foe or on Counter Hit against crouching foe"
+"Thunder Kick (feint)","f+HK(hold)",-0,-0,-0,-0,27,-0,-0,-0,-0,-0,-0
+-0,"close MP","H",60,7,3,23,-5,-9,"SM,EX,SA,CA",-0,-0,-0
+"Target Combo","close MP > HP","H",90,5,3,24,-7,-1,"SM,EX,SA,CA",-0,-0,-0
+"Hadoken","qcf+P","H",60,15,-0,34,-4,-9,-0,-0,-0,"Projectile has 1 hit point"
+"Hadoken EX","qcf+PP","H",90,16,-0,34,5,-1,-0,-0,-0,"Projectile has 2 hit points"
+"Tatsumaki Senpukyaku LK","qcb+LK","H","50,30",7,"1(4)2(6)2",17,-2,-5,-0,-0,-0,"Lower body projectile invulnerability frames 7-32, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Tatsumaki Senpukyaku MK","qcb+MK","H","40,20,20,20",7,"2(5)2(5)1(5)2(5)2(5)1",23,0,-3,-0,-0,-0,"Lower body projectile invulnerability frames 9-55, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Tatsumaki Senpukyaku HK","qcb+HK","H","40,20,20,20,20",7,"2(6)1(5)1(5)1(5)1(5)1(5)2(5)2",24,-1,-4,-0,-0,-0,"Lower body projectile invulnerability frames 7-63, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Tatsumaki Senpukyaku EX","qcb+KK","H",125,8,"2(4)1(3)1(4)1(4)1(2)1(4)1(3)1",25,5,0,-0,-0,-0,"Lower body projectile invulnerability frames 8-48, can be Super Charged 51 frames for Super Art"
+"Tatsumaki Senpukyaku LK (air)","qcb+LK","H","50 per hit",9,"1(6)2(6)2(5)2","until ground+10f",15,10,-0,-0,-0,-0
+"Tatsumaki Senpukyaku MK (air)","qcb+MK","H","60 per hit",8,"1(3)2(3)2(3)1(4)1","until ground+10f",14,9,-0,-0,-0,-0
+"Tatsumaki Senpukyaku HK (air)","qcb+HK","H","70 per hit",7,"1(2)1(3)1(2)1(3)1(3)1(2)1","until ground+10f",15,10,-0,-0,-0,-0
+"Tatsumaki Senpukyaku EX (air)","qcb+KK","H","60 per hit",8,"1(2)1(2)1(2)1(2)1(2)1(1)1","until ground+3f",25,17,-0,-0,-0,-0
+"Shoryuken LP","f,d,df+LP","H","80(50)",4,11,23,-0,-12,-0,-0,-0,"Full body invulnerable frames 1-2, lower body invulnerable frames 3-6, airborne frame 7, knocks down"
+"Shoryuken MP","f,d,df+MP","H","80,50",5,14,39,-0,-28,-0,-0,-0,"Full body invulnerable frames 1-7, lower body invulnerable frame 8, airborne frame 9, knocks down"
+"Shoryuken HP","f,d,df+HP","H","80,50,20",3,16,40,-0,-30,-0,-0,-0,"Full body invulnerable frames 1-4, lower body invulnerable frames 5-6, airborne frame 7, knocks down"
+"Shoryuken EX","f,d,df+PP","H","100,40,30,10",3,16,51,-0,-40,-0,-0,-0,"Full body invulnerable frames 1-10, airborne frame 8, knocks down"
+"Shippu Jinraikyaku","qcb+KKK","H",300,2,"4(16)2(12)2(10)2(20)2",38,-0,-19,-0,-0,-0,"60 frame cinematic + 12 frame freeze before attack begins, knocks down, invulnerable first 3 frames"
+"Cross Art","qcf+MP+MK","H",100,8,"2(15)2(16)2",42,-0,-23,-0,-0,-0,"59 frame cinematic + 4 frame freeze before attack begins, invulnerable first 9 frames"

@@ -1,53 +1,53 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,5,2,7, +7, +3,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,10,4,15, +2,-2,-,-,-,-
-Far HP,,H,90,10,3,20, +2,-2,-,-,-,-
-Far LK,,H,30,5,4,9, +5, +3,-,-,-,-
-Far MK,,H,60,9,3,16, +2,-2,-,-,-,-
-Far HK,,H,"50,40",5,5,21, +1,-4,-,-,-,-
-Close LP,,H,30,6,3,6, +8, +4,"SM,EX,SA,CA",-,-,-
-Close MP,,H,60,7,4,15, +4,-2,"SM,EX,SA,CA",-,-,forces standing
-Close HP,,H,90,10,3,17, +5,0,-,-,-,-
-Close LK,,H,"20,10",4,4,9, +5, +1,"1st hit SM,EX,SA,CA",-,-,-
-Close MK,,H,"40,20",7,4,18, +1,-3,"1st hit SM,EX,SA,CA",-,-,-
-Close HK,,H,"50,40",5,5,19, +3,-4,-,-,-,-
-Crouch LP,,H,30,3,2,10, +5, +1,"SM,EX,SA,CA",-,-,-
-Crouch MP,,H,60,5,3,12, +6, +2,"SM,EX,SA,CA",-,-,-
-Crouch HP,,H,90,8,3,18, +4,-1,-,-,-,-
-Crouch LK,,L,30,5,3,9, +5, +1,"SM,EX,SA,CA",-,-,-
-Crouch MK,,L,60,7,3,16, +2,-2,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,8,3,24,sweep knockdown,-7,-,-,-,-
-Jump up LP,,M,40,5,12,until ground+4f, +12, +4,-,-,-,-
-Jump up MP,,M,70,6,4,until ground+4f, +16, +5,-,-,-,-
-Jump up HP,,M,100,7,5,until ground+4f, +20, +8,-,-,-,-
-Jump up LK,,M,40,8,7,until ground+4f, +12, +4,-,-,-,-
-Jump up MK,,M,70,5,6,until ground+4f, +16, +5,-,-,-,-
-Jump up HK,,M,100,7,6,until ground+4f, +20, +8,-,-,-,-
-Jump forward LP,,M,40,7,7,until ground+4f, +12, +4,-,-,-,-
-Jump forward MP,,M,70,11,10,until ground+4f, +16, +5,-,-,-,-
-Jump forward HP,,M,100,7,5,until ground+4f, +20, +8,-,-,-,-
-Jump forward LK,,M,40,7,7,until ground+4f, +12, +4,-,-,-,-
-Jump forward MK,,M,70,7,10,until ground+4f, +16, +5,-,-,-,-
-Jump forward HK,,M,100,7,5,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,H,120,6,12,44,hard knockdown,-34,-,-,-,"Similar to HP Tiger Uppercut, full body invulnerability frames 1-7"
-Tiger Rage,LP+LK,throw,140,7,2,20,hard knockdown,-,-,-,-,-
-Over the Back Toss,b+LP+LK,throw,140,7,2,20,hard knockdown,-,-,-,-,-
-Heavy Tiger Elbow,f+HP,M,100,20,5,21, +1, -5,-,-,-,"Forces standing on hit, hard knockdown against airborne foes, ground bounce on crouching Counter Hit"
-Low Step Kick,f+LK,L,60,16,3,24,0,0,"wiff cancel to SM,EX,SA,CA",-,-,"Staggers standing opponent (+35) on Counter Hit, hard knockdown against airborne foes"
-High Step Kick,f+HK,H,150,10,4,17, +1,0,-,-,-,Floats airborne foes
-Fake Kick,HK > HK,-,-,-,-,13,-,-,-,-,-,Input HK between frames 1-3 of standing HK
-High Tiger Shot,qcf+P,H,75,12,-,30, +1, -4,-,-,-,"Projectile has 1 point of durability, knockdown on airborne foes"
-High Tiger Shot EX,qcf+PP,H,50x2,13,-,30,knockdown, +4,-,-,-,Projectile has 2 points of durability
-Low Tiger Shot,qcf+K,H,70,13,-,35, +4, -9,-,-,-,"Projectile has 1 point of durability, knockdown on airborne foes"
-Low Tiger Shot EX,qcf+KK,H,50x20,14,-,35,knockdown, -1,-,-,-,Projectile has 2 points of durability
-Tiger Uppercut LP,"f,d,df+LP",H,120(100),4,8,45,knockdown, -31,-,-,-,"Full body invulnerability frames 1-4, airborne frames 4-39"
-Tiger Uppercut MP,"f,d,df+MP",H,140(110),5,10,46,knockdown, -34,-,-,-,"Full body invulnerability frames 1-5, airborne frames 5-43"
-Tiger Uppercut HP,"f,d,df+HP",H,150(120),6,12,44,knockdown, -34,-,-,-,"Full body invulnerability frames 1-6, airborne frames 6-44"
-Tiger Uppercut EX,"f,d,df+PP",H,"80,30x4",4,13,48,knockdown, -34,-,-,-,"Full body invulnerability frames 1-10, airborne frames 8-45"
-Tiger Knee LK,"f,d,df+LK",H,"70,40",8,14,17,knockdown, -8,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-24"
-Tiger Knee MK,"f,d,df+MK",H,"70,50",8,16,18,knockdown, -11,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-26"
-Tiger Knee HK,"f,d,df+HK",H,"80,60",8,14,25,knockdown, -16,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-29"
-Tiger Knee EX,"f,d,df+KK",H,"40,40,30",9,15,14,wall bounce, +1,-,-,-,"Can be Super Charged: 51 frames for Super Art, airborne frames 11-26"
-Tiger Genocide,qcf+KKK,H,"50,30x4,40,20x5",3,11(20)23,47,hard knockdown,-42,-,-,-,"60 frame cinematic freeze before attack begins, full body invulnerability frames 1-5, airborne frames 16-89"
-Cross Art,qcf+MP+MK,H,20x5,9,2,50,switch,-30,-,-,-,"73 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,2,7,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,10,4,15,2,-2,-0,-0,-0,-0
+"Far HP",,"H",90,10,3,20,2,-2,-0,-0,-0,-0
+"Far LK",,"H",30,5,4,9,5,3,-0,-0,-0,-0
+"Far MK",,"H",60,9,3,16,2,-2,-0,-0,-0,-0
+"Far HK",,"H","50,40",5,5,21,1,-4,-0,-0,-0,-0
+"Close LP",,"H",30,6,3,6,8,4,"SM,EX,SA,CA",-0,-0,-0
+"Close MP",,"H",60,7,4,15,4,-2,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Close HP",,"H",90,10,3,17,5,0,-0,-0,-0,-0
+"Close LK",,"H","20,10",4,4,9,5,1,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Close MK",,"H","40,20",7,4,18,1,-3,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H","50,40",5,5,19,3,-4,-0,-0,-0,-0
+"Crouch LP",,"H",30,3,2,10,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,5,3,12,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,8,3,18,4,-1,-0,-0,-0,-0
+"Crouch LK",,"L",30,5,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,7,3,16,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,8,3,24,"sweep knockdown",-7,-0,-0,-0,-0
+"Jump up LP",,"M",40,5,12,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,6,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,7,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",40,8,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,5,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,7,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,7,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,11,10,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,7,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,7,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,7,10,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,7,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,6,12,44,"hard knockdown",-34,-0,-0,-0,"Similar to HP Tiger Uppercut, full body invulnerability frames 1-7"
+"Tiger Rage","LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Over the Back Toss","b+LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Heavy Tiger Elbow","f+HP","M",100,20,5,21,1,-5,-0,-0,-0,"Forces standing on hit, hard knockdown against airborne foes, ground bounce on crouching Counter Hit"
+"Low Step Kick","f+LK","L",60,16,3,24,0,0,"wiff cancel to SM,EX,SA,CA",-0,-0,"Staggers standing opponent (+35) on Counter Hit, hard knockdown against airborne foes"
+"High Step Kick","f+HK","H",150,10,4,17,1,0,-0,-0,-0,"Floats airborne foes"
+"Fake Kick","HK > HK",-0,-0,-0,-0,13,-0,-0,-0,-0,-0,"Input HK between frames 1-3 of standing HK"
+"High Tiger Shot","qcf+P","H",75,12,-0,30,1,-4,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"High Tiger Shot EX","qcf+PP","H","50x2",13,-0,30,"knockdown",4,-0,-0,-0,"Projectile has 2 points of durability"
+"Low Tiger Shot","qcf+K","H",70,13,-0,35,4,-9,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Low Tiger Shot EX","qcf+KK","H","50x20",14,-0,35,"knockdown",-1,-0,-0,-0,"Projectile has 2 points of durability"
+"Tiger Uppercut LP","f,d,df+LP","H","120(100)",4,8,45,"knockdown",-31,-0,-0,-0,"Full body invulnerability frames 1-4, airborne frames 4-39"
+"Tiger Uppercut MP","f,d,df+MP","H","140(110)",5,10,46,"knockdown",-34,-0,-0,-0,"Full body invulnerability frames 1-5, airborne frames 5-43"
+"Tiger Uppercut HP","f,d,df+HP","H","150(120)",6,12,44,"knockdown",-34,-0,-0,-0,"Full body invulnerability frames 1-6, airborne frames 6-44"
+"Tiger Uppercut EX","f,d,df+PP","H","80,30x4",4,13,48,"knockdown",-34,-0,-0,-0,"Full body invulnerability frames 1-10, airborne frames 8-45"
+"Tiger Knee LK","f,d,df+LK","H","70,40",8,14,17,"knockdown",-8,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-24"
+"Tiger Knee MK","f,d,df+MK","H","70,50",8,16,18,"knockdown",-11,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-26"
+"Tiger Knee HK","f,d,df+HK","H","80,60",8,14,25,"knockdown",-16,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, airborne frames 10-29"
+"Tiger Knee EX","f,d,df+KK","H","40,40,30",9,15,14,"wall bounce",1,-0,-0,-0,"Can be Super Charged: 51 frames for Super Art, airborne frames 11-26"
+"Tiger Genocide","qcf+KKK","H","50,30x4,40,20x5",3,"11(20)23",47,"hard knockdown",-42,-0,-0,-0,"60 frame cinematic freeze before attack begins, full body invulnerability frames 1-5, airborne frames 16-89"
+"Cross Art","qcf+MP+MK","H","20x5",9,2,50,"switch",-30,-0,-0,-0,"73 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

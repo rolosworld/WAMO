@@ -1,68 +1,68 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,6,2,5, +10, +6,"SM,EX,SA,CA,quick spin",-,-,-
-Far MP,,H,60,7,3,9, +9, +6,"SM,EX,SA,CA,quick spin",-,-,-
-Far HP,,H,90,9,3,17, +5,0,-,-,-,Forces standing on hit
-Close LP,,H,30,4,2,8, +7, +3,"SM,EX,SA,CA,quick spin",-,-,-
-Close MP,,H,60,6,4,10, +9, +4,"SM,EX,SA,CA,quick spin",-,-, +30 on crouching Counter Hit
-Close HP,,H,90,5,2,18, +5,0,"SM,EX,SA,CA",-,-,Forces standing on hit
-Crouch LP,,H,30,4,2,10, +5, +1,"SM,EX,SA,CA,quick spin",-,-,-
-Crouch MP,,H,60,7,2,10, +9, +5,"SM,EX,SA,CA,quick spin",-,-,-
-Crouch HP,,H,90,7,5,22,-1,-7,"SM,EX,SA,CA",-,-,Forces standing on hit
-Crouch LK,,L,30,5,2,10, +5, +1,"SM,EX,SA,CA,quick spin",-,-,-
-Crouch MK,,H,60,8,2,19,0,-4,"SM,EX,SA,CA,quick spin",-,-,-
-Crouch HK,,L,90,11,2,26,hard knockdown,-8,-,-,-,-
-Jump LP,,M,40,6,2,until ground+4f, +12, +4,-,-,-,-
-Jump MP,,M,70,6,3,until ground+4f, +16, +5,-,-,-,-
-Jump HP,,M,100,6,5,until ground+4f, +20, +8,-,-,-,-
-Jump LK,,M,40,8,4,until ground+4f, +12, +4,-,-,-,-
-Jump MK,,M,70,7,2,until ground+4f, +16, +5,-,-,-,-
-Jump HK,,M,100,8,2,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,H,120,8,2,26,hard knockdown,-9,-,-,-,"Similar to Shoulder Rush, full body invulnerability frames 1-9"
-Gut Wrencher,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Armlock Throw,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
-Chopping Straight,df+MP,M,80,17,2,15, +2, -3,-,-,-,Quick recoverable ground bounce on crouching Counter Hit
-Foot Stomp,db+LK,L,50,15,2,15, -5, -7,-,-,-,-
-Foot Stomp Right Hook,MP or HP during foot stomp,H,60,6,2,6,knockdown, -4,-,-,-,Juggle setup
-Ducking Body,f+MP or HP,H,60,16,2,15, +4,0,-,-,-,Slip (+25) on crouching counter hit
-Ducking Hook,LP during ducking body,H,40,8,2,15,0, -2,-,-,-,-
-Flicker,b during ducking hook,-,-,1,-,-,-,-,-,-,-,"Causes Steve to enter Flicker Stance, cancellable to Flicker Jab on frame 1"
--,f+LP,H,30,8,2,9, +6, +4,-,-,-,Input MP between frames 1-12 for follow-up attack
-British Edge,f+LP > MP,H,60,9,3,9, +5, +5,-,-,-,Slip (+29) on crouching Counter Hit
-Weaving A,LK,-,-,-,-,23,-,-,"weaving B, quick spin",-,-,Upper body invulnerability frames 1-20
-Weaving B,MK,-,-,-,-,26,-,-,"weaving A, quick spin",-,-,Upper body invulnerability frames 1-18
-Shoulder Rush,LP during weaving B,H,50,8,2,26, -2, -8,-,-,-,Forces standing on hit
-Uppercut,HP during shoulder rush,H,70,9,4,27,floats, -11,-,-,-,-
-Quick Spin,HK,-,-,-,-,25,-, -,-,-,-,Upper body invulnerability frames 1-19
-Spin Gut Punch,MP or HP during quick spin,H,100,9,2,18,knockdown,0,-,-,-,"Floats, crumples on standing Counter Hit, wall bounces on crouching Counter Hit"
-Spin Low Hook,d+MP or HP during quick spin,L,90,9,2,27,hard knockdown,9,-,-,-,-
-Sonic Fang LP,"f,d,df+LP",H,"50,60",14,2(5)4,23,knockdown, -7,-,-,-,-
-Sonic Fang MP,"f,d,df+MP",H,"50,60",14,2(5)4,23,knockdown, -7,-,-,-,-
-Sonic Fang HP,"f,d,df+HP",H,"50,60",18,2(5)4,23,knockdown, -7,-,-,-,-
-Sonic Fang EX,"f,d,df+PP",H,"70,50",15,2(5)4,23,floats, -7,-,-,-,Projectile invulnerable frames 1-25
-Swaying LK,qcb+LK,counter,140,-,-,66,-,-,-,-,-,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
-Swaying MK,qcb+MK,counter,140,-,-,66,-,-,-,-,-,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
-Swaying HK,qcb+HK,counter,140,-,-,66,-,-,-,-,-,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
-Swaying EX,qcb+KK,counter,180,-,-,66,-,-,-,-,-,"Counters all strikes to Steve’s upper body from frames 1-26, +3 advantage if counter is triggered"
-Hellfire LP,qcf+LP,H,60,16,-,30,0, -3,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
-Hellfire MP,qcf+MP,H,60,16,-,30,0, -3,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
-Hellfire HP,qcf+HP,H,60,16,-,30,0, -3,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
-Hellfire EX,qcf+PP,H,60x2,11,-,30, +8, +5,-,-,-,"Can be Super charged: 51 frames to perform Super Art, projectile has two hits of durability, projectile travels to 2/3 screen in 9 frames"
-Flicker,b+KKK,-,-,24,-,-,-,-,flicker jab,-,-,-
-Flicker Jab LP,LP during flicker,L,100,8,2,29, -6, -11,-,-,-,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit, ground bounce on aerial foe"
-Flicker Jab MP,MP during flicker,H,100,8,2,29, -6, -11,-,-,-,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit"
-Flicker Jab HP,HP during flicker,H,100,8,2,27, -3, -8,-,-,-,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit"
-Flicker Jab EX,PP during flicker,"L,H,H",50x3,8,2(8)2(9)2,18,knockdown, -11,-,-,-,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, ground bounce on aerial foe"
-Peekaboo,f+KKK,-,-,10,-,-,-,-,"LP, MP, HP",-,-,"Can move forward during stance, throw invulnerable during stance, cancel stance by crouching, Weaving A, Weaving B or Quick Spin"
-Patella Smash,LP during peekaboo,H,60,18,3,34, +8, -20,-,-,-,Armor frames 1-19
-Cutting Elbow,MP during peekaboo,H,70,13,6,23,floats, -6,-,-,-,Upper body invulnerability frames 1-14
-Albion Combination,HP during peekaboo,H,"30x2,40",21,4(10)3(23)2,21,ground bounce, -6,-,-,-,-
-Ducking LK,qcf+LK,-,-,-,-,25,-,-,"LP, MP, HP",-,-,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
-Ducking MK,qcf+MK,-,-,-,-,28,-,-,"LP, MP, HP",-,-,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
-Ducking HK,qcf+HK,-,-,-,-,30,-,-,"LP, MP, HP",-,-,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
-Ducking EX,qcf+KK,-,-,-,-,26,-,-,"LP, MP, HP",-,-,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
-Fox Hunt,LP during ducking,H,120,9,6,17, +3, -3,"EX,SA",-,-, +29 on crouching Counter Hit
-Skyscraper,MP during ducking,H,80,13,4,22,floats, -6,-,-,-,-
-Gatling Gun,HP during ducking,standing throw,200,15,2,26,hard knockdown,-,-,-,-,-
-Hellfire Rush,qcf+PPP,H,"60,20x9,70",3,-,70,hard knockdown,-42,-,-,-,"65-frame cinematic freeze before attack begins, full body invulnerability frames 1-7, projectile has one hit of durability, projectile travels 2/3 screen in 9 frames"
-Cross Art,qcf+MP+MK,H,"20,15,5x8,10x2",7,2(13)4(15)2(16)2,29,switch,-13,-,-,-,"64-frame cinematic freeze before attack begins, full body invulnerability frames 1-8, if first attack whiffs and 4th attack hits, +34 frame advantage"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,6,2,5,10,6,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Far MP",,"H",60,7,3,9,9,6,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Far HP",,"H",90,9,3,17,5,0,-0,-0,-0,"Forces standing on hit"
+"Close LP",,"H",30,4,2,8,7,3,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Close MP",,"H",60,6,4,10,9,4,"SM,EX,SA,CA,quick spin",-0,-0," +30 on crouching Counter Hit"
+"Close HP",,"H",90,5,2,18,5,0,"SM,EX,SA,CA",-0,-0,"Forces standing on hit"
+"Crouch LP",,"H",30,4,2,10,5,1,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Crouch MP",,"H",60,7,2,10,9,5,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Crouch HP",,"H",90,7,5,22,-1,-7,"SM,EX,SA,CA",-0,-0,"Forces standing on hit"
+"Crouch LK",,"L",30,5,2,10,5,1,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Crouch MK",,"H",60,8,2,19,0,-4,"SM,EX,SA,CA,quick spin",-0,-0,-0
+"Crouch HK",,"L",90,11,2,26,"hard knockdown",-8,-0,-0,-0,-0
+"Jump LP",,"M",40,6,2,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,6,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,6,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,8,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,7,2,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,8,2,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,8,2,26,"hard knockdown",-9,-0,-0,-0,"Similar to Shoulder Rush, full body invulnerability frames 1-9"
+"Gut Wrencher","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Armlock Throw","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Chopping Straight","df+MP","M",80,17,2,15,2,-3,-0,-0,-0,"Quick recoverable ground bounce on crouching Counter Hit"
+"Foot Stomp","db+LK","L",50,15,2,15,-5,-7,-0,-0,-0,-0
+"Foot Stomp Right Hook","MP or HP during foot stomp","H",60,6,2,6,"knockdown",-4,-0,-0,-0,"Juggle setup"
+"Ducking Body","f+MP or HP","H",60,16,2,15,4,0,-0,-0,-0,"Slip (+25) on crouching counter hit"
+"Ducking Hook","LP during ducking body","H",40,8,2,15,0,-2,-0,-0,-0,-0
+"Flicker","b during ducking hook",-0,-0,1,-0,-0,-0,-0,-0,-0,-0,"Causes Steve to enter Flicker Stance, cancellable to Flicker Jab on frame 1"
+-0,"f+LP","H",30,8,2,9,6,4,-0,-0,-0,"Input MP between frames 1-12 for follow-up attack"
+"British Edge","f+LP > MP","H",60,9,3,9,5,5,-0,-0,-0,"Slip (+29) on crouching Counter Hit"
+"Weaving A","LK",-0,-0,-0,-0,23,-0,-0,"weaving B, quick spin",-0,-0,"Upper body invulnerability frames 1-20"
+"Weaving B","MK",-0,-0,-0,-0,26,-0,-0,"weaving A, quick spin",-0,-0,"Upper body invulnerability frames 1-18"
+"Shoulder Rush","LP during weaving B","H",50,8,2,26,-2,-8,-0,-0,-0,"Forces standing on hit"
+"Uppercut","HP during shoulder rush","H",70,9,4,27,"floats",-11,-0,-0,-0,-0
+"Quick Spin","HK",-0,-0,-0,-0,25,-0,-0,-0,-0,-0,"Upper body invulnerability frames 1-19"
+"Spin Gut Punch","MP or HP during quick spin","H",100,9,2,18,"knockdown",0,-0,-0,-0,"Floats, crumples on standing Counter Hit, wall bounces on crouching Counter Hit"
+"Spin Low Hook","d+MP or HP during quick spin","L",90,9,2,27,"hard knockdown",9,-0,-0,-0,-0
+"Sonic Fang LP","f,d,df+LP","H","50,60",14,"2(5)4",23,"knockdown",-7,-0,-0,-0,-0
+"Sonic Fang MP","f,d,df+MP","H","50,60",14,"2(5)4",23,"knockdown",-7,-0,-0,-0,-0
+"Sonic Fang HP","f,d,df+HP","H","50,60",18,"2(5)4",23,"knockdown",-7,-0,-0,-0,-0
+"Sonic Fang EX","f,d,df+PP","H","70,50",15,"2(5)4",23,"floats",-7,-0,-0,-0,"Projectile invulnerable frames 1-25"
+"Swaying LK","qcb+LK","counter",140,-0,-0,66,-0,-0,-0,-0,-0,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
+"Swaying MK","qcb+MK","counter",140,-0,-0,66,-0,-0,-0,-0,-0,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
+"Swaying HK","qcb+HK","counter",140,-0,-0,66,-0,-0,-0,-0,-0,"Counters all strikes to Steve’s upper body from frames 1-25, +3 advantage if counter is triggered"
+"Swaying EX","qcb+KK","counter",180,-0,-0,66,-0,-0,-0,-0,-0,"Counters all strikes to Steve’s upper body from frames 1-26, +3 advantage if counter is triggered"
+"Hellfire LP","qcf+LP","H",60,16,-0,30,0,-3,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
+"Hellfire MP","qcf+MP","H",60,16,-0,30,0,-3,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
+"Hellfire HP","qcf+HP","H",60,16,-0,30,0,-3,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has one hit of durability, projectile travels to 1/2 screen in 9 frames"
+"Hellfire EX","qcf+PP","H","60x2",11,-0,30,8,5,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art, projectile has two hits of durability, projectile travels to 2/3 screen in 9 frames"
+"Flicker","b+KKK",-0,-0,24,-0,-0,-0,-0,"flicker jab",-0,-0,-0
+"Flicker Jab LP","LP during flicker","L",100,8,2,29,-6,-11,-0,-0,-0,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit, ground bounce on aerial foe"
+"Flicker Jab MP","MP during flicker","H",100,8,2,29,-6,-11,-0,-0,-0,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit"
+"Flicker Jab HP","HP during flicker","H",100,8,2,27,-3,-8,-0,-0,-0,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, Slip (+10) on crouching Counter Hit"
+"Flicker Jab EX","PP during flicker","L,H,H","50x3",8,"2(8)2(9)2",18,"knockdown",-11,-0,-0,-0,"Recovery can be canceled 1 frame earlier if canceled into Flicker Jab, ground bounce on aerial foe"
+"Peekaboo","f+KKK",-0,-0,10,-0,-0,-0,-0,"LP, MP, HP",-0,-0,"Can move forward during stance, throw invulnerable during stance, cancel stance by crouching, Weaving A, Weaving B or Quick Spin"
+"Patella Smash","LP during peekaboo","H",60,18,3,34,8,-20,-0,-0,-0,"Armor frames 1-19"
+"Cutting Elbow","MP during peekaboo","H",70,13,6,23,"floats",-6,-0,-0,-0,"Upper body invulnerability frames 1-14"
+"Albion Combination","HP during peekaboo","H","30x2,40",21,"4(10)3(23)2",21,"ground bounce",-6,-0,-0,-0,-0
+"Ducking LK","qcf+LK",-0,-0,-0,-0,25,-0,-0,"LP, MP, HP",-0,-0,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
+"Ducking MK","qcf+MK",-0,-0,-0,-0,28,-0,-0,"LP, MP, HP",-0,-0,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
+"Ducking HK","qcf+HK",-0,-0,-0,-0,30,-0,-0,"LP, MP, HP",-0,-0,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
+"Ducking EX","qcf+KK",-0,-0,-0,-0,26,-0,-0,"LP, MP, HP",-0,-0,"Upper body projectile invulnerability frames 1-21, input LP/MP/HP between frames 1-20 for follow-up attack"
+"Fox Hunt","LP during ducking","H",120,9,6,17,3,-3,"EX,SA",-0,-0," +29 on crouching Counter Hit"
+"Skyscraper","MP during ducking","H",80,13,4,22,"floats",-6,-0,-0,-0,-0
+"Gatling Gun","HP during ducking","standing throw",200,15,2,26,"hard knockdown",-0,-0,-0,-0,-0
+"Hellfire Rush","qcf+PPP","H","60,20x9,70",3,-0,70,"hard knockdown",-42,-0,-0,-0,"65-frame cinematic freeze before attack begins, full body invulnerability frames 1-7, projectile has one hit of durability, projectile travels 2/3 screen in 9 frames"
+"Cross Art","qcf+MP+MK","H","20,15,5x8,10x2",7,"2(13)4(15)2(16)2",29,"switch",-13,-0,-0,-0,"64-frame cinematic freeze before attack begins, full body invulnerability frames 1-8, if first attack whiffs and 4th attack hits, +34 frame advantage"

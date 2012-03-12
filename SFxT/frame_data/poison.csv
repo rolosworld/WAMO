@@ -1,54 +1,54 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,6,3,7, +7, +3,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,8,4,19, +2,-1,"SM,EX,SA,CA",-,-,-
-Far HP,,H,90,14,3,22,0,-5,-,-,-,-
-Far LK,,H,30,5,2,11, +4,0,-,-,-,-
-Far MK,,H,60,6,3,13, +5, +1,"SM,EX,SA,CA",-,-,-
-Far HK,,H,90,14,2,20, +3,-2,-,-,-,-
-Close LP,,H,30,3,2,10, +5, +1,-,-,-,Rapid fire cancelable into light attacks
-Close MP,,H,30x2,6,2(9)2,15, +4,0,"SM,EX,SA,CA",-,-,-
-Close HP,,H,90,6,4,18, +4,-2,"SM,EX,SA,CA",-,-,forces standing
-Close LK,,H,30,4,3,10, +3,0,-,-,-,Rapid fire cancelable into light attacks
-Close MK,,H,60,6,3,13, +5, +1,"SM,EX,SA,CA",-,-,-
-Close HK,,H,90,6,2,29,-5,-11,"SM,EX,SA,CA",-,-,forces standing
-Crouch LP,,H,30,4,3,7, +7, +3,"SM,EX,SA,CA",-,-,-
-Crouch MP,,H,60,8,3,16, +4,0,"SM,EX,SA,CA",-,-,-
-Crouch HP,,H,90,9,4,30,-8,-14,"SM,EX,SA,CA",-,-,-
-Crouch LK,,L,30,5,4,9, +4,0,-,-,-,-
-Crouch MK,,L,60,6,2,19,0,-4,"SM,EX,SA,CA",-,-,-
-Crouch HK,,L,90,10,2,30,sweep,-12,"SM,EX,SA,CA",-,-,-
-Jump LP,,M,40,6,3,until ground+4f, +12, +4,-,-,-,-
-Jump MP,,M,70,7,3,until ground+4f, +16, +5,-,-,-,-
-Jump HP,,M,100,8,3,until ground+4f, +20, +8,-,-,-,-
-Jump LK,,M,40,5,5,until ground+4f, +12, +4,-,-,-,-
-Jump MK,,M,70,6,5,until ground+4f, +16, +5,-,-,-,-
-Jump HK,,M,100,6,2(1)4,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, floats opponent while switching characters"
-Cross Cancel,,H,140,8,2(2)3(2)2(4)2,52,-,-41,-,-,-,"Full body invulnerability frames 1-9, similar to Kissed by a Goddess"
-Slapshot,LP+LK,throw,150,7,2,20,hard knockdown,-,-,-,-,-
-Frankensteiner,b+LP+LK,throw,140,7,2,20,hard knockdown,-,-,-,-,-
-Elbow Drop,f+MP,M,60,17,6,18,-6,-11,-,-,-,"Knocks down airborne foes, airborne frames 9-25"
-Backflip,KK,-,-,-,-58,-,-,-,-,-,-,Full body invulnerable frames 1-44
-Whip of Love,qcb+P,H,40,13,3,22,0, -3,-,-,-,"Input P between frames 7-10 for 2nd stage, forces standing on hit, knocks down airborne foes"
-Whip of Love 2nd hit,qcb+P (or just P),H,50,13,3,26, -4, -7,-,-,-,"Input qcb+P between frames 7-15 to trigger third stage, knocks down airborne foes"
-Whip of Love 3rd hit,qcb+P,H,80,13,5,28,hard knockdown, -11,-,-,-,Causes hard knockdown
-Whip of Love EX,qcb+PP,H,40,14,3,22,0, -3,-,-,-,"Input P between frames 1-9 for 2nd stage, knocks down airborne foes"
-Whip of Love EX 2nd hit,P during EX WoL,H,30,13,3,32,-10, -13,-,-,-,Input qcb+P between frames 1-30 for 3rd stage
-Whip of Love EX 3rd hit,qcb+P during 2nd hit,H,30,13,5,43,ground bounce, -26,-,-,-,Input qcb+P between frames 1-32 for final stage
-Whip of Love EX 4th hit,qcb+P during 3rd hit,H,40,11,3,25,float, -6,-,-,-,-
-Kissed by a Goddess LK,"f,d,df+LK",H,100,5,2(7)2,60,knockdown, -10,-,-,-,Strike invulnerability frames 1-6
-Kissed by a Goddess MK,"f,d,df+MK",H,120,8,2(2)3(2)2,61,knockdown, -41,-,-,-,Strike invulnerability frames 1-9
-Kissed by a Goddess HK,"f,d,df+HK",H,140,12,2(2)3(2)2(4)2,56,knockdown, -36,-,-,-,knocks down
-Kissed by a Goddess EX,"f,d,df+EX",H,160,6,2(2)3(2)2(4)2,52,knockdown, -38,-,-,-,Invulnerability frames 1-22
-Love Me Tender LK,qcb+LK,H,50,29,2,18, +5, +2,-,-,-,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
-Love Me Tender MK,qcb+MK,H,50,29,2,17, +6, +3,-,-,-,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
-Love Me Tender HK,qcb+HK,H,50,29,2,17, +6, +3,-,-,-,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
-Love Me Tender EX,qcb+KK,M,50,29,2,17, +6, +3,-,-,-,"Projectile invulnerability frames 1-31, tracks opponent, press K on hit for follow-up throw, knocks down airborne opponents, airborne on 1st frame"
-Love Me Tender > Throw,K on hit,-,100,-,-,119,hard knockdown,-,-,-,-,-
-Love Me Tender EX > Throw,K on hit,-,150,-,-,119,hard knockdown,-,-,-,-,-
-Aeolus Edge LP,qcf+LP,H,50,16,-,35, -4, -7,-,-,-,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
-Aeolus Edge MP,qcf+MP,H,60,17,-,31,0, -3,-,-,-,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
-Aeolus Edge HP,qcf+HP,H,70,21,-,28, +3,0,-,-,-,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
-Aeolus Edge EX,qcf+PP,H,50x2,9,-,35, +6, +1,-,-,-,"Can be Super Charged 51 frames for Super Art, projectile has 2 hit points, remains active for 40 frames, knocks down airborne foes"
-Love Storm,qcf+PPP,H,50-310,10,-,41,hard knockdown,-13,-,-,-,"72 frame freeze before attack begins, invulnerability frames 1-9, projectile has 1 hit point, projectile must hit opponent before end of recovery to continue attack"
-Cross Art,qcf+MP+MK,H,100,9,2,50,switch,-30,-,-,-,"62 frame freeze before attack begins, invulnerability frames 1-10"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,6,3,7,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,8,4,19,2,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,14,3,22,0,-5,-0,-0,-0,-0
+"Far LK",,"H",30,5,2,11,4,0,-0,-0,-0,-0
+"Far MK",,"H",60,6,3,13,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Far HK",,"H",90,14,2,20,3,-2,-0,-0,-0,-0
+"Close LP",,"H",30,3,2,10,5,1,-0,-0,-0,"Rapid fire cancelable into light attacks"
+"Close MP",,"H","30x2",6,"2(9)2",15,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,6,4,18,4,-2,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Close LK",,"H",30,4,3,10,3,0,-0,-0,-0,"Rapid fire cancelable into light attacks"
+"Close MK",,"H",60,6,3,13,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,6,2,29,-5,-11,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch LP",,"H",30,4,3,7,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,8,3,16,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,9,4,30,-8,-14,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LK",,"L",30,5,4,9,4,0,-0,-0,-0,-0
+"Crouch MK",,"L",60,6,2,19,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,10,2,30,"sweep",-12,"SM,EX,SA,CA",-0,-0,-0
+"Jump LP",,"M",40,6,3,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,7,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,8,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,5,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,6,"2(1)4","until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, floats opponent while switching characters"
+"Cross Cancel",,"H",140,8,"2(2)3(2)2(4)2",52,-0,-41,-0,-0,-0,"Full body invulnerability frames 1-9, similar to Kissed by a Goddess"
+"Slapshot","LP+LK","throw",150,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Frankensteiner","b+LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Elbow Drop","f+MP","M",60,17,6,18,-6,-11,-0,-0,-0,"Knocks down airborne foes, airborne frames 9-25"
+"Backflip","KK",-0,-0,-0,-58,-0,-0,-0,-0,-0,-0,"Full body invulnerable frames 1-44"
+"Whip of Love","qcb+P","H",40,13,3,22,0,-3,-0,-0,-0,"Input P between frames 7-10 for 2nd stage, forces standing on hit, knocks down airborne foes"
+"Whip of Love 2nd hit","qcb+P (or just P)","H",50,13,3,26,-4,-7,-0,-0,-0,"Input qcb+P between frames 7-15 to trigger third stage, knocks down airborne foes"
+"Whip of Love 3rd hit","qcb+P","H",80,13,5,28,"hard knockdown",-11,-0,-0,-0,"Causes hard knockdown"
+"Whip of Love EX","qcb+PP","H",40,14,3,22,0,-3,-0,-0,-0,"Input P between frames 1-9 for 2nd stage, knocks down airborne foes"
+"Whip of Love EX 2nd hit","P during EX WoL","H",30,13,3,32,-10,-13,-0,-0,-0,"Input qcb+P between frames 1-30 for 3rd stage"
+"Whip of Love EX 3rd hit","qcb+P during 2nd hit","H",30,13,5,43,"ground bounce",-26,-0,-0,-0,"Input qcb+P between frames 1-32 for final stage"
+"Whip of Love EX 4th hit","qcb+P during 3rd hit","H",40,11,3,25,"float",-6,-0,-0,-0,-0
+"Kissed by a Goddess LK","f,d,df+LK","H",100,5,"2(7)2",60,"knockdown",-10,-0,-0,-0,"Strike invulnerability frames 1-6"
+"Kissed by a Goddess MK","f,d,df+MK","H",120,8,"2(2)3(2)2",61,"knockdown",-41,-0,-0,-0,"Strike invulnerability frames 1-9"
+"Kissed by a Goddess HK","f,d,df+HK","H",140,12,"2(2)3(2)2(4)2",56,"knockdown",-36,-0,-0,-0,"knocks down"
+"Kissed by a Goddess EX","f,d,df+EX","H",160,6,"2(2)3(2)2(4)2",52,"knockdown",-38,-0,-0,-0,"Invulnerability frames 1-22"
+"Love Me Tender LK","qcb+LK","H",50,29,2,18,5,2,-0,-0,-0,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
+"Love Me Tender MK","qcb+MK","H",50,29,2,17,6,3,-0,-0,-0,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
+"Love Me Tender HK","qcb+HK","H",50,29,2,17,6,3,-0,-0,-0,"Press K on hit for follow-up throw, knocks down airborne foes, airborne on 1st frame"
+"Love Me Tender EX","qcb+KK","M",50,29,2,17,6,3,-0,-0,-0,"Projectile invulnerability frames 1-31, tracks opponent, press K on hit for follow-up throw, knocks down airborne opponents, airborne on 1st frame"
+"Love Me Tender > Throw","K on hit",-0,100,-0,-0,119,"hard knockdown",-0,-0,-0,-0,-0
+"Love Me Tender EX > Throw","K on hit",-0,150,-0,-0,119,"hard knockdown",-0,-0,-0,-0,-0
+"Aeolus Edge LP","qcf+LP","H",50,16,-0,35,-4,-7,-0,-0,-0,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
+"Aeolus Edge MP","qcf+MP","H",60,17,-0,31,0,-3,-0,-0,-0,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
+"Aeolus Edge HP","qcf+HP","H",70,21,-0,28,3,0,-0,-0,-0,"Can be Super Charged 51 frames for EX version or 100 for Super Arts, projectile has 1 hit point, remains active for 40 frames, knocks down airborne foes"
+"Aeolus Edge EX","qcf+PP","H","50x2",9,-0,35,6,1,-0,-0,-0,"Can be Super Charged 51 frames for Super Art, projectile has 2 hit points, remains active for 40 frames, knocks down airborne foes"
+"Love Storm","qcf+PPP","H","50-310",10,-0,41,"hard knockdown",-13,-0,-0,-0,"72 frame freeze before attack begins, invulnerability frames 1-9, projectile has 1 hit point, projectile must hit opponent before end of recovery to continue attack"
+"Cross Art","qcf+MP+MK","H",100,9,2,50,"switch",-30,-0,-0,-0,"62 frame freeze before attack begins, invulnerability frames 1-10"

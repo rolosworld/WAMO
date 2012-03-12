@@ -1,82 +1,82 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,,H,30,5,2,8, +7, +3,"SM,EX,SA,CA",-,-,-
-Far MP,,H,60,10,2,20,-1,-5,"SM,EX,SA,CA",-,-,Can hit behind Xiaoyu
-Far HP,,H,90,15,8,17,0,-5,-,-,-,-
-Far LK,,H,30,7,2,13, +2,-2,-,-,-,-
-Far MK,,H,60,14,4,12, +5, +1,-,-,-,-
-Far HK,,H,90,12,2,29,knockdown,-11,-,-,-,-
-Close LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
-Close MP,,H,30x2,5,4,17, +2,-2,"SM,EX,SA,CA",-,-,-
-Close HP,,H,90,11,2,22, +1,-4,"SM,EX,SA,CA",-,-,-
-Close LK,,H,30,4,3,9, +5, +1,-,-,-,-
-Close MK,,H,60,7,4,14, +3,-1,"SM,EX,SA,CA",-,-,-
-Close HK,,H,90,11,3,21, +1,-4,-,-,-,-
-Crouch LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
-Crouch MP,,"H,L",30x2,6,2(12)2,14, +5, +1,-,-,-,-
-Crouch HP,,H,90,6,4,26,-4,-10,"SM,EX,SA,CA",-,-,forces standing
-Crouch LK,,L,30,5,3,13, +1,-3,"SM,EX,SA,CA",-,-,-
-Crouch MK,,L,60,6,3,23,-5,-9,"SM,EX,SA,CA",-,-,-
-Crouch HK,,H,90,8,2,35,sweep knockdown,-17,"SM,EX,SA,CA",-,-,-
-Jump LP,,M,40,8,5,until ground+4f, +12, +4,-,-,-,-
-Jump MP,,M,70,8,5,until ground+4f, +16, +5,-,-,-,-
-Jump HP,,M,100,10,3,until ground+4f, +20, +8,-,-,-,-
-Jump LK,,M,40,7,7,until ground+4f, +12, +4,-,-,-,-
-Jump MK,,M,70,8,2,until ground+4f, +16, +5,-,-,-,-
-Jump HK,,M,"60,40",10,5(5)5,until ground+4f, +20, +8,-,-,-,-
-Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,,H,100,21,2,22,ground bounce,-2,-,-,-,"Similar to Cyanide, full body invulnerability frames 1-23"
-Jade,LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
-So Shoe Me ,b+LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,"Hard knockdown, ends in Rain Dance"
-Cyanide,f+MK,M,50,22,4,15,ground bounces,3,-,-,-,Airborne frames 8-28
-Storming FLower,qcf+LP,H,90,15,4,24,knockdown, -6,-,-,-,Attack has 1 point of projectile durability
-Fortune,qcf+MP,H,50,25,4,18,3,0,-,-,-,"Ends in Rain Dance, knockdown on airborne foes"
-Fortune 2nd hit,P during fortune,H,70,17,4,21,knockdown, -3,-,-,-,-
-Fortune Cookie,qcf+HP,H,"20x2,40",12,2(9)4(7)2,27, +10, -7,-,-,-,"Ends in Rain Dance, knockdown on airborne foes"
-Fortune Cookie 2nd hit,P during fortune cookie,H,50,21,4,18, +3,0,-,-,-,Ends in Rain Dance
-Fortune Cookie 3rd hit,P during fortune cookie 2nd hit,H,88,17,4,21,knockdown, -3,-,-,-,"Ends in normal stance"
-Fortune Cookie EX,qcf+PP,H,30x3,8,2(9)4(7)2,27, +10, -7,-,-,-,"Ends in Rain Dance, knockdown on airborne foes"
-Fortune Cookie EX 2nd hit,P during EX fortune cookie,H,50,21,4,18, +3,0,-,-,-,Ends in Rain Dance
-Fortune Cookie EX 3rd hit,P during fortune cookie 2nd hit,H,50,17,4,21,wall bounce, -3,-,-,-,Ends in normal stance
-Shooting Star LK,qcf+LK,H,30x4,38,11,8,hard knockdown, +13,-,-,-,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
-Shooting Star MK,qcf+MK,H,30x4,38,11,8,hard knockdown, +13,-,-,-,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
-Shooting Star HK,qcf+HK,H,30x4,38,11,8,hard knockdown, +13,-,-,-,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
-Shooting Star EX,qcf+KK,M,30x4,30,8,8,ground bounce, -1,-,-,-,"Upper body invulnerable and lower body projectile invulnerable frames 1-8, airborne frames 9-86, targets foe’s position, knockdown on airborne foes"
-Hakkesho LP,qcb+LP,H,50x2,14,4(14)2,26, +1, -6,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
-Hakkesho MP,qcb+MP,H,50x2,22,4(14)2,26, +1, -6,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
-Hakkesho HP,qcb+HP,H,50x2,29,4(14)2,26, +1, -6,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
-Hakkesho EX,qcb+PP,H,"50x2,30x2",33,4(14)2,"20,26 on wiff/block", +6, -6,-,-,-,"Can be Super Charged: 51 frames for Super Art, 1st hit knockdown on airborne opponent, 2nd hit forces airborne opponent to stand, 3rd and 4th hits only occur if 2nd hit connects, forces standing on hit"
-Phoenix Stance,d+PPP,-,-,8,-,-,-,-,-,-,-,-
-Phoenix Stance(backdash),"b,b",-,-,-,-,25,-,-,-,-,-,Full body invulnerability frames 1-8
-Phoenix Stance(forward dash),"f,f",-,-,-,-,25,-,-,-,-,-,-
-Wave Crest,P,H,70,7,3,22,floats, -3,-,-,-,-
-Wave Crest EX,PP,H,120,7,3,22,floats, -3,-,-,-,Full body invulnerability frames 1-6
-Double Map Sweep LK,LK,L,50,11,2,32,sweep knockdown, -2,-,-,-,-
-Double Map Sweep MK,MK,L,40x2,11,2(19)2,34,sweep knockdown, -4,-,-,-,-
-Double Map Sweep HK,HK,L,30x3,11,2(19)2(19)2,36,sweep knockdown, -6,-,-,-,-
-Double Map Sweep EX,KK,L,50x3,11,2(19)2(19)2,27, +4, -1,-,-,-,-
-Flower Power LP,qcb+LK,H,40x2,18,2(8)2,24, +1, -4,-,-,-,"Airborne frames 14-33, knockdown on airborne foes"
-Flower Power MP,qcb+MK,H,30x4,22,2(8)2(22)2(8)2,22, +3, -2,-,-,-,"Airborne frames 17-37, 51-69, knockdown on airborne foes"
-Flower Power HP,qcb+HK,H,20x6,26,2(8)2(22)2(9)2(20)2(8)2,20, +5,0,-,-,-,"Airborne frames 21-41, 55-72, 88-107, knockdown on airborne foes"
-Flower Power EX,qcb+KK,H,"20x5,40",19,2(8)2(22)2(9)2(20)2(8)2,24,ground bounce, -4,-,-,-,"Airborne frames 15-34, 48-66, 81-100, knockdown on airborne foes"
-Phoenix Talon LK,qcf+LK,H,40x3,5,4(12)2(13)2,27,knockdown, +3,-,-,-,Full body strike invulnerability frames 1-5
-Phoenix Talon MK,qcf+MK,H,"40x2,50",8,4(12)2(13)2,30,knockdown, -4,-,-,-,Full body strike invulnerability frames 6-8
-Phoenix Talon HK,qcf+HK,H,50x3,8,4(12)2(13)2,33,knockdown, -7,-,-,-,Full body strike invulnerability frames 6-8
-Phoenix Talon EX,qcf+KK,H,"50x2,80",8,4(12)2(13)2,33,knockdown, -3,-,-,-,Full body invulnerability frames 1-11
-Rain Dance,b+KKK,-,-,8,-,-,-,-,-,-,-,-
-Rain Dance(backdash),"b,b",-,-,-,-,23,-,-,-,-,-,"Full body invulnerability frames 1-8, airborne frames 9-19"
-Rain Dance(forward dash),"f,f",-,-,-,-,17,-,-,-,-,-,-
-Mistrust LK,LK,H,80,7,3,21,floats, -2,-,-,-,Reflects projectiles forward frames 7-9
-Mistrust MK,MK,H,80,12,3,21,floats, -2,-,-,-,Reflects projectiles 45 degrees upward frames 7-9
-Mistrust HK,HK,H,80,15,3,21,floats, -2,-,-,-,Reflects projectiles 80 degrees upward frames 7-9
-Mistrust EX,KK,H,130,8,3,21,floats, -2,-,-,-,"Full body invulnerability frames 1-10, reflects projectiles forward frames 8-10"
-Dark & Stormy,P,H,30x3,10,3(18)3(18)3,32,floats, -13,-,-,-,Final hit reflects projectiles during active frames
-Dark & Stormy EX,PP,H,"40x2,60",10,3(18)3(18)3,32,floats, -13,-,-,-,"Armor frames 1-54, final hit reflects projectiles"
-Turn of Fortune,P before 1st hit of dark & stormy,H,"30,20x4",13,3(15)3(8)3(4)3,21,3, -7,-,-,-,"Begins on frame 13 of Dark & Stormy, input d between frames 1-55 to end in Phoenix"
-Turn of Fortune EX,K before 1st hit of EX dark & stormy,H,"40,30x4",13,(3(15)3(8)3(4)3,31, -1, -12,-,-,-,"Armor frames 1-50, begins on frame 13 of EX Dark & Stormy, input d between frames 1-55 to end in Phoenix"
-California Roll,qcf+K,-,-,-,-,32,-, -,-,-,-,Input K between frames 1-26 for follow-up attack
-California Roll EX,qcf+KK,-,-,-,-,33,-,-,-,-,-,"Strike invulnerability frames 1-26, input K between frames 1-26 for follow-up attack"
-Cyclone Left,K during california roll,H,80,12,9,24,floats, -11,-,-,-,Crushes standing strikes frames 12-20
-Back Layout,qcb+K,M,"100,80(50)",28,10,17,hard knockdown, -6,-,-,-,"Input K between frames 1-27 to cancel attack, airborne frames 15-37"
-Back Layout EX,qcb+KK,M,"100,80(50)",28,10,17,hard knockdown, -7,-,-,-,"Input K between frames 1-27 to cancel attack, airborne frames 15-37"
-Hakkesho Combo,qcb+PPP,H,"50x2,30x5,10x2,40",8,2(7)1,66,hard knockdown,-45,-,-,-,"77 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
-Cross Art,qcf+MP+MK,H,20x5,9,2,58,switch,-30,-,-,-,"75 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,2,8,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,10,2,20,-1,-5,"SM,EX,SA,CA",-0,-0,"Can hit behind Xiaoyu"
+"Far HP",,"H",90,15,8,17,0,-5,-0,-0,-0,-0
+"Far LK",,"H",30,7,2,13,2,-2,-0,-0,-0,-0
+"Far MK",,"H",60,14,4,12,5,1,-0,-0,-0,-0
+"Far HK",,"H",90,12,2,29,"knockdown",-11,-0,-0,-0,-0
+"Close LP",,"H",30,4,3,8,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Close MP",,"H","30x2",5,4,17,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,11,2,22,1,-4,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"H",30,4,3,9,5,1,-0,-0,-0,-0
+"Close MK",,"H",60,7,4,14,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,11,3,21,1,-4,-0,-0,-0,-0
+"Crouch LP",,"H",30,4,3,8,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H,L","30x2",6,"2(12)2",14,5,1,-0,-0,-0,-0
+"Crouch HP",,"H",90,6,4,26,-4,-10,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch LK",,"L",30,5,3,13,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,6,3,23,-5,-9,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"H",90,8,2,35,"sweep knockdown",-17,"SM,EX,SA,CA",-0,-0,-0
+"Jump LP",,"M",40,8,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,8,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,10,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,7,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,8,2,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M","60,40",10,"5(5)5","until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",100,21,2,22,"ground bounce",-2,-0,-0,-0,"Similar to Cyanide, full body invulnerability frames 1-23"
+"Jade","LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"So Shoe Me ","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,"Hard knockdown, ends in Rain Dance"
+"Cyanide","f+MK","M",50,22,4,15,"ground bounces",3,-0,-0,-0,"Airborne frames 8-28"
+"Storming FLower","qcf+LP","H",90,15,4,24,"knockdown",-6,-0,-0,-0,"Attack has 1 point of projectile durability"
+"Fortune","qcf+MP","H",50,25,4,18,3,0,-0,-0,-0,"Ends in Rain Dance, knockdown on airborne foes"
+"Fortune 2nd hit","P during fortune","H",70,17,4,21,"knockdown",-3,-0,-0,-0,-0
+"Fortune Cookie","qcf+HP","H","20x2,40",12,"2(9)4(7)2",27,10,-7,-0,-0,-0,"Ends in Rain Dance, knockdown on airborne foes"
+"Fortune Cookie 2nd hit","P during fortune cookie","H",50,21,4,18,3,0,-0,-0,-0,"Ends in Rain Dance"
+"Fortune Cookie 3rd hit","P during fortune cookie 2nd hit","H",88,17,4,21,"knockdown",-3,-0,-0,-0,"Ends in normal stance"
+"Fortune Cookie EX","qcf+PP","H","30x3",8,"2(9)4(7)2",27,10,-7,-0,-0,-0,"Ends in Rain Dance, knockdown on airborne foes"
+"Fortune Cookie EX 2nd hit","P during EX fortune cookie","H",50,21,4,18,3,0,-0,-0,-0,"Ends in Rain Dance"
+"Fortune Cookie EX 3rd hit","P during fortune cookie 2nd hit","H",50,17,4,21,"wall bounce",-3,-0,-0,-0,"Ends in normal stance"
+"Shooting Star LK","qcf+LK","H","30x4",38,11,8,"hard knockdown",13,-0,-0,-0,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
+"Shooting Star MK","qcf+MK","H","30x4",38,11,8,"hard knockdown",13,-0,-0,-0,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
+"Shooting Star HK","qcf+HK","H","30x4",38,11,8,"hard knockdown",13,-0,-0,-0,"Upper body invulnerable frames 1-13, airborne frames 14-48, ends in Rain Dance on block/whiff, knockdown on airborne foes"
+"Shooting Star EX","qcf+KK","M","30x4",30,8,8,"ground bounce",-1,-0,-0,-0,"Upper body invulnerable and lower body projectile invulnerable frames 1-8, airborne frames 9-86, targets foe’s position, knockdown on airborne foes"
+"Hakkesho LP","qcb+LP","H","50x2",14,"4(14)2",26,1,-6,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
+"Hakkesho MP","qcb+MP","H","50x2",22,"4(14)2",26,1,-6,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
+"Hakkesho HP","qcb+HP","H","50x2",29,"4(14)2",26,1,-6,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
+"Hakkesho EX","qcb+PP","H","50x2,30x2",33,"4(14)2","20,26 on wiff/block",6,-6,-0,-0,-0,"Can be Super Charged: 51 frames for Super Art, 1st hit knockdown on airborne opponent, 2nd hit forces airborne opponent to stand, 3rd and 4th hits only occur if 2nd hit connects, forces standing on hit"
+"Phoenix Stance","d+PPP",-0,-0,8,-0,-0,-0,-0,-0,-0,-0,-0
+"Phoenix Stance(backdash)","b,b",-0,-0,-0,-0,25,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-8"
+"Phoenix Stance(forward dash)","f,f",-0,-0,-0,-0,25,-0,-0,-0,-0,-0,-0
+"Wave Crest","P","H",70,7,3,22,"floats",-3,-0,-0,-0,-0
+"Wave Crest EX","PP","H",120,7,3,22,"floats",-3,-0,-0,-0,"Full body invulnerability frames 1-6"
+"Double Map Sweep LK","LK","L",50,11,2,32,"sweep knockdown",-2,-0,-0,-0,-0
+"Double Map Sweep MK","MK","L","40x2",11,"2(19)2",34,"sweep knockdown",-4,-0,-0,-0,-0
+"Double Map Sweep HK","HK","L","30x3",11,"2(19)2(19)2",36,"sweep knockdown",-6,-0,-0,-0,-0
+"Double Map Sweep EX","KK","L","50x3",11,"2(19)2(19)2",27,4,-1,-0,-0,-0,-0
+"Flower Power LP","qcb+LK","H","40x2",18,"2(8)2",24,1,-4,-0,-0,-0,"Airborne frames 14-33, knockdown on airborne foes"
+"Flower Power MP","qcb+MK","H","30x4",22,"2(8)2(22)2(8)2",22,3,-2,-0,-0,-0,"Airborne frames 17-37, 51-69, knockdown on airborne foes"
+"Flower Power HP","qcb+HK","H","20x6",26,"2(8)2(22)2(9)2(20)2(8)2",20,5,0,-0,-0,-0,"Airborne frames 21-41, 55-72, 88-107, knockdown on airborne foes"
+"Flower Power EX","qcb+KK","H","20x5,40",19,"2(8)2(22)2(9)2(20)2(8)2",24,"ground bounce",-4,-0,-0,-0,"Airborne frames 15-34, 48-66, 81-100, knockdown on airborne foes"
+"Phoenix Talon LK","qcf+LK","H","40x3",5,"4(12)2(13)2",27,"knockdown",3,-0,-0,-0,"Full body strike invulnerability frames 1-5"
+"Phoenix Talon MK","qcf+MK","H","40x2,50",8,"4(12)2(13)2",30,"knockdown",-4,-0,-0,-0,"Full body strike invulnerability frames 6-8"
+"Phoenix Talon HK","qcf+HK","H","50x3",8,"4(12)2(13)2",33,"knockdown",-7,-0,-0,-0,"Full body strike invulnerability frames 6-8"
+"Phoenix Talon EX","qcf+KK","H","50x2,80",8,"4(12)2(13)2",33,"knockdown",-3,-0,-0,-0,"Full body invulnerability frames 1-11"
+"Rain Dance","b+KKK",-0,-0,8,-0,-0,-0,-0,-0,-0,-0,-0
+"Rain Dance(backdash)","b,b",-0,-0,-0,-0,23,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-8, airborne frames 9-19"
+"Rain Dance(forward dash)","f,f",-0,-0,-0,-0,17,-0,-0,-0,-0,-0,-0
+"Mistrust LK","LK","H",80,7,3,21,"floats",-2,-0,-0,-0,"Reflects projectiles forward frames 7-9"
+"Mistrust MK","MK","H",80,12,3,21,"floats",-2,-0,-0,-0,"Reflects projectiles 45 degrees upward frames 7-9"
+"Mistrust HK","HK","H",80,15,3,21,"floats",-2,-0,-0,-0,"Reflects projectiles 80 degrees upward frames 7-9"
+"Mistrust EX","KK","H",130,8,3,21,"floats",-2,-0,-0,-0,"Full body invulnerability frames 1-10, reflects projectiles forward frames 8-10"
+"Dark & Stormy","P","H","30x3",10,"3(18)3(18)3",32,"floats",-13,-0,-0,-0,"Final hit reflects projectiles during active frames"
+"Dark & Stormy EX","PP","H","40x2,60",10,"3(18)3(18)3",32,"floats",-13,-0,-0,-0,"Armor frames 1-54, final hit reflects projectiles"
+"Turn of Fortune","P before 1st hit of dark & stormy","H","30,20x4",13,"3(15)3(8)3(4)3",21,3,-7,-0,-0,-0,"Begins on frame 13 of Dark & Stormy, input d between frames 1-55 to end in Phoenix"
+"Turn of Fortune EX","K before 1st hit of EX dark & stormy","H","40,30x4",13,"(3(15)3(8)3(4)3",31,-1,-12,-0,-0,-0,"Armor frames 1-50, begins on frame 13 of EX Dark & Stormy, input d between frames 1-55 to end in Phoenix"
+"California Roll","qcf+K",-0,-0,-0,-0,32,-0,-0,-0,-0,-0,"Input K between frames 1-26 for follow-up attack"
+"California Roll EX","qcf+KK",-0,-0,-0,-0,33,-0,-0,-0,-0,-0,"Strike invulnerability frames 1-26, input K between frames 1-26 for follow-up attack"
+"Cyclone Left","K during california roll","H",80,12,9,24,"floats",-11,-0,-0,-0,"Crushes standing strikes frames 12-20"
+"Back Layout","qcb+K","M","100,80(50)",28,10,17,"hard knockdown",-6,-0,-0,-0,"Input K between frames 1-27 to cancel attack, airborne frames 15-37"
+"Back Layout EX","qcb+KK","M","100,80(50)",28,10,17,"hard knockdown",-7,-0,-0,-0,"Input K between frames 1-27 to cancel attack, airborne frames 15-37"
+"Hakkesho Combo","qcb+PPP","H","50x2,30x5,10x2,40",8,"2(7)1",66,"hard knockdown",-45,-0,-0,-0,"77 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
+"Cross Art","qcf+MP+MK","H","20x5",9,2,58,"switch",-30,-0,-0,-0,"75 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

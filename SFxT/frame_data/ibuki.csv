@@ -1,98 +1,98 @@
-move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
-Far LP,-,H,30,3,2,9, +6, +2,-,-,-,-
-Far MP,-,H,60,5,4,11, +6, +2,-,-,-,-
-Far HP,-,H,90,10,4,23,-2,-7,-,-,-,-
-Far LK,-,H,30,4,4,9, +4,0,-,-,-,-
-Far MK,-,H,60,5,4,14, +3,-1,"SM,EX,SA,jump",-,-,"Requires d,u to jump cancel"
-Far HK,-,H,90,11,3,23,-1,-6,-,-,-,-
-Close LP,-,H,30,3,2,10, +5, +1,"SM,EX,SA,CA,jump",-,-,"Requires d,u to jump cancel"
-Close HP,-,H,"50,40",8,4,26,-2,-8,"1st hit SM,EX,SA,CA,jump",-,-,"forces standing, requires d,u to jump cancel"
-Close HK,-,H,"50,40",7,4,23,floats,-7,2nd hit jump,-,-,-
-Crouch LP,-,H,30,4,3,7, +7, +3,"SM,EX,SA,CA,jump",-,-,"Requires d,u to jump cancel"
-Crouch MP,-,H,60,7,5,14, +2,-2,"SM,EX,SA,CA,jump",-,-,"Requires d,u to jump cancel"
-Crouch HP,-,H,90,10,3,21,0,-4,jump,-,-,-
-Crouch LK,-,L,30,4,2,10, +5, +1,"SM,EX,SA,CA,jump",-,-,"Requires d,u to jump cancel"
-Crouch MK,-,L,60,7,5,17,-1,-5,-,-,-,-
-Crouch HK,-,L,90,7,2,26,sweep knockdown,-8,-,-,-,-
-Jump up LP,-,M,40,5,9,until ground+4f, +12, +4,-,-,-,-
-Jump up MP,-,M,70,6,7,until ground+4f, +16, +5,-,-,-,-
-Jump up HP,-,M,100,10,5,until ground+4f, +20, +8,-,-,-,-
-Jump up LK,-,M,40,5,12,until ground+4f, +12, +4,-,-,-,-
-Jump up MK,-,M,70,6,7,until ground+4f, +16, +5,-,-,-,-
-Jump up HK,-,M,100,8,3,until ground+4f, +20, +8,-,-,-,-
-Jump forward LP,-,M,40,5,6,until ground+4f, +12, +4,-,-,-,-
-Jump forward MP,-,M,70,6,8,until ground+4f, +16, +5,-,-,-,-
-Jump forward HP,-,M,100,12,4,until ground+4f, +20, +8,-,-,-,-
-Jump forward LK,-,M,40,4,8,until ground+4f, +12, +4,-,-,-,-
-Jump forward MK,-,M,70,6,5,until ground+4f, +16, +5,-,-,-,-
-Jump forward HK,-,M,100,5,5,until ground+4f, +20, +8,-,-,-,Ground bounce on airborne foes
-Launcher,HP+HK,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
-Cross Cancel,f+HP+HK (while blocking),H,100,7,7(2)8,39,knockdown,-24,-,-,-,"Similar to EX Kazakiri, full body invulnerability frames 1-8, airborne frames 10-49"
-Yami Kazura,LP+LK,throw,120,7,2,20,-,-,-,-,-,-
-Uki Yami,b+LP+LK,throw,130,7,2,20,-,-,-,-,-,-
-Tobizaru,LP+LK (air),throw,140,7,2,until ground+4f,-,-,-,-,-,-
-Agemen,b+MP,H,"30,30",7,5,13, +2,-2,"1st hit SM,EX,SA,CA",-,-,"Upper body invulnerability frames 1-11, knockdown on airborne foes"
-Backhand Punch,far HP > f+HP,"H,H","90,40",6,22,24,knockdown,-6,-,-,-,-
-Spin Kick,f+LK,H,60,4,3,13,0,-1,"SM,EX,SA,CA",-,-,-
-Reverse Spin Kick,b+MK,H,60,11,2,17,0, -,-,-,-,Knockdown on airborne foes
-Hammer Kick,f+MK,M,50,23,2,17, +5,-4,-,-,-,"Airborne frames 3-28, knockdown on airborne foes"
-Sazan,df+MK,L,60,8,11,11,-3,-7,-,-,-,-
-Bansho Kick,f+HK,H,90,14,2,20, +2,0,-,-,-,"Slip (+29) on Counter Hit, airborne frames 6-31, knockdown on airborne foes"
--,vertical/diagonal j.HP,M,100,12/10,4/5,until ground+4f, +20, +8,-,-,-,-
-Target Combo 1,j.HP > f+MK,H,60,4,7,until ground+4f, +16, +5,-,-,-,-
--,diagonal j.LP,M,40,5,9,until ground+4f, +12, +14,-,-,-,-
-Target Combo 2,j.LP > f+HP,H,90,4,5,until ground+4f, +20, +8,-,-,-,-
--,diagonal j.LK,M,40,5,12,until ground+4f, +12, +14,-,-,-,-
-Target Combo 3,j.LK > f+MK,H,60,4,7,until ground+4f, +16, +5,-,-,-,-
--,close s.LP,H,30,3,2,2, +5, +1,-,-,-,"requires d,u to jump cancel"
--,close s.LP > f+MP,H,"30,30",6,3,3, +1, -2,-,-,-,"requires d,u to jump cancel"
-Target Combo 4,close s.LP > f+MP > f+HP,H,90,3,3,3, +4, +1,-,-,-,Forces standing on hit
--,close s.LP > f+MP > df+HK,L,90,5,2,2,hard knockdown, -5,-,-,-,-
-Target Combo 6,close s.LP > f+MP > df+HK > f+HK,H,90,5,1,1,hard knockdown, -6,-,-,-,-
--,s.LP,H,30,3,2,9, +6, +2,-,-,-,-
--,s.LP > f+MP,H,60,5,3,15, +4,0,-,-,-,-
-Target Combo 5,s.LP > f+MP > f+LK,H,30,5,4,14, +2,0,-,-,-,-
--,b+MK,H,60,11,2,17,0, -4,-,-,-,-
-Target Combo 7,b+MK > f+MK,M,60,27,2,12, +7, +4,-,-,-,-
--,close s.HP,H,"40,50",8,4,25,-1, -7,"1st hit SM,EX,SA,CA,jump",-,-,-
--,close s.HP > df+HK,L,90,5,2,26,hard knockdown, -5,-,-,-,-
-Target Combo 8,close s.HP > df+HK > f+HK,H,90,5,1,-,hard knockdown, -6,jump,-,-,-
--,s.LK ,H,30,4,4,9, +4,0,-,-,-,-
--,s.LK > f+MK,H,60,5,4,18, +1, -4,"SM,EX,SA,CA,jump",-,-,"requires d,u to jump cancel"
-Target Combo 9,s.LK > f+MK > f+HK,H,90,5,1,-,hard knockdown, -6,jump,-,-,-
-Kunai,qcf+P (air),H,30,8,-,until ground+16f,knockdown,-,-,-,-,-
-Kunai EX,qcf+PP (air),H,"70,70",11,-,until ground+9f,knockdown,-,-,-,-,-
-Tsuijigoe LP,dp+LP,-,-,-,-,51,-,-,-,-,-,"Airborne frames 8-44, follow-up with Kunai possible at apex of jump arc"
-Tsuijigoe MP,dp+MP,-,-,-,-,55,-,-,-,-,-,"Airborne frames 8-48, follow-up with Kunai possible at apex of jump arc"
-Tsuijigoe HP,dp+HP,-,-,-,-,60,-,-,-,-,-,"Airborne frames 9-53, follow-up with Kunai possible at apex of jump arc"
-Neckbreaker LP,hcf+LP,L,160,16,10,16,hard knockdown, -13,-,-,-,Connects on grounded foes only
-Neckbreaker MP,hcf+MP,L,160,16,12,17,hard knockdown, -13,-,-,-,Connects on grounded foes only
-Neckbreaker HP,hcf+HP,L,160,16,21,19,hard knockdown, -13,-,-,-,Connects on grounded foes only
-Neckbreaker EX,hcf+PP,L,200,17,14,19,hard knockdown, -13,-,-,-,Connects on grounded foes only
-Kasumi Gake LK,qcf+LK,-,-,-,-,21,-,-,-,-,-,-
-Kasumi Gake MK,qcf+MK,-,-,-,-,23,-,-,-,-,-,-
-Kasumi Gake HK,qcf+HK,-,-,-,-,25,-,-,-,-,-,-
-Kazakiri LK,dp+LK,H,40x3,6,13,25,knockdown, -18,-,-,-,Airborne frames 9-35
-Kazakiri MK,dp+MK,H,45x3,8,13,28,knockdown, -21,-,-,-,Airborne frames 11-38
-Kazakiri HK,dp+HK,H,50x3,10,13,25,knockdown, -18,-,-,-,Airborne frames 13-37
-Kazakiri EX,dp+KK,H,"40,30x2",7,7(2)8,39, -6, -29,-,-,-,"Airborne frames 10-49, recovery is cancelable into any diagonal jump normal move, Kunai, or EX Kunai on hit or block"
-Hien LK,rdp+LK,M,"20,100",26,7,17,0, -31,-,-,-,Recovery is cancelable into Kunai or EX Kunai
-Hien MK,rdp+MK,M,"20,120",28,7,17, -8, -32,-,-,-,Recovery is cancelable into Kunai or EX Kunai
-Hien HK,rdp+HK,M,"20,140",29,7,17, -3, -32,-,-,-,Recovery is cancelable into Kunai or EX Kunai
-Hien EX,rdp+KK,M,"20,50x2,60",38,active during jump,28,hard knockdown, -25,-,-,-,Recovery is cancelable into Kunai or EX Kunai
-Raida LP,hcb+LP,H,140,3,5,27,hard knockdown, -19,-,-,-,-
-Raida MP,hcb+MP,H,140,3,5,29,hard knockdown, -21,-,-,-,-
-Raida HP,hcb+HP,H,140,3,5,29,hard knockdown, -23,-,-,-,-
-Raida EX,hcb+PP,H,140,3,5,34,hard knockdown, -27,-,-,-,Unblockable if foe blocks standing
-Tsumuji LK,qcb+LK,H,30x2,13,2(10)2,16,0, -3,-,-,-,Knocks down airborne foes
-Tsumuji MK,qcb+MK,H,30x2,17,2(12)2,14, +2, -1,-,-,-,Knocks down airborne foes
--,qcb+MK > K,H,30,6,2,20,knockdown, -7,-,-,-,"can be delayed, knocks down airborne foes"
--,qcb+MK > d+K,L,50,9,2,15,sweep knockdown, -2,-,-,-,can be delayed
-Tsumuji HK,qcb+HK,H,30x2,21,2(13)2,13, +3,0,-,-,-,Knocks down airborne foes
--,qcb+HK > K,H,30,6,2,13,knockdown,0,-,-,-,"can be delayed, knocks down airborne foes"
--,qcb+HK > d+HK,L,50,8,2,25,sweep knockdown, -9,-,-,-,can be delayed
-Tsumuji EX,qcb+KK,"H,(H or L),H",30x4,14,2(10)2(10)2(10)2,9,knockdown, +4,-,-,-,-
--,qcb+KK (d ender),"H,(H or L),(H or L),L","30x3,50",14,2(10)2(10)2(10)2,11,sweep knockdown, +5,-,-,-,-
-Yoroitoshi,hcb+PPP,H,"10,15x17,35",1,16(31)34,40,hard knockdown,"-34,-77",-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-16"
-Yoroitoshi (projectile),hcb+PPP,H,"25x6,7",47,34,38,-40,-77,-,-,-,Knockdown on airborne foes
-Cross Art,qcf+MP+MK,H,100,6,4,63,switch,-47,-,-,-,"60 frame cinematic freeze before attack begins, full body invulnerability frames 1-9, airborne frames 36-50"
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",-0,"H",30,3,2,9,6,2,-0,-0,-0,-0
+"Far MP",-0,"H",60,5,4,11,6,2,-0,-0,-0,-0
+"Far HP",-0,"H",90,10,4,23,-2,-7,-0,-0,-0,-0
+"Far LK",-0,"H",30,4,4,9,4,0,-0,-0,-0,-0
+"Far MK",-0,"H",60,5,4,14,3,-1,"SM,EX,SA,jump",-0,-0,"Requires d,u to jump cancel"
+"Far HK",-0,"H",90,11,3,23,-1,-6,-0,-0,-0,-0
+"Close LP",-0,"H",30,3,2,10,5,1,"SM,EX,SA,CA,jump",-0,-0,"Requires d,u to jump cancel"
+"Close HP",-0,"H","50,40",8,4,26,-2,-8,"1st hit SM,EX,SA,CA,jump",-0,-0,"forces standing, requires d,u to jump cancel"
+"Close HK",-0,"H","50,40",7,4,23,"floats",-7,"2nd hit jump",-0,-0,-0
+"Crouch LP",-0,"H",30,4,3,7,7,3,"SM,EX,SA,CA,jump",-0,-0,"Requires d,u to jump cancel"
+"Crouch MP",-0,"H",60,7,5,14,2,-2,"SM,EX,SA,CA,jump",-0,-0,"Requires d,u to jump cancel"
+"Crouch HP",-0,"H",90,10,3,21,0,-4,"jump",-0,-0,-0
+"Crouch LK",-0,"L",30,4,2,10,5,1,"SM,EX,SA,CA,jump",-0,-0,"Requires d,u to jump cancel"
+"Crouch MK",-0,"L",60,7,5,17,-1,-5,-0,-0,-0,-0
+"Crouch HK",-0,"L",90,7,2,26,"sweep knockdown",-8,-0,-0,-0,-0
+"Jump up LP",-0,"M",40,5,9,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",-0,"M",70,6,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",-0,"M",100,10,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",-0,"M",40,5,12,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",-0,"M",70,6,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",-0,"M",100,8,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",-0,"M",40,5,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",-0,"M",70,6,8,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",-0,"M",100,12,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",-0,"M",40,4,8,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",-0,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",-0,"M",100,5,5,"until ground+4f",20,8,-0,-0,-0,"Ground bounce on airborne foes"
+"Launcher","HP+HK","H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel","f+HP+HK (while blocking)","H",100,7,"7(2)8",39,"knockdown",-24,-0,-0,-0,"Similar to EX Kazakiri, full body invulnerability frames 1-8, airborne frames 10-49"
+"Yami Kazura","LP+LK","throw",120,7,2,20,-0,-0,-0,-0,-0,-0
+"Uki Yami","b+LP+LK","throw",130,7,2,20,-0,-0,-0,-0,-0,-0
+"Tobizaru","LP+LK (air)","throw",140,7,2,"until ground+4f",-0,-0,-0,-0,-0,-0
+"Agemen","b+MP","H","30,30",7,5,13,2,-2,"1st hit SM,EX,SA,CA",-0,-0,"Upper body invulnerability frames 1-11, knockdown on airborne foes"
+"Backhand Punch","far HP > f+HP","H,H","90,40",6,22,24,"knockdown",-6,-0,-0,-0,-0
+"Spin Kick","f+LK","H",60,4,3,13,0,-1,"SM,EX,SA,CA",-0,-0,-0
+"Reverse Spin Kick","b+MK","H",60,11,2,17,0,-0,-0,-0,-0,"Knockdown on airborne foes"
+"Hammer Kick","f+MK","M",50,23,2,17,5,-4,-0,-0,-0,"Airborne frames 3-28, knockdown on airborne foes"
+"Sazan","df+MK","L",60,8,11,11,-3,-7,-0,-0,-0,-0
+"Bansho Kick","f+HK","H",90,14,2,20,2,0,-0,-0,-0,"Slip (+29) on Counter Hit, airborne frames 6-31, knockdown on airborne foes"
+-0,"vertical/diagonal j.HP","M",100,"12/10","4/5","until ground+4f",20,8,-0,-0,-0,-0
+"Target Combo 1","j.HP > f+MK","H",60,4,7,"until ground+4f",16,5,-0,-0,-0,-0
+-0,"diagonal j.LP","M",40,5,9,"until ground+4f",12,14,-0,-0,-0,-0
+"Target Combo 2","j.LP > f+HP","H",90,4,5,"until ground+4f",20,8,-0,-0,-0,-0
+-0,"diagonal j.LK","M",40,5,12,"until ground+4f",12,14,-0,-0,-0,-0
+"Target Combo 3","j.LK > f+MK","H",60,4,7,"until ground+4f",16,5,-0,-0,-0,-0
+-0,"close s.LP","H",30,3,2,2,5,1,-0,-0,-0,"requires d,u to jump cancel"
+-0,"close s.LP > f+MP","H","30,30",6,3,3,1,-2,-0,-0,-0,"requires d,u to jump cancel"
+"Target Combo 4","close s.LP > f+MP > f+HP","H",90,3,3,3,4,1,-0,-0,-0,"Forces standing on hit"
+-0,"close s.LP > f+MP > df+HK","L",90,5,2,2,"hard knockdown",-5,-0,-0,-0,-0
+"Target Combo 6","close s.LP > f+MP > df+HK > f+HK","H",90,5,1,1,"hard knockdown",-6,-0,-0,-0,-0
+-0,"s.LP","H",30,3,2,9,6,2,-0,-0,-0,-0
+-0,"s.LP > f+MP","H",60,5,3,15,4,0,-0,-0,-0,-0
+"Target Combo 5","s.LP > f+MP > f+LK","H",30,5,4,14,2,0,-0,-0,-0,-0
+-0,"b+MK","H",60,11,2,17,0,-4,-0,-0,-0,-0
+"Target Combo 7","b+MK > f+MK","M",60,27,2,12,7,4,-0,-0,-0,-0
+-0,"close s.HP","H","40,50",8,4,25,-1,-7,"1st hit SM,EX,SA,CA,jump",-0,-0,-0
+-0,"close s.HP > df+HK","L",90,5,2,26,"hard knockdown",-5,-0,-0,-0,-0
+"Target Combo 8","close s.HP > df+HK > f+HK","H",90,5,1,-0,"hard knockdown",-6,"jump",-0,-0,-0
+-0,"s.LK ","H",30,4,4,9,4,0,-0,-0,-0,-0
+-0,"s.LK > f+MK","H",60,5,4,18,1,-4,"SM,EX,SA,CA,jump",-0,-0,"requires d,u to jump cancel"
+"Target Combo 9","s.LK > f+MK > f+HK","H",90,5,1,-0,"hard knockdown",-6,"jump",-0,-0,-0
+"Kunai","qcf+P (air)","H",30,8,-0,"until ground+16f","knockdown",-0,-0,-0,-0,-0
+"Kunai EX","qcf+PP (air)","H","70,70",11,-0,"until ground+9f","knockdown",-0,-0,-0,-0,-0
+"Tsuijigoe LP","dp+LP",-0,-0,-0,-0,51,-0,-0,-0,-0,-0,"Airborne frames 8-44, follow-up with Kunai possible at apex of jump arc"
+"Tsuijigoe MP","dp+MP",-0,-0,-0,-0,55,-0,-0,-0,-0,-0,"Airborne frames 8-48, follow-up with Kunai possible at apex of jump arc"
+"Tsuijigoe HP","dp+HP",-0,-0,-0,-0,60,-0,-0,-0,-0,-0,"Airborne frames 9-53, follow-up with Kunai possible at apex of jump arc"
+"Neckbreaker LP","hcf+LP","L",160,16,10,16,"hard knockdown",-13,-0,-0,-0,"Connects on grounded foes only"
+"Neckbreaker MP","hcf+MP","L",160,16,12,17,"hard knockdown",-13,-0,-0,-0,"Connects on grounded foes only"
+"Neckbreaker HP","hcf+HP","L",160,16,21,19,"hard knockdown",-13,-0,-0,-0,"Connects on grounded foes only"
+"Neckbreaker EX","hcf+PP","L",200,17,14,19,"hard knockdown",-13,-0,-0,-0,"Connects on grounded foes only"
+"Kasumi Gake LK","qcf+LK",-0,-0,-0,-0,21,-0,-0,-0,-0,-0,-0
+"Kasumi Gake MK","qcf+MK",-0,-0,-0,-0,23,-0,-0,-0,-0,-0,-0
+"Kasumi Gake HK","qcf+HK",-0,-0,-0,-0,25,-0,-0,-0,-0,-0,-0
+"Kazakiri LK","dp+LK","H","40x3",6,13,25,"knockdown",-18,-0,-0,-0,"Airborne frames 9-35"
+"Kazakiri MK","dp+MK","H","45x3",8,13,28,"knockdown",-21,-0,-0,-0,"Airborne frames 11-38"
+"Kazakiri HK","dp+HK","H","50x3",10,13,25,"knockdown",-18,-0,-0,-0,"Airborne frames 13-37"
+"Kazakiri EX","dp+KK","H","40,30x2",7,"7(2)8",39,-6,-29,-0,-0,-0,"Airborne frames 10-49, recovery is cancelable into any diagonal jump normal move, Kunai, or EX Kunai on hit or block"
+"Hien LK","rdp+LK","M","20,100",26,7,17,0,-31,-0,-0,-0,"Recovery is cancelable into Kunai or EX Kunai"
+"Hien MK","rdp+MK","M","20,120",28,7,17,-8,-32,-0,-0,-0,"Recovery is cancelable into Kunai or EX Kunai"
+"Hien HK","rdp+HK","M","20,140",29,7,17,-3,-32,-0,-0,-0,"Recovery is cancelable into Kunai or EX Kunai"
+"Hien EX","rdp+KK","M","20,50x2,60",38,"active during jump",28,"hard knockdown",-25,-0,-0,-0,"Recovery is cancelable into Kunai or EX Kunai"
+"Raida LP","hcb+LP","H",140,3,5,27,"hard knockdown",-19,-0,-0,-0,-0
+"Raida MP","hcb+MP","H",140,3,5,29,"hard knockdown",-21,-0,-0,-0,-0
+"Raida HP","hcb+HP","H",140,3,5,29,"hard knockdown",-23,-0,-0,-0,-0
+"Raida EX","hcb+PP","H",140,3,5,34,"hard knockdown",-27,-0,-0,-0,"Unblockable if foe blocks standing"
+"Tsumuji LK","qcb+LK","H","30x2",13,"2(10)2",16,0,-3,-0,-0,-0,"Knocks down airborne foes"
+"Tsumuji MK","qcb+MK","H","30x2",17,"2(12)2",14,2,-1,-0,-0,-0,"Knocks down airborne foes"
+-0,"qcb+MK > K","H",30,6,2,20,"knockdown",-7,-0,-0,-0,"can be delayed, knocks down airborne foes"
+-0,"qcb+MK > d+K","L",50,9,2,15,"sweep knockdown",-2,-0,-0,-0,"can be delayed"
+"Tsumuji HK","qcb+HK","H","30x2",21,"2(13)2",13,3,0,-0,-0,-0,"Knocks down airborne foes"
+-0,"qcb+HK > K","H",30,6,2,13,"knockdown",0,-0,-0,-0,"can be delayed, knocks down airborne foes"
+-0,"qcb+HK > d+HK","L",50,8,2,25,"sweep knockdown",-9,-0,-0,-0,"can be delayed"
+"Tsumuji EX","qcb+KK","H,(H or L),H","30x4",14,"2(10)2(10)2(10)2",9,"knockdown",4,-0,-0,-0,-0
+-0,"qcb+KK (d ender)","H,(H or L),(H or L),L","30x3,50",14,"2(10)2(10)2(10)2",11,"sweep knockdown",5,-0,-0,-0,-0
+"Yoroitoshi","hcb+PPP","H","10,15x17,35",1,"16(31)34",40,"hard knockdown","-34,-77",-0,-0,-0,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-16"
+"Yoroitoshi (projectile)","hcb+PPP","H","25x6,7",47,34,38,-40,-77,-0,-0,-0,"Knockdown on airborne foes"
+"Cross Art","qcf+MP+MK","H",100,6,4,63,"switch",-47,-0,-0,-0,"60 frame cinematic freeze before attack begins, full body invulnerability frames 1-9, airborne frames 36-50"
