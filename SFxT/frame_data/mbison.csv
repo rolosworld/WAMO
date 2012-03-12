@@ -1,0 +1,56 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,5,2,13, +2,-2,"SM,EX,SA,CA",-,-,Rapid fire cancelable to light normal moves
+Far MP,,H,60,8,3,13, +7, +1,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,8,3,25,-3,-7,"SM,EX,SA,CA",-,-,-
+Far LK,,H,30,4,2,10, +5, +1,-,-,-,-
+Far MK,,H,60,6,3,17, +1,-3,-,-,-,-
+Far HK,,H,90,6,3,20, +2,-3,-,-,-,-
+Close LP,,H,30,6,2,9, +6, +2,"SM,EX,SA,CA",-,-,Rapid fire cancelable to light normal moves
+Close MP,,H,60,7,3,3, +5, +1,"SM,EX,SA,CA",-,-,-
+Close HP,,H,90,7,3,18, +5,-1,"SM,EX,SA,CA",-,-,forces standing
+Close LK,,H,30,3,2,8, +7, +3,"SM,EX,SA,CA",-,-,-
+Close MK,,H,60,7,3,11, +7, +3,-,-,-,-
+Close HK,,H,90,6,3,19, +3,-2,-,-,-,-
+Crouch LP,,H,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,Rapid fire cancelable to light normal moves
+Crouch MP,,H,60,7,3,13, +5, +1,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,11,4,18, +4,-4,-,-,-,forces standing
+Crouch LK,,L,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,-
+Crouch MK,,L,60,5,4,15, +2,-2,"SM,EX,SA,CA",-,-,-
+Crouch HK,,L,90,15,12,20,hard knockdown,-12,-,-,-,-
+Jump up LP,,M,40,6,2,until ground+4f, +12, +4,-,-,-,-
+Jump up MP,,M,70,7,6,until ground+4f, +16, +5,-,-,-,-
+Jump up HP,,M,100,6,8,until ground+4f, +20, +8,-,-,-,-
+Jump up LK,,M,40,6,14,until ground+4f, +12, +4,-,-,-,-
+Jump up MK,,M,70,7,10,until ground+4f, +16, +5,-,-,-,-
+Jump up HK,,M,100,6,10,until ground+4f, +20, +8,-,-,-,-
+Jump forward LP,,M,40,6,7,until ground+4f, +12, +4,-,-,-,-
+Jump forward MP,,M,70,7,3,until ground+4f, +16, +5,-,-,-,-
+Jump forward HP,,M,100,8,8,until ground+4f, +20, +8,-,-,-,-
+Jump forward LK,,M,40,5,7,until ground+4f, +12, +4,-,-,-,-
+Jump forward MK,,M,70,6,14,until ground+4f, +16, +5,-,-,-,-
+Jump forward HK,,M,100,7,6,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,15,22,18,hard knockdown,-15,-,-,-,"Similar to EX Psycho Crusher, full body invulnerability frames 1-17"
+Deadly Throw,LP+LK,throw,150,7,2,20,hard knockdown,-,-,-,-,-
+DeathTower,b+LP+LK,throw,140,7,2,20,hard knockdown,-,-,-,-,-
+-,diagonal jump MP,M,70,7,3,until ground+4f, +16, +5,-,-,-,"Input MP after frame 7 for follow-up attack, knockdown on airborne foes"
+Hell Attack,diagonal jump MP > MP,M,70,6,4,until ground+4f, +16, +5,-,-,-,Knockdown on airborne foes
+Psycho Crusher LP,"charge b,f+LP",H,120,15,23,18,knockdown, -7,-,-,-,Airborne frames 15-48
+Psycho Crusher MP,"charge b,f+MP",H,130,15,27,22,knockdown, -13,-,-,-,Airborne frames 15-52
+Psycho Crusher HP,"charge b,f+HP",H,140,15,33,22,knockdown, -16,-,-,-,Airborne frames 15-58
+Psycho Crusher EX,"charge b,f+PP",H,75x2,16,23,18,knockdown, -15,-,-,-,"Full body invulnerability frames 1-15, airborne frames 16-49, absorbs 1 projectile hit"
+Head Press,"charge d,u+K",M,140,23-36,until ground,16 landing, -22, -26,-,-,-,"Homes to foe’s position, knockdown on airborne foe, airborne on frame 1"
+Head Press EX,"charge d,u+KK",M,160,24-36,until ground,16 landing,hard knockdown, -26,-,-,-,"Full body invulnerability from startup until active, homes to foe’s position, airborne frame 1"
+Somersault Skull Diver,P during headpress,M,80,8,3,until grounded+8f, +18, +15,-,-,-,Input P 32-86 frames after Head Press hit or block to execute attack
+Somersault Sull Diver EX,PP during headpress,M,60x2,8,3,until grounded+8f, +18, +15,-,-,-,"Input PP 32-86 frames after Head Press hit or block to execute attack, full body invulnerability frames 1-10"
+Devil Reverse,"charge d,u+P",-,-,-,-,49,-,-,-,-,-,"Homes to foe’s position, input P between frames 13-40 for follow-up attack"
+Devil Reverse EX,"charge d,u+PP",-,-,-,-,49,-,-,-,-,-,"Full body invulnerability frames 1-14, homes to foe’s position, input PP between frames 13-40 for follow-up attack"
+Devil Reverse followup,P during devil reverse,M,70,35,until ground,16 landing,hard knockdown, +1,-,-,-,"Alter position of attack with b and f , airborne frame 1"
+Devil Reverse EX followup,PP during devil reverse,M,"50,50",35,until ground,16 landing,hard knockdown, +1,-,-,-,"Invulnerable frames 1-grounded/hit/block, alter position of attack with b and f , airborne frame 1"
+Bison Warp,"f,d,df or b,d,db+PPP or KKK",-,-,-,-,43,-,-,-,-,-,Invulnerable frames 1-30
+Double Knee Press LK,"charge b,f+LK",H,"60,40",11,2(1)4,20,knockdown, -2,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, airborne frames 13-17"
+Double Knee Press MK,"charge b,f+MK",H,"50,20",17,2(1)4,23,knockdown, -5,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, airborne frames 19-23"
+Double Knee Press HK,"charge b,f+HK",H,"50,30",21,2(1)4,22,knockdown, -6,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, airborne frames 23-27"
+Double Knee Press EX,"charge b,f+EX","H,L","25x4,50",15,2(1)2(11)4(7)18,30,hard knockdown, -31,-,-,-,"Full body projectile invulnerability frames 1-38, can be Super Charged: 51 frames to perform Super Arts, airborne frames 17-21"
+Knee Press Nightmare,"charge b,f+KKK",H,"25x3,50x2,20x5,50",13,(1)2(11)4(2)2,27,hard knockdown,-10,-,-,-,"65 frame cinematic freeze before attack begins, full body invulnerability frames 1-11"
+Cross Art,qcf+MP+MK,H,"20,40x2",9,2,47,-,-27,-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"

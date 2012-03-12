@@ -1,0 +1,64 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,5,2,9, +6, +2,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,6,3,17, +1,-3,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,15,2,21, +2,-3,-,-,-,-
+Far LK,,L,30,6,3,11, +3,-1,-,-,-,-
+Far MK,,H,60,8,3,15, +3,-1,-,-,-,-
+Far HK,,H,90,12,4,25,-4,-9,-,-,-,Airborne frames 5-22
+Close LP,,H,30,4,3,10, +4,0,"SM,EX,SA,CA",-,-,-
+Close MP,,H,60,6,4,14, +5,-1,"SM,EX,SA,CA",-,-,forces standing
+Close HP,,H,90,8,5,23,-3,-8,"SM,EX,SA,CA",-,-,-
+Close LK,,H,30,5,3,10, +4,0,-,-,-,-
+Close MK,,H,60,7,3,18,0,-4,"SM,EX,SA,CA",-,-,-
+Close HK,,H,90,7,3,20, +2,-3,-,-,-,-
+Crouch LP,,H,30,4,2,8, +7, +3,"SM,EX,SA,CA",-,-,-
+Crouch MP,,H,60,6,3,16, +2,-2,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,8,4,25,-3,-9,"SM,EX,SA,CA",-,-,forces standing
+Crouch LK,,H,30,6,3,11, +3, --1,"SM,EX,SA,CA",-,-,-
+Crouch MK,,H,60,8,3,18,0,-4,"SM,EX,SA,CA",-,-,-
+Crouch HK,,H,90,12,3,31,sweep knockdown,-14,-,-,-,Airborne frames 6-16
+Jump LP,,M,40,4,6,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,6,4,until ground+4f, +16, +5,-,-,-,-
+Jump HP,,M,100,7,4,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,5,9,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,7,10,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,7,2,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,10,3,25,hard knockdown,-6,-,-,-,"Similar to Shoulder Tackle, full body invulnerability frames 1-13"
+Winding Nut,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Suplex,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Jumping Knee Lift,uf+MK,H,80,10,2,19,floats, -4,-,-,-,"Airborne frames 1-15, input MK during pre-jump frames 1-3"
+Disgraceful Kick,b+MK,H,90,15,2,21, -1, -6,-,-,-,"Crumples on Counter Hit, knockdown on airborne foes"
+Shoulder Tackle,f+LK+MP,H,110,22,3,25,hard knockdown, -6,-,-,-,"Armor frames 1-24, wall bounce on Counter Hit"
+Moonsault Body Press,f+LP+MK,unblockable,110,50,8,64,hard knockdown,-,-,-,-,Airborne frames 39-57
+-,f+MP,H,60,4,2,15, +4, +1,-,-,-,Knockdown on airborne foes
+-,f+MP > MP,H,60,6,2,16, +3,0,-,-,-,Knockdown on airborne foes
+Rolling Elbow Rush,f+MP > MP > MP,M,80,12,2,22, +9, -4,-,-,-,"Ground bounce on Counter Hit, knockdown on airborne foes"
+Mid-Air Leg Screw,f+PP,counter,170,-,-,53,hard knockdown,-,-,-,-,Counters air attacks frames 1-17
+Leg Screw,f+KK,counter,170,-,-,53,hard knockdown,-,-,-,-,Counters high and mid standing attacks frames 1-17
+Running Jaguar Bomb LP,"f,d,df+LP",throw,150,12,2,27,hard knockdown,-,-,-,-,-
+Running Jaguar Bomb MP,"f,d,df+MP",throw,160,14,2,31,hard knockdown,-,-,-,-,-
+Running Jaguar Bomb HP,"f,d,df+HP",throw,170,16,2,39,hard knockdown,-,-,-,-,-
+Running Jaguar Bomb EX,"f,d,df+PP",throw,200,13,2,24,hard knockdown,-,-,-,-,Upper body strike invulnerability frames 1-14
+Konvict Kick LK,"f,d,df+LK",H,50,12,3,16, +3, -2,-,-,-,"Input K within 15 frames of connecting for DDT, K input during any frames of startup will prevent DDT from executing"
+Konvict Kick MK,"f,d,df+MK",H,60,14,3,20, -1, -6,-,-,-,"Input K within 15 frames of connecting for DDT, K input during any frames of startup will prevent DDT from executing"
+Konvict Kick HK,"f,d,df+HK",H,70,16,3,23, -4, -9,-,-,-,"Input K within 15 frames of connecting for DDT, K input during any frames of startup will prevent DDT from executing"
+Konvict Kick EX,"f,d,df+KK",H,100,11,3,11, +12, +3,-,-,-,"Input K within 15 frames of connecting for DDT, K input during any frames of startup will prevent DDT from executing"
+DDT,K during konvict kick,hit throw,90,-,-,-,hard knockdown,-,-,-,-,-
+Giant Swing LP,hcf+LP,standing throw,250,18,2,33,hard knockdown,-,-,-,-,-
+Giant Swing MP,hcf+MP,standing throw,230,18,2,39,hard knockdown,-,-,-,-,-
+Giant Swing HP,hcf+HP,standing throw,210,18,2,39,hard knockdown,-,-,-,-,-
+Giant Swing EX,hcf+PP,standing throw,230,19,2,32,hard knockdown,-,-,-,-,Full body strike invulnerability frames 1-20
+Tomahawk LK,hcf+LK,crouching throw,200,18,2,24,hard knockdown,-,-,-,-,-
+Tomahawk MK,hcf+MK,crouching throw,180,18,2,27,hard knockdown,-,-,-,-,-
+Tomahawk HK,hcf+HK,crouching throw,170,18,2,30,hard knockdown,-,-,-,-,-
+Tomahawk EX,hcf+KK,crouching throw,180,19,2,23,hard knockdown,-,-,-,-,Full body strike invulnerability frames 1-20
+Reverse Arm Slam Combo,qcb+P,H,"20,110",17,5,23,hard knockdown, -11,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art"
+Reverse Arm Slam Combo EX,qcb+PP,H,"20,50,100",13,5,23,hard knockdown, -11,-,-,-,"Can be Super Charged 51 frames for Super Art, full body invulnerability frames 3-12"
+Jaguar Step,KK,-,-,-,-,33,-,-,-,-,-,"Full body invulnerability frames 7-27, follow-up inputs taken frames 8-27, Special Move performed on frame 28"
+Lariat,LP during jaguar step,H,70,15,3,23, +7, -9,-,-,-,Full body invulnerability frames 1-8
+High Elbow Drop,MP during jaguar step,M,80,24,3,24,ground bounce, -10,-,-,-,"Full body invulnerability frames 1-10, airborne frames 1-26"
+Water Surface Kick,K during jaguar step,L,140,24,3,25,hard knockdown, -11,-,-,-,Full body invulnerability frames 1-10
+Wonderful Mexican Special Combo,qcb+PPP,H,"20,90,90,100",12/26,5,22,hard knockdown,-10,-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frame 1, 14 frames or less of running during startup, full body invulnerability frames 1-10 of close proximity strike"
+Muscle Buster,qcb+P after 2 successful hits of WMSC,-,138,-,-,-,hard knockdown,-,-,-,-,-
+Cross Art,qcf+MP+MK,H,100,9,2,31,switch,-10,-,-,-,Full body invulnerability frames 1-9

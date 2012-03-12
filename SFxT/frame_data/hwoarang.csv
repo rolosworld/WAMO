@@ -1,0 +1,75 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,L,30,8,3,6, +8, +4,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,7,2,20,-1,-5,-,-,-,-
+Far HP,,H,90,10,4,25,-3,-9,-,-,-,forces standing
+Far LK,,H,30,5,2,11, +4,0,-,-,-,-
+Far MK,,H,60,8,2,20,-1,-5,-,-,-,-
+Far HK,,H,90,7,4,25,-4,-9,"SM,EX,SA,CA",-,-,-
+Flamingo LP,,H,30,3,2,11, +4,0,"SM,EX,SA,CA",-,-,-
+Flamingo MP,,H,"60,60",6,2(10)2,20,-1,-5,-,-,-,-
+Flamingo HP,,H,90,8,3,27,-4,-10,"SM,EX,SA,CA",-,-,forces standing
+Flamingo LK,,L,30,4,3,9, +5, +1,-,-,-,-
+Flamingo MK,,H,60,7,2,20,-1,-5,-,-,-,-
+Flamingo HK,,H,90,13,2,27,-4,-9,"SM,EX,SA,CA",-,-,airborne frames 8-19
+Crouch LP,,L,30,5,3,9, +5, +1,"SM,EX,SA,CA",-,-,-
+Crouch MP,,L,60,6,4,13, +4,0,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,10,4,25,-3,-9,-,-,-,forces standing
+Crouch LK,,L,30,4,3,10, +4,0,"SM,EX,SA,CA",-,-,-
+Crouch MK,,H,60,5,5,17,-1,-5,"SM,EX,SA,CA",-,-,-
+Crouch HK,,L,90,7,2,27,sweep knockdown,-9,"SM,EX,SA,CA",-,-,-
+Jump LP,,M,40,5,7,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,7,4,until ground+4f, +16, +5,-,-,-,-
+Jump HP,,M,100,10,4,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,5,9,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,6,8,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,10,4,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,5,13,35,hard knockdown,-26,-,-,-,"Similar to HK Skyrocket, full body invulnerability frames 1-6"
+Falcon Dice Kick,LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Bring It On,b+LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Spinning Trap Kick,db+LK,L,60,19,3,14, +6,0,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+Tsunami Kick,f+MK,M,60,19,2,22, +4, +2,-,-,-,"Knockdown on airborne foes, hold f to enter Flamingo Stance"
+Iron Heel,f+HK,M,70,25,2,19,ground bounce, -4,-,-,-,Hard knockdown on airborne foes
+Fade Away Kick,b+MK,M,70,13,4,22, -7, -9,"SM,EX,SA,CA",-,-,"Crushes crouching attacks frames 1-12, knockdown on airborne foes"
+Motion Switch,KKK,-,-,-,-,1,-,-,-,-,-,"Enters Flamingo Stance, can move & attack after frame 1"
+-,MP,H,60,7,2,29, -1, -5,-,-,-,-
+Reverse Kick,MP > MP,H,70,6,4,20, -1, -7,"SM,EX,SA,CA",-,-,"Knockdown on airborne foes, forces standing on hit"
+Chainsaw Kick,MP > LP,M,50,16,3,23,ground bounce, -8,-,-,-,Hard knockdown on airborne foes
+-,jumping LP,M,40,5,7,until ground+4f, +12, +4,-,-,-,-
+Flashing Trident,jumping LP > MP,M,40,5,4,until ground+4f, +14, +12,-,-,-,Knockdown on airborne foes
+-,MK,H,60,8,2,20, -1, -5,-,-,-,-
+-,MK > MK,H,60,11,2,21, -2, -7,-,-,-,Hold f after attack to enter Flamingo Stance
+Middle Kick Combo,MK > MK > MK,H,50,10,4,20, -3, -7,"BC, LA",-,-,"Knockdown on airborne foes, forces standing on hit, hold f after attack to enter Flamingo Stance"
+High Kick Combo,MK > MK > HK,H,60,8,4,24, -3, -6,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+Low Kick COmbo,MK > MK > d+LK,H,30,7,5,14, -2, -4,-,-,-,Knockdown on airborne foes
+Low & High Kick Combo,MK > MK > d+LK > HK,H,60,8,4,24, -3, -6,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+-,LK,H,30,5,2,11, +4,0,-,-,-,"Identical to standing LK, input MK after frames 6-19 for follow-up attack"
+Low & High Smash Kick Combo,LK > MK,H,70,6,4,20, -1, -6,"SM,EX,SA,CA",-,-,"Forces standing on hit, knockdown on airborne foes, hold f after attack begins to enter Flamingo Stance"
+-,MP during flamingo,H,"60,60",6,2(10)2,20, +1, -5,-,-,-,-
+Quick Kick Combo,MP > MP during flamingo,H,50,8,3,24,floats, -5,-,-,-,-
+-,LK during flamingo,L,30,4,3,9, +5, +1,-,-,-,-
+Flamingo Kick Combo,LK > MK during flamingo,H,60,8,4,21, -2, -3,"SM,EX,SA,CA",-,-,"Backturn on hit, returns to normal stance, hold f after attack to enter Flamingo Stance, knockdown on airborne foes"
+-,MK during flamingo,H,60,7,2,20, -1, -5,-,-,-,-
+Fire Storm,MK >LK during flamingo,H,70,9,3,19, +2,0,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+Special Step,"f,d,df+P",-,-,-,-,28,-,-,"SM,EX(not special step)",-,-,Projectile invulnerability frames 1-16
+Special Step EX,"f,d,df+PP",-,-,-,-,29,-,-,"SM,EX(not special step)",-,-,Upper body invulnerability frames 1-17
+Sky Rocket LK,"f,d,df+LK",H,120,5,6,33,knockdown, -17,-,-,-,"Full body invulnerability frames 1-5, airborne frames 5-33"
+Sky Rocket MK,"f,d,df+MK",H,130(90),5,9,32,knockdown, -19,-,-,-,"Full body invulnerability frames 1-5, airborne frames 5-34"
+Sky Rocket HK,"f,d,df+HK",H,150(100),5,11,31,knockdown, -20,-,-,-,Airborne frames 5-34
+Sky Rocket EX,"f,d,df+KK",H,180(120),6,13,35,knockdown, -26,-,-,-,"Full body invulnerability frames 1-7, airborne frames 5-34"
+Hunting Hawk LK,qcb+LK,H,120,12,6,24,knockdown, -4,-,-,-,"Lower body projectile invulnerability frames 1-6, airborne frames 7-29"
+Hunting Hawk MK,qcb+MK,H,"80,60",14,5(12)3,29,knockdown, -6,-,-,-,"Lower body projectile invulnerability frames 9-41, airborne frames 9-45"
+Hunting Hawk HK,qcb+HK,"H,M",50x3,17,5(12)3(22)4,23,ground bounce, -7,-,-,-,"Lower body projectile invulnerability frames 12-68, airborne frames 12-68"
+Hunting Hawk EX,qcb+KK,H,"50,20x3,50",15,5(13)3(6)3(6)3(19)10,26,wall bounce, -45,-,-,-,"Lower body projectile invulnerability frames 10-98, airborne frames 10-104"
+Air Raid LK,hcb+LK,M,"50,20,30",30,11,15, +2, +6,-,-,-,"Airborne frames 6-40, knockdown on airborne foes"
+Air Raid MK,hcb+MK,M,"50,30,30",41,12,15,0, +6,-,-,-,"Airborne frames 10-52, knockdown on airborne foes"
+Air Raid HK,hcb+HK,M,"50,30,40",48,12,15,0, +6,-,-,-,"Airborne frames 11-59, knockdown on airborne foes"
+Air Raid EX,hcb+KK,M,"50,30,50",54,12,15, knockdown,0,-,-,-,"Targets foe’s position , airborne frames 11-73"
+Air Raid Special,hcb+K (air),M,100,22,until ground,15, +6, +2,-,-,-,Knockdown on airborne foes
+Air Raid Special EX,hcb+KK (air),M,120,18,until ground,11, +10, +6,-,-,-,"Full body invulnerability frames 1-12, knockdown on airborne foes"
+Dynamite Heel LP,hcb+LP,H,100,14,3,28, +1, +1,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, forces standing on hit, knockdown on airborne foes"
+Dynamite Heel MP,hcb+MP,H,100,16,3,28, +1, +1,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, forces standing on hit, knockdown on airborne foes"
+Dynamite Heel HP,hcb+HP,H,100,19,3,28, +1, +1,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, forces standing on hit, knockdown on airborne foes"
+Dynamite Heel EX,hcb+PP,M,"100,50",29,3(26)3,40,ground bounce, +1,-,-,-,"Can be Super charged: 51 frames to perform Super Art, projectile invulnerability frames 6-28, airborne frames 18-57"
+Heel Explosion Combo,hcb+PPP,"H,M","100,60,150",8,3(27)3,39,hard knockdown,-10,-,-,-,"88 frame cinematic freeze before attack begins, full body invulnerability frames 1-7, airborne frames 1-35"
+Cross Art,qcf+MP+MK,H,20x5,9,4,51,-,-33,-,-,-,"62 frame cinematic freeze before attack begins, full body invulnerability frames 1-11, airborne frames 4-27"

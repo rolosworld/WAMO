@@ -1,0 +1,61 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,4,4,9, +3, -1,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,5,6,14, +3, -3,"SM,EX,SA,CA",-,-,foreces standing
+Far HP,,H,90,7,6,21, +2, -4,"SM,EX,SA,CA",-,-,-
+Far LK,,H,30,3,4,9, +4,0,"SM,EX,SA,CA",-,-,Rapid fire cancelable to light normal moves
+Far MK,,H,60,5,4,16, +1, -3,"SM,EX,SA,CA",-,-,-
+Far HK,,H,90,6,5,16, +5, -1,-,-,-,"Forces standing, knockdown on airborne foes"
+f+MP,,H,60,10,3,19, -1, -5,-,-,-,-
+f+HP,,H,90,10,6,19,0, -5,-,-,-,-
+f+LK,,H,30,7,4,13,0, -4,-,-,-,-
+f+MK,,H,60,9,3,18,0, -4,-,-,-,-
+f+HK,,H,90,13,4,16, +5,0,-,-,-,-
+Crouch LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Crouch MP,,H,60,5,5,8, +8, +4,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,7,6,15, +4, -1,"SM,EX,SA,CA",-,-,-
+Crouch LK,,H,30,5,6,8, +3, -1,"SM,EX,SA,CA",-,-,-
+Crouch MK,,H,60,6,6,13, +2, -2,"SM,EX,SA,CA",-,-,-
+Crouch HK,,H,90,12,3,24,sweep knockdown, -7,-,-,-,-
+df+LP,,L,30,9,4,11, +2, -2,-,-,-,-
+df+MP,,L,60,12,5,18, -1, -6,-,-,-,-
+df+HP,,L,90,14,3,23, -1, -6,-,-,-,-
+df+LK,,L,30,3,8,12, -3, -7,"SM,EX,SA,CA",-,-,-
+df+MK,,L,60,6,11,14, -4, -8,-,-,-,-
+df+HK,,L,90,10,12,26,sweep knockdown, -18,-,-,-,-
+Jump LP,,M,40,6,7,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,6,8,until ground+4f, +16, +5,-,-,-,-
+Jump HP,,M,100,6,6,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,6,9,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,8,7,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,7,6,until ground+4f, +20, +8,-,-,-,-
+f+LP (air),,M,40,7,11,until ground+4f, +12, +4,-,-,-,-
+f+MP (air),,M,70,8,4,until ground+4f, +16, +5,-,-,-,-
+df+HP (air),,M,100,8,4,until ground+4f, +20, +8,-,-,-,-
+df+LK (air),,M,40,10,6,until ground+4f, +12, +4,-,-,-,-
+df+MK (air),,M,70,12,3,until ground+4f, +16, +5,-,-,-,-
+df+HK (air),,M,100,10,6,until ground+4f, +20, +8,-,-,-,-
+Launcher,HP+HK,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,f+HP+HK while blocking,H,"60,40x2",7,3,18,hard knockdown,-1,-,-,-,"Similar to standing HK, full body invulnerability frames 1-7"
+Yoga Smash,LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Yoga Throw,b+LP+LK,throw,130,7,2,20, hard knockdown,-,-,-,-,-
+Yoga Spear,d+K (air),H,70,12,until ground,7, +12, +4,-,-,-,Button strength determines angle of descent
+Yoga Mummy,d+HP (air),H,90,13,until ground,6, +18, +5,-,-,-,Knockdown on airborne foes
+Yoga Tower,d+PPP,-,-,-,-,122,-, -,-,-,-,"Lower and middle body invulnerability frames 1-60, cancelable with any attack after frame 32"
+Razor Chop,f+LP,M,30,14,5,11, +3, -3,-,-,-,-
+Yoga Fire LP,qcf+LP,H,50,15,-,36, -5, -10,-,-,-,"Projectile has 1 durability point, projectile active for 91 frames, knockdown on airborne foes"
+Yoga Fire MP,qcf+MP,H,50,15,-,36,knockdown, -10,-,-,-,"Projectile has 1 durability point, projectile active for 55 frames"
+Yoga Fire HP,qcf+HP,H,50,15,-,36,knockdown, -10,-,-,-,"Projectile has 1 durability point, projectile active for 41 frames"
+Yoga Fire EX,qcf+PP,H,40x2,15,-,30, +7, +2,-,-,-,"Projectile has 2 durability points, knockdown on airborne foes"
+Yoga Teleport,"f,d,df or b,d,db + PPP or KKK",-,-,-,-,48,-,-,-,-,-,"Full body invulnerability frames 1-29, crushes crouching attacks frames 30-33"
+Yoga Teleport (air),"f,d,df or b,d,db + PPP or KKK",-,-,-,-,30,-,-,-,-,-,"Full body invulnerability frames 1-25, can attack after teleport ends"
+Yoga Flame LP,hcb+LP,H,80,16,23,22,knockdown, -5,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Inferno, hit counts as projectile"
+Yoga Flame MP,hcb+MP,H,90,19,27,16,knockdown,0,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Inferno, hit counts as projectile"
+Yoga Flame HP,hcb+HP,H,100,22,32,13,knockdown, +2,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Inferno, hit counts as projectile"
+Yoga Flame EX,hcb+PP,H,"80,80",17,32,11,knockdown, +5,-,-,-,"Can be Super Charged: 51 frames to perform Yoga Inferno, hit counts as projectile"
+Yoga Blast LK,hcb+LK,H,130,13,20,45,knockdown, -24,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Volcano, hit counts as projectile"
+Yoga Blast MK,hcb+MK,H,150,17,20,37,knockdown, -17,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Volcano, hit counts as projectile"
+Yoga Blast HK,hcb+HK,H,180,32,20,23,knockdown, -3,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Yoga Volcano, hit counts as projectile"
+Yoga Blast EX,hcb+KK,H,70x2,5,17,31,knockdown, -5,-,-,-,"Can be Super Charged: 51 frames to perform Yoga Volcano, full body invulnerability frames 2-4, hit counts as projectile"
+Yoga Inferno,hcb+PPP,H,50x5,3,40,23,hard knockdown, -3,-,-,-,"78 frame cinematic freeze before attack begins, full body invulnerability frames 1-3, hits count as projectile"
+Yoga Volcano,hcb+KKK,H,50x5,8,40,20,hard knockdown, +1,-,-,-,"67 frame cinematic freeze before attack begins, full body invulnerability frames 1-8, hits count as projectile"
+Cross Art,qcf+MP+MK,H,20x5,9,2,50,switch, -30,-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

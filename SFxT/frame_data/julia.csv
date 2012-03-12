@@ -1,0 +1,73 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,5,4,8, +5, +1,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,8,4,13, +4,0,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,11,4,22,-1,-6,-,-,-,-
+Far LK,,H,30,5,2,9, +6, +2,"SM,EX,SA,CA",-,-,-
+Far MK,,H,60,7,4,15, +2,-2,-,-,-,-
+Far HK,,H,90,13,6,23,-4,-9,-,-,-,-
+Close HP,,H,90,7,4,22,-1,-6,"SM,EX,SA,CA",-,-,-
+Close LK,,H,30,5,2,9, +6, +2,"SM,EX,SA,CA",-,-,-
+Close MK,,H,60,6,3,16, +2,-2,"SM,EX,SA,CA",-,-,-
+Close HK,,H,90,11,4,15, +6, +1,-,-,-,-
+Crouch LP,,H,30,4,4,6, +7, +3,"SM,EX,SA,CA",-,-,-
+Crouch MP,,L,60,5,4,15, +2,-2,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,6,7,20,-1,-7,"SM,EX,SA,CA",-,-,Forces standing on hit
+Crouch LK,,L,30,5,4,10, +3,-1,"SM,EX,SA,CA",-,-,-
+Crouch MK,,L,60,8,8,12, +1,-3,"SM,EX,SA,CA",-,-,-
+Crouch HK,,L,90,9,2(20)2,23,sweep knockdown,-5,-,-,-,-
+Jump LP,,M,40,5,4,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,7,7,until ground+4f, +16, +12,-,-,-,-
+Jump HP,,M,100,11,4,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,5,8,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,7,7,until ground+4f, +16, +12,-,-,-,-
+Jump HK,,M,100,12,9,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,14,7,23,hard knockdown,-8,-,-,-,"Similar to 2nd hit of Hunting Tomahawk, full body invulnerability frames 1-20"
+Wild Stallion,LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Mad Axes,b+LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Kolda,f+HP,H,80,12,3,27, +6,0,-,-,-,Ground bounce on airborne foes
+Party Crasher,f > f+MP,H,60,8,3,21, +7, +2,-,-,-,"Input f+MP within 9 frames of inputting f for attack, knockdown on airborne foes"
+-,LP,H,30,5,4,8, +5, +1,"SM,EX,SA,CA",-,-,-
+-,LP > b+MP,H,50,8,4,13, +2,0,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+-,LP > b+MP > LP,H,40,14,10,13, -2, -8,-,-,-,Knockdown on airborne foes
+Baiyuan Sanshou,LP > b+MP > LP > LP,L,70,12,3,26,sweep knockdown, -7,-,-,-,-
+-,LP,H,30,5,4,8, +5, +1,"SM,EX,SA,CA",-,-,-
+-,LP > LP,H,50,15,3,22, -4, -7,-,-,-,"Doesn’t combo with LP, knockdown on airborne foes"
+Divine Impact,LP > LP > MP,M,90,16,9,19,knockdown, -10,-,-,-,-
+Divine Intervention,LP > LP > MK,L,70,13,4,14, +3,0,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+-,b+MP,H,50,6,5,19, -3, -6,-,-,-,Knockdown on airborne foes
+Trickling Stream,b+MP > LP,L,60,15,7,10, +4, +1,"SM,EX,SA,CA",-,-,-
+Raging Rapids,b+MP > MP,H,70,13,5,26,floats, -9,-,-,-,-
+-,f+MP,H,60,12,4,19, -2, -5,-,-,-,Knockdown on airborne foes
+Slow Power Punch Combo,f+MP > LP,H,80,18,3,27,floats, -6,-,-,-,-
+Slow Power Punch to Low Kick,f+MP > LK,L,70,12,2,32, -12, -16,"SM,EX,SA,CA",-,-,-
+Slow Power Punch to High Kick,f+MP > MK,H,80,12,4,25, -8, -11,"SM,EX,SA,CA",-,-,"Floats airborne foes, forces standing on hit"
+-,f+MK,H,60,9,3,20, -2, -5,-,-,-,"Stagger (+35) on Counter Hit, slip (+18) on crouching Counter Hit, input MP or HP between frames 3-15 for follow-up attack, knockdown on airborne foes"
+-,f+MK > MK or HP,H,50,14,4,28, -11, -14,"SM,EX,SA,CA",-,-,"Input K or f+P between frames 3-26 for next attack, knockdown on airborne foes"
+Red Orchid Combo,f+MK > MP or HP > K,H,90,11,4,31, +6, -15,-,-,-,"Forces standing on hit, knockdown on airborne foes"
+Mountain Crusher,f+MK > MP or HP > f+P,H,50,14,4,28, -1, -12,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+Swift Step,hcf+LP,-,-,-,-,31,-,-,-,-,-,"Airborne frames 15-25, input 55 between frames 1-27 to cancel attack into backdash, backdash is 4 frames shorter than normal backdash"
+Swift Step EX,hcf+LP+MP,-,-,-,-,32,-,-,-,-,-,"Armor frames 1-15, airborne frames 16-26, input b,b between frames 1-28 to cancel attack into backdash, backdash is 4 frames shorter than normal backdash"
+Lashing Arrow,hcf+MP,H,120,16,10,14,knockdown, -9,-,-,-,Airborne frames 16-29
+Lashing Arrow EX,hcf+LP+HP,H,70,17,10,14,knockdown, -9,-,-,-,"Armor frames 1-16, airborne frames 17-29"
+Swift Step Explosion,hcf+HP,M,100,39,8,15,crumples, -5,-,-,-,"Airborne frames 15-24, knockdown on airborne foe, input b,b between frames 1-33 to cancel attack into backdash, backdash is 4 frames shorter than normal backdash"
+Swift Step Explosion EX,hcf+MP+HP,M,100,40,8,15,crumples, -5,-,-,-,"Armor frames 1-15, airborne frames 16-25, knockdown on airborne foe, input b,b between frames 1-34 to cancel attack into backdash, backdash is 4 frames shorter than normal backdash"
+Rising Kick LK,"f,d,df+LK",H,120(80),8,6,44,knockdown, -28,-,-,-,"Full body strike invulnerability frames 1-9, Julia’s body is strike invulnerable frame 10, airborne frames 8-40"
+Rising Kick MK,"f,d,df+MK",H,"80,60",7,1(1)6,36,knockdown, -20,-,-,-,"Full body strike invulnerability frames 1-6, airborne frames 7-39"
+Rising Kick HK,"f,d,df+HK",H,"100,60",7,1(1)8,38,knockdown, -24,-,-,-,Airborne frames 7-42
+Rising Kick EX,"f,d,df+KK",H,"100,70",7,1(1)6,42,knockdown, -26,-,-,-,"Full body invulnerability frames 1-10, airborne frames 7-39"
+Tiger Strike,qcb+P,H,"50,80",13,3,28,hard knockdown, -9,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, on hit engages 57 frame cinematic throw"
+Tiger Strike EX,qcf+PP,H,"80,120",17,3,45,hard knockdown, -26,-,-,-,"Can be Super charged: 51 frames to perform Super Art, on hit engages 70 frame cinematic throw"
+Wind Roll LK,hcf+LK,-,-,-,-,24,-,-,-,-,-,Projectile invulnerability frames 1-15
+Wind Roll MK,hcf+MK,-,-,-,-,25,-,-,-,-,-,Projectile invulnerability frames 1-16
+Wind Roll HK,hcf+HK,-,-,-,-,26,-,-,-,-,-,Projectile invulnerability frames 1-17
+Wind Roll EX,hcf+KK,-,-,-,-,24,-,-,-,-,-,Projectile invulnerability frames 1-17
+Tequila Sunrise Elbow Smash 1st,P during wind roll,M,50,16,7,35, +3,-20,-,-,-,"Input P between frames 12-22 for followup
+attack, knockdown on airborne foes"
+Tequila Sunrise Elbow Smash 2nd,P > P during wind roll,H,80,25,9,13,knockdown, +2,-,-,-,-
+Hunting Tomahawk 1st hit,K during wind roll,H,60,8,4,33, -3, -13,-,-,-,Knockdown on airborne foes
+Hunting Tomahawk 2nd hit,K > P during wind roll,H,100,25,7,23,knockdown, -8,-,-,-,-
+Wind Roll Explosion 1st hit,d+K during wind roll,L,50,17,2,35, -3, -13,-,-,-,Knockdown on airborne foes
+Wind Roll Explosion 2nd hit,d+K > PP during wind roll,H,100,18,7,23,knockdown, -8,-,-,-,-
+Iron Mountain Rush,qcb+PPP,H,"20,30x3,200",1,3,35,hard knockdown,-16,-,-,-,"68 frame cinematic freeze before attack begins, full body invincibility frames 1-4"
+Cross Art,qcf+MP+MK,H,"20,30,50",9,2,46,switch,-26,-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

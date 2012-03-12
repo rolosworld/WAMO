@@ -1,0 +1,72 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,5,4,11, +6, +2,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,10,4,17, +4,-1,"SM,EX,SA,CA",-,-,-
+Far LK,,H,30,5,2,9, +6, +2,-,-,-,-
+Far MK,,H,30x2,4,4,21,-2,-6,"1st hit SM,EX,SA,CA",-,-,-
+Far HK,,H,90,12,4,19, +2,-3,-,-,-,-
+Crouch LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Crouch MP,,H,60,5,3,9, +9, +5,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,6,4,23,-1,-7,"SM,EX,SA,CA",-,-,forces standing
+Crouch LK,,L,30,5,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Crouch MK,,L,60,6,5,13, +3,-1,"SM,EX,SA,CA",-,-,-
+Crouch HK,,L,90,6,3,23,sweep knockdown,-6,-,-,-,-
+Jump LP,,M,40,4,4,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,5,5,until ground+4f, +16, +5,-,-,-,-
+Jump HP,,M,100,7,5,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,4,5,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,6,3,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,7,8,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,7,2,19,hard knockdown, +1,-,-,-,"Similar to EX Rising Uppercut, full body invulnerability frames 1-8"
+Double Face Kick,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Skull Smash,b+LP+LK,throw,120,7,2,20,hard knockdown,-,-,-,-,-
+Left Splits Kick,f+LK,M,80,20,5,18,0, -5,-,-,-,"Forces standing on hit, ground bounce on crouching Counter Hit, hard knockdown on airborne foes"
+Right Splits Kick,f+MK,M,70,16,2,20, +1, -4,-,-,-,"Forces standing on hit, ground bounce on crouching Counter Hit, hard knockdown on airborne foes"
+Oni Front Kick,b+HK,M,110,17,3,26,hard knockdown, -11,-,-,-,Crumples on crouching Counter Hit
+-,LP,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+-,LP > LP,H,30,8,3,11, +3, -1,-,-,-,Knockdown on airborne foes
+Flash Punch Combo,LP > LP > MP,H,100,9,4,28,hard knockdown, -14,-,-,-,Knockdown on airborne foes
+Left Right Combo,LP > MP,H,60,8,4,15, -2, -4,"SM,EX,SA,CA",-,-,"Knockdown on airborne foes, visually identical to standing MP"
+Demon Slayer,LP > MP > MP,H,100,11,4,17,hard knockdown, -14,-,-,-,"Doesn’t combo with rest of string, backturn on hit, knockdown on airborne foes"
+Twin Fang Stature Smash,LP > MP > MK,L,50,10,3,19, -5, -7,"BC,LA",-,-,Knockdown on airborne foes
+Twin Fang Double Kick,LP > MP > MK > LK,M,100,11,3,23,hard knockdown, -8,-,-,-,-
+-,LK,H,30,5,2,9, +6, +2,"SM,EX,SA,CA",-,-,-
+-,LK > LP,H,30,8,3,11, +1, -1,"BC,LA",-,-,Knockdown on airborne foes
+Agony Spear,LK > LP > MK,H,60,9,4,21, -2, -7,"SM,EX,SA,CA",-,-,"Forces standing on hit, knockdown on airborne foes"
+-,b+LK,H,50,12,3,16, -2, -4,-,-,-,Knockdown on airborne foes
+-,b+LK > LP,H,50,11,3,17, -3, -5,-,-,-,Knockdown on airborne foes
+-,b+LK > LP > MK,L,60,11,4,16, -3, -5,-,-,-,Knockdown on airborne foes
+Demon's Wrath,b+LK > LP > MK > LP,M,100,13,4,20,hard knockdown, -6,-,-,-,Knockdown on airborne foes
+Reign of Terror,b+LK > LP > MK > LK,L,80,10,2,30,hard knockdown, -14,-,-,-,-
+-,b+MP,L,50,8,3,25, -11, -13,-,-,-,"Slip (+13) on crouching Counter Hit, knockdown on airborne foes"
+-,b+MP > MK,H,40,13,4,19, -6, -8,-,-,-,Knockdown on airborne foes
+Rampaging Demon,b+MP > MK > LP,L,100,19,5,28,hard knockdown, -15,-,-,-,Doesn’t combo with rest of string
+Rising Sun LK,qcb+LK,H,60,17,2,21, +2, -1,-,-,-,Lower body projectile invulnerability and airborne frames 4-23
+Rising Sun MK,qcb+MK,"H,L","60,20",18,2(14)2,31,knockdown, -11,-,-,-,Lower body projectile invulnerability and airborne frames 5-24
+Rising Sun HK,qcb+HK,"H,L","60,20,20",22,2(14)2(12)2,25,knockdown, -5,-,-,-,Lower body projectile invulnerability and airborne frames 8-28
+Rising Sun EX,qcb+KK,"H,L,L","60,20,20",23,2(14)2(12)2,37,knockdown, -17,-,-,-,"Full body invulnerability frames 1-8, projectile invulnerability and airborne frames 9-29"
+Roundhouse to Triple Spin Kick,K during HK or EX rising sun,M,50,15,3,38,knockdown, -19,-,-,-,Input K between frames 29-52 of HK or EX Rising Sun
+Sweep,d+K during EX rising sun,L,50,16,2,35,knockdown, -15,-,-,-,Input d+HK between frames 29-52 during EX Rising Sun
+Slaughter Hook ,qcb+LP,"H,M","30,60",10,4(12)3,"25,29 on wiff",gound bounce, -13,-,-,-,Second hit only activates on hit or block
+Slaughter Hook EX,qcb+LP+MP,"H,M","80,30",11,4(12)3,"21,29 on wiff",ground bounce, -13,-,-,-,"Strike invulnerability frames 1-10, second hit only activates on hit or block"
+Slaughter High Kick,qcb+MP,H,"60,70",10,4(16)4,"28,29 on wiff", -3, -6,-,-,-,Second hit only activates on hit or block
+Slaughter High Kick EX,qcb+MP+HP,H,"80,70",11,4(16)4,"28,29 on wiff", -3, -6,-,-,-,"Strike invulnerability frames 1-10, second hit only activates on hit or block"
+Devastator,qcb+HP,H,"60,100",10,4(9)4,"20,29 on wiff",hard knockdown, -6,-,-,-,Second hit only activates on hit or block
+Devastator EX,qcb+LP+HP,H,"80,100",11,4(9)4,"20,29 on wiff",hard knockdown, -6,-,-,-,"Strike invulnerability frames 1-10, second hit only activates on hit or block"
+Demon God Fist LP,qcf+LP,H,120,16,2,31,hard knockdown, -11,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, upper body armor frames 8-9, hits count as projectiles, crumples on Counter Hit"
+Demon God Fist MP,qcf+MP,H,120,19,2,31,hard knockdown, -11,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, upper body armor frames 11-12, hits count as projectiles, crumples on Counter Hit"
+Demon God Fist HP,qcf+HP,H,120,22,2,31,hard knockdown, -11,-,-,-,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Arts, upper body armor frames 11-12, hits count as projectiles, crumples on Counter Hit"
+Demon God Fist EX,qcf+PP,H,"80,100",20,2(45)12,31,hard knockdown, -23,-,-,-,"Can be Super Charged 51 frames for Super Arts, full body armor frames 3-21, hits count as projectiles"
+Mist Step,"f, n, d, df",-,-,-,-,34,-,-,-,-,-,Upper body projectile invulnerability and crushes standing and jumping attacks frames 1-32
+Rising Uppercut,MP or HP during mist step,H,70,9,2,21,floats, -1,-,-,-,Upper body invulnerability frames 1-10
+Rising Uppercut EX,PP during mist step,H,80,7,2,19,floats, +1,-,-,-,Upper body invulnerability and lower body crushes standing and jumping attacks frames 1-8
+Dragon Uppercut,LP during mist step,H,100,5,11,34,knockdown, -23,-,-,-,"Upper body invulnerability frames 1-4, lower body crushes standing and jumping attacks frames 1-4, crushes jumping attacks frames 5-15"
+Dragon Uppercut to Middle Kick,K during dragon uppercut,M,80,12,3,41,knockdown, -22,-,-,-,-
+Dragon Uppercut to Spin Low Kick,d+K during dragon uppercut,L,70,9,3,28,knockdown, -9,-,-,-,-
+Spinning Demon,K during mist step,L,70,12,2,37,hard knockdown, -17,-,-,-,-
+Spinning Demon EX,KK during mist step,L,70,12,2,37,hard knockdown, -17,-,-,-,Full body invulnerability frames 1-11
+Spinning Demon > Spinning Demon,K during spinning demon,L,70,15,2,37,hard knockdown, -17,-,-,-,-
+Spinning Demon > Spinning Demon Hook,P during spinning demon,M,100,14,4,47,hard knockdown, -29,-,-,-,-
+Devil Beam,qcf+PPP,H,"80,90,60",8,2(17)2(14)2,45,hard knockdown,-25,-,-,-,"64 frame cinematic freeze before attack begins, full body invulnerability frames 1-7, hits count as projectile"
+Cross Art,qcf+MP+MK,H,"20,5x8,40",9,3,45,switch,-26,-,-,-,"66 frame cinematic freeze before attack begins, full body invulnerability frames 1-11"

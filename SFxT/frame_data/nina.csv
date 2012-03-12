@@ -1,0 +1,66 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,3,4,8, +5, +1,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,5,3,11, +7, +3,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,11,5,21,0,-6,-,-,-,forces standing
+Far LK,,H,30,6,4,10, +3,-1,"SM,EX,SA,CA",-,-,-
+Far MK,,H,60,6,4,15, +2,-2,"SM,EX,SA,CA",-,-,-
+Far HK,,H,90,12,5,20, +1,-5,-,-,-,-
+Crouch LP,,H,30,4,3,9, +5, +1,"SM,EX,SA,CA",-,-,-
+Crouch MP,,H,60,6,4,15, +2,-2,"SM,EX,SA,CA",-,-,-
+Crouch HP,,H,90,8,6,17, +3,-3,"SM,EX,SA,CA",-,-,forces standing
+Crouch LK,,L,30,5,5,11, +1,-3,"SM,EX,SA,CA",-,-,-
+Crouch MK,,L,60,7,4,15, +2,-2,"SM,EX,SA,CA",-,-,-
+Crouch HK,,L,90,7,5,23,sweep knockdown,-7,-,-,-,-
+Jump LP,,M,40,4,7,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,6,4,until ground+4f, +16, +5,-,-,-,-
+Jump HP,,M,100,8,4,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,5,6,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,8,8,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,7,6,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,15,6,18,hard knockdown,-6,-,-,-,"Similar to HK Geyser Cannon, full body invulnerability frames 1-16"
+Arm Grab Flip,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Over the Back Toss,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Ivory Cutter,LP+MK,M,"50,40",15,2(10)2,15, +2, -2,-,-,-,"1st hit knock down on Counter Hit, 2nd hit ground bounces on Counter Hit and on airborne foe"
+-,LP,H,30,3,3,8, +5, +1,"SM,EX,SA,CA",-,-,-
+Left Right Combo,LP > MP,H,60,8,8,14, +4,0,"SM,EX,SA,CA",-,-,Causes Slip (+24) on crouching Counter Hit
+Left Right Combo to Spider Knee,LP > MP > LK,H,70,10,10,16,knockdown, -5,"SM,EX,SA,CA",-,-,-
+Bermuda Triangle,LP > MP > MK,H,80,12,12,25, +5, -13,-,-,-,Knockdown on airborne foes
+-,LP > MP > LP,H,50,7,7,14, -3, -3,"BC,LA",-,-,-
+Biting Snake,LP > MP > LP > MK,L,70,9,9,22,sweep knockdown, -9,"BC,LA",-,-,Knockdown on airborne foes
+-,MK,H,60,6,4,10, +2, -2,"SM,EX,SA,CA",-,-,-
+High to Spin Low Kick,MK > LK,L,40,10,5,10, +4, -4,"BC,LA",-,-,Knockdown on airborne foes
+Blonde to Uppercut,MK > LK > MP,H,50,10,6,15,floats, -3,"SM,EX,SA,CA",-,-,-
+Blonde to High Kick,MK > LK > MK,H,60,10,4,20, +1, -7,"BC,LA,Rolling Dash",-,-,Knockdown on airborne foes
+-,df+LK,H,50,6,3,14,0, -3,-,-,-,"Forces standing on hit, knockdown on airborne foes"
+-,df+LK > LK,H,50,9,4,10, +4, -1,-,-,-,Knockdown on airborne foes
+-,df+LK > LK > LK,H,50,8,4,10, +4, -1,"BC,LA",-,-,Knockdown on airborne foes
+Flash Kicks,df+LK > LK > LK > MK,H,70,8,5,14, +12, -1,"SM,EX,SA,CA",-,-,Knockdown on airborne foes
+-,df+LK,H,50,6,3,14,0, -3,-,-,-,"Forces standing on hit, knockdown on airborne foes"
+-,df+LK > MP,H,50,8,3,14,0, -2,"SM,EX,SA,CA",-,-,Knockdown on airborne foe
+-,df+LK > MP > d+LK,L,30,10,5,10, +2, -4,-,-,-,"Doesn’t combo with rest of string, knockdown on airborne foes"
+Creeping Snake to Left low Uppercut,df+LK > MP > d+LK > MP,H,50,10,6,15,floats, -3,"SM,EX,SA,CA",-,-,Doesn’t combo with rest of string
+Creeping Snake to Left Low High Kick,df+LK > MP > d+LK > MK,H,50,8,4,18, +3, -5,"BC,LA,Rolling Dash",-,-,Knockdown on airborne foes
+Skull Splitter LP,"b,d,db+LP",L,70,15,4,18, +1, -7,-,-,-,"Airborne frames 2-13, hard knockdown on Counter Hit, ground bounce on crouching Counter Hit"
+Skull Splitter MP,"b,d,db+MP",L,70,15,4,16,hard knockdown, -5,-,-,-,"Airborne frames 2-3, ground bounce on crouching Counter Hit"
+Skull Splitter HP,"b,d,db+HP",L,70,17,4,16,hard knockdown, -5,-,-,-,"Airborne frames 5-15, ground bounce on crouching Counter Hit"
+Skull Splitter EX,"b,d,db+PP",L,120,15,4,18,ground bounce, -7,-,-,-,"Full body invulnerability frame 1, airborne frames 2-13, attacking arm crushes crouching attacks on frame 15"
+Geyser Cannon LK,qcb+LK,H,60,15,6,18,floats, -6,-,-,-,-
+Geyser Cannon MK,qcb+MK,H,70,15,6,18,floats, -6,-,-,-,-
+Geyser Cannon HK,qcb+HK,H,80,20,6,18,floats, -6,-,-,-,-
+Geyser Cannon EX,qcb+KK,H,80,15,6,18,floats, -6,-,-,-,Full body invulnerability frames 1-14
+Blonde Bomb LP,qcf+LP,H,80,15,4,28,knockdown, -10,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+Blonde Bomb MP,qcf+MP,H,80,16,4,28,knockdown, -10,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+Blonde Bomb HP,qcf+HP,H,80,17,4,28,knockdown, -10,-,-,-,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+Blonde Bomb EX,qcf+PP,H,130,28,6,24,crumples, +1,-,-,-,"Can be Super charged: 51 frames to perform Super Art, full body invulnerability frames 2-5, projectile invulnerability frames 6-27"
+Rolling Dash LK,hcf+LK,-,-,-,-,26,-,-,backhand slap,-,-,"Upper body projectile invulnerability frames 1-25, input PP for follow-up attack frames 1-14"
+Rolling Dash MK,hcf+MK,-,-,-,-,26,-,-,backhand slap,-,-,"Upper body projectile invulnerability frames 1-25, input PP for follow-up attack frames 1-14"
+Rolling Dash HK,hcf+HK,-,-,-,-,26,-,-,backhand slap,-,-,"Upper body projectile invulnerability frames 1-25, input PP for follow-up attack frames 1-14"
+Backhand Slap,PP during rolling dash,L,40,22,3,30, -11, +6,arm break,-,-,"Unblockable if foe blocks standing, 106 frame throw animation if attack connects, foe is invincible for 7 frames if attack isn’t cancelled to Arm Break, miss animation occurs if PP input occurs on frames 70-77, input PP between frames 79-89 for follow-up attack"
+Arm Break,PP during backhand slap,combo throw,60,-,-,-,knockdown,-,double arm break,-,-,"150-frame throw animation if attack connects, miss animation occurs if PP is input between frames 55- 71, if Double Arm Break input is missed, foe isn’t knocked down and initiator incurs 20 points of damage, input PP between frames 72-109 for follow-up attack"
+Double Arm Break,PP during arm break,combo throw,120,-,-,-,hard knockdown,-,-,-,-,144 frame throw animation if attack connects
+Rolling Dash EX,hcf+KK,-,-,-,-,26,-,-,backhand slap EX,-,-,"Upper body invulnerability frames 1-25, input PP for follow-up attack frames 1-19"
+Backhand Slap EX,PP during EX rolling dash,unblockable,"40,60",28,3,30,hard knockdown,-,double arm break EX,-,-,"239 frame throw animation if attack connects, miss animation occurs if PP is input between frames 143-160, if EX Double Arm Break input is missed foe isn’t knocked down and initiator incurs 10 points of damage, input PP between frames 161-198 for follow-up attack"
+Double Arm Break EX,PP during EX backhand slap,combo throw,100,-,-,-,hard knockdown,-,-,-,-,144 frame throw animation if attack connects
+Double Explosion,qcf+PPP,"L,H,M,M,H","20,50,30x3,140",11,5(15)2(26)2(2)3(6)4,53,hard knockdown,-35,-,-,-,"64 frame cinematic freeze before attack begins, full body invulnerability frames 1-11, projectile invulnerabaility frames 12-28, airborne frames 16-89"
+Cross Art,qcf+MP+MK,H,"20,10x4,40",8,2,40,switch,-18,-,-,-,"61 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"

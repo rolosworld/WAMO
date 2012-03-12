@@ -1,0 +1,64 @@
+move,command,block,damage,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,total,meter,Notes
+Far LP,,H,30,4,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Far MP,,H,60,6,4,11, +6, +3,"SM,EX,SA,CA",-,-,-
+Far HP,,H,90,14,4,24,-3,-8,-,-,-,Crumples on standing Counter Hit
+Far LK,,L,30,4,2,9, +6, +2,-,-,-,-
+Far MK,,H,60,9,3,17, +1,-2,-,-,-,-
+Far HK,,H,90,11,3,16, +6, +2,-,-,-,-
+Close HP,,H,90,5,4,22,0,-6,"SM,EX,SA,CA",-,-,forces standing
+Close HK,,H,100,5,2,28,-4,-10,"SM,EX,SA,CA",-,-,forces standing
+Crouch LP,,H,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,-
+Crouch MP,,H,60,12,2,23,-4,-7,-,-,-,-
+Crouch HP,,M,90,20,5,23,hard knockdown,-9,-,-,-,-
+Crouch LK,,L,30,5,3,8, +6, +2,"SM,EX,SA,CA",-,-,-
+Crouch MK,,L,60,6,2,15, +4,0,"SM,EX,SA,CA",-,-,-
+Crouch HK,,H,"60,30",7,3,24,floats,-4,"SM,EX,SA,CA",-,-,forces standing
+Jump LP,,M,40,5,5,until ground+4f, +12, +4,-,-,-,-
+Jump MP,,M,70,7,2,until ground+4f, +16, +5,-,-,-,Spikes airborne foes
+Jump HP,,M,100,6,3,until ground+4f, +20, +8,-,-,-,-
+Jump LK,,M,40,5,9,until ground+4f, +12, +4,-,-,-,-
+Jump MK,,M,70,7,4,until ground+4f, +16, +5,-,-,-,-
+Jump HK,,M,100,7,2,until ground+4f, +20, +8,-,-,-,-
+Launcher,,H,100,13,2,54,switch,-34,-,-,-,"Crushes crouching attacks, launches opponent while switching characters"
+Cross Cancel,,H,120,14,22,26,hard knockdown,-26,-,-,-,"Similar to Blazing Kick, full body invulnerability frames 1-15"
+Rag Doll,LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+Deadly Spear,b+LP+LK,throw,130,7,2,20,hard knockdown,-,-,-,-,-
+-,LP,H,30,3,3,8, +5, +1,"SM,EX,SA,CA",-,-,-
+-,LP > LP,H,40,4,3,5, +9, +7,"BC,LA",-,-,-
+Flash Punch Combo,LP > LP > MP,H,80,9,4,31,knockdown, -13,-,-,-,-
+-,LP > MP,H,60,5,2,26, -7, -9,"BC,LA",-,-,-
+Demon Slayer,LP > MP > MP,H,90,11,3,18, +4, -1,"SM,EX,SA,CA",-,-,Doesn’t combo with rest of string
+-,f+HK,H,70,5,2,20, +4, -2,"SM,EX,SA,CA",-,-,forces standing
+-,f+HK > HK,M,30,17,2,29, -10, -13,-,-,-,Knockdown on airborne foes
+-,f+HK > HK > HK,L,30,11,2,20, -1, -5,-,-,-,Knockdown on airborne foes
+-,f+HK > HK > HK > HK,H,30,11,2,29, -10, -13,-,-,-,Knockdown on airborne foes
+Infinite Kick Combo,f+HK > HK > HK > HK > HK,H,50,16,3,31,hard knockdown, -11,"SM,EX,SA,CA",-,-,-
+-,uf+LK,H,40,5,9,22,hard knockdown, -10,-,-,-,Airborne frames 3-28
+-,uf+LK > MK,H,60,5,4,21,hard knockdown, -3,-,-,-,-
+Hunting Hawk,uf+LK > MK > LK,M,30,11,2,22,hard knockdown, -6,-,-,-,-
+-,d+LK,L,30,4,2,10, +5, +1,"SM,EX,SA,CA",-,-,-
+-,d+LK > d+MK,L,60,8,3,19, -1, -5,"EX,SA",-,-,-
+Snake Blade,d+LK > d+MK > d+MK,L,60,11,3,22,floats, -3,-,-,-,-
+Waning Moon LP,qcb+LP,"standing throw,H","60,10x6,30",9,2(6)2,42,hard knockdown, -22,-,-,-,"1st active frames are standing throw, 2nd active frames are striking attack"
+Waning Moon MP,qcb+MP,"standing throw,H","60,10x6,35",9,2(10)2,46,hard knockdown, -26,-,-,-,"1st active frames are standing throw, 2nd active frames are striking attack"
+Waning Moon HP,qcb+HP,"standing throw,H","60,10x6,40",9,2(14)2,51,hard knockdown, -31,-,-,-,"1st active frames are standing throw, 2nd active frames are striking attack"
+Waning Moon EX,qcb+PP,"standing throw,H","60,10x6,40",10,2(9)2,42,hard knockdown, -22,-,-,-,"Armor frames 1-20, 1st active frames are standing throw, 2nd active frames are striking attack"
+Ancient Power LP,"f,d,df+LP",counter,180,-,-,51,hard knockdown,-,-,-,-,Counters low-hitting strikes frames 4-20
+Ancient Power MP,"f,d,df+MP",counter,180,-,-,51,hard knockdown,-,-,-,-,Counters mid and high-hitting strikes frames 4-20
+Ancient Power HP,"f,d,df+HP",H,100,10,5,33,knockdown, -16,-,-,-,"Full body invulnerability frames 1-9, attack has one hit of projectile durability"
+Ancient Power EX,"f,d,df+PP",H,120,10,5,33,knockdown, -16,-,-,-,"Full body invulnerability frames 1-13, attack has one hit of projectile durability"
+Blazing Kick LK,qcb+LK,H,80(60),8,22,26,floats, -6,-,-,-,Reflects one projectile toward foe frames 8-15
+Blazing Kick MK,qcb+MK,H,80(60),8,22,26,floats, -6,-,-,-,Reflects one projectile at a 45 degree angle frames 8-15
+Blazing Kick HK,qcb+HK,H,80(60),8,22,26,floats, -6,-,-,-,Reflects one projectile at an 80 degree angle frames 8-15
+Blazing Kick EX,qcb+KK,H,80(60),9,22,26,floats, -6,-,-,-,Reflects one projectile toward foe frames 8-15
+Owl's Hunt LK,"f,d,df+LK",M,100,24,2,31,floats, -11,-,-,-,"Airborne frames 5-20, full body invulnerability frames 21-24, ground bounce on Counter Hit"
+Owl's Hunt MK,"f,d,df+MK",M,100,24,2,31,floats, -11,-,-,-,"Airborne frames 5-20, full body invulnerability frames 21-24, ground bounce on Counter Hit"
+Owl's Hunt HK,"f,d,df+HK",M,100,24,2,31,floats, -11,-,-,-,"Airborne frames 5-20, full body invulnerability frames 21-24, ground bounce on Counter Hit"
+Owl's Hunt EX,"f,d,df+KK",M,100,25,2,31,floats, -11,-,-,-,"Airborne frames 5-20, full body invulnerability frames 1-4 and 21-24, homes to foe’s location, ground bounce on Counter Hit"
+Owl's Hunt,K during quick recover,M,100,24,2,31,floats, -11,-,-,-,"Airborne frames 1-20, full body invulnerability frames 21-24, homes to foe’s location, ground bounce on Counter Hit"
+Indigo Punch LP,qcf+LP,H,90,16,2,18,knockdown, +2,-,-,-,"Can be Super Charged: 51 frames to perform EX version,100 frames for Super Art, juggle setup, attack has one hit of projectile durability"
+Indigo Punch MP,qcf+MP,H,90,20,3,19,knockdown,0,-,-,-,"Can be Super Charged: 51 frames to perform EX version,100 frames for Super Art, juggle setup, attack has one hit of projectile durability"
+Indigo Punch HP,qcf+HP,H,90,25,4,18,knockdown,0,-,-,-,"Can be Super Charged: 51 frames to perform EX version,100 frames for Super Art, juggle setup, attack has one hit of projectile durability"
+Indigo Punch EX,qcf+PP,H,100,20,3,21,wall bounce, -2,-,-,-,"Can be Super charged: 51 frames to perform Super Art, juggle setup, attack has one hit of projectile durability"
+Hell Inferno,qcf+PPP,H,"50x2,10x4,50x2,60",10,3,86,hard knockdown,-73,-,-,-,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-active, runs toward foe before active, startup depends on distance from foe when attack started (close: 8, 1/3 screen: 11, 2/3 screen: 15, full screen: 23)"
+Cross Art,qcf+MP+MK,H,"20x2,5x7,25",9,2,48,switch,-29,-,-,-,"64 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"
