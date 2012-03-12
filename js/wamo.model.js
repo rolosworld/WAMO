@@ -84,7 +84,7 @@ wamo.model = {
   },
 
   counterhitBonus: function( move ) {
-    var moveName = move.move + '';
+    var moveName = pretty_name( move ) + '';
     if ( moveName.search(/focus/i) != -1 ) {
       return 3;
     }

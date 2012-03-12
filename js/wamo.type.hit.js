@@ -16,6 +16,9 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 wamo.type.hit = {
+  isValidMove: function( move ) {
+    return move.active && move.block.match(/[HLMhlm]/);
+  },
   getObj: function() {
     return wamo.controller.getMe();
   },
@@ -26,12 +29,12 @@ wamo.type.hit = {
     var content = [];
     content.push('<h3>Links available</h3>');
     Meta.array.$( wamo.controller.getLinks() ).forEach( function( move ) {
-      content.push('<div>' + move.move + '(' + move.frames + ')</div>');
+      content.push('<div>' + pretty_name( move ) + '(' + move.frames + ')</div>');
     } );
 
     content.push('<h3>Counterhit Links available</h3>');
     Meta.array.$( wamo.controller.getCounterhitLinks() ).forEach( function( move ) {
-      content.push('<div>' + move.move + '(' + move.frames + ')</div>');
+      content.push('<div>' + pretty_name( move ) + '(' + move.frames + ')</div>');
     } );
     return content;
   }

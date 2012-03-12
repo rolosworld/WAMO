@@ -16,6 +16,9 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 wamo.type.framedata = {
+  isValidMove: function( move ) {
+    return 1;
+  },
   getObj: function() {
     return wamo.controller.getMe();
   },

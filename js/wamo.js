@@ -61,6 +61,20 @@ function csv_to_objArray( csv ) {
   return objArray;
 };
 
+function pretty_name( move ) {
+  var name = [];
+
+  if ( move.move ) {
+    name.push( move.move );
+  }
+
+  if ( move.command ) {
+    name.push('[' + move.command + ']');
+  }
+    
+  return name.join(' ');
+};
+
 var wamo = {
   framedata: {},
   characters: {},

@@ -32,11 +32,14 @@ wamo.view = {
     wamo.ui.resetOpponent();
   },
   resetMoves: function() {
-    var framedata = wamo.model.getFrameData(wamo.type.get().getObj());
+    var type = wamo.type.get();
+    var framedata = wamo.model.getFrameData(type.getObj());
     
     var rows = ['<select name="move">'];
     for( var i in framedata ) {
-      rows.push('<option value="' + i + '">' + framedata[i].move + '</option>');
+      if ( type.isValidMove( framedata[i] ) ) {
+        rows.push('<option value="' + i + '">' + pretty_name( framedata[i] ) + '</option>');
+      }
     }
     rows.push('</select>');
 
