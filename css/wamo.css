@@ -39,3 +39,6 @@ select {
 .worst {
   color: #ff6500;
 }
+.framedata *{ 
+  font-size: 0.9em;
+}

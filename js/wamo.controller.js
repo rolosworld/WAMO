@@ -89,8 +89,8 @@ wamo.controller = {
 
   onActionChange: function() {
     wamo.model.setAction(wamo.controller.getAction());
-    wamo.view.resetAction();
     wamo.view.resetMoves();
+    wamo.view.resetAction();
     wamo.controller.onMoveChange();
   },
 

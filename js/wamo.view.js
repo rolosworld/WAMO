@@ -50,6 +50,7 @@ wamo.view = {
     wamo.ui.details.inner(wamo.type.get().details().join(''));
   },
   resetAction: function() {
-    wamo.ui.opponent.attr('disabled', wamo.controller.getAction() != 'blocked' ? 'disabled' : null);
+      wamo.ui.opponent.attr('disabled', wamo.type.get().enabled().opponent ? null : 'disabled' );
+      wamo.ui.move.attr('disabled', wamo.type.get().enabled().move ? null : 'disabled' );
   }
 };

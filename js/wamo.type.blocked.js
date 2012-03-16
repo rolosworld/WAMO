@@ -16,6 +16,12 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 wamo.type.blocked = {
+  enabled: function(){
+    return {
+      move: 1,
+      opponent: 1
+    };
+  },
   isValidMove: function( move ) {
     return move.active && (move.block + '').match(/[HLM]/);
   },
