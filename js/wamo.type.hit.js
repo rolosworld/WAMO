@@ -17,7 +17,7 @@
 */
 wamo.type.hit = {
   isValidMove: function( move ) {
-    return move.active && move.block.match(/[HLMhlm]/);
+    return move.active && (move.block + '').match(/[HLM]/);
   },
   getObj: function() {
     return wamo.controller.getMe();
