@@ -1,0 +1,65 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,7,2,5
+"Close Medium Punch ","HL ",80,100,40,"Su ",6,4,12,-2,1
+"Close Hard Punch ","HL ",120,200,60,"Su ",5,5,16,-3,2
+"Close Light Kick ","HL ",40,50,20,"C*Sp*Su ",3,2,7,2,5
+"Close Medium Kick ","HL ",90,100,40,"Sp*Su ",5,4,13,-3,0
+"Close Hard Kick ","HL ",100,200,60,"Su ",7,2,13,3,7
+"Far Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,4,5,8
+"Far Medium Punch ","HL ",90,100,40,"Su ",7,2,16,-4,1
+"Far Hard Punch ","HL ",100,200,60,"- ",9,4,21,-7,-3
+"Far Light Kick ","HL ",40,50,20,"ch/Su ",4,2,10,-1,2
+"Far Medium Kick ","HL ",90,100,40,"Su ",9,3,12,-1,2
+"Far Hard Kick ","HL ",110,200,60,"- ",8,2,20,-4,0
+"Crouch Light Punch ","HL ",20,50,20,"C*Sp*Su ",3,2,5,4,7
+"Crouch Medium Punch ","HL ",70,100,40,"Sp*Su ",7,4,12,-2,1
+"Crouch Hard Punch ","HL ",110,200,60,"Su ",7,5,21,-8,-3
+"Crouch Light Kick ","L ",30,50,20,"Sp*Su ",4,2,9,0,3
+"Crouch Medium Kick ","L ",70,100,40,"Su ",8,2,8,4,7
+"Crouch Hard Kick ","L ",90,120,60,"Su ",8,2,22,-6,"D "
+"Focus Attack Level 1 ","HL ",90,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",120,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",170,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",90,100,20,"- ",21,2,35,-2,-2
+"Focus Attack Level 2 (Dash Cancel) ","HL ",120,150,40,"- ",29,2,35,4,"D "
+"Forward Throw ",0.9,130,160,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,130,100,40,"- ",3,2,20,"- ","D "
+"Dashing Punch Light Punch ","HL ",100,100,"20/30 ","Su ",4,7,17,-3,-2
+"Dashing Punch Medium Punch ","HL ",110,150,"20/30 ","Su ",7,6,19,-6,-1
+"Dashing Punch Hard Punch ","HL ",120,200,"20/30 ","Su ",7,6,20,-8,-1
+"Dashing Punch EX ","HL ",120,200,"-250/0 ","Su ",7,6,17,-2,2
+"Dashing Uppercut Light Kick ","HL ",100,100,"20/30 ","Su ",5,4,20,-3,-1
+"Dashing Uppercut Medium Kick ","HL ",110,150,"20/30 ","Su ",7,4,20,-5,1
+"Dashing Uppercut Hard Kick ","HL ",120,200,"20/30 ","Su ",7,4,21,-7,-1
+"Dashing Uppercut EX ","HL ",120,200,"-250/0 ","Su ",7,4,18,-1,4
+"Dashing Low Punch Light Punch ","L ",90,100,"20/30 ","Su ",13,8,21,-8,"D "
+"Dashing Low Punch Medium Punch ","L ",100,150,"20/30 ","Su ",14,8,21,-9,"D "
+"Dashing Low Punch Hard Punch ","L ",110,200,"20/30 ","Su ",14,8,21,-11,"D "
+"Dashing Low Punch EX ","L ",110,200,"-250/0 ","Su ",14,8,17,-3,"D "
+"Dashing Overhead Punch Light Punch ","H ",80,100,"20/30 ","Su ",22,5,21,-5,7
+"Dashing Overhead Punch Medium Punch ","H ",90,150,"20/30 ","Su ",23,5,21,-7,7
+"Dashing Overhead Punch Hard Punch ","H ",100,200,"20/30 ","Su ",23,5,21,-8,7
+"Dashing Overhead Punch EX ","H ",100,200,"-250/0 ","Su ",23,5,21,-5,7
+"Dashing Low Uppercut Light Kick ","HL ",100,100,"20/30 ","Su ",12,8,20,-5,"D "
+"Dashing Low Uppercut Medium Kick ","HL ",110,150,"20/30 ","Su ",13,8,20,-7,"D "
+"Dashing Low Uppercut Hard Kick ","HL ",120,200,"20/30 ","Su ",13,8,20,-9,"D "
+"Dashing Low Uppercut EX ","HL ",120,200,"-250/0 ","Su ",13,8,16,-1,"D "
+"Buffalo Headbutt Light Punch ","HL ",100,200,"30/40 ","- ",8,11,"10+13 ",-13,"D "
+"Buffalo Headbutt Medium Punch ","HL ",120,200,"30/40 ","- ",10,11,"10+13 ",-13,"D "
+"Buffalo Headbutt Hard Punch ","HL ",140,200,"30/40 ","- ",12,11,"9+13 ",-12,"D "
+"Buffalo Headbutt EX ","HL ",150,200,"-250/0 ","- ",12,11,"9+13 ",-12,"D "
+"Turn Punch Level 1 ","HL ",130,200,"30/40 ","Su ",30,7,13,-2,2
+"Turn Punch Level 2 ","HL ",150,210,"30/40 ","Su ",30,7,16,-5,-1
+"Turn Punch Level 3 ","HL ",180,220,"30/40 ","Su ",30,8,18,-8,-4
+"Turn Punch Level 4 ","HL ",210,230,"30/40 ","Su ",30,9,21,-12,-8
+"Turn Punch Level 5 ","HL ",250,240,"30/40 ","Su ",30,10,22,-14,-10
+"Turn Punch Level 6 ","HL ",280,250,"30/40 ","Su ",30,11,24,-17,-13
+"Turn Punch Level 7 ","HL ",410,260,"30/40 ","Su ",30,12,26,-20,-16
+"Turn Punch Level 8 ","HL ",460,270,"30/40 ","Su ",30,13,29,-24,-20
+"Turn Punch Level 9 ","HL ",510,280,"30/40 ","Su ",30,15,32,-29,-25
+"Turn Punch Final ","HL ",560,290,"30/40 ","Su ",30,16,36,-34,-30
+"Super ","HL ","60x4*105 ",0,"-1000/0 ","- ",10,"6(8) 6(7) 6(8) 6(15) 3 ",31,-14,"- "
+"Super (???) ","- ","60x4*105 ",0,"-1000/0 ","- ",9,"6(8) 6(8) 6(8) 6(16) 3 ",31,"- ","- "
+"Ultra 1 ","HL ","45x2 * 38x2 * 45x2 * 38x2 * 53x3 ",0,"0/0 ","- ",11,"3 * 3(8)3 * 3(7)3 * 3(8)3 * 3(15) x3 ",39,-26,"D "
+"Ultra 1 (???) ","- ","45x2 * 38x2 * 45x2 * 38x2 * 53x3 ",0,"0/0 ","- ",10,"3 * 3(8)3 * 3(7)3 * 3(8)3 * 3(16) x3 ",39,-26,"- "
+"Ultra 2 ","- ",300,700,"0/0 ","- ",2,3,58,"- ","- "

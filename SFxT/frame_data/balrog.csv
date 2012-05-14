@@ -1,0 +1,74 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,2,10,5,1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Far MP",,"H",60,7,2,15,4,0,-0,-0,-0,-0
+"Far HP",,"H",90,9,4,20,1,-1,-0,-0,-0,"Crumples standing foes on Counter Hit"
+"Far LK",,"H",30,4,2,9,6,3,-0,-0,-0,"Rapid fire cancelable into light attacks"
+"Far MK",,"H",60,9,3,12,6,2,-0,-0,-0,-0
+"Far HK",,"H",90,8,2,19,4,-1,-0,-0,-0,-0
+"Close LP",,"H",30,4,2,9,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Close MP",,"H",60,6,4,11,6,2,-0,-0,-0,-0
+"Close HP",,"H",90,5,5,15,6,0,-0,-0,-0,"Forces standing on hit"
+"Close LK",,"H",30,3,2,8,7,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks, not technically crouchable high but most crouching characters avoid cl.LK"
+"Close MK",,"H",60,5,4,13,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,7,2,15,9,3,-0,-0,-0,"Forces standing on hit"
+"Crouch LP",,"H",30,4,2,9,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Crouch MP",,"H",60,7,4,11,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,7,5,20,-2,-5,-0,-0,-0,"Forces standing on hit"
+"Crouch LK",,"L",30,4,2,8,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,8,2,11,8,4,-0,-0,-0,-0
+"Crouch HK",,"L",90,8,2,28,"sweep",-10,-0,-0,-0,"Sweep knockdown"
+"Jump up LP",,"M",40,5,2,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,5,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,5,9,"until ground+4f",20,8,-0,-0,-0,"Hold b or f to direct after input"
+"Jump up LK",,"M",40,5,3,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,6,2,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,5,2,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,5,3,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,7,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,7,7,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,5,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,7,2,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,8,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",130,10,11,23,"hard knockdown",-12,-0,-0,-0,"Resembles EX Buffalo Head, invulnerable frames 1-10, projectile invulnerable frames 11-20"
+"Head Bomber","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Lever Break","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Dash Low Straight LP","charge b,df+LP","L",100,"14-23",8,20,"sweep",-11,-0,-0,-0,"Requires 54 frames of backward charge, travels half screen"
+"Dash Low Straight MP","charge b,df+MP","L",110,"15-30",8,20,"sweep",-11,-0,-0,-0,"Requires 54 frames of backward charge, travels 3/4 screen, attack begins once opponent is in range"
+"Dash Low Straight HP","charge b,df+HP","L",120,"15-43",8,20,"sweep",-11,-0,-0,-0,"Requires 54 frames of backward charge, travels full screen, attack begins once opponent is in range"
+"Dash Low Straight EX","charge b,df+PP","L",140,"15-41",8,16,"sweep",-7,-0,-0,-0,"Armor frames 2-48, travels full screen, attack begins once
+opponent is within range"
+"Dash Low Smash LK","charge b,df+LK","H",100,"13-22",8,20,"knockdown",-6,-0,-0,-0,"Requires 54 frames of backward charge, travels half screen"
+"Dash Low Smash MK","charge b,df+MK","H",100,"14-29",8,20,"knockdown",-6,-0,-0,-0,"Requires 54 frames of backward charge, travels 3/4 screen, attack begins once opponent is in range"
+"Dash Low Smash HK","charge b,df+HK","H",100,"14-42",8,20,"knockdown",-6,-0,-0,-0,"Requires 54 frames of backward charge, travels full screen, attack begins once opponent is in range"
+"Dash Low Smash EX","charge b,df+KK","H",100,"15-41",8,16,"wall bounce",-7,-0,-0,-0,"Requires 54 frames of backward charge, travels full screen, attack begins once opponent is in range, causes knockdown against airborne foes"
+"Dash Swing Blow LP","charge b,df+LP(hold)","M",100,"23-32",5,21,10,-9,-0,-0,-0,"Requires 54 frames of backward charge, travels half screen, attack begins once opponent is in range, causes hard knockdown against airborne foes"
+"Dash Swing Blow MP","charge b,df+MP(hold)","M",100,"24-39",5,21,10,-9,-0,-0,-0,"Requires 54 frames of backward charge, travels 3/4 screen, attack begins once opponent is in range, causes hard knockdown against airborne foes"
+"Dash Swing Blow HP","charge b,df+HP(hold)","M",100,"24-52",5,21,10,-9,-0,-0,-0,"Requires 54 frames of backward charge, travels full screen, attack begins once opponent is in range, causes hard knockdown against airborne foes"
+"Dash Swing Blow EX","chargeb,df+PP(hold)","M",130,"24-51",5,21,"ground bounce",-6,-0,-0,-0,"Requires 54 frames of backward charge, travels full screen, attack begins once opponent is in range, causes hard knockdown against airborne foes"
+"Buffalo Head LP","charge d,u+LP","H",100,9,11,24,"float",-13,-0,-0,-0,"Requires 47 frames of downward charge, upper body invulnerable frames 1-8, projectile invulnerable frames 1-19"
+"Buffalo Head MP","charge d,u+MP","H",90,11,11,24,"float",-13,-0,-0,-0,"Requires 47 frames of downward charge, upper body invulnerable frames 1-10, projectile invulnerable frames 1-20"
+"Buffalo Head HP","charge d,u+HP","H",80,13,11,24,"float",-13,-0,-0,-0,"Requires 47 frames of downward charge, Upper body invulnerable frames 1-12, projectile invulnerable frames 1-23"
+"Buffalo Head EX","charge d,u+EX","H",100,14,11,24,"float",-13,-0,-0,-0,"Requires 47 frames of downward charge, full body invulnerable frames 1-17"
+"Turn Punch","charge PPP or KKK release","H",100,31,7,14,0,-4,-0,-0,-0,"Hold 32 frames and release to execute, strike and projectile invulnerable frames 1-19, may still attack with non-held buttons, charging Turn Punch increases active/recovery frames over time, causes wall bounce against airborne foes"
+"Dash Straight LP","charge b,f+LP","H",100,"5-15",7,16,-2,-4,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, forces standing on hit"
+"Dash Straight MP","charge b,f+MP","H",110,"8-24",5,18,1,-3,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, forces standing on hit"
+"Dash Straight HP","charge b,f+HP","H",120,"8-37",4,19,1,-6,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, forces standing on hit"
+"Dash Straight EX","charge b,f+PP","H",140,"9-35",5,16,4,-3,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for Super Art, armor from 1st frame until active frames end, forces standing on hit"
+"Dash Upper LK","charge b,f+LP","H",70,"6-15",4,19,0,-1,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, launches airborne foes"
+"Dash Upper MK","charge b,f+MK","H",70,"8-23",4,20,1,-4,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, launches airborne foes"
+"Dash Upper HK","charge b,f+HK","H",70,"8-36",4,21,1,-7,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for EX version or 100 frames for Super Art, launches airborne foes"
+"Dash Upper EX","charge b,f+KK","H",140,"9-35",4,17,5,-3,-0,-0,-0,"Requires 54 frames of backward charge, can be Super Charged 51 frames for Super Art, armor from 1st frame until active frames end, launches airborne foes"
+"Turn Punch lvl1","hold 32f","H",100,-0,7,14,0,-4,-0,-0,-0,-0
+"Turn Punch lvl1","hold 120f (2 seconds)","H",120,-0,7,16,-2,-4,-0,-0,-0,-0
+"Turn Punch lvl1","hold 240f (4 seconds)","H",150,-0,8,18,-5,-9,-0,-0,-0,-0
+"Turn Punch lvl1","hold 480f (8 seconds)","H",200,-0,9,21,-9,-13,-0,-0,-0,-0
+"Turn Punch lvl1","hold 960f (16 seconds)","H",250,-0,10,22,-11,-15,-0,-0,-0,-0
+"Turn Punch lvl1","hold 1440f (24 seconds)","H",280,-0,11,24,-14,-18,-0,-0,-0,-0
+"Turn Punch lvl1","hold 1920f (32 seconds)","H",360,-0,12,26,-17,-21,-0,-0,-0,-0
+"Turn Punch lvl1","hold 2400f (40 seconds)","H",400,-0,13,29,-21,-25,-0,-0,-0,-0
+"Turn Punch lvl1","hold 2880f (48 seconds)","H",450,-0,15,32,-36,-29,-0,-0,-0,-0
+"Turn Punch lvl1","hold 3360f (56 seconds)","H",500,-0,16,36,-31,-35,-0,-0,-0,-0
+"Crazy Buffalo","charge b,f+PPP or KKK","H","60x4,80","PPP=19(hold K=16)","6(8)5(6)6(7)5(17)3",31,"hard knockdown",-14,-0,-0,-0,"Requires 54 frames of backward charge, 67 frame freeze before attack begins, PPP version invulnerable frames 1-20 (hold K : 1-17), KKK version invulnerable frames 1-24 (hold K : 1-22)"
+-0,-0,-0,-0,"KKK=23(hold K=21)",-0,-0,-0,-0,-0,-0,-0,-0
+"Cross Art","qcf+MP+MK","H",100,9,2,39,-0,-20,-0,-0,-0,"64 frame freeze before attack begins, invulnerable frames 1-10"

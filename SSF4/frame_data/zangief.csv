@@ -1,0 +1,44 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",40,50,20,"C*Sp*Su ",4,6,7,-2,1
+"Close Medium Punch ","HL ",90,100,40,"Sp*Su ",5,2,14,-2,1
+"Close Hard Punch ","HL ",140,200,60,"- ",7,4,20,-6,-1
+"Close Light Kick ","HL ",30,50,20,"- ",4,2,10,-1,2
+"Close Medium Kick ","HL ",90,100,40,"Sp*Su ",5,2,15,-3,0
+"Close Hard Kick ","HL ",140,200,60,"- ",7,4,21,-5,-1
+"Far Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,2,7,3,6
+"Far Medium Punch ","HL ",70,100,40,"- ",4,2,10,2,5
+"Far Hard Punch ","HL ",140,200,60,"- ",12,3,18,-3,1
+"Far Light Kick ","HL ",30,50,20,"Sp*Su ",4,2,7,2,5
+"Far Medium Kick ","HL ",90,100,40,"- ",7,6,18,-10,-5
+"Far Hard Kick ","HL ",140,200,60,"- ",11,4,16,-2,2
+"Crouch Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,3,6,2,5
+"Crouch Medium Punch ","HL ",80,100,40,"- ",8,5,12,-3,3
+"Crouch Hard Punch ","HL ",120,200,60,"Su ",12,4,16,-2,2
+"Crouch Light Kick ","L ",40,50,20,"Sp*Su ",4,3,7,1,4
+"Crouch Medium Kick ","L ",90,100,40,"- ",9,4,15,-5,-2
+"Crouch Hard Kick ","L ",120,200,60,"- ",9,5,18,-5,"D "
+"Down Forward + Hard Kick ","L ",120,200,60,"- ",14,7,22,-11,"D "
+"Focus Attack Level 1 ","HL ",90,100,20,"- ",23,5,32,-21,-21
+"Focus Attack Level 2 ","HL ",120,150,40,"- ",33,5,32,-15,"D "
+"Focus Attack Level 3 ","- ",170,200,60,"- ",65,5,32,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",90,100,20,"- ",23,5,32,-10,-10
+"Focus Attack Level 2 (Dash Cancel) ","HL ",120,150,40,"- ",33,5,32,-4,"D "
+"Forward Throw ",0.9,160,180,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,160,180,40,"- ",3,2,20,"- ","D "
+"Spinning Piledriver Light Punch ",1.65,170,100,"40/100 ","- ",2,2,52,"- ","D "
+"Spinning Piledriver Medium Punch ",1.45,200,150,"40/100 ","- ",2,2,50,"- ","D "
+"Spinning Piledriver Hard Punch ",1.35,230,200,"40/100 ","- ",2,2,48,"- ","D "
+"Spinning Piledriver EX ",1.35,200,150,"-250/0 ","- ",4,2,47,"- ","D "
+"Banishing Flat Light Punch ","HL ",120,100,"30/30 ","Su ",11,2,21,-7,-5
+"Banishing Flat Medium Punch ","HL ",130,150,"30/30 ","Su ",13,2,22,-8,-6
+"Banishing Flat Hard Punch ","HL ",140,200,"30/30 ","Su ",16,2,23,-9,-7
+"Banishing Flat EX ","HL ","80*50 ","50*50 ","-250/0 ","Su ",13,"1*1 ",27,-9,"D "
+"Lariat Punch ","HL ","120*140 ","150*200 ","30/40 ","Su ",4,"2(4) 7(2) 7(3) 9(2) 8(4) 3 ",14,-44,"D "
+"Lariat Kick ","HL ","110*130 ","100*150 ","30/30 ","Su ",4,"2(4) 5(3) 8(4) 3 ",14,-22,"D "
+"Atomic Suplex ",1,220,200,"30/140 ","- ",2,2,45,"- ","D "
+"Atomic Suplex EX ",1,240,200,"-250/0 ","- ",2,2,45,"- ","D "
+"Flying Powerbomb ",0.9,200,150,"30/80 ","- ",1,2,45,"- ","D "
+"Flying Powerbomb EX ",0.9,220,200,"-250/0 ","- ",1,2,45,"- ","D "
+"Super ",1.2,450,0,"-1000/0 ","- ",1,2,46,"- ","D "
+"Ultra 1 ",1.4,520,0,"0/0 ","- ",1,2,46,"- ","D "
+"Ultra 2 ",0.95,450,0,"0/0 ","- ",3," ??? ",51,"- ","D "

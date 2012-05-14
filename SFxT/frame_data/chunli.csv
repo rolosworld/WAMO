@@ -1,0 +1,64 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",-0,"H",30,3,2,9,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",-0,"H",60,7,2,18,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",-0,"H",90,7,3,20,2,-3,-0,-0,-0,-0
+"Far LK",-0,"H",30,4,2,11,4,0,-0,-0,-0,-0
+"Far MK",-0,"H",60,7,3,17,1,-3,-0,-0,-0,-0
+"Far HK",-0,"H",90,13,2,25,-2,-7,-0,-0,-0,-0
+"Close LP",-0,"H",30,3,2,10,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close MP",-0,"H","30x2",4,"3(5)3",17,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",-0,"H",90,4,4,21,0,-5,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",-0,"H",30,4,2,8,7,3,-0,-0,-0,-0
+"Close MK",-0,"H","20x3",5,"3(7)4",15,4,0,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Close HK",-0,"H",90,5,3,22,1,-5,"SM,EX,SA,CA,jump",-0,-0,"forces standing"
+"Crouch LP",-0,"H",30,4,3,7,7,3,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal moves"
+"Crouch MP",-0,"L",60,11,5,17,-1,-5,-0,-0,-0,-0
+"Crouch HP",-0,"H","60,30",6,"2(6)2",23,0,-5,"1st hit SM,EX,SA,CA",-0,-0,-0
+"Crouch LK",-0,"L",30,3,4,7,6,2,-0,-0,-0,-0
+"Crouch MK",-0,"L",60,5,3,17,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",-0,"L",90,8,4,24,"sweep knockdown",-8,-0,-0,-0,-0
+"Jump up LP",-0,"M",40,7,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",-0,"M",70,5,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",-0,"M","60x2",5,"2(2)2","until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",-0,"M",40,4,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",-0,"M",70,5,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",-0,"M",100,5,8,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",-0,"M",40,4,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",-0,"M",70,5,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",-0,"M",70,6,8,"until ground+4f",20,8,-0,-0,-0,"Knockdown on airborne foes"
+"Jump forward LK",-0,"M",40,5,10,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",-0,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",-0,"M",100,5,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher","HP+HK","H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel","f+HP+HK (while blocking)","H","20x4, 30",7,"2(1)2(3)2(4)2(3)2",19,"hard knockdown",-18,-0,-0,-0,"Similar to EX Spinning Bird Kick, full body invincibility frames 1-8"
+"Koshuyo","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Kirinshu","b+LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Ryuseiraku","LP+LK (air)","throw",150,7,2,"until ground+4f","hard knockdown",-0,-0,-0,-0,-0
+"Kakukyakuraku","df+HK","M",80,38,7,5,11,7,-0,-0,-0,"Airborne frames 12-44, knockdown on airborne foes"
+"Rear Spin Kick","df+LK","H",40,11,4,15,-5,-4,-0,-0,-0,"Airborne frames 16-22, knockdown on airborne foes"
+"Kakusenshu","f+MK","H",60,16,3,16,2,-2,-0,-0,-0,"Knockdown on airborne foes"
+"Yosokyaku","d+MK (air)","M",50,4,3,"until ground+4f",17,10,-0,-0,-0,"Knockdown on airborne foes, can be repeated up to 3 times, can perform any jumping attack after it connects"
+"wall jump","uf (in air near wall)",-0,-0,-0,-0,28,-0,-0,-0,-0,-0,-0
+"Kintekishu","b+MK","H",50,6,4,15,-2,-6,-0,-0,-0,"Knockdown on airborne foes"
+"Tenkukyaku","b+MK > MK","H",50,13,3,40,"floats",-30,"jump",-0,-0,"Input d,u+MK between frames 13-45 for follow-up attack, knockdown on airborne foes"
+"Tenshokyaku","b+MK > MK > d,u+MK","H","20x5",5,"4(2)1(4)2(4)1(5)1",24,"knockdown",-37,-0,-0,-0,"Full body invulnerability frames 1-8, airborne frames 5-37"
+-0,"diagonal jump HP","M",70,6,8,"until ground+4f",20,8,-0,-0,-0,"Input HP during active frames for followup attack, knockdown on airborne foes"
+"Target Combo","diagonal jump HP > HP","M",40,5,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Kikoken LP","hcf+LP","H",50,15,-0,37,-6,-11,-0,-0,-0,"Projectile has 1 point of durability, projectile active for 99 frames, knocks down airborne foes"
+"Kikoken MP","hcf+MP","H",50,13,-0,34,-3,-8,-0,-0,-0,"Projectile has 1 point of durability, projectile active for 76 frames, knocks down airborne foes"
+"Kikoken HP","hcf+HP","H",50,11,-0,33,-2,-7,-0,-0,-0,"Projectile has 1 point of durability, projectile active for 44 frames, knocks down airborne foes"
+"Kikoken EX","hcf+PP","H","50x2",12,-0,26,14,8,-0,-0,-0,"Projectile has 2 points of durability, knocks down airborne foes"
+"Hazanshu LK","hcb+LK","M",70,24,2,20,5,-2,-0,-0,-0,"Airborne frames 3-23, hard knockdown on airborne foes, knocks down on crouching Counter Hit"
+"Hazanshu MK","hcb+MK","M",100,26,2,20,6,0,-0,-0,-0,"Airborne frames 3-25, hard knockdown on airborne foes, knocks down on crouching Counter Hit"
+"Hazanshu HK","hcb+HK","M",110,27,2,20,"hard knockdown",0,-0,-0,-0,"Airborne frames 3-26, ground bounce on crouching Counter Hit"
+"Hazanshu EX","hcb+KK","M",130,28,2,20,"ground bounce",0,-0,-0,-0,"Full body invulnerability frames 1-16, projectile invulnerability frames 17-29, airborne frames 4-27"
+"Spinning Bird Kick LK","charge d,u+LK","H","20x5",14,"2(2)1(5)2(4)2(4)2",23,0,-3,-0,-0,-0,"Airborne frames 14-48, first hit forces standing on hit, knocks down airborne foes"
+"Spinning Bird Kick MK","charge d,u+MK","H","15x6,30",15,"2(2)1(5)1(5)2(4)2(6)1(5)2",24,-1,-4,-0,-0,-0,"Airborne frames 15-61, first hit forces standing on hit, knocks down airborne foes"
+"Spinning Bird Kick HK","charge d,u+HK","H","12x8,34",23,"2(1)2(5)1(5)1(5)1(7)1(4)2(5)1(5)2",24,-1,-4,-0,-0,-0,"Airborne frames 23-82, first hit forces standing on hit, knocks down airborne foes"
+"Spinning Bird Kick EX","charge d,u+KK","H","20x4,30",8,"2(1)2(3)2(4)2(3)2",19,"knockdown",-10,-0,-0,-0,"Full body invulnerability frames 1-9, first hit forces standing on hit, airborne frames 8-37"
+"Lightning Kicks LK","hcf+LK","H","20 per hit",5,"2(6)2(6)2(6)2",24,2,-1,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, input K for additional hits, knocks down airborne foes"
+"Lightning Kicks MK","hcf+MK","H","20 per hit",7,"1(4)2(4)1(4)1",22,2,-1,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, input K for additional hits, knocks down airborne foes"
+"Lightning Kicks HK","hcf+HK","H","20 per hit",7,"1(4)1(4)1(3)1",23,1,-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, input K for additional hits, knocks down airborne foes"
+"Lightning Kicks EX","hcf+KK","H","30x3,50",6,"3(5)3(5)3(5)3",19,"floats",-16,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art"
+"Senretsukyaku","hcf+KKK","H","20,10x12,60,100",9,"2(23)2(3)2(3)2(3)2(3)2(3)2(3)2(3)2(3)2(3)2(2)2(3)2(35)2(24)2",42,"hard knockdown",-22,-0,-0,-0,"84 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"
+"Cross Art","qcf+MP+MK","H","20,5x13,15",9,2,46,-0,-26,-0,-0,-0,"62 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

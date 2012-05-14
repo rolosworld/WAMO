@@ -1,0 +1,67 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,3,2,9,6,2,-0,-0,-0,-0
+"Far MP",,"H",60,6,4,18,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,11,4,25,-4,-9,-0,-0,-0,-0
+"Far LK",,"L",30,5,2,12,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",60,8,3,19,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+"Far HK",,"H",90,11,4,25,-4,-9,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"L",30,4,2,12,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",30,4,4,7,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,5,5,13,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,9,5,27,3,-12,-0,-0,-0,"crumples on counter hit"
+"Crouch LK",,"L",30,5,3,11,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,7,4,21,-4,-8,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,9,3,28,"hard knockdown",-11,-0,-0,-0,-0
+"Jump LP",,"M",40,6,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,7,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,10,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,7,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,7,9,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M","60,40",8,"3(5)5","until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,13,4,25,"hard knockdown",-7,-0,-0,-0,"Similar to Mist Palm Thrust, full body invulnerability frames 1-13"
+"Cloud Taste","LP+LK","throw",120,7,20,20,"hard knockdown",-0,-0,-0,-0,-0
+"White Mountain","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Demon Slayer","f+LP","H",80,19,3,26,"floats",-7,-0,-0,-0,-0
+"Tsuwabaki","f+MP","M",60,16,5,18,3,-8,-0,-0,-0,"Ground bounces airborne foes"
+"Thunder Fall Kick","f+HK","M","40x2",24,"2(4)2",25,"ground bounce/knockdown",-2,-0,-0,-0,"Knockdown on airborne foes, airborne frames 14-27"
+"Dragon Wheel Kick","f+LK","H",60,8,7,23,23,-15,-0,-0,-0,"Knockdown on airborne foes"
+"Demon Slayer","f+LK > f+LP","H",80,10,3,26,26,-7,-0,-0,-0,-0
+"Leg Cutter","f+LK > df+HK","L",60,10,4,25,25,-2,-0,-0,-0,"Continues into Leg Cutter strings"
+-0,"MP","H",60,6,4,18,18,-5,"SM,EX,SA,CA",-0,-0,-0
+"Jab Uppercut","mp > LP","H",60,6,2,21,21,-2,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Jab Low Kick","MP > LK","H",60,6,3,23,23,-5,"SM,EX,SA,CA",-0,-0,-0
+-0,"MK","H",60,8,3,19,19,-5,"SM,EX,SA,CA",-0,-0,-0
+"Hyakujitsuko","MK > d+MP","H",50,6,2,20,20,-1,"SM,EX,SA,CA",-0,-0,-0
+"Lunging Mist Thrust","b+MP","H",60,19,4,23,-2,-5,-0,-0,-0,"Knockdown on airborne foes, forces standing"
+"Whiplash to Toe Kick","b+MP > MK","H",60,20,2,25,3,3,"SM,EX,SA,CA",-0,-0,-0
+"Whiplash Sacred Blade","b+MP > d+MK","L",90,10,2,23,"hard knockdown",0,-0,-0,-0,-0
+-0,"f+MK","L,H","40,50",10,"3(10)3",21,21,-9,-0,-0,-0,-0
+"Heron Dance","f+MK > MP","H",60,9,4,21,21,-7,-0,-0,-0,-0
+"Heron Dance > Whiplash Sacred Blade","f+MK > d+MK","L",90,10,2,23,23,0,-0,-0,-0,-0
+"Leg Cutter","df+HK","L",60,11,2,25,-2,-2,-0,-0,-0,-0
+"Leg Cutter 2nd hit","df+HK > df+HK","L",40,22,2,22,0,0,"SM,EX,SA,CA",-0,-0,-0
+"Leg Cutter 3rd hit","df+HK > df+HK > df+HK","L",80,22,2,31,"hard knockdown",-8,"SM,EX,SA,CA",-0,-0,-0
+"Kariashi Shiranui","HK during leg cutter","H",60,18,4,29,"floats",-15,-0,-0,-0,-0
+"Exorcisor LP","hcb+LP","H",60,14,4,24,-3,-6,-0,-0,-0,"Forces standing on hit, knocks down airborne foes"
+"Exorcisor MP","hcb+MP","H",60,18,4,24,-3,-6,-0,-0,-0,"Forces standing on hit, knocks down airborne foes"
+"Exorcisor HP","hcb+HP","H",60,22,4,24,-3,-6,-0,-0,-0,"Upper body projectile invulnerability frames 1-22, forces standing on hit, knocks down airborne foes"
+"Mist Palm Thrust","P during exorcisor","H",40,13,4,25,-4,-7,-0,-0,-0,"Only executes on Exorcisor hit or block"
+"Raging Storm","f+P during mist palm thrust","H","40,40",22,"4(7)4",34,"hard knockdown",-10,-0,-0,-0,"Only executes on Mist Palm Thrust hit or block"
+"Exorcisor EX","hcb+PP","H",50,15,4,24,-3,-6,-0,-0,-0,"Projectile invulnerability frames 1-14, forces standing on hit, knocks down airborne foes"
+"Mist Palm Thrust EX","P during EX exorcisor","H",40,13,4,25,-4,-7,-0,-0,-0,"Only executes on EX Exorcisor hit or block"
+"Raging Storm EX","f+P during EX mist palm thrust","H","40,40",23,"4(7)4",34,"wall bounce",-10,-0,-0,-0,"Only executes on EX Mist Step hit or block"
+"Double Lift Kicks","f,d,df+K","H","20,40",10,"4(6)4",23,"floats",-5,-0,-0,-0,"Airborne frames 6-26"
+"Double Lift Kicks EX","f,d,df+KK","H","60,50",11,"4(6)4",33,"floats",-15,-0,-0,-0,"Full body invulnerability frames 1-10, airborne frames 7-27"
+"Attack Reversal LK","hcf+LK","counter","50,50,70",-0,-0,48,-0,-0,-0,-0,-0,"Counters ground striking attacks 1-25"
+"Attack Reversal MK","hcf+MK","counter","50,50,70",-0,-0,53,-0,-0,-0,-0,-0,"Counters ground striking attacks 1-30"
+"Attack Reversal HK","hcf+HK","counter","50,50,70",-0,-0,58,-0,-0,-0,-0,-0,"Counters ground striking attacks 1-35"
+"Attack Reversal EX","hcf+KK","counter","60,60,80",-0,-0,58,-0,-0,-0,-0,-0,"Counters ground striking attacks 1-35"
+"Falling Rain","f,d,df+P","throw","40,40",13,5,24,"hard knockdown",-0,-0,-0,-0,-0
+"Falling Rain EX","f,d,df+PP","throw","60,60",6,5,24,"hard knockdown",-0,-0,-0,-0,"Strike invulnerability frames 1-10"
+"Sweep Throw","hcf+P","throw","50,50,70",10,2,30,"hard knockdown",-0,-0,-0,-0,-0
+"Sweep Throw EX","hcf+PP","throw","50,50,80",11,2,30,"hard knockdown",-0,-0,-0,-0,"Projectile invulnerability frames 1-10"
+"Onikubigari","hcb+K","H",90,13,2,27,2,-1,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Onikubigari EX","hcb+KK","H","130,50",19,"2(21)4",39,"floats",-21,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art, airborne frames 28-48"
+"Kishin Enbu","hcb+KKK","H","30x5,60,100",14,"2(26)2(15)2(26)2(2)2",60,"hard knockdown",-24,-0,-0,-0,"71 frame cinematic freeze before attack begins, full body invulnerability frames 1-13"
+"Cross Art","qcf+MP+MK","H","20,80",9,2,53,-0,,-33,-0,-0,"61 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"

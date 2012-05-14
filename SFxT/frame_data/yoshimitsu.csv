@@ -1,0 +1,65 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,4,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,12,2,20,-1,-4,-0,-0,-0,-0
+"Far HP",,"H",90,16,2,23,1,-5,-0,-0,-0,"forces standing"
+"Far LK",,"H",30,5,5,9,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",60,8,4,17,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Far HK",,"H",90,16,3,28,-6,-11,-0,-0,-0,-0
+"Close MP",,"H",60,5,3,12,6,3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",30,4,5,8,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,10,4,15,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,11,5,20,1,-5,-0,-0,-0,"forces standing"
+"Crouch LK",,"L",30,4,4,10,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"H",60,7,5,15,1,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,12,2,31,"hard knockdown",-12,-0,-0,-0,-0
+"Jump LP",,"M",40,6,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,9,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M,H","35x3",8,6,"until ground+4f",20,8,-0,-0,-0,"Hit level changes to High frame 5, knockdown on airborne foes"
+"Jump LK",,"M",40,5,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,7,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,10,2,"until ground+4f",20,8,-0,-0,-0,"Quick Recoverable ground bounce on airborne foes"
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,-0
+"Cross Cancel",,"H","60x2",10,6,45,"hard knockdown",-27,-0,-0,-0,-0
+"Sword Face Smash","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Oni Killer","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Flea","d+KKK","H",75,23,"until canceled or hit",-0,-0,-0,-0,-0,-0,"Sword remains active until struck by opponent, then inactive until crouch or Jumping Flea, input f,f to dash"
+"Flea to Sling Headbutt","K during flea","L",60,17,14,31,20,-11,-0,-0,-0,"Exits Flea"
+"Jumping Flea","ub,u,uf during flea","H,M",60,5,35,8,6,2,-0,-0,-0,"Sword hitbox is active throughout move duration, hit level changes to Mid after frame 5"
+"High Jumping FLea","(d,ub),(d,u),(d,uf) during flea","H,M",60,-0,41,8,6,2,-0,-0,-0,"Sword hitbox is active throughout move duration"
+"Flea Release","P during flea",-0,-0,-0,-0,30,-0,-0,-0,-0,-0,"Sword remains active from Flea until frame 6"
+-0,"f+HK","H",50,10,2,22,3,-3,-0,-0,-0,"Input f+HK between frames 8-25 for follow-up attack, knockdown on airborne foes"
+-0,"f+HK > f+HK","H",50,5,2,23,2,-4,-0,-0,-0,"Input f+HK between frames 4-21 for follow-up attack, knockdown on airborne foes"
+"Triple Roundhouse Combo","f+HK > f+HK > f+HK","H",50,5,2,23,"floats",-5,-0,-0,-0,-0
+-0,"f+MK","M",40,20,2,24,0,-4,-0,-0,-0,"Input MP between frames 1-11 for followup attack, knockdown on airborne foes"
+-0,"f+MK > MP","H",80,12,"1(5)1(5)1",28,2,-10,-0,-0,-0,"Knockdown on airborne foes"
+"Poison Wind Bronze Fist","f+MK > MP > b,b",-0,-0,-0,-0,28,-8,-21,-0,-0,-0,"Full body invulnerability frames 1-8"
+"Poison Wind Steel Fist","f+MK > MP > f+MK","M",40,20,2,24,2,-14,-0,-0,-0,-0
+"Poison Wind Silver Fist","f+MK > MP > K",-0,-0,-0,-0,56,-38,-51,-0,-0,-0,-0
+"Poison Wind Gold Fist","f+MK > MP > K > P","H",70,16,2,23,"floats",-10,-0,-0,-0,-0
+"Poison Breath LK","hcb+LK","H",50,16,17,11,-6,-11,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Poison Breath MK","hcb+MK","H",50,22,24,4,-6,-11,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Poison Breath HK","hcb+HK","H",50,26,24,4,"crumples",-11,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Poison Breath EX","hcb+KK","H",70,17,24,4,"crumples",-11,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Flea to Poison Breath LK","hcb+LK during flea","H",50,15,24,15,-17,-20,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Flea to Poison Breath MK","hcb+MK during flea","H",50,20,24,15,-17,-26,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Flea to Poison Breath HK","hcb+HK during flea","H",50,26,24,15,"crumples",-4,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Flea to Poison Breath EX","hcb+KK during flea","H",70,16,24,15,"crumples",-6,-0,-0,-0,"Projectile has 1 point of durability, knockdown on airborne foes"
+"Gehosen","f,d,df+P","H",110,9,6,26,"knockdown",-10,-0,-0,-0,"Airborne frames 13-26"
+"Gehosen EX","f,d,df+PP","H",140,7,6,27,"knockdown",-9,-0,-0,-0,"Full body invulnerability frames 1-7, airborne frames 11-24"
+"Suicide LP","hcb,f+LP","M",120,24,5,98,"crumples",-74,-0,-0,-0,"Deals 60 damage to self, knockdown on airborne foes"
+"Suicide MP","hcb,f+MP","M",120,26,5,98,"crumples",-74,-0,-0,-0,"Deals 70 damage to self, knockdown on airborne foes"
+"Suicide HP","hcb,f+HP","M",120,28,5,98,"crumples",-74,-0,-0,-0,"Deals 80 damage to self, knockdown on airborne foes"
+"Suicide EX","hcb,f+EX","M","100x2",22,"5(36)5",107,"crumples",-82,-0,-0,-0,"Deals 90 damage to self, knockdown on airborne foes"
+"Slap U Silly LP","qcf+LP","H","20 per hit",15,-0,"27/78","0/ -52"," -8/-60",-0,-0,-0,"Repeatedly input LP for additional hits, knocks down self after 6th hit, knockdown on airborne foes"
+"Slap U Silly MP","qcf+MP","H","20 per hit",15,-0,"27/98","0/ -52"," -8/-60",-0,-0,-0,"Repeatedly input MP for additional hits, knocks down self after 7th hit, knockdown on airborne foes"
+"Slap U Silly HP","qcf+HP","H","20 per hit",15,-0,"27/98","0/ -52"," -8/-60",-0,-0,-0,"Repeatedly input HP for additional hits, knocks down self after 8th hit, knockdown on airborne foes"
+"Slap U Silly EX","qcf+EX","H","20x7",15,-0,27,0,-8,-0,-0,-0,"Armor frames 1-14, knockdown on airborne foes"
+"Stone Fists LK","qcf+LK","L","20 per hit",15,-0,"27/98"," -2/ -54","-10/-62",-0,-0,-0,"Repeatedly input LK for additional hits, knocks down self after 6th hit, knockdown on airborne foes"
+"Stone Fists MK","qcf+MK","L","20 per hit",15,-0,"27/98"," -2/ -54","-10/-62",-0,-0,-0,"Repeatedly input MK for additional hits, knocks down self after 7th hit, knockdown on airborne foes"
+"Stone Fists HK","qcf+HK","L","20 per hit",15,-0,"27/98"," -2/ -54","-10/-62",-0,-0,-0,"Repeatedly input HK for additional hits, knocks down self after 8th hit, knockdown on airborne foes"
+"Stone Fists EX","qcf+EX","L","20x7",15,-0,27,-2,-10,-0,-0,-0,"Armor frames 1-14, knockdown on airborne foes"
+"Indian Stance Vacuum Dance","f,d,df or b,d,db+PPP or KKK",-0,-0,-0,-0,50,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-29"
+"Sword Poke Windmill","hcb+P","H","5,10x7,45",18,52,33,-2,-11,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art, knockdown on airborne foes"
+"Sword Poke Windmill EX","hcb+PP","H","5,190",6,52,33,"hard knockdown",-11,-0,-0,-0,"Can be Super Charged: 51 frames for Super Art, knockdown on airborne foes"
+"Sword Poke Whirlwind","hcb+PPP","H","5,20,40x6,50",6,58,36,"hard knockdown",-11,-0,-0,-0,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-5"
+"Cross Art","qcf+MP+MK","H","20,10x8",8,2,66,"switch",-46,-0,-0,-0,"62 frame cinematic freeze before attack begins, full body invulnerability frames 1-10, airborne frames 1-37"

@@ -1,0 +1,46 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Stand Light Punch ","HL ",40,50,20,"- ",4,3,6,2,5
+"Stand Medium Punch ","HL ",80,100,40,"- ",5,3,10,1,4
+"Stand Hard Punch ","HL ","80*40 ","100*100 ","60*20 ","- ",8,"3*2 ",17,-1,3
+"Stand Light Kick ","HL ",40,50,20,"- ",4,3,6,2,5
+"Stand Medium Kick ","HL ",60,100,40,"- ",6,3,12,-1,2
+"Stand Hard Kick ","HL ",120,200,60,"- ",12,4,17,-3,0
+"Crouch Light Punch ","HL ",30,50,20,"Sp*Su ",4,3,8,0,3
+"Crouch Medium Punch ","HL ",80,100,40,"- ",6,3,12,-1,2
+"Crouch Hard Punch ","HL ",100,150,60,"- ",14,2,21,-5,-1
+"Crouch Light Kick ","L ",30,50,20,"- ",4,3,9,0,3
+"Crouch Medium Kick ","L ",70,100,40,"Sp*Su ",7,3,17,-6,-3
+"Crouch Hard Kick ","L ",110,200,60,"- ",7,3,26,-11,"- "
+"Guard Position (D+PPP) ","- ","- ","- ","- ","- ","- ","- ",30,"- ","- "
+"Hakan Smash (F+Light Punch) ","HL ",40,50,20,"- ",4,3,13,-2,1
+"Hakan Tackle (F+Medium Punch) ","HL ",90,100,40,"Sp*Su ",10,7,14,-5,-2
+"Hakan Spear (F+Hard Punch) ","HL ",150,200,60,"- ",12,6,16,-4,0
+"Step Low (F+Light Kick) ","HL ",40,50,20,"- ",4,4,10,0,3
+"Front Kick (F+Medium Kick) ","HL ",80,100,40,"- ",7,4,13,-3,0
+"Step Knee (F+Hard Kick) ","L ",120,200,60,"- ",10,3,20,-5,-1
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",80,150,40,"- ",29,2,35,-15,"- "
+"Focus Attack Level 3 ","- ",140,200,60,"- ",65,2,35,"- ","- "
+"Focus Attack Level 1 (Dash Cancel Dry) ","HL ",60,100,20,"- ",21,2,35,-4,-4
+"Focus Attack Level 2 (Dash Cancel Dry) ","HL ",80,150,40,"- ",29,2,35,2,"- "
+"Focus Attack Level 1 (Dash Cancel Oiled) ","HL ",60,100,20,"- ",21,2,35,-2,-2
+"Focus Attack Level 2 (Dash Cancel Oiled) ","HL ",80,150,40,"- ",29,2,35,4,"- "
+"Forward Throw ",0.9,130,100,40,"- ",3,2,20,"- ","- "
+"Back Throw ",0.9,140,100,40,"- ",3,2,20,"- ","- "
+"Oil Shower Light Kick ","- ","- ","- ","20/- ","- ","- ","- ",53,"- ","- "
+"Oil Shower Medium Kick ","- ","- ","- ","30/- ","- ","- ","- ",74,"- ","- "
+"Oil Shower Hard Kick ","- ","- ","- ","40/- ","- ","- ","- ",88,"- ","- "
+"Oil Shower EX ","- ","- ","- ","-250/- ","- ","- ","- ",88,"- ","- "
+"Oil Slide ","L "," ??? ",100,"30/30 ","Su ",14,21,-17,-17,"- "
+"Oil Slide EX ","L ",80,100,"-250/0 ","Su ",14,21,-17,-17,"- "
+"Oil Slide Body Press ","- ",80,100,"0/20 ","- ","- ","- ","- ","- ","- "
+"Oil Rocket Light Punch ",0.95," ??? ",100,"40/100 ","- ",3,2,56,"- ","- "
+"Oil Rocket EX ",0.95,"210[230] ",160,"-250/0 ","- ",3,2,56,"- ","- "
+"Oil Dive Light Kick ",1,"150[180] ",100,"40/60 ","- ",14,4,"14+52 ","- ","- "
+"Oil Dive Medium Kick ",1,"180[200] ",150,"40/60 ","- ",20,4,"14+52 ","- ","- "
+"Oil Dive Hard Kick ",1,"210[220] ",200,"40/60 ","- ",22,4,"14+52 ","- ","- "
+"Oil Dive EX ",1,"240[250] ",150,"-250/0 ","- ",22,4,"14+52 ","- ","- "
+"Oil Dive (charge) ",1,"- ","- ","- ","- ",98,4,"14+52 ","- ","- "
+"Super ",1,"400[450] ",0,"-1000/0 ","- ",19,3,"17+51 ","- ","- "
+"Ultra 1 ",1.5,"480[530] ",0,"0/0 ","- ",1,3,51,"- ","- "
+"Ultra 2 ","- ","401[450] ",0,"0/0 ","- ",1,30,42,"- ","- "

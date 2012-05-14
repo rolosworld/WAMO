@@ -1,0 +1,40 @@
+"move","hits","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","notes"
+"s.L",1,35000,4,3,10,0,-2,
+"s.M",1,55000,7,3,16,-3,-3,
+"s.H",3,77100,10,12,17,0,-2,
+"S",1,70000,8,5,23,0,-7,
+"c.L",1,44000,5,2,11,0,-2,
+"c.M",1,53000,7,3,18,-5,-5,
+"c.H",1,65000,10,4,26,0,-9,
+"j.L",1,45000,5,3,19,0,0,
+"j.M",1,55000,8,4,29,0,0,
+"j.H",1,70000,8,5,23,0,0,
+"j.S",1,70000,9,4,33,0,0,
+"cf.M",1,50000,8,3,20,-7,-7,"OTG, Jump cancelable"
+"b.H",2,74000,8,8,23,-3,-5,"2nd hit is low."
+"Alpha",2,75000,35,15,0,109,79,"Each projectile has 3 low priority durability points."
+"Beta",3,81300,42,12,0,116,86,"Ground bounce on counterhit or air enemies"
+"Gamma",1,90000,50,3,0,121,91,"Ground bounce"
+"Rolling Buckler L",1,50000,5,20,16,-32,-32,
+"Rolling Buckler M",1,60000,7,20,19,-32,-32,
+"Rolling Buckler H",1,70000,9,20,22,-32,-32,
+"Neko Punch",1,40000,7,4,19,0,-2,
+"Rolling Slide",1,60000,9,6,16,0,-4,
+"Rolling Uppercut",3,108300,3,10,24,-5,-13,
+"Cat Spike L",1,80000,10,3,19,4,2,"Ignores hitstun deterioration. Staggers on counterhit."
+"Cat Spike M",1,90000,20,3,14,9,7,
+"Cat Spike H",1,100000,25,3,23,0,-5,
+"Delta Kick L",3,101000,7,3,11,5,3,
+"Delta Kick M",3,101000,7,3,10,4,2,
+"Delta Kick H",3,101000,7,3,10,2,0,
+"Sand Splash L",2,62500,8,8,23,-8,-10,
+"Sand Splash M",3,82700,12,12,23,-10,-12,
+"Sand Splash H",4,85900,16,22,17,-15,-18,
+"Hell Cat L",7,102000,5,1,26,0,0,
+"Hell Cat M",10,126000,3,1,28,0,0,
+"Hell Cat H",13,156000,1,2,29,0,0,
+"EX Charge",0,0,13,0,4,0,0,
+"Foreground Dash",0,0,6,30,15,0,0,"Invinsible between frames 6-35"
+"Dancing Flash",12,246700,8,27,19,-7,-12,"Invinsible between frames 6-18"
+"Kitty's Helper",0,25000,10,0,20,0,0,
+"Please Help Me lvl3",30,400000,4,7,71,0,-59,"59 frames invinsibility. Not affected by damage scaling"

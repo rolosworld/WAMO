@@ -1,0 +1,52 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,2,5,4,7
+"Close Medium Punch ","HL ",75,100,40,"Sp*Su ",7,2,10,0,3
+"Close Hard Punch ","HL ","90[80] ","200[150] ",60,"Sp*Su ",4,5,20,-7,-2
+"Close Light Kick ","HL ",35,50,20,"- ",4,2,6,3,6
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",7,2,12,0,3
+"Close Hard Kick ","HL ","40*70 ","125*75 ","60*20 ","Su ",7,"2*2 ",16,0,5
+"Far Light Punch ","HL ",30,50,20,"C*Sp*Su ",5,2,5,4,7
+"Far Medium Punch ","HL ",60,100,40,"Su ",6,2,13,-1,2
+"Far Hard Punch ","HL ",80,200,60,"- ",13,3,30,-15,-11
+"Far Light Kick ","HL ",40,50,20,"- ",4,2,8,1,4
+"Far Medium Kick ","HL ",60,100,40,"- ",8,2,13,-1,2
+"Far Hard Kick ","HL ",90,200,60,"- ",10,3,18,-3,1
+"Crouch Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,6,3,6
+"Crouch Medium Punch ","HL ",50,100,40,"Sp*Su ",5,2,11,-1,3
+"Crouch Hard Punch ","HL ","60*30 ","100*100 ","60*20 ","Sp*Su ",11,"2(2)2 ",18,-2,"D "
+"Crouch Light Kick ","L ",20,50,20,"C*Sp*Su ",5,2,8,1,4
+"Crouch Medium Kick ","L ",50,100,40,"Sp*Su ",7,2,14,-4,0
+"Crouch Hard Kick ","L ",80,100,60,"- ",8,2,25,-9,"D "
+"Focus Attack Level 1 ","HL ",65,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",85,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",65,100,20,"- ",21,2,35,-2,-2
+"Focus Attack Level 2 (Dash Cancel) ","HL ",85,150,40,"- ",29,2,35,4,"D "
+"Forward Throw ",0.9,130,150,40,"- ",3,2,20,"D ","D "
+"Back Throw ",0.9,130,150,40,"- ",3,2,20,"D ","D "
+"Sonic Boom ","HL ",60,50,"10/20/10","Su ",14,"- ",48,-6,-2
+"Sonic Boom EX ","HL ","45*45 ","50*50 ","-250/0 ","Su ",14,"- ",61,-6,-2
+"Dragon Punch Light Punch ","HL ","80*60 ","100*50 ","30/40 * 10 * 10 ","Su ",5,"2*16 ","11+13 ",-19,"D "
+"Dragon Punch Medium Punch ","HL ","90*60 ","100*50 ","30/40 * 10 * 10 ","Su ",5,"2*16 ","21+13 ",-29,"D "
+"Dragon Punch Hard Punch ","HL ","100*80 ","100*50 ","30/40 * 10 * 10 ","Su ",5,"2*16 ","24+13 ",-32,"D "
+"Dragon Punch EX ","HL ","100*50 ","100*50 ","-250/0 ","Su ",5,"2*16 ","26+13 ",-34,"D "
+"Dragon Punch (2nd) ","HL ",40,25,"0/10 ","- ",4,8,13,"- ","- "
+"Dragon Punch (3rd) ","HL ","10[20x5] ","10[10x5] ","0/10[0] ","- ",4,"20[4x5] ",13,"- ","- "
+"Spin Kicks Light Kick ","HL ","10*100 ","0*200 ","20/10*35 ","- ",12,2,36,-24,"D "
+"Spin Kicks Medium Kick ","HL ","10*100 ","0*200 ","20/10*35 ","- ",14,2,36,-24,"D "
+"Spin Kicks Hard Kick ","HL ","10*100 ","0*200 ","20/10*35 ","- ",16,2,36,-24,"D "
+"Spin Kicks EX ","HL ","20*100 ","0*250 ","-250/0 ","- ",16,2,36,-24,"D "
+"Tanden Engine Light Punch ",2.5,0,0,"10/01/10","- ",21,24,25,19,23
+"Tanden Engine Medium Punch ",3.5,0,0,"10/01/10","- ",24,25,25,19,23
+"Tanden Engine Hard Punch ",4.5,0,0,"10/01/10","- ",26,26,25,19,23
+"Tanden Engine EX ","HL ",0,0,"-500/0 ","- ",23,24,25,19,23
+"Spinning Pile Driver Light Punch ",1.1,130,"50*150 ","30/40*40 ","- ",3,2,49,"D ","D "
+"Spinning Pile Driver Medium Punch ",1,140,"50*150 ","30/40*40 ","- ",3,2,49,"D ","D "
+"Spinning Pile Driver Hard Punch ",0.9,150,"50*150 ","30/40*40 ","- ",3,2,49,"D ","D "
+"Spinning Pile Driver EX ",1.1,170,"50*150 ","-250/0 ","- ",3,2,49,"D ","D "
+"Yoga Teleport ","- ",0,0,"- ","- ","- ","- ",48,"- ","- "
+"Super Light Punch ","HL ","10x20*150 ",0,"-1000/0 ","- ",6,80,81,-50,"D "
+"Super Medium Punch ","HL ","10x20*150 ",0,"-1000/0 ","- ",11,80,81,-50,"D "
+"Super Hard Punch ","HL ","10x20*150 ",0,"-1000/0 ","- ",16,80,81,-50,"D "
+"Ultra 1 ","HL ",340,0,"0/0 ","- ",10,"- ",55,-15,
+"Ultra 2 ","HL ","0 * 24x13 * 60 ",0,"0/0 ","- ",10,80,112,-97,

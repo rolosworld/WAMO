@@ -1,0 +1,60 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,2,9,0,3
+"Close Medium Punch ","HL ",75,100,40,"Sp*Su ",5,2,11,1,4
+"Close Hard Punch ","HL ",100,200,60,"Sp*Su ",8,2,16,0,4
+"Close Light Kick ","HL ",35,50,20,"- ",5,2,9,0,3
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",5,2,13,-1,2
+"Close Hard Kick ","HL ","40*70 ","125*75 ","60*20 ","Su ",4,"2(4)3 ",18,-3,2
+"Far Light Punch ","HL ",30,50,20,"C*Sp*Su ",5,2,9,0,3
+"Far Medium Punch ","HL ",80,100,40,"Su ",5,2,11,1,4
+"Far Hard Punch ","HL ",90,200,60,"- ",8,3,15,0,2
+"Far Light Kick ","HL ",40,50,20,"ch ",6,2,9,0,3
+"Far Medium Kick ","HL ",75,100,40,"- ",7,2,13,-1,2
+"Far Hard Kick ","HL ",110,200,60,"- ",8,2,19,-3,0
+"Crouch Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,9,0,3
+"Crouch Medium Punch ","L ",70,100,40,"Sp*Su ",5,2,14,-2,1
+"Crouch Hard Punch ","HL ",80,200,60,"Sp*Su ",6,4,22,-8,-4
+"Crouch Light Kick ","L ",40,50,20,"Sp*Su ",5,4,9,-2,1
+"Crouch Medium Kick ","HL ",70,100,40,"Sp*Su ",4,3,16,-5,0
+"Crouch Hard Kick ","L ",100,100,60,"- ",6,3,18,-3,"D "
+"Overhead - Forward + Medium Punch ","H ",80,100,40,"- ",17,2,15,-3,2
+"Dive Kick ","H ",60,100,40,"- ",12,"until ground ","- ","- ","- "
+"Focus Attack Level 1 ","HL ",65,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",85,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",65,100,20,"- ",21,2,35,0,0
+"Focus Attack Level 2 (Dash Cancel) ","HL ",85,150,40,"- ",29,2,35,6,"D "
+"Forward Throw ",0.9,"70*70 ",150,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,0,0,40,"- ",5,2,23,"- ","D "
+"Fireball Light Punch ","HL ",55,50,"10/20/10","Su ",8,"- ","41[32] ",2,6
+"Fireball Light Punch Charge ","HL ","55*55 ","50*50 ","10/10*10 ","Su ",68,"- ",93,9,13
+"Fireball Medium Punch ","HL ",55,50,"10/20/10","Su ",8,"- ","41[32] ",2,6
+"Fireball Medium Punch Charge ","HL ","55*55 ","50*50 ","10/10*10 ","Su ",68,"- ",93,9,13
+"Fireball Hard Punch ","HL ",55,50,"10/20/10","Su ",8,"- ","41[32] ",2,6
+"Fireball Hard Punch Charge ","HL ","55*55 ","50*50 ","10/10*10 ","Su ",68,"- ",93,9,13
+"Fireball EX ","HL ","60*60 ","80*80 ","-250/0 ","Su ",8,"- ","55[46] ",4,"- "
+"Fireball EX Charge ","HL ","60x2*60x2 ","80x4 ","-250/0 ","Su ",68,"- ",107,13,"- "
+"Running Palm Light Punch ","HL ",120,200,"10/20/10","Su ",16,4,23,-6,"D "
+"Running Palm Medium Punch ","HL ",130,200,"10/20/10","Su ",17,4,23,-6,"D "
+"Running Palm Hard Punch ","HL ",140,200,"10/20/10","Su ",20,4,23,-6,"D "
+"Running Palm EX ","HL ","90*60 ","100*50 ","-250/0 ","Su ",17,"4(11)4 ",22,-5,"D "
+"Hurricane Kick Light Kick ","HL ","60*20*40 ","100*25*25 ","10/20*10*10 ","Su ",7,"2(8) 2(10) 2 ","41+26 ",-70,"D "
+"Hurricane Kick Medium Kick ","HL ","65*20x2*50 ","100*25x3 ","10/20*10x3 ","Su ",10,"2(8) 2(8) 2(10) 2 ","44+26 ",-83,"D "
+"Hurricane Kick Hard Kick ","HL ","70*20x3*55 ","100*20x3*40 ","10/20*10x4 ","Su ",13,"2(8) 2(7) 2(8) 2(11) 2 ","53+26 ",-102,"D "
+"Hurricane Kick EX ","HL ","80*10x6*60 ","100*10x6*40 ","-250/0 ","Su ",7,"2x8 ","53+26 ",-97,"D "
+"Demon Flip ","- ",0,0,"30/- ","- ","- ","- ",,"- ","- "
+"Demon Flip EX ","- ",0,0,"0/0 ","- ","- ","- ",,"- ","- "
+"Demon Flip Slide ","HL ",100,200,-30,"- ",43,11,20,-13,"D "
+"Demon Flip Focus ","- ",0,0,"- ","- ",4,"Until ground ",12,"- ",
+"Demon Flip Kick ","HL ",80,100,"0/20 ","- ",12,"Until ground ",4,"- ","- "
+"Demon Flip Throw ",1.2,150,200,"0/30 ","- ",3,2,12,"D ","D "
+"Counter Punch ","- ",180,150,"10/- ","Su ",1,14,18,"- ","- "
+"Counter Kick ","- ",180,150,"10/- ","Su ",1,14,18,"- ","- "
+"Counter EX ","- ",150,150,"-250/0 ","Su ",1,14,18,"- ","- "
+"Super ","HL ","85*40x5*60 ",0,"-1000/0 ","- ",11,"3 * 2 * 3 * 3 * 2 * 3 * 4 ","30+31 ",-54,"- "
+"Ultra 1 ","HL ",503,0,"0/0 ","- ",11,"2 * 3 * 3 * 2 * 3 * 3 * 2 * 4 ","42+51 ",-88,"- "
+"Ultra 2 (Level 1) ","HL ","60x3*75 ","100x4 ","0/0 ","- ",13,"- ",73,-9,"- "
+"Ultra 2 (Level 2) ","HL ","60x4*75 ","100x5 ","0/0 ","- ",17,"- ",74,1,"- "
+"Ultra 2 (Level 3) ","HL ","60x5*75 ","100x6 ","0/0 ","- ",32,"- ",89,11,"- "
+"Ultra 2 (Level 4) ","HL ","60x6*75 ","100x7 ","0/0 ","- ",47,"- ",104,21,"- "
+"Ultra 2 (Level 5) ","HL ","60x7*75 ","100x8 ","0/0 ","- ",65,"- ",118,31,"- "

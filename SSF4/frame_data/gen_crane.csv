@@ -1,0 +1,37 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,3,13,-4,-2
+"Medium Punch ","L ","50*50 ","50*50 ","20*20 ","- ",18,"2*2 ",22,-3,1
+"Hard Punch ","L*HL ","100*100 ","100*100 ","40*20 ","- ",17,"2*4 ",19,-5,0
+"Light Kick ","HL ",40,50,20,"Su ",8,4,13,-3,-2
+"Medium Kick ","HL ",100,100,40,"- ",7,4,22,-5,-1
+"Hard Kick ","HL ","70*50 ","100*100 ","40*20 ","- ",5,"3(9)2 ",22,-6,-2
+"Crouch Light Punch ","HL ",40,50,20,"Su ",4,2,9,0,3
+"Crouch Medium Punch ","HL ",70,100,40,"Sp*Su ",5,4,13,-3,-1
+"Crouch Hard Punch ","HL ",180,300,60,"- ",21,5,16,-3,1
+"Crouch Light Kick ","L ",30,50,20,"Sp*Su ",5,6,16,-8,"D "
+"Crouch Medium Kick ","L ",80,100,40,"Su ",8,3,21,-3,-1
+"Crouch Hard Kick ","HL ",120,150,60,"- ",5,3,31,-16,-12
+" ??? (switch style?) ","- ","- ","- ","- ","- ","- ","- ",5,"- ","- "
+"Overhead (Shakudan) ","H ",50,50,20,"- ",4,2,"- ","- ","- "
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",90,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,35,-3,-3
+"Focus Attack Level 2 (Dash Cancel) ","HL ",90,150,40,"- ",29,2,35,3,"D "
+"Forward Throw ",0.9,130,100,60,"- ",3,2,20,"- ",
+"Back Throw ",1,120,100,40,"- ",3,2,20,"- ","D "
+"Rolling Attack Light Punch ","HL ","20x2*60 ","20x2*80 ","20/8x2*20 ","Su ",6,"3(5) 1(5) 4 ",20,-3,1
+"Rolling Attack Medium Punch ","HL ","20x3*65 ","20x3*80 ","20/8x3*20 ","Su ",6,"3(7) 3(11) 1(5) 4 ",20,-3,1
+"Rolling Attack Hard Punch ","HL ","20x4*70 ","20x4*80 ","20/8x4*20 ","Su ",6,"3(7) 3(12) 3(11) 1(5) 4 ",20,-3,1
+"Rolling Attack EX ","HL ","20x4*80 ","50x5 ","-250/0 ","Su ",6,"3(7) 3(12) 3(11) 1(5) 4 ",20,-3,1
+"Wall Dive ","- ","- ","- ","- ","- ","- ","- ",27,"- ","- "
+"Wall Dive EX ","- ","- ","- ","-250/0 ","- ","- ","- ",27,"- ","- "
+"Wall Dive Stop ","- ","- ","- ","- ","- ","- ","- ",30,"- ","- "
+"Wall Dive Close ","H ",100,150,"30/50 ","- ",13,6,13,-8,"D "
+"Wall Dive Far ","H ",100,150,"30/50 ","- ",12,7,13,-13,"D "
+"Wall Dive Ceiling ","- ","- ","- ","- ","- ","- ","- ",63,"- ","- "
+"Wall Dive Ceiling Drop ","H ",100,150,"30/50 ","- ",3,15,13,"- ","D "
+"Wall Dive Super Close ","H ",100,150,"30/50 ","- ",3,14,"1+12 ","- ","D "
+"Super ","- ",320,0,"-1000/0 ","- ",1,19,"16+16 ","- ","D "
+"Ultra 1 ","- ","150*248 ",0,"0/0 ","- ",11,8,"25+28 ","- ","D "
+"Ultra 2 ","H ",428,0,"0/0 ","- ",10,"until ground ",26,"- ","- "

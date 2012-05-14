@@ -1,0 +1,59 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",40,7,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",70,9,4,16,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",100,12,6,19,0,-5,-0,-0,-0,-0
+"Far LK",,"H",40,7,3,10,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",70,11,4,17,0,-4,-0,-0,-0,-0
+"Far HK",,"H",100,19,4,17,4,-1,-0,-0,-0,-0
+"Close LP",,"H",70,5,5,13,0,-5,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Close MP",,"H",40,6,3,14,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",100,14,4,20,1,-4,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"H",40,4,2,12,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Close MK",,"H",70,10,4,17,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",100,14,4,17,1,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",40,5,2,9,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",70,6,3,17,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",100,13,4,22,"knockdown",-6,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LK",,"L",40,5,3,11,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",70,10,4,17,0,-6,-0,-0,-0,-0
+"Crouch HK",,"L",100,14,4,52,"sweep knockdown",-37,"SM,EX,SA,CA",-0,-0,-0
+"Jump LP",,"M",50,6,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",80,8,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",110,14,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",50,8,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",80,10,9,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",110,13,6,"until ground+4f","ground bounce",8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch,float",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",130,13,3,38,"hard knockdown",-9,-0,-0,-0,"Similar to Spinning Backfist, full body invulnerability frames 1-15"
+"Knee Breaker","LP+LK","throw",150,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Around the World","b+LP+LK","throw",150,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Mongolian Chop","PP","M",100,23,3,21,8,-1,-0,-0,-0,"forces standing"
+"Spinning Backfist","b+MP","H",100,30,3,30,5,-6,-0,-0,-0,"Full body armor frames 1-29, +8 on Counter Hit, backturn on hit"
+"Wake Up Hammer","P(lying face down on ground)","H",120,19,4,25,2,-11,-0,-0,-0,"Full body invulnerability frames 1-10, +5 on standing Counter Hit, forces standing on hit"
+"Wake Up Sweep","d+P(lying face down on ground)","L",110,18,2,32,"sweep knockdown",-16,-0,-0,-0,"Full body invulnerability frames 1-10"
+-0,"LK","H",40,7,3,10,4,0,"SM,EX,SA,CA",-0,-0,"Input MK between frames 9-14 for follow-up attack"
+"Revolving Trap Kick","LK > MK","H",50,12,4,13,0,-2,"SM,EX,SA,CA",-0,-0,-0
+-0,"MP","H",70,9,4,16,1,-2,"SM,EX,SA,CA",-0,-0,"Far from opponent only"
+"Jab Body Combo","MP > d+HP","H",40,7,3,14,0,-2,"SM,EX,SA,CA",-0,-0,"Far from opponent only, knockdown on airborne foe"
+"Left Right Combo","MP > HP","H",40,10,6,28,-15,-18,-0,-0,-0,"Far from opponent only, knockdown on airborne foe"
+-0,"MP > HP > MK","H",40,12,4,21,-8,-10,"BC, LA",-0,-0,"Far from opponent only, input MP HP between frames 1-20 for follow-up attack"
+"Left Right to Gut Check","MP > HP > MK > MP+HP","H",100,8,5,27,"hard knockdown",-14,-0,-0,-0,"Far from opponent only"
+"Left Right to Power Elbow","MP > HP > f+MP or HP","H",30,9,3,13,1,-4,-0,-0,-0,"Far from opponent only, knockdown on airborne foe"
+"Craig Rush","MP > HP > f+MP or HP > d+PP","H",70,7,3,20,"knockdown",-5,-0,-0,-0,"Far from opponent only"
+-0,"HP","H",100,12,6,19,0,-5,-0,-0,-0,"Far from opponent only"
+"Quick Elbow Combo","HP > MP or HP","H",30,9,3,13,1,-5,"SM,EX,SA,CA",-0,-0,"Far from opponent only, knockdown on airborne foe"
+"Catapult Tackle Combo","HP > d+PP","H",70,7,3,20,"knockdown",-5,-0,-0,-0,"Far from opponent only"
+"Gator Slam LP","f,d,df+LP","throw",150,6,4,37,"hard knockdown",-0,-0,-0,-0,"Crushes airborne attacks frames 1-9"
+"Gator Slam MP","f,d,df+MP","throw",160,5,4,37,"hard knockdown",-0,-0,-0,-0,-0
+"Gator Slam HP","f,d,df+HP","throw","90x2",9,4,37,"hard knockdown",-0,-0,-0,-0,-0
+"Gator Slam EX","f,d,df+PP","throw","80,120",7,4,35,"hard knockdown",-0,-0,-0,-0,"Crushes airborne attacks frames 1-10"
+"Northern Lights Suplex LP","hcb+LP","throw",160,4,2,38,"hard knockdown",-0,-0,-0,-0,-0
+"Northern Lights Suplex MP","hcb+MP","throw",170,4,2,38,"hard knockdown",-0,-0,-0,-0,-0
+"Northern Lights Suplex HP","hcb+HP","throw",180,4,2,38,"hard knockdown",-0,-0,-0,-0,-0
+"Northern Lights Suplex EX","hcb+PP","throw",240,5,2,38,"hard knockdown",-0,-0,-0,-0,"Full body invulnerability frames 1-4"
+"Double Leg Takedown","hcb+K","H",20,8,2,64,"hard knockdown",-48,"mount mongolian chop, hercules hammer",-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, won’t hit airborne foes, airborne frames 8-17, input P/K between frames 9-42 for follow-up attack"
+"Mount Mongolian Chop","P during double leg takedown","throw","10,20x2,60",-0,-0,-0,"hard knockdown",-0,-0,-0,-0,-0
+"Hercules Hammer","K during double leg takedown","throw",160,-0,-0,-0,"hard knockdown",-0,-0,-0,-0,-0
+"Double Leg Takedown EX","hcb+KK","H","40,100",9,2,64,"wall bounce",-48,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art, only hits grounded and ground bounced opponents, airborne frames 9-18"
+"Mount Rush","hcb+KKK","H","50,10,15x10,20x2,100",4,2,110,"hard knockdown",-96,-0,-0,-0,"72 frame cinematic freeze before attack begins, full body invulnerability frames 1-5, airborne frames 4-15"
+"Cross Art","qcf+MP+MK","H","20x3,40",9,"2(21)2(23)2",34,"switch",-15,-0,-0,-0,"65 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

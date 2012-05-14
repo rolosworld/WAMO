@@ -1,0 +1,32 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Light Punch ","HL ",25,50,20,"C*Sp*Su ",3,2,7,3,5
+"Medium Punch ","HL ",55,100,40,"Sp*Su ",4,5,8,5,6
+"Hard Punch ","HL ","70*40 ","100*100 ","40*20 ","Sp*Su ",5,"2*4 ",17,-3,1
+"Light Kick ","HL ",40,50,20,"Su ",5,4,13,-3,-2
+"Medium Kick ","HL ",60,100,40,"Sp*Su ",5,3,17,-2,-1
+"Hard Kick ","HL ",110,200,60,"- ",8,2,20,-4,0
+"Crouch Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,7,2,5
+"Crouch Medium Punch ","HL ",70,100,40,"Sp*Su ",7,4,11,-1,1
+"Crouch Hard Punch ","HL ",100,200,60,"- ",7,4,19,-5,-1
+"Crouch Light Kick ","L ",30,50,20,"C*Sp*Su ",4,2,8,1,4
+"Crouch Medium Kick ","L ",70,100,40,"Sp*Su ",7,3,14,-3,-1
+"Crouch Hard Kick ","L ",85,100,60,"- ",8,3,22,-7,"D "
+" ??? (switch style?) ","- ","- ","- ","- ","- ","- ","- ",5,"- ","- "
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,35,-21,-21
+"Focus Attack Level 2 ","HL ",90,150,40,"- ",29,2,35,-15,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",65,2,35,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,35,-3,-3
+"Focus Attack Level 2 (Dash Cancel) ","HL ",90,150,40,"- ",29,2,35,3,"D "
+"Forward Throw ",0.9,130,100,40,"- ",3,2,20,"- ","D "
+"Back Throw ",1,120,100,40,"- ",3,2,20,"- ","D "
+"Rapid Slap Light Punch ","HL ","16xn ","20xn ","10/5xN ","Su ",5,"3(5) 3(5) 3(5) 3 ",17,5,9
+"Rapid Slap Medium Punch ","HL ","16xn ","20xn ","10/5xN ","Su ",4,"3(3) 3(3) 3(3) 3 ",17,5,9
+"Rapid Slap Hard Punch ","HL ","16xn ","20xn ","10/5xN ","Su ",3,"3(3) 3(3) 3(3) 3 ",17,5,9
+"Rapid Slap EX ","HL ","16xn ","20xn ","-250/0 ","Su ",3,"3(3) 3(3) 3(3) 3 ",17,5,9
+"Air Kicks Light Kick ","HL ","100*10x4*20 ","80*10x5 ","20/20*5x5 ","- ",5,15,"14+8 ",-35,"D "
+"Air Kicks Medium Kick ","HL ","100*10x5*40 ","80*10x6 ","20/20*5x6 ","- ",7,15,"17+8 ",-35,"D "
+"Air Kicks Hard Kick ","HL ","100*10x6*90 ","80*10x6*80 ","20/20*5x7 ","- ",7,15,"18+8 ",-35,"D "
+"Air Kicks EX ","HL ","100*10x6*90 ","80*10x6*80 ","-250/0 ","- ",7,15,"18+8 ",-35,"D "
+"Zanei ","HL ","20*280 ",0,"-1000/0 ","- ",7,16,66,-61,"D "
+"Ultra 1 ","HL ",405,0,"0/0 ","- ",11,11,59,-49,"D "
+"Ultra 2 ","HL ","23*420 ",0,"0/0 ","- ",9,"2(6) 2(6) 2(6) 2 ",33,-10,"- "

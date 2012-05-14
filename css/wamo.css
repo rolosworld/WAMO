@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 5px 20px;
+}
+body * {
+  font-family:tahoma,helvetica,serif;
+}
+img{
+  border:none;
+}
+h3 {
+  margin: 10px 0px 10px 0px;
+}
+a {
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+select {
+  width: 100%;
+}
+.copy{
+  text-align:center;
+}
+.rightAlign{
+  text-align: right;
+}
+.leftAlign{
+  text-align: left;
+}
+.best {
+  color: #65ff00;
+  font-weight: 900;
+}
+.medium {
+  color: #ffff00;
+}
+.worst {
+  color: #ff6500;
+}
+.framedata *{ 
+  font-size: 0.9em;
+}

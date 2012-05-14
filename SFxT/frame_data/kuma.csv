@@ -1,0 +1,70 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",40,5,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",70,13,4,17,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",110,13,4,29,-8,-13,"SM,EX,SA,CA",-0,-0,-0
+"Far LK",,"H",40,4,3,8,6,2,-0,-0,-0,"Kuma’s hurtbox shifts backward frames 3-14"
+"Far MK",,"H",70,6,5,14,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Far HK",,"H",110,13,6,20,-1,-6,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",40,5,2,12,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",70,11,4,16,3,-3,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch HP",,"H",110,14,4,19,2,-3,"SM,EX,SA,CA",-0,-0,"Counter Hit causes slip (+18) versus crouching target"
+"Crouch LK",,"L",40,5,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",70,14,9,13,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",110,15,3,27,"sweep",-10,"SM,EX,SA,CA",-0,-0,"Sweep knockdown"
+"Jump LP",,"M",50,9,3,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",80,10,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",120,10,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",50,8,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",80,10,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",120,12,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,12,2,53,"switch",-33,-0,-0,-0,"Crushes crouching attacks, switches characters while launching opponent"
+"Cross Cancel",,"H",130,14,2,35,"hard knockdown",-11,-0,-0,-0,"Invulnerable frames 1-15, resembles Grizzly Fling"
+"Bear Hug","LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Bear Slam","b+LP+LK","throw",140,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Swing Swung","LP+LK(during hunting stance)","throw",150,7,2,16,"hard knockdown",-0,-0,-0,-0,-0
+"Bear Smash","f+HP","H","60,40",20,5,19,3,-2,"SM,EX,SA,CA",-0,-0,-0
+"Left Right Bear Claw 1st hit","LP","H",40,5,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Left Right Bear Claw 1nd hit","LP > b+MP","H",50,13,4,11,2,0,"SM,EX,SA,CA",-0,-0,-0
+"Double Wild Slap 1st hit","HP","H",110,13,4,29,-8,-13,"SM,EX,SA,CA",-0,-0,-0
+"Double Wild Slap 2nd hit","HP > MP","H",60,10,6,27,4,-9,"boost combo",-0,-0,"Knocks down airborne foes, slip (+11) on crouching foe"
+-0,"MP","H",70,13,4,17,0,-4,"SM,EX,SA,CA",-0,-0,-0
+-0,"MP > MP ","H",40,10,2,20,-1,-4,-0,-0,-0,"Knocks down airborne foes"
+"Jab Elbow Smash","MP > MP HP","H",70,17,4,27,5,-9,-0,-0,-0,"Knocks down airborne foes, forces standing on hit, float on Counter Hit"
+"Jab Elbow Smash","MP > MP > LK","H",30,5,4,16,2,-2,-0,-0,-0,"Knocks down airborne foes"
+"Triple Hammer 1st hit","b+HP","M",40,18,3,21,2,-2,-0,-0,-0,"Knocks down airborne foes"
+"Triple Hammer 2nd hit","b+HP > HP","H",60,15,4,27,"hard knockdown",-10,-0,-0,-0,"Knocks down airborne foes"
+"Triple Hammer 3rd hit","b+HP > HP > HP","H",80,14,4,29,-7,-15,-0,-0,-0,"Hard knockdown on airborne foe, ground bounce on Counter Hit"
+"G-Clef Cannon 1st hit","f+LP","H",40,6,4,9,5,3,-0,-0,-0,"Knocks down airborne foes"
+"G-Clef Cannon 2nd hit","f+LP > MP","H",70,17,2,26,-3,-6,"SM,EX,SA,CA",-0,-0,"Knocks down airborne foes"
+"G-Clef Cannon 3rd hit","f+LP > MP > HP","H",70,19,2,30,2,-15,"SM,EX,SA,CA",-0,-0,"Knocks down airborne foes, forces standing on hit"
+"Stance Change","KKK",-0,-0,-0,-0,9,-0,-0,-0,-0,-0,"Kuma is considered crouching starting from frame 6"
+"Hunting L","Hunting LP/LK","H",40,5,4,10,5,2,"hunting MP/MK",-0,-0,-0
+"Hunting M","Hunting MP/MK","H",70,7,3,15,7,4,"hunting HP/HK",-0,-0,-0
+"Hunting H","Hunting HP/HK","L",110,17,3,16,"sweep",-1,-0,-0,-0,"Sweep knockdown"
+"Big Tree","f+MP","H",60,8,4,29,5,-18,-0,-0,-0,"Forces standing on hit, crushes airborne attacks frames 8-11, ends Hunting"
+"Grizzly Fling","f+HP","L",100,15,2,21,"float",-5,-0,-0,-0,"Ends Hunting"
+"Break'n","b+HP","H",120,18,25,25,"knockdown",-33,-0,-0,-0,"Armor frames 1-42, move with b or f , ends Hunting"
+"Hunting Spear","b+MP","H",90,22,7,27,"wall bounce",-8,-0,-0,-0,"Projectile invulnerability frames 1-28, ends Hunting"
+"Feral Crouch","d+PP",-0,-0,-0,-0,"21-121",-0,-0,-0,-0,-0,"Kuma’s crouching hurtbox shrinks by half frames 9-120"
+"Rock'n Roll Circus LP","hcb,f+LP","throw",150,6,2,39,"hard knockdown",-0,-0,-0,-0,-0
+"Rock'n Roll Circus MP","hcb,f+MP","throw",160,6,2,39,"hard knockdown",-0,-0,-0,-0,-0
+"Rock'n Roll Circus HP","hcb,f+HP","throw",170,6,2,39,"hard knockdown",-0,-0,-0,-0,-0
+"Rock'n Roll Circus EX","hcb,f+PP","throw",180,7,2,39,"hard knockdown",-0,-0,-0,-0,"Strike invulnerability frames 1-8"
+"Megaton Claw LP","hcf+LP","H",60,14,2,20,2,-2,"grizzly claw/smash",-0,-0,"Knockdown vs. airborne foes"
+"Megaton Claw MP","hcf+MP","H",70,17,2,22,0,-4,"grizzly claw/smash",-0,-0,"Knockdown vs. airborne foes"
+"Megaton Claw HP","hcf+HP","H",80,21,2,24,-2,-6,"grizzly claw/smash",-0,-0,"Knockdown vs. airborne foes"
+"Megaton Claw EX","hcf+PP","H",90,17,2,22,3,-2,"grizzly claw/smash",-0,-0,"Knockdown vs. airborne foes, strike invulnerability frames 1-18"
+"Megaton Claw > Grizzly Claw","LP during megaton claw","H",80,17,1,-0,"knockdown",-8,-0,-0,-0,-0
+"Megaton Claw > Grizzly Claw Smash","MP or HP during megaton claw","M",60,25,1,-0,"ground bounce",-9,-0,-0,-0,"Hard knockdown vs. airborne foes"
+"Headbutt","f,df,d,db,b,ub+P (near)","standing throw","200(220 from rolling bear)",5,2,34,"hard knockdown",-0,-0,-0,-0,-0
+"Headbutt EX","f,df,d,db,b,ub+P (near)","standing throw",250,6,2,34,"hard knockdown",-0,-0,-0,-0,"Invulnerability frames 1-8"
+"Rolling Bear LP","f,df,d,db,b,ub+LP (far)",-0,-0,-0,-0,41,-0,-0,-0,-0,-0,"Projectile and strike invulnerability frames 7-32"
+"Rolling Bear MP","f,df,d,db,b,ub+MP (far)",-0,-0,-0,-0,44,-0,-0,-0,-0,-0,"Projectile and strike invulnerability frames 7-35"
+"Rolling Bear HP","f,df,d,db,b,ub+HP (far)",-0,-0,-0,-0,46,-0,-0,-0,-0,-0,"Projectile and strike invulnerability frames 7-37"
+"Rolling Bear EX","f,df,d,db,b,ub+PP (far)",-0,-0,-0,-0,47,-0,-0,-0,-0,-0,"Invulnerability frames 1-7, projectile and strike invulnerability frames 8-38"
+"Frolicking Bear LK","hcb+LK","H",120,8,10,29,"knockdown",-22,-0,-0,-0,"Crushes airborne attacks frames 3-7"
+"Frolicking Bear MK","hcb+MK","H",130,8,10,29,"knockdown",-22,-0,-0,-0,"Crushes airborne attacks frames 3-7"
+"Frolicking Bear HK","hcb+HK","H",140,8,10,29,"knockdown",-22,-0,-0,-0,"Crushes airborne attacks frames 3-7"
+"Frolicking Bear EX","hcb+KK","H",100,8,10,29,"wall bounce",-22,-0,-0,-0,"Full body invulnerability frames 1-18"
+"Fatal Wind","hcb+KKK","H","100,250",8,2,46,"hard knockdown",-26,-0,-0,-0,"Invulnerable frames 1-9"
+"Cross Art","qcf+MP+MK","H",100,12,7,79,"switch",-40,-0,-0,-0,"Invulnerability frames 1-17, airborne frames 12-21"

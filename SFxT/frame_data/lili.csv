@@ -1,0 +1,80 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Air Spine Shot MK","qcb+MK (air)","H",80,12,"until ground",6,6,-2,-0,-0,-0,-0
+"Air Spine Shot HK","qcb+HK (air)","H","45x2",18,"until ground",8,1,6,-0,-0,-0,-0
+"Far LP",,"H",30,4,2,8,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,6,3,12,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,8,4,18,3,-2,"SM,EX,SA,CA",-0,-0,-0
+"Far LK",,"H",30,7,2,10,4,1,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",60,10,4,18,-1,-5,"SM,EX,SA,CA",-0,-0,"Attacking leg crushes airborne attacks frames 10-14"
+"Far HK",,"H",90,12,2,23,0,-5,-0,-0,-0,-0
+"Crouch LP",,"H",30,4,4,9,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"L",60,5,5,11,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,7,7,20,2,-2,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch LK",,"L",30,4,4,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,5,5,16,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,9,9,26,"hard knockdown",-9,-0,-0,-0,-0
+"Jump LP",,"M",40,5,9,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,6,4,"until ground+4f",16,5,-0,-0,-0,"Knockdown on airborne foes"
+"Jump HP",,"M",100,7,"2(2)","until ground+4f",20,8,-0,-0,-0,"2nd hit knockdown on airborne foes"
+"Jump LK",,"M",40,4,8,"until ground+4f",12,4,-0,-0,-0,"Hit level changes to high on frame 6"
+"Jump MK",,"M",70,6,8,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,7,8,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,130,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",110,6,7,24,"hard knockdown",-2,-0,-0,-0,"Similar to EX Angel Knee"
+"Arm Grab Flip","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Over the Back Toss","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Fortissimo","LP+LK(air)","throw",160,7,2,"until ground+4f","hard knockdown",-0,-0,-0,-0,-0
+"Submissive Heel","f+HK","M",40,17,2,28,4,-6,-0,-0,-0,"Forces standing on hit, hard knockdown on airborne foes"
+"Andante","df+HK","H",50,9,3,26,"floats",-9,-0,-0,-0,"Crushes airborne attacks frames 6-11"
+"Peacock Kick","f+MK","H",60,10,2,21,1,0,-0,-0,-0,"Knockdown on airborne foes"
+"Peacock Waltz","f+MK > HP","L",120,19,2,32,"sweep knockdown",-15,-0,-0,-0,-0
+-0,"f+MK > MP","H",40,18,2,17,6,-1,-0,-0,-0,"Knockdown on airborne foes"
+"Peacock Jive","f+MK > MP > HK","M",70,17,3,40,"hard knockdown",-25,-0,-0,-0,-0
+-0,"f+LK","H",40,7,3,23,-1,-4,"SM,EX,SA,CA",-0,-0,-0
+"Dominating Heel","f+LK > LK","L",70,18,2,35,25,-6,-0,-0,-0,"Doesn’t combo with rest of string"
+-0,"d+MP","L",60,5,4,11,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Heavy Languish","d+MP > f+HP","H",40,7,3,22,4,-2,"SM,EX,SA,CA",-0,-0,"Knockdown on airborne foes"
+"Heavy Languish Beat","d+MP > f+HP > HK","H",80,16,2,31,"hard knockdown",-10,-0,-0,-0,-0
+-0,"LP","H",30,4,2,8,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Left Right Combo","LP > f+MP","H",60,7,3,15,3,1,"SM,EX,SA,CA",-0,-0,-0
+"Left Right Back Strike","LP > f+MP > d+LK","L",30,16,3,20,2,0,"SM,EX,SA,CA",-0,-0,-0
+"Bed Time","LP > f+MP > MK","H",50,8,4,21,0,-2,"SM,EX,SA,CA",-0,-0,"Knockdown on airborne foes"
+-0,"MP","M",70,6,3,"until ground+4f",16,5,-0,-0,-0,"Knockdown on airborne foes"
+"Sforzando","MP > HP","H","60,40",7,"2(2)2","until ground+4f",20,-8,-0,-0,-0,-0
+-0,"LK","M,H",40,4,8,"until ground+4f",12,4,-0,-0,-0,"Hit level changes to high on frame 6"
+"Saisaris","LK > MK","M",70,6,8,"until ground+4f",16,5,-0,-0,-0,-0
+"Feisty Rabbit LK","qcb+LK",-0,-0,-0,-0,40,-0,-0,-0,-0,-0,"Upper body projectile invulnerable and lower body invulnerable frames 6-26, airborne frames 6-26, input LK/MK/HK between frames 16 26 for follow-up attack"
+"Feisty Rabbit MK","qcb+MK",-0,-0,-0,-0,47,-0,-0,-0,-0,-0,"Upper body projectile invulnerable and lower body invulnerable frames 8-22, airborne frames 8-30, input LK/MK/HK between frames 20-32 for follow-up attack"
+"Feisty Rabbit HK","qcb+HK",-0,-0,-0,-0,48,-0,-0,-0,-0,-0,"Upper body projectile invulnerable and lower body invulnerable frames 12-31, airborne frames 12-31, input LK/MK/HK between frames 15-34 for follow-up attack"
+"Feisty Rabbit EX","qcb+KK","H","20x3",18,"2(1)4",21,-5,-5,-0,-0,-0,"Full body invulnerable frames 1-10, upper body projectile invulnerable and lower body invulnerable frames 11-24, airborne frames 11-32, input LK/MK/HK between frames 18-36 for follow-up attack, knockdown on airborne foes"
+"Rabbit's Foot","LK during feisty rabbit","L",100,14,4,19,"sweep knockdown",-5,-0,-0,-0,-0
+"Rabbit's Foot EX","LK during EX feisty rabbit","L",100,13,4,19,"sweep knockdown",-5,-0,-0,-0,-0
+"Cloisonne","MK during feisty rabbit","M","40,60",18,"3(7)3",26,"hard knockdown",-5,-0,-0,-0,"Airborne frames 17-27"
+"Cloisonne EX","LK during EX feisty rabbit","M","40,60",14,"3(7)3",26,"hard knockdown",-5,-0,-0,-0,"Airborne frames 13-23"
+"Rabbit Thorn","HK during feisty rabbit","H",120,15,7,26,"wall bounce",-13,-0,-0,-0,"Airborne frames 12-25"
+"Rabbit Thorn EX","LK during feisty rabbit","H",120,15,7,26,"wall bounce",-13,-0,-0,-0,"Airborne frames 12-25"
+"Angel Knee LK","f,d,df+LK","H",70,5,2,25,"floats",-5,-0,-0,-0,"Airborne frames 5-19"
+"Angel Knee MK","f,d,df+MK","H",70,6,6,23,"floats",-7,-0,-0,-0,"Airborne frames 6-21"
+"Angel Knee HK","f,d,df+HK","H",70,9,7,26,"floats",-10,-0,-0,-0,"Airborne frames 7-23"
+"Angel Knee EX","f,d,df+KK","H",90,7,7,22,"floats",-7,-0,-0,-0,"Full body invulnerability 1-13, airborne frames 6-20"
+"Angel Knee Ascension","f,d,df+KK > K","anti air only",90,19,11,22,"floats",-0,-0,-0,-0,"Only hits airborne foes, lower body invulnerable frames 3-39"
+"Sunflower Lance LK","qcf+LK","H,M",50,17,5,30,-4,-6,-0,-0,-0,"Hit level changes to mid on frame 19, airborne frames 8-22, knockdown on airborne foes"
+"Sunflower Lance MK","qcf+MK","H,M",50,20,5,32,-5,-8,-0,-0,-0,"Hit level changes to mid on frame 22, airborne frames 10-25, knockdown on airborne foes"
+"Sunflower Lance HK","qcf+HK","H,M",50,21,5,35,-7,-11,-0,-0,-0,"Hit level changes to mid on frame 23, airborne frames 10-26, knockdown on airborne foes"
+"Sunflower Lance EX","qcf+KK","H,M","20,10x4,20x2",17,"6(22)3",20,"floats",3,-0,-0,-0,"Projectile invulnerable frames 1-24, airborne frames 9-24, 3rd-7th attacks only execute on hit, knockdown on airborne foes"
+"Sunflower Lance 2nd hit","qcf+K > K","H",50,16,3,30,-5,-7,-0,-0,-0,"Knockdown on airborne foes"
+"Sunflower Lance 3rd hit","qcf+K > K > K","H,M","40,30",13,"7(3)2",28,"hard knockdown",-11,-0,-0,-0,"Airborne frames 7-21, hit level changes to mid on frame 15"
+"Divine Step","qcf+K during forward jump","M","70,30,40",24,"until ground",36,"hard knockdown",-17,-0,-0,-0,-0
+"Divine Step EX","qcf+KK (air)","M","70,30,40",22,"until ground",31,"hard knockdown",-14,-0,-0,-0,"Homes to foe’s position"
+"Air Spine Shot LK","qcb+LK (air)","H",70,9,"until ground",12,0,-7,-0,-0,-0,-0
+"Air Spine Shot EX","qcb+KK (air)","H","30x3",8,"until ground",3,20,10,-0,-0,-0,-0
+"Attack Reversal LP","hcb+LP","counter",180,-0,-0,41,-0,-0,-0,-0,-0,"Counters strikes on Lili’s head frames 1-16"
+"Attack Reversal MP","hcb+MP","counter",180,-0,-0,41,-0,-0,-0,-0,-0,"Counters strikes on Lili’s midsection frames 1-15"
+"Attack Reversal HP","hcb+HP","counter",180,-0,-0,54,-0,-0,-0,-0,-0,"Counters strikes on Lili’s lower body frames 1-22"
+"Attack Reversal EX","hcb+PP","counter",180,-0,-0,47,-0,-0,-0,-0,-0,"Counters all striking attacks frames 1-18"
+"Dendrobium LP","qcf+LP","H",80,5,3,22,1,-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, knockdown on airborne foes"
+"Dendrobium MP","qcf+MP","H",80,7,3,22,2,-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, knockdown on airborne foes"
+"Dendrobium HP","qcf+HP","H",80,11,5,20,3,-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, knockdown on airborne foes"
+"Dendrobium EX","qcf+PP","H","20x3,40",7,"4(15)2(8)2(17)2",22,"wall bounce",2,-0,-0,-0,"Can be Super Charged: 51 frames to perform Super Art, first three hits knockdown on airborne foes"
+"Wind Up Spear","qcf+PPP","H","20,30,20,30,20x3,30,20x2,50",8,"2(16)2(10)3(15)2",27,"hard knockdown",-10,-0,-0,-0,"61 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"
+"Cross Art","qcf+MP+MK","H","20,10x8",9,2,52,"switch",-23,-0,-0,-0,"62 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

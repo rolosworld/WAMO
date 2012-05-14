@@ -1,0 +1,72 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,5,4,8,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,6,3,15,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,9,5,19,3,-3,-0,-0,-0,-0
+"Far LK",,"L",30,8,5,12,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",60,8,9,13,-1,-5,-0,-0,-0,-0
+"Far HK",,"H",90,13,4,22,-1,-6,-0,-0,-0,-0
+"Close MP",,"H",60,10,4,10,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,12,4,28,-5,-11,"SM,EX,SA,CA",-0,-0,-0
+"Close LK",,"H",30,4,4,10,3,-1,-0,-0,-0,-0
+"Close MK",,"L",60,5,4,15,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,8,10,15,0,-5,"SM,EX,SA,CA",-0,-0,-0
+"Crouch LP",,"H",30,5,4,5,8,4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,6,4,13,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,7,6,29,-9,-15,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Crouch LK",,"L",30,5,4,10,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,7,6,15,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,11,4,28,"sweep knockdown",-12,-0,-0,-0,-0
+"Jump LP",,"M",40,5,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,8,10,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,13,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,5,12,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,6,12,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,7,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",120,10,6,26,"hard knockdown",-11,-0,-0,-0,"Similar to LP Giga Jacker, full body invulnerability frames 1-10"
+"Flying Cask","LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Quarter Deck","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Double Chapati","HK > HK (air)","M",30,3,6,"until ground+4f",21,12,-0,-0,-0,-0
+-0,"MK","H",60,8,9,13,-1,-5,"SM,EX,SA,CA",-0,-0,-0
+-0,"MK > MP","H",30,13,4,20,-3,-6,-0,-0,-0,"Knockdown on airborne foes"
+"Gaufrettes Cutter","MK > MP > HP","H",80,21,2,23,1,-3,"SM,EX,SA,CA",-0,-0,"Doesn’t combo with rest of string, knockdown on airborne foes"
+-0,"MK > MK","H",30,13,6,19,-4,-10,-0,-0,-0,"Knockdown on airborne foes"
+"Gaufrettes Kick","MK > MK > HK","H",50,15,5,20,6,-8,-0,-0,-0,"Backturn on hit"
+"Gaufrettes Punch","MK > HP","M",70,19,4,27,10,-9,-0,-0,-0,"Doesn’t combo with rest of string"
+-0,"LP","H",30,5,4,8,5,1,"SM,EX,SA,CA",-0,-0,-0
+"One Two Punch","LP > b+MP","H",50,10,3,16,2,-1,"SM,EX,SA,CA",-0,-0,"Knockdown on airborne foes"
+"Fast Break","LP > b+MP > LP+MP","H",70,21,2,24,-1,-8,-0,-0,-0,"Doesn’t combo with rest of string, knockdown on airborne foe"
+-0,"LP","H",30,5,4,8,5,1,"SM,EX,SA,CA",-0,-0,-0
+-0,"LP > LK","L",50,10,4,26,-5,-15,-0,-0,-0,"Input LK between frames 2-19 for follow-up attack"
+"Course Picante","LP > LK > LK","H",70,15,4,25,"knockdown",-12,"BC,LA",-0,-0,"Knockdown on airborne foes"
+-0,"d+HK","L",90,11,4,28,"sweep knockdown",-12,-0,-0,-0,"This attack must whiff to connect with chain"
+-0,"d+HK > HK","M",30,21,3,26,-6,-9,-0,-0,-0,"Knockdown on airborne foes"
+"Contorno Farce","d+HK > HK > HK","H,M","40,50",18,"2(35)2",26,"ground bounce",-2,-0,-0,-0,-0
+"Giga Jacker LP","qcf+LP","H",80,14,7,38,"knockdown",-23,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, reflects projectiles frames 14-20, airborne frames 14-34"
+"Giga Jacker MP","qcf+MP","H",90,15,7,38,"knockdown",-23,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, reflects projectiles frames 14-20, airborne frames 14-35"
+"Giga Jacker HP","qcf+HP","H",100,16,7,38,"knockdown",-23,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, reflects projectiles frames 14-20, airborne frames 16-36"
+"Giga Jacker EX","qcf+PP","H",120,41,7,"62+4f",-5,-55,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art, airborne frames 21-42 and 53-90"
+"Spinner Ball LK","hcf+LK","H","20x2",13,7,18,-1,-4,-0,-0,-0,-0
+"Spinner Ball MK","hcf+MK","H","20x2",13,7,18,-1,-4,-0,-0,-0,-0
+"Spinner Ball HK","hcf+HK","H","20x2",15,7,18,-1,-4,-0,-0,-0,-0
+"Spinner Ball EX","hcf+KK","H","30x2",10,7,13,6,1,-0,-0,-0,"Projectile invulnerability frames 1-6"
+"Lyonnaise Break","P during spinner ball","H",70,12,6,19,"floats",-3,-0,-0,-0,-0
+"Perfect Press","K during spinner ball","M",50,28,7,30,"hard knockdown",-12,-0,-0,-0,"Airborne frames 18-31"
+"Panini Flip","d+K during spinner ball","L,H","30,25x2",21,"4(10)3",29,"floats",-14,-0,-0,-0,"Upper body projectile invulnerability frames 1-35, airborne frames 36-45"
+"Cracker LP","f,d,df+LP","H",10,10,5,29,0,-17,-0,-0,-0,"Upper body invulnerability frames 1-5, strike invulnerability frames 6-9, airborne frames 6-26"
+"Cracker MP","f,d,df+MP","H",11,11,5,29,0,-17,-0,-0,-0,"Upper body invulnerability frames 1-6, strike invulnerability frames 7-10, airborne frames 7-27"
+"Cracker HP","f,d,df+HP","H",16,16,5,29,0,-17,-0,-0,-0,"Upper body invulnerability frames 1-8, strike invulnerability frames 9-17, airborne frames 9-32"
+"Cracker EX","f,d,df+PP","H",9,9,6,42,-14,-31,-0,-0,-0,"Full body invulnerability frames 1-10, airborne frames 6-26"
+"Pound Cake","P during cracker","M",23,23,4,24,-3,-11,-0,-0,-0,"Doesn’t combo with Cracker, ground bounce on airborne foes"
+"Cracker Jacker","K curing cracker","H",21,21,6,25,"knockdown",-9,-0,-0,-0,"Doesn’t combo with EX Cracker, airborne frames 18-30"
+"Special Step LK","f,d,df+LK",-0,-0,-0,-0,32,-0,-0,-0,-0,-0,"Upper body projectile invulnerability frames 1-21"
+"Special Step MK","f,d,df+MK",-0,-0,-0,-0,33,-0,-0,-0,-0,-0,"Upper body projectile invulnerability frames 1-22"
+"Special Step HK","f,d,df+HK",-0,-0,-0,-0,36,-0,-0,-0,-0,-0,"Upper body projectile invulnerability frames 1-25"
+"Special Step EX","f,d,df+KK",-0,-0,-0,-0,28,-0,-0,-0,-0,-0,"Upper body invulnerability frames 1-22, lower body projectile invulnerability and armor frames 1-22"
+"Langue Washer","LP during special step","H",60,11,2,22,"floats",-2,-0,-0,-0,"Upper body projectile invulnerability frames 1-5"
+"Spiral Rocky","MP during speical step","H","50,20x2,40",18,12,41,"knockdown",-27,-0,-0,-0,"Full body invulnerability frames 1-29, airborne frames 20-48"
+"Granchi Cannon","LP+MP during special step","H",100,18,5,22,"crumples",-5,-0,-0,-0,"Upper body projectile invulnerability frames 1-4"
+"Apres Sweep","LK during special step","L",50,5,3,30,0,-9,"LP+MP",-0,-0,"Upper body projectile invulnerability frames 1-30"
+"Cutting Coppa","LP+MP during special step","H",80,18,3,24,"knockdown",-5,-0,-0,-0,-0
+"Giga Meteo","qcf+PPP","H","70,100,150",24,5,72,"hard knockdown",-55,-0,-0,-0,"77 frame cinematic freeze before attack begins, projectile invulnerability frames 1-23, airborne frames 8-27 & 41-71, homes to foe’s position"
+"Cross Art","qcf+MP+MK","H","20,16x5",9,4,45,"switch",-27,-0,-0,-0,"61 frame cinematic freeze before attack begins, full body invulnerability frames 1-12"

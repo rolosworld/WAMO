@@ -1,0 +1,56 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,4,2,10,5,1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Far MP",,"H",60,5,4,17,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,5,3,18,4,-1,-0,-0,-0,-0
+"Far LK",,"H",30,5,2,9,6,2,-0,-0,-0,"Rapid fire cancelable to light normal moves"
+"Far MK",,"H",60,8,4,15,2,-2,-0,-0,-0,-0
+"Far HK",,"H",90,13,5,17,3,-2,-0,-0,-0,-0
+"Close LP",,"H",30,4,2,9,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Close MP",,"H",60,4,3,16,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,6,4,19,3,-3,"SM,EX,SA,CA",-0,-0,"Forces standing on hit"
+"Close LK",,"H",30,4,3,7,7,3,-0,-0,-0,"Rapid fire cancelable to light normal moves"
+"Close MK",,"H",60,5,2,21,-2,-6,-0,-0,-0,-0
+"Close HK",,"H",90,6,3,23,0,-6,-0,-0,-0,"Forces standing on hit"
+"Crouch LP",,"H",30,4,2,7,8,4,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Crouch MP",,"H",60,5,5,10,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,5,4,29,-7,-13,-0,-0,-0,"Forces standing on hit"
+"Crouch LK",,"L",30,4,2,9,6,2,-0,-0,-0,"Rapid fire cancelable to light normal moves"
+"Crouch MK",,"L",60,7,4,18,-1,-5,-0,-0,-0,-0
+"Crouch HK",,"L","90,90",6,"4(20)4",21,"sweep knockdown",-5,-0,-0,-0,-0
+"Jump up LP",,"M",40,5,2,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,7,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,7,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",40,8,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,7,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,6,3,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,6,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,6,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,6,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,6,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",100,6,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",100,6,11,47,"hard knockdown",-36,-0,-0,-0,"Similar to HK Flash Kick, full body invulnerability frames 1-7"
+"Dragon Suplex","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Judo Throw","b+LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Flying Mare","LP+LK (air)","throw",150,7,2,"until ground+4f","hard knockdown",-0,-0,-0,-0,-0
+"Flying Buster Drop","b+LP+LK (air)","throw",150,7,2,"until ground+4f","hard knockdown",-0,-0,-0,-0,-0
+"Straight Chop","f+MP","M",50,16,3,16,4,-2,-0,-0,-0,"Hard knockdown on airborne foes"
+"Spinning Back Knuckle","f+HP","H",100,9,3,15,7,2,-0,-0,-0,"Knockdown on airborne foes"
+"Knee Bazooka","b or f+LK","H",50,7,4,15,-2,-4,-0,-0,-0,"Knockdown on airborne foes"
+"Rolling Sobat","b or f+MK","H",60,11,4,14,3,-1,-0,-0,-0,"Lower body projectile invulnerability frames 7-8, lower body invulnerability frames 9-21, knockdown on airborne foes"
+"Reverse Spin Kick","b,f+HK near opponent","H",90,16,6,12,7,2,-0,-0,-0,"Knockdown on airborne foes"
+"Guile High Kick","df+HK","H",80,8,2,16,"floats",2,-0,-0,-0,-0
+"Flash Kick LK","charge d,u+LK","H","120(60)",5,11,43,"knockdown",-32,-0,-0,-0,-0
+-0,"d+MK","L",60,7,4,18,-1,-5,-0,-0,-0,-0
+"Target Combo","d+MK > f+MP","M",50,16,3,16,4,-2,-0,-0,-0,-0
+"Flash Kick LK","charge d, u+LK","H","120(60)",5,11,43,"knockdown",-32,-0,-0,-0,"Requires d charge of 47 frames to execute, full body invulnerability frames 1-6"
+"Flash Kick MK","charge d,u+MK","H","120(70)",5,11,45,"knockdown",-34,-0,-0,-0,"Requires d charge of 47 frames to execute, full body invulnerability frames 1-6"
+"Flash Kick HK","charge d,u+HK","H","120(80)",5,11,47,"knockdown",-36,-0,-0,-0,"Requires d charge of 47 frames to execute, full body invulnerability frames 1-6"
+"Flash Kick EX","charge d,u+KK","H","90,80",6,11,47,"knockdown",-34,-0,-0,-0,"Requires d charge of 47 frames to execute, full body invulnerability frames 1-6"
+"Sonic Boom LP","charge b,f+LP","H",50,10,-0,23,8,5,-0,-0,-0,"Requires b charge of 49 frames to execute, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has 1 point of durability, knockdown on airborne foes"
+"Sonic Boom MP","charge b,f+MP","H",50,10,-0,25,6,3,-0,-0,-0,"Requires b charge of 49 frames to execute, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has 1 point of durability, knockdown on airborne foes"
+"Sonic Boom HP","charge b,f+HP","H",50,10,-0,27,4,1,-0,-0,-0,"Requires b charge of 49 frames to execute, can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, projectile has 1 point of durability, knockdown on airborne foes"
+"Sonic Boom EX","charge b,f+PP","H","40x2",11,-0,29,10,7,-0,-0,-0,"Requires b charge of 49 frames to execute, can be Super charged: 51 frames to perform Super Art, projectile has 2 points of durability, knockdown on airborne foes"
+"Sonic Hurricane","charge b,f+PPP","H","120,20x4,120",8,41,34,"hard knockdown",-29,-0,-0,-0,"89 frame cinematic freeze before attack begins, full body invulnerability frames 1-8, active duration increases if projectile hits enemy projectile"
+"Cross Art","qcf+MP+MK","H","20x5",9,"2(12)2(15)2",35,-0,-15,-0,-0,-0,"64 frame cinematic freeze before attack begins, full body invulnerability frames 1-9, 1st hit must connect to enter cinematic"

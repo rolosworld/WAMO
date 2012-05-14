@@ -1,0 +1,66 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,4,4,7,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Far MP",,"H",60,5,5,13,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far HP",,"H",90,10,4,22,-1,-6,-0,-0,-0,-0
+"Far LK",,"H",30,6,3,14,0,-4,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H","30x2",6,4,15,4,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far HK",,"H",90,13,3,16,6,1,-0,-0,-0,-0
+"Close HP",,"H",90,12,6,25,-6,-11,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,7,3,21,0,-5,-0,-0,-0,-0
+"Crouch LP",,"H",30,4,3,6,8,4,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MP",,"H",60,6,4,10,7,3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,8,6,26,6,-12,-0,-0,-0,"forces standing"
+"Crouch LK",,"L",30,6,2,10,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",60,6,4,15,2,-2,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,7,2,24,"hard knockdown",-6,-0,-0,-0,-0
+"Jump LP",,"M",40,6,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MP",,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HP",,"M",100,10,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump LK",,"M",40,6,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump MK",,"M",70,7,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump HK",,"M",100,9,8,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",100,12,3,27,"hard knockdown",-8,-0,-0,-0,"Similar to LP Demon Breath, full body invulnerability frames 1-14"
+"Neck Breaker ","LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Broken Toy","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Tatarigoroshi","b+MP","H",70,8,4,22,1,-2,"SM,EX,SA,CA",-0,-0,"Knocks down airborne foes"
+"Lightning Crush","f+LK","H",50,14,3,16,7,3,-0,-0,-0,"Knocks down airborne foes, forces standing on hit"
+"Chrome Dome","f+LP+MP(hold to charge)","H",50,"12/72",2,"18/25"," +2/ground bounce","-2/-9",-0,-0,-0,"Chargeable, ground bounce if released between frames 32-71, head armor frames 1-71, slip (+21) on Counter Hit, knocks down airborne foes"
+"Hammer Punch","b+LP","M",70,18,3,16,6,-1,"SM,EX,SA,CA",-0,-0,"Crushes standing normal moves, slip (+22) on Counter Hit, knocks down airborne foes"
+"Eisho Mon","f+MP","L",60,15,6,16,7,2,-0,-0,-0,-0
+"Jichinsai","b+LK","H",50,23,5,24,"ground bounce",1,-0,-0,-0,-0
+-0,"LP","H",30,4,4,6,6,2,"SM,EX,SA,CA",-0,-0,-0
+-0,"LP > LP","H",30,7,3,-1,-1,-3,-0,-0,-0,-0
+"Flash Punch COmbo","LP > LP > MP","M",100,9,3,"hard knockdown","hard knockdown",-17,-0,-0,-0,-0
+-0,"LP","H",30,4,4,6,6,2,"SM,EX,SA,CA",-0,-0,-0
+"Left Right Combo","LP > b+MP","H",50,8,4,1,1,-2,"SM,EX,SA,CA",-0,-0,-0
+"Demon Slayer","LP > b+MP > MP","H",60,8,4,12,12,-5,-0,-0,-0,-0
+-0,"f+LP","H",50,6,5,22,-1,-4,-0,-0,-0,"Input LP/MP/HP between frames 1-17 for follow-up attack"
+"Double Palm Strike","f+LP > LP","H",50,8,3,23,0,-3,"SM,EX,SA,CA",-0,-0,-0
+"Muso Tettsui","f+LP > MP","M",100,15,3,19,"ground bounce",-4,-0,-0,-0,-0
+"Muso Kageki","f+LP > HP","L",60,13,6,19,1,-1,-0,-0,-0,-0
+"Rising Uppercut LP","f,d,df+LP","H",60,16,2,23,"floats",-3,-0,-0,-0,"Upper body projectile invulnerability frames 1-15, crushes standing attacks frames 1-8"
+"Rising Uppercut MP","f,d,df+MP","H",60,22,2,23,"floats",-3,-0,-0,-0,"Upper body projectile invulnerability frames 1-21, crushes standing attacks frames 1-14"
+"Rising Uppercut HP","f,d,df+HP","H",60,25,2,23,"floats",-3,-0,-0,-0,"Upper body projectile invulnerability frames 1-24, crushes standing attacks frames 1-17"
+"Rising Uppercut EX","f,d,df+PP","H",100,14,2,24,"floats",-4,-0,-0,-0,"Upper body invulnerability frames 1-13, lower body crushes standing attacks frames 1-7"
+"Dragon Uppercut","f,d,df+K","H",80,19,11,34,"knockdown",-23,-0,-0,-0,"Upper body projectile invulnerability frames 1-14"
+"Dragon Uppercut EX","f,d,df+KK","H",120,20,11,34,"knockdown",-23,-0,-0,-0,"Upper body invulnerability frames 1-15"
+"Dragon Uppercut follow-up","P during dragon uppercut","H",60,5,3,"until ground+4f","knockdown",-0,-0,-0,-0,"Input P between frames 19-32 of Dragon Uppercut to execute attack"
+"Heaven's Wrath LK","hcf+LK","counter","50/50,80",-0,-0,61,-0,-0,-0,-0,-0,"Counters ground strikes frames 1-40"
+"Heaven's Wrath MK","hcf+MK","counter","50/50,80",-0,-0,65,-0,-0,-0,-0,-0,"Counters ground strikes frames 1-44"
+"Heaven's Wrath HK","hcf+HK","counter","50/50,80",-0,-0,72,-0,-0,-0,-0,-0,"Counters ground strikes frames 1-50"
+"Heaven's Wrath EX","hcf+KK","counter","50,50",-0,-0,73,-0,-0,-0,-0,-0,"Counters ground strikes frames 1-51"
+"Hell Axle LK","qcb+LK","H",80,12,9,29,"knockdown",-16,-0,-0,-0,"Projectile invulnerability frames 4-21, airborne frames 4-29"
+"Hell Axle MK","qcb+MK","H",100,12,10,24,"knockdown",-12,-0,-0,-0,"Projectile invulnerability frames 4-22, airborne frames 4-29"
+"Hell Axle HK","qcb+HK","H","80,40",14,"6(12)6",34,"knockdown",-18,-0,-0,-0,"Projectile invulnerability frames 6-38, airborne frames 6-38"
+"Hell Axle EX","qcb+KK","H","50x2",14,"6(12)6",26,"knockdown",-10,-0,-0,-0,"Projectile invulnerability frames 6-38, airborne frames 6-38"
+"Demon Breath LP","qcf+LP","H",80,10,3,17,13,2,-0,-0,-0,"Reflects projectiles frames 10-12"
+"Demon Breath MP","qcf+MP","H",100,16,3,30,"knockdown",-11,-0,-0,-0,"Reflects projectiles frames 16-18"
+"Demon Breath HP","qcf+HP","H","60x2",14,3,39,"floats",-20,-0,-0,-0,"Projectile hit frames 14-16, 1 point of durability"
+"Demon Breath EX","qcf+PP","H",120,17,3,29,"wall bounce",-9,-0,-0,-0,"Reflects projectiles frames 17-19"
+"Raijin Stance LP","hcb+LP","H",70,13,13,27,1,-2,-0,-0,-0,"Can be Super charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Raijin Stance MP","hcb+MP","H",70,15,13,28,0,-3,-0,-0,-0,"Can be Super charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Raijin Stance HP","hcb+HP","H",70,18,13,30,-2,-5,-0,-0,-0,"Can be Super charged: 51 frames to perform EX version, 100 frames for Super Art"
+"Raijin Stance EX","hcb+PP","H","90,80",12,"13(12)13",52,"knockdown",-21,-0,-0,-0,"Can be Super charged: 51 frames to perform Super Art, full body invulnerability frames 1-12"
+"Raijin's Wrath","hcb+PPP","H","100,50x4",14,7,52,"hard knockdown",-33,-0,-0,-0,"62 frame cinematic freeze before attack begins, full body invulnerability frames 1-14"
+"Cross Art","qcf+MP+MK","H","20,40x2",8,2,60,-0,-40,-0,-0,-0,"63 frame cinematic freeze before attack begins, full body invulnerability frames 1-9"

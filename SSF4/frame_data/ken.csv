@@ -1,0 +1,44 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",30,50,20,"C*Sp*Su ",4,2,5,4,7
+"Close Medium Punch ","HL ",60,100,40,"Sp*Su ",6,3,18,-7,-2
+"Close Hard Punch ","HL ",90,150,60,"Sp*Su ",6,3,19,-4,1
+"Close Light Kick ","HL ",30,50,20,"C*Sp*Su ",6,2,7,2,5
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",8,3,12,-1,7
+"Close Hard Kick ","HL ",110,200,60,"Sp*Su ",8,3,21,-6,-2
+"Far Light Punch ","HL ",20,50,20,"C*Sp*Su ",4,2,5,4,7
+"Far Medium Punch ","HL ",70,100,40,"Su ",7,5,5,4,7
+"Far Hard Punch ","HL ",100,200,60,"- ",11,3,16,-1,3
+"Far Light Kick ","HL ",40,50,20,"- ",4,3,7,1,4
+"Far Medium Kick ","HL ",80,100,40,"- ",7,3,13,-2,1
+"Far Hard Kick ","HL ",130,200,60,"- ",12,3,21,-6,-2
+"Crouch Light Punch ","HL ",30,50,20,"C*Sp*Su ",3,3,6,2,5
+"Crouch Medium Punch ","HL ",70,100,40,"Sp*Su ",5,5,9,0,3
+"Crouch Hard Punch ","HL ",100,200,60,"Sp*Su ",5,5,22,-9,-4
+"Crouch Light Kick ","L ",20,50,20,"C*Sp*Su ",3,4,7,0,3
+"Crouch Medium Kick ","L ",60,100,40,"Sp*Su ",4,4,14,-4,-1
+"Crouch Hard Kick ","L ",110,100,60,"- ",8,3,21,-6,"D "
+"Back + Medium Kick ","H ",80,100,40,"- ",15,2,17,-5,-2
+"Toward + Medium Kick ","HL ",60,100,40,"- ",11,5,11,-2,1
+"Toward + Hard Kick ","H ",120,150,60,"- ",21,2,20,-4,-1
+"Target Combo 1 ","HL ",30,50,30,"Sp*Su ",6,3,24,-9,-4
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",22,2,42,-28,-28
+"Focus Attack Level 2 ","HL ",90,150,40,"- ",30,2,42,-22,"D "
+"Focus Attack Level 3 ","- ",150,200,60,"- ",68,2,42,"D ","D "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",22,2,42,-2,-2
+"Focus Attack Level 2 (Dash Cancel) ","HL ",90,150,40,"- ",30,2,42,4,"D "
+"Forward Throw ",0.9,120,80,40,"- ",3,2,20,"- ","D "
+"Back Throw ",0.9,130,80,40,"- ",3,2,20,"- ","D "
+"Fireball ","HL ",60,100,"10/20/10","Su ",14,"- ",47,-7,-3
+"Fireball EX ","HL ","50*40 ","50*50 ","-250/0 ","Su ",14,"- ",44,-1,2
+"Dragon Punch Light Punch ","HL ","100[80] ",100,"30/40 ","Su ",3,11,"18+6 ",-14,"D "
+"Dragon Punch Medium Punch ","HL ","90*60 ","125*75 ","30/30*16 ","Su ",4,"3*11 ","25+14 ",-29,"D "
+"Dragon Punch Hard Punch ","HL ","70*40*30 ","100*50*50 ","30/30*10*10 ","Su ",3,"2*2*12 ","30+9 ",-30,"D "
+"Dragon Punch EX ","HL ","70*30*30*50 ","100*25*25*80 ","-250/0 ","Su ",4,"2*2*2*6 ","45+9 ",-41,"D "
+"Hurricane Kick Light Kick ","HL ","60*50*50 ","70*50*50 ","20/20*10*10 ","Su ",6,"1(4) 2(6) 2 ","11+6 ",-6,-2
+"Hurricane Kick Medium Kick ","HL ","60*30x3 ","50*40x3 ","20/20*10x3 ","Su ",6,"2(5) 2(5) 1(5) 2(5) 2 ","14+9 ",-4,0
+"Hurricane Kick Hard Kick ","HL ","60*30x4 ","50*40x4 ","20/20*10x4 ","Su ",6,"2(6) 1(5) 1(5) 1(5) 1(5) 1(5) 2(4) 2 ","12+12 ",-5,-1
+"Hurricane Kick EX ","HL ","50*40x4 ","50x5 ","-250/0 ","Su ",6,"2(4) 1(3) 1(4) 1(3) 1(4) 1(4) 1(3) 1 ","9+14 ",-3,1
+"Super Light Punch ","HL ","40x3 * 50 * 100x2 ",0,"-1000/0 ","- ",2,"2 * 1 * 8(20)1 * 3 * 7 ","31+12 ",-29,"D "
+"Super Medium Punch & Hard Punch ","HL ","40x3 * 50 * 100x2 ",0,"-1000/0 ","- ",3,"2 * 1 * 8(20)1 * 3 * 7 ","??? ",-29,"D "
+"Ultra 1 ","HL ","60 * 30x9 [440] ",0,"0/0 ","- ",10,"2 * 2 * 5x7 * 1 ","32+50 ",-94,"D "
+"Ultra 2 ","HL ","75 * 17x9 * 23 * 225 ",0,"0/0 ","- ",7,"2(5)93 ","8+42 ",-40,"D "

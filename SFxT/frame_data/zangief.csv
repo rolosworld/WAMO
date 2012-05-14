@@ -1,0 +1,59 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",40,4,2,10,5,1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Far MP",,"H",80,4,2,14,5,1,-0,-0,-0,-0
+"Far HP",,"H",120,12,4,24,3,-8,-0,-0,-0,-0
+"Far LK",,"H",40,4,2,12,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H",80,7,7,17,3,-7,-0,-0,-0,-0
+"Far HK",,"H",120,11,4,21,0,-5,-0,-0,-0,-0
+"Close LP",,"H",40,4,6,8,4,0,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Close MP",,"H",80,5,2,14,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",120,7,4,17,5,-1,-0,-0,-0,"forces standing"
+"Close LK",,"H",40,4,2,9,6,2,-0,-0,-0,-0
+"Close MK",,"H",80,4,2,16,4,-1,"SM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",120,7,5,21,0,-6,-0,-0,-0,"forces standing"
+"Crouch LP",,"H",40,4,3,10,4,0,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light normal attacks"
+"Crouch MP",,"H",80,8,5,12,4,0,-0,-0,-0,-0
+"Crouch HP",,"H",120,14,4,15,7,1,-0,-0,-0,-0
+"Crouch LK",,"L",40,5,3,9,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",80,9,4,14,3,-1,-0,-0,-0,-0
+"Crouch HK",,"L",120,9,5,23,"sweep knockdown",-8,-0,-0,-0,-0
+"Jump up LP",,"M",50,5,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",90,7,4,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",130,11,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump up LK",,"M",50,7,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",90,9,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",130,9,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",50,6,5,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",90,7,3,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",130,10,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",50,7,4,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",90,9,10,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M",130,9,6,"until ground+4f",20,8,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",130,14,2,26,"hard knockdown",-12,-0,-0,-0,"Similar to EX HP Banishing Flat, full body invincibility frames 1-15"
+"Body Slam","LP+LK","throw",150,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Kirinshu","b+LP+LK","throw",150,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Flying Body Attack","d+HP during diagonal jump","M",120,6,7,"until ground+4f",17,12,-0,-0,-0,"Knockdown on airborne foes"
+"Double Knee Drop","d+LK during diagonal jump","M",70,7,6,"until ground+4f",12,4,-0,-0,-0,"Knockdown on airborne foes"
+"MP Headbutt","u+MP during vertical jump","M",110,4,6,"until ground+4f",16,5,-0,-0,-0,"Knockdown on airborne foes, spike on
+grounded Counter Hit"
+"HP Headbutt","u+HP during vertical jump","M",90,6,3,"until ground+4f",20,8,-0,-0,-0,"Spike on airborne foes"
+"Long Kick","df+HK","L",150,14,7,21,"sweep knockdown",-8,-0,-0,-0,-0
+"Spinning Piledriver LP","f,df,d,db,b,ub+LP","throw",180,5,2,52,"hard knockdown",-0,-0,-0,-0,-0
+"Spinning Piledriver MP","f,df,d,db,b,ub+MP","throw",200,7,2,49,"hard knockdown",-0,-0,-0,-0,-0
+"Spinning Piledriver HP","f,df,d,db,b,ub+HP","throw",220,9,2,47,"hard knockdown",-0,-0,-0,-0,-0
+"Spinning Piledriver EX","f,df,d,db,b,ub+PP","throw",230,6,2,47,"hard knockdown",-0,-0,-0,-0,"Full body invulnerability frames 1-6"
+"Banishing Flat LP","f,d,df+LP","H",110,12,7,20,-2,-4,-0,-0,-0,"Front half of body projectile invulnerable frames 6-18, hit counts as projectile, knockdown on airborne foes"
+"Banishing Flat MP","f,d,df+MP","H",110,14,10,20,-6,-8,-0,-0,-0,"Front half of body projectile invulnerable frames 8-23, hit counts as projectile, knockdown on airborne foes"
+"Banishing Flat HP","f,d,df+HP","H",110,17,7,20,-4,-6,-0,-0,-0,"Front half of body projectile invulnerable frames 8-23, hit counts as projectile, knockdown on airborne foes"
+"Banishing Flat EX","f,d,df+PP","H","60x2",15,2,17,"ground bounce",-4,-0,-0,-0,"Full body projectile invulnerability frames 1-16, hits count as projectile, knockdown on airborne foe"
+"Double Lariat","PPP","H",150,5,"2(4)7(2)7(3)9(2)8(4)3",14,"knockdown",-37,-0,-0,-0,"Upper body invulnerability frames 1-6, projectile invulnerable frames 7-55, midsection invulnerability frames 7-55"
+"Quick Lariat","KKK","H,H",100,11,"5(3)8(4)3",11,"floats",-4,-0,-0,-0,"Lower body invulnerability frames 1-33"
+"Flying Power Bomb LK","f,df,d,db,b,ub+LK","throw",200,"10-52",2,46,"hard knockdown",-0,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art, throw hitbox triggers when near foe, armor frames 28-52"
+"Flying Power Bomb MK","f,df,d,db,b,ub+MK","throw",200,"10-54",2,46,"hard knockdown",-10,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art, throw hitbox triggers when near foe, armor frames 28-54"
+"Flying Power Bomb HK","f,df,d,db,b,ub+HK","throw",200,"10-61",2,46,"hard knockdown",-1,-0,-0,-0,"Can be Super Charged: 51 frames for EX version, 100 frames for Super Art, throw hitbox triggers when near foe, armor frames 28-60"
+"Flying Power Bomb EX","f,df,d,db,b,ub+KK","throw",200,"7-65",2,46,"hard knockdown",-1,-0,-0,-0,"Can be Super Charged: 51 frames for Super Art, armor frames 1-64, hitbox triggers when near foe"
+"Atomic Suplex","f,df,d,db,b,ub+LK","throw",230,8,2,-0,"hard knockdown",-0,-0,-0,-0,"Can be Super Charged: 51 frames for EX Version, 100 frames for Super Art"
+"Atomic Suplex EX","f,df,d,db,b,ub+KK","throw",250,4,2,-0,"hard knockdown",-0,-0,-0,-0,"Can be Super Charged: 51 frames for Super Art, armor on 1st frame"
+"Final Atomic Buster","f,df,d,db,b,ub+KKK","throw",340,0,"2(1-36)2",46,"hard knockdown",-0,-0,-0,-0,"84 frame cinematic freeze before attack begins, armor frames 1-38, 2nd active frames trigger near foe"
+"Cross Art","qcf+MP+MK","H","30,20x2,30",9,2,32,-0,-12,-0,-0,-0,"64 frame cinematic freeze before attack begins, full body invulnerability frames 1-10"

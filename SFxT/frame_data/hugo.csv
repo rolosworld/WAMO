@@ -1,0 +1,44 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",50,6,3,14,0,-4,-0,-0,-0,"Rapid fire cancelable into light attacks"
+"Far MP",,"H",100,12,4,17,4,-4,-0,-0,-0,-0
+"Far HP",,"M",130,17,8,16,2,-4,-0,-0,-0,"Knockdown against airborne foe"
+"Far LK",,"H",50,7,3,10,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Far MK",,"H","50,50",17,"2(4)2",24,-1,-9,-0,-0,-0,-0
+"Far HK",,"M",130,23,9,32,2,-21,-0,-0,-0,"Airborne frames 1-36, causes slip (+/- 0) on Counter Hit against crouching foe, cause hard knockdown vs. airborne foe"
+"Crouch LP",,"H",50,5,2,9,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable into light attacks"
+"Crouch MP",,"H",80,9,4,12,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",130,15,5,60,"float",-45,-0,-0,-0,"Airborne frames 15-28"
+"Crouch LK",,"L",50,6,3,10,4,0,"SM,EX,SA,CA",-0,-0,-0
+"Crouch MK",,"L",130,10,4,18,"sweep knockdown",-2,-0,-0,-0,-0
+"Crouch HK",,"M",130,13,14,56,"hard knockdown",-50,-0,-0,-0,"Airborne frames 8-29"
+"Jump LP",,"M",60,6,12,"until ground+4f",12,8,-0,-0,-0,-0
+"Jump MP",,"M",110,8,6,"until ground+4f",16,12,-0,-0,-0,-0
+"Jump HP",,"M",140,13,4,"until ground+4f",20,16,-0,-0,-0,-0
+"Jump LK",,"M",60,5,15,"until ground+4f",12,8,-0,-0,-0,-0
+"Jump MK",,"M",110,7,7,"until ground+4f",16,12,-0,-0,-0,-0
+"Jump HK",,"M",140,14,6,"until ground+4f",20,16,-0,-0,-0,-0
+"Launcher",,"H",100,13,2,53,"switch",-33,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H",100,9,3,41,"hard knockdown",-21,-0,-0,-0,"Similar to Monster Lariat, invulnerable frames 1-9"
+"Neck Hanging Tree","LP+LK","throw","40,50,50",7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Body Slam","b+LP+LK","throw",140,7,2,20,"hard knockdow",-0,-0,-0,-0,-0
+"Body Press","d+HP (air)","M",140,9,21,"until ground+4f",20,16,-0,-0,-0,"Knockdown against airborne foes"
+"Hammer Hook","f+HP","H",160,16,3,34,-15,-20,-0,-0,-0,"Knockdown against airborne foes"
+"Leap Attack","d,n,d+MK","M",50,17,9,"until ground+4f",3,1,-0,-0,-0,"Airborne on frames 1-26, causes slip (+31) on Counter Hit against crouching opponent, knockdown against airborne foes"
+"Giant Palm Breaker LP","qcb+LP","H",100,19,2,10,13,10,-0,-0,-0,"Knockdown against airborne foes"
+"Giant Palm Breaker MP","qcb+MP","H",100,21,2,8,15,12,-0,-0,-0,"Knockdown against airborne foes"
+"Giant Palm Breaker HP","qcb+HP","H",100,24,2,7,16,13,-0,-0,-0,"Knockdown against airborne foes"
+"Giant Palm Breaker EX","qcb+PP","H","70,70",18,3,7,16,13,-0,-0,-0,"Knockdown against airborne foes"
+"Moonsault Press","f,df,d,db,b,ub+P","throw",200,6,2,28,"hard knockdown",-0,-0,-0,-0,-0
+"Moonsault Press EX","f,df,d,db,b,ub+PP","throw",250,7,2,28,"hard knockdown",-0,-0,-0,-0,"Frames 1-6 invulnerable"
+"Shootdown Backbreaker LK","f,d,df+LK","throw",160,5,8,54,"hard knockdown",-0,-0,-0,-0,"Airborne on frame 3"
+"Shootdown Backbreaker MK","f,d,df+MK","throw",180,9,9,44,"hard knockdown",-0,-0,-0,-0,"Airborne on frame 3"
+"Shootdown Backbreaker HK","f,d,df+HK","throw",200,12,12,41,"hard knockdown",-0,-0,-0,-0,"Airborne on frame 3"
+"Shootdown Backbreaker EX","f,d,df+KK","throw",200,6,8,54,"hard knockdown",-0,-0,-0,-0,"Frames 1-7 invulnerable"
+"Meat Squasher","f,df,d,db,b,ub+K","throw",200,19,2,-0,"hard knockdown",-0,-0,-0,-0,"After startup, Hugo will grab in 1 frame when close to foe"
+"Ultra Throw","hcb+K or KK","throw",60,10,2,-0,"wall bounce, hard knockdown",-0,-0,-0,-0,"EX version has more grabbing range"
+"Monster Lariat LK","qcf+LK","H",70,18,3,26,"float",-7,-0,-0,-0,"Armor from frames 1-17, or until first active frame if Lariat is Super Charged"
+"Monster Lariat MK","qcf+MK","H",70,22,3,26,"float",-7,-0,-0,-0,"Armor from frames 1-21, or until first active frame if Lariat is Super Charged, sets up juggle combo on hit"
+"Monster Lariat HK","qcf+HK","H",70,28,3,26,"float",-7,-0,-0,-0,"Armor from frames 1-27, or until first active frame if Lariat is Super Charged, sets up juggle combo on hit"
+"Monster Lariat EX","qcf+KK","H","70,70,70",15,"3(15)4(16)2",23,0,-3,-0,-0,-0,"Armor from frames 1-14, or until first active frame if Lariat is Super Charged"
+"Gigas Breaker","qcf+KKK","H","70,80,80,150",7,"3(15)4(21)2",34,"hard knockdown",-14,-0,-0,-0,"If KKK is held: full body invulnerable frames 1-3, armor begins frame 4, Hugo swings on 8th frame after release, if KKK is held beyond frame 36 Hugo halts attack"
+"Cross Art","qcf+MP+MK","H",100,10,2,52,"switch",-32,-0,-0,-0,"Full body invulnerability frames 1-11"

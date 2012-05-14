@@ -1,0 +1,57 @@
+"move","command","block","damage","startup","active","recovery","frame_adv_hit","frame_adv_block","cancel","total","meter","Notes"
+"Far LP",,"H",30,6,2,9,6,2,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Far MP",,"H",60,7,2,15,4,0,-0,-0,-0,-0
+"Far HP",,"H",90,9,4,17,4,-1,-0,-0,-0,-0
+"Far LK",,"H",30,6,2,12,3,-1,-0,-0,-0,-0
+"Far MK",,"H",60,10,2,18,1,-3,-0,-0,-0,-0
+"Far HK",,"H",90,17,2,17,"floats",1,-0,-0,-0,-0
+"Close LP",,"H",30,4,3,9,5,1,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Close MP",,"H",60,5,2,14,5,1,"SM,EX,SA,CA",-0,-0,-0
+"Close HP",,"H",90,6,4,21,1,-5,"SM,EX,SA,CA",-0,-0,"forces standing"
+"Close LK",,"H",30,4,2,8,7,3,-0,-0,-0,-0
+"Close MK",,"H",60,7,"2(4)3",14,4,0,"1st hitSM,EX,SA,CA",-0,-0,-0
+"Close HK",,"H",90,8,2,25,-1,-7,-0,-0,-0,-0
+"Crouch LP",,"H",30,4,2,11,4,0,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Crouch MP",,"H",60,7,3,15,3,-1,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HP",,"H",90,14,2,34,-11,-16,"SM,EX,SA,CA",-0,-0,"crumples on counter hit"
+"Crouch LK",,"L",30,4,2,12,3,0,"SM,EX,SA,CA",-0,-0,"Rapid fire cancelable to light normal moves"
+"Crouch MK",,"L",60,6,1,19,1,-3,"SM,EX,SA,CA",-0,-0,-0
+"Crouch HK",,"L",90,12,2,25,"sweep knockdown",-7,-0,-0,-0,-0
+"Jump up LP",,"M",40,6,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MP",,"M",70,6,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HP",,"M",100,5,4,"until ground+4f",20,8,-0,-0,-0,"Hits in front and behind Rufus"
+"Jump up LK",,"M",40,5,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump up MK",,"M",70,4,6,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump up HK",,"M",100,6,4,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LP",,"M",40,6,6,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MP",,"M",70,6,7,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HP",,"M",100,8,5,"until ground+4f",20,8,-0,-0,-0,-0
+"Jump forward LK",,"M",40,6,7,"until ground+4f",12,4,-0,-0,-0,-0
+"Jump forward MK",,"M",70,7,5,"until ground+4f",16,5,-0,-0,-0,-0
+"Jump forward HK",,"M","50,50",7,"3(4)3","until ground+4f",20,8,-0,-0,-0,"Knockdown on airborne foe"
+"Launcher",,"H",100,13,2,54,"switch",-34,-0,-0,-0,"Crushes crouching attacks, launches opponent while switching characters"
+"Cross Cancel",,"H","30,60",10,"8(6)2",19,"hard knockdown",0,-0,-0,-0,"Similar to LP Galactic Tornado, full body invincibility frames 1-10"
+"Head Bazooka","LP+LK","throw",130,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Hand Machinegun","b+LP+LK","throw",120,7,2,20,"hard knockdown",-0,-0,-0,-0,-0
+"Vulture Kick","f+MK","M",80,21,2,16,-1,-5,-0,-0,-0,"Airborne frames 10-24, no lower body hitbox frames 10-20"
+"Glory Kick","df+MK","L",70,21,2,12,3,-1,-0,-0,-0,-0
+"Fragrance Palm","f+HP","H",80,13,5,20,"floats",-7,"SM,EX,SA,CA",-0,-0,"Hits in front of and behind Rufus"
+"Falcon Kick","df+MK (air)","H",60,13,"until ground","until ground+4f",16,5,-0,-0,-0,"Can perform during any jump"
+"Target Combo","LK > f+HK","H",80,12,2,21,"floats",-6,-0,-0,-0,-0
+"Galactic Tornado LP","qcf+LP","H","30,50",11,"8(6)2",21,"knockdown",-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, hits count as projectiles, can destroy one projectile hit"
+"Galactic Tornado MP","qcf+MP","H","20x2,60",15,"21(5)2",22,"knockdown",-1,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, hits count as projectiles, can destroy one projectile hit"
+"Galactic Tornado HP","qcf+HP","H","20x2,80",16,"21(5)2",22,"knockdown",-2,-0,-0,-0,"Can be Super Charged: 51 frames to perform EX version, 100 frames for Super Art, hits count as projectiles, can destroy one projectile hit"
+"Galactic Tornado EX","qcf+PP","H","0,160",14,"19(4)1",17,"wall bounce",-1,-0,-0,-0,"Can be Super Charged: 100 frames for Super Art, hits count as projectiles, can destroy one projectile hit, first hit pulls foe towards Rufus"
+"Snake Strike LP","f,d,df+LP","H","40x4",9,"1(3)1(3)1(4)1(3)1",18,7,4,-0,-0,-0,"Airborne frames 1-27"
+"Snake Strike MP","f,d,df+MP","H","40x5",8,"1(3)1(2)2(3)1(3)1(3)1(3)2",20,5,2,-0,-0,-0,"Airborne frames 1-35"
+"Snake Strike HP","f,d,df+HP","H","40x5",7,"1(3)1(2)1(3)2(2)1(3)1(3)1",37,4,1,-0,-0,-0,"Airborne frames 1-34"
+"Snake Strike EX","f,d,df+EX","H","30x7",8,"1(1)2(1)1(2)2(1)1(2)1(2)1",28,-0,-0,-0,-0,-0,"Full body invulnerability frames 1-11, airborne frames 1-40, misses against standing characters"
+"Messiah Kick LK","qcf+LK","H",90,25,2,31,-3,-6,-0,-0,-0,"No lower body hurtbox from frames 1-34, airborne frames 11-34"
+"Messiah Kick MK","qcf+MK","H",100,27,2,25,-5,-9,-0,-0,-0,"No lower body hurtbox from frames 1-39, airborne frames 11-39"
+"Messiah Kick HK","qcf+HK","H",120,36,2,44,0,-3,-0,-0,-0,"No lower body hurtbox frames 1-42, airborne frames 11-42"
+"Messiah Kick EX","qcf+KK","H","20x5",13,"3(1)2(1)2(1)2(8)2",34,-9,-13,-0,-0,-0,"Full body invulnerability frames 1-18, airborne frames 12-40"
+"Messiah Kick High Attack","LK after messiah kick","H",80,13,4,19,"knockdown",-17,-0,-0,-0,"Full body invulnerability frames 1-12"
+"Messiah Kick Low Attack","MK after messiah kick","L",100,20,2,16,"sweep knockdown",1,-0,-0,-0,"Does not combo after Messiah Kick"
+"Messiah Kick Mid Attack","HK after messiah kick","H",100,24,6,16,"hard knockdown",0,-0,-0,-0,"Airborne frames 10-29, does not combo after Messiah Kick"
+"Big Bang Typhoon","qcf+PPP","H",320,9,-0,87,"hard knockdown",-73,-0,-0,-0,"72- frame cinematic freeze before attack begins, full body invulnerability frames 1-19"
+"Cross Art","qcf+MP+MK","H","20,10x2,5x4,10,30",9,2,51,"switch",-30,-0,-0,-0,"62-frame cinematic freeze before attack begins, full body invulnerability frames 1-9 & frames 46-51"

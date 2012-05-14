@@ -1,1 +1,96 @@
-My GitHub Page
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="css/wamo.css">
+
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/wamo-mobile.css" type="text/css">
+
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+    <title>WAMO - by bubafeast</title>
+
+  </head>
+  
+  <body>
+
+    <h1>WAMO</h1>
+
+    <form type="post" action="#" onsubmit="return false;">
+      <table>
+	<caption></caption>
+	<thead>
+	  <tr>
+	    <th class="rightAlign">Game:</th>
+	    <th class="leftAlign">
+	      <select name="game" id="game">
+		<option value="SFxT">SFxT</option>
+		<option value="SSF4AE">SSF4AE</option>
+		<option value="SSF4">SSF4</option>
+	      </select>
+	    </th>
+	  </tr>
+	  <tr>
+	    <th class="rightAlign">Me:</th>
+	    <th class="leftAlign" id="myChar"></th>
+	  </tr>
+	  <tr>
+	    <th class="rightAlign">Opponent:</th>
+	    <th class="leftAlign" id="opponentChar"></th>
+	  </tr>
+	  
+	  <tr>
+	    <th class="rightAlign">
+	      <select name="action" id="action">
+		<option value="blocked">Blocked</option>
+		<option value="hit">Hit with</option>
+		<option value="framedata">FrameData</option>
+	      </select>
+	    </th>
+	    <th class="leftAlign" id="move"></th>
+	  </tr>
+	</thead>
+      </table>
+    </form>
+      
+    <hr/>
+
+    <div id="details"></div>
+
+    <hr/>
+    
+    <div class="copy">
+      All trademarks and copyrights on this page are owned by their respective owners. The rest &copy; 2011 bubafeast
+    </div>
+    
+    <script type="text/javascript" src="meta.min.js"></script>
+    <script type="text/javascript" src="js/wamo.js"></script>
+    <script type="text/javascript" src="js/wamo.model.js"></script>
+    <script type="text/javascript" src="js/wamo.ui.js"></script>
+    <script type="text/javascript" src="js/wamo.view.js"></script>
+    <script type="text/javascript" src="js/wamo.controller.js"></script>
+    <script type="text/javascript" src="js/wamo.type.js"></script>
+    <script type="text/javascript" src="js/wamo.type.hit.js"></script>
+    <script type="text/javascript" src="js/wamo.type.blocked.js"></script>
+    <script type="text/javascript" src="js/wamo.type.framedata.js"></script>
+
+    <script>
+    wamo.init();
+    </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-250504-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+"move","block","damage","stun","meter","cancel","startup","active","recover","frame_adv_block","frame_adv_hit"
+"Close Light Punch ","HL ",30,50,20,"Sp*Su ",3,2,10,0,3
+"Close Medium Punch ","HL ",70,100,40,"- ",5,4,6,2,6
+"Close Hard Punch ","HL ","60*70 ","125*75 ","40*2 ","Sp*Su ",7,"2*2 ",18,-6,-2
+"Close Light Kick ","HL ",20,50,20,0,5,4,9,-2,1
+"Close Medium Kick ","HL ",70,100,40,"Sp*Su ",6,4,14,-4,1
+"Close Hard Kick ","HL ","50*60 ","125*75 ","40*20 ","J ",6,"2*2 ",23,-5,"- "
+"Far Light Punch ","HL ",25,50,20,"- ",3,2,5,4,8
+"Far Medium Punch ","HL ",70,100,40,"- ",5,4,6,2,6
+"Far Hard Punch ","HL ",100,100,60,"- ",12,4,16,-2,2
+"Far Light Kick ","HL ",20,50,20,"Sp*Su ",5,4,9,-2,1
+"Far Medium Kick ","HL ",70,100,40,"- ",6,4,14,-4,1
+"Far Hard Kick ","HL ",110,200,60,"C*Sp*Su ",100,3,17,-2,2
+"Crouch Light Punch ","HL ",20,50,20,"Sp*Su ",4,3,6,3,6
+"Crouch Medium Punch ","HL ",70,100,40,"J ",8,7,7,0,3
+"Crouch Hard Punch ","HL ",100,200,60,"Sp*Su ",9,3,18,-3,2
+"Crouch Light Kick ","L ",20,50,20,"- ",4,2,8,1,4
+"Crouch Medium Kick ","L ",70,100,40,"- ",6,5,9,0,3
+"Crouch Hard Kick ","L ",90,100,60,"- ",6,2,25,-9,"- "
+"Agemen (B+Medium Punch) ","HL ","30*60 ","50*50 ","40*40 ","Sp*Su ",6,"1*2 ",10,0,4
+"Backhand Punch ","HL ",50,200,6,"- ",3,2,20,-4,0
+"Reverse Spin Kick (B+Medium Kick) ","HL ",30,50,2,"Sp*Su ",10,2,17,-1,2
+"Spin Kick (F+Light Kick) ","HL ",70,100,40,"- ",4,4,9,0,4
+"Hammer Kick (F+Medium Kick) ","H ",80,100,4,"- ",26,2,10,3,5
+"Sazan (DF+Medium Kick) ","L ",70,100,20,"- ",7,11,11,-10,-5
+"Bansho Kick (F+Hard Kick) ","HL ",100,210,60,"- ",13,2,21,-5,-1
+"Ruishi Jump ","- ","- ","- ","- ","- ","- ","- ",55,"- ","- "
+"(3) - F+Medium Kick ","H ",40,50,20,"- ",4,7,"- ","- ","- "
+" ??Light Punch - F+Hard Punch ","H ",70,150,30,"- ",4,6,"- ","- ","- "
+"Light Punch - Medium Punch (1) ","HL ","30*60 ","50*50 ","40*40 ","Sp*Su ",5,"1*2 ",11,-1,3
+"Light Punch - Medium Punch - Hard Punch ","HL ",100,60,30,"Sp*Su ",2,3,10,1,4
+"Light Punch - Medium Punch (4) ","HL ",40,50,20,"- ",4,3,9,2,5
+"(4) - F+Light Kick ","HL ",20,30,10,"- ",4,4,9,-1,2
+"(1) - d+Hard Kick (5) ","L ",60,60,30,"- ",4,2,25,-9,"- "
+"(5) - Hard Kick ","HL ",60,60,30,"J ",5,3,18,-7,"- "
+"b+Medium Kick - f+Medium Kick ","H ",80,100,40,"- ",26,2,12,1,3
+"(2) - Medium Kick (6) ","HL ",40,50,20,"Sp*Su ",4,4,14,-4,1
+"(6) - Hard Kick ","HL ",60,60,30,"- ",5,3,18,-3,1
+"Focus Attack Level 1 ","HL ",60,100,20,"- ",21,2,34,-21,-21
+"Focus Attack Level 2 ","HL ",80,150,40,"- ",29,2,34,-15,"- "
+"Focus Attack Level 3 ","- ",140,200,60,"- ",65,2,34,"- ","- "
+"Focus Attack Level 1 (Dash Cancel) ","HL ",60,100,20,"- ",21,2,34,-2,-2
+"Focus Attack Level 2 (Dash Cancel) ","HL ",80,150,40,"- ",29,2,34,4,"- "
+"Forward Throw ",0.9,130,140,40,"- ",3,2,20,"- ","- "
+"Back Throw ",0.9,130,120,40,"- ",3,2,20,"- ","- "
+"Dagger Toss ","HL ",50,60,"10/10/10","Su ",7,"- ",15,"- ","- "
+"Dagger Toss EX ","HL ","50*50 ","100*100 ","-250/0 ","- ",8,"- ",8,"- ","- "
+" ?? ","- ","- ","- ","20/- ","Sp*Su ","- ","- ",54,"- ","- "
+"Neck Breaker Light Punch ","L ",140,250,"30/30 ","- ",15,10,16,-13,"- "
+"Neck Breaker Medium Punch ","L ",140,250,"30/30 ","- ",15,12,17,-13,"- "
+"Neck Breaker Hard Punch ","L ",140,250,"30/30 ","- ",15,21,19,-13,"- "
+"Neck Breaker EX ","L ",160,300,"-250/0 ","- ",15,14,19,-13,"- "
+"Energy Grab Light Punch ","HL ",110,200,"10/30/10","- ",6,5,25,-14,"- "
+"Energy Grab Medium Punch ","HL ",110,200,"10/30/10","- ",6,5,27,-16,"- "
+"Energy Grab Hard Punch ","HL ",110,200,"10/30/10","- ",6,5,29,-18,"- "
+"Energy Grab EX ","HL ",140,250,"-250/0 ","- ",6,5,20,-9,"- "
+" ??? ","- ","- ","- ","- ","- ","- ","- "," ??? ","- ","- "
+"Dragon Kick Light Kick ","HL ","50*20*65 ","40x3 ","10/20x3 ","Su ",5,"1*1*11 ",25,-27,"- "
+"Dragon Kick Medium Kick ","HL ","20*20*75 ","40x3 ","10/20x3 ","Su ",7,"1*1*11 ",28,-32,"- "
+"Dragon Kick Hard Kick ","HL ","50*20*90 ","40x3 ","10/20x3 ","Su ",9,"1*1*11 ",25,-27,"- "
+"Dragon Kick EX ","HL ","40*40*80 ","40x3 ","-250/0 ","Su ",5,"3*4(2)8 ",39,-26,"- "
+"Spinning Kicks Light Kick ","HL ","50*50 ","50*60 ","10/20*20 ","- ",12,"2(10)2 ",16,-4,3
+"Spinning Kicks Medium Kick ","HL ","35*35 ","70*60 ","10/20*20 ","- ",15,"2(12)2 ",14,0,4
+"Spinning Kicks Medium Kick (???) ","HL ",50,60,"10/20/10","- ",14,2,17,-3,1
+"Spinning Kicks Medium Kick (???) ","L ",20,60,"10/20/10","- ",17,2,15,-2,"- "
+"Spinning Kicks Hard Kick ","HL ","50*40 ","70*60 ","10/20*20 ","Su ",15,"2(13)2 ",20,-4,0
+"Spinning Kicks Hard Kick (???) ","HL ",50,70,"10/20/10","- ",15,2,19,-5,-1
+"Spinning Kicks Hard Kick (???) ","L ",20,60,"10/20/10","- ",18,2,25,-9,"- "
+"Spinning Kicks EX ","HL ","40*30X3 ","60x3*70 ","-250/0 ","- ",12," ??? ",9,-4,"- "
+"Spinning Kicks EX (2 3 ???) ","L ",30,50,0,"- ",12,2,"- ","- ","- "
+"Spinning Kicks EX (4 ???) ","L ",25,70,0,"- ",12,2,12,-2,"- "
+"Jumping Double Kick Light Kick ","H ","40*75 ","70*70 ","10/0*20 ","- ",25,7,"6+11 ","- ","- "
+"Jumping Double Kick Medium Kick ","H ","40*90 ","70*70 ","10/0*40 ","- ",27,7,"6+11 ","- ","- "
+"Jumping Double Kick Hard Kick ","H ","40*110 ","70*90 ","10/0*60 ","- ",28,7,"6+11 ","- ","- "
+"Jumping Double Kick EX ","H ","40x3*50 ","70*0*0*200 ","-250/0 ","- ",36,12,"19+11 ","- ","- "
+"Jumping Double Kick (???) ","- ","- ","- ","- ","Sp*Su ","- ","- ",8,"- ","- "
+"Super Light Punch ","HL ","(27*28)x6 ",0,"-1000/0 ","- ",8,"- ",5,"- ","- "
+"Ultra 1 ","(1.1) * HL x7 ","501 [38 * 45 * 38x4 * 39] ","0[50*0x6] ","0/0 ","- ",2,"2(10)17 ",107,-5,-1
+"Ultra 2 ","HL ","30x6*289 ",0,"0/0 ","- ",9,"2(2) 2(15) 2(26) 1*2(8) 2 ",70,-63,"- "
