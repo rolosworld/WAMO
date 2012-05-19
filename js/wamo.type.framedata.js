@@ -40,7 +40,9 @@ wamo.type.framedata = {
 
     content.push('<tr>');
     for ( var i in data[0] ) {
-      content.push('<th style="text-align:center;padding:2px;">' + i + '</th>');
+        if (i != 'frames') {
+            content.push('<th style="text-align:center;padding:2px;">' + i + '</th>');
+        }
     }
     content.push('<th style="text-align:center;padding:2px;">Total Frames</th>');
     content.push('</tr>');
@@ -48,7 +50,9 @@ wamo.type.framedata = {
     Meta.array.$( data ).forEach( function( move ) {
       content.push('<tr>');
       for ( var i in move ) {
-        content.push('<td style="text-align:right;padding:2px;">' + move[i] + '</td>');
+          if (i != 'frames') {
+              content.push('<td style="text-align:right;padding:2px;">' + (move[i] === undefined ? '&nbsp;' : move[i] ) + '</td>');
+          }
       }
 
       var total = subTotal( move.startup ) + subTotal( move.active ) + subTotal( move.recovery );

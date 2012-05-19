@@ -1,77 +1,77 @@
-move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,"Block Stun","Hit Stun",Notes
-s.lp," HL",30,50,20," sp/su",4,4,5,2,5,10,13,
-s.mp," HL",60,100,40," sp/su",5,7,7,2,5,15,18,
-s.hp," HL",80,200,60," sp/su",6,3,24,-9,-5,17,21,
-s.lk," HL",40,50,20," sp/su",5,3,8,0,3,10,13,
-s.mk," HL",70,100,40," sp/su",6,4,12,-2,1,13,16,
-s.hk," HL",100,250,60," su",8,8,12,-2,2,17,21,
-f.lp," HL",30,50,20," sp/su",4,4,7,0,3,10,13,
-f.mp," HL",90,100,40," su",7,6,8,0,3,13,16,
-f.hp," HL",90,200,60,-0,13,8,18,-8," -4[-5]",17," 21[20]"," -5 on hit"
-f.lk," HL",40,50,20,-0,7,3,12,-4,-1,10,13," 1-6f special/super cancellable, juggle(1)"
-f.mk," HL",90,100,40,-0,15,3,16,-1,2,17,20,
-f.hk," L",110,200,60,-0,19,3,23,-8,-0,17,-0," 8-13f airborne, knockdown, cannot fast recover, hold  to feint (27f duration)"
-c.lp," HL",20,50,20," ch/sp/su",4,4,6,1,4,10,13,
-c.mp," HL",60,100,40," sp/su",7,6,9,-1,2,13,16,
-c.hp," L",90,100,60,-0,7,2,25,-9,-0,17,-0," knockdown, cannot fast recover"
-c.lk," L",30,50,20," sp/su",4,4,7,0,3,10,13,
-c.mk," HL",70,100,40,-0,7,6,8,0,3,13,16,
-c.hk," HL",90,100,60,-0,9,4,17,-3,1,17,21,
-j.lp," H",50,50,20,-0,4,9,-0,-0,-0,8,11," startup leg projectile invincibility"
-j.mp," H",80,100,40,-0,5,6,-0,-0,-0,10,13," startup leg projectile invincibility"
-j.hp," H",100,250,60,-0,8,2,-0,-0,-0,17,20," startup leg projectile invincibility, juggle(1)"
-j.lk," H",40,50,20,-0,4,9,-0,-0,-0,8,11," startup leg projectile invincibility"
-j.mk," H",80,100,40,-0,7,10,-0,-0,-0,11,15," startup leg projectile invincibility"
-j.hk," H",100,200,60,-0,7,5,-0,-0,-0,15,18," startup leg projectile invincibility"
-jf.lp," H",50,50,20,-0,4,9,-0,-0,-0,8,11," startup leg projectile invincibility"
-jf.mp," H",80,100,40,-0,5,6,-0,-0,-0,10,13," startup leg projectile invincibility"
-jf.hp," H",100,200,60,-0,6,5,-0,-0,-0,15,18," startup leg projectile invincibility, juggle(1)"
-jf.lk," H",40,50,40,-0,4,9,-0,-0,-0,8,11," startup leg projectile invincibility"
-jf.mk," H",80,100,40,-0,7,5,-0,-0,-0,11,15," startup leg projectile invincibility"
-jf.hk," H",100,200,60,-0,9,5,-0,-0,-0,15,18," startup leg projectile invincibility"
-" +  > )"," HL"," 50*80"," 50*100"," 20*20",-0,7," 3(3)5",18,-5,-1,17,21,
-" > "," HL",50,100,40,-0,2,4,14,-4,-1,13,16,
-" +  > "," HL",100,200,60,-0,8,6,15,-3,1,17,21,
-"Focus Attack LVL 1"," HL",60,100,20," da"," (10~17)​+11",2,35,-21,-21,15,15," armor during charge, launch vs air, 4f~release dash cancellable"
-"Focus Attack LVL 2"," HL",80,150,40," da"," (18~49)​+11",2,35,-15,-0,21,-0," armor during charge, crumple vs ground, launch vs air (fully hittable), 4f~release dash cancellable"
-"Focus Attack LVL 3",-0,140,200,60," da"," 50+14",2,35,-0,-0,-0,-0," 1-63f armor, armor break, crumple vs ground, launch vs air (fully hittable), 4~50f dash cancellable"
-"Forward Throw",0.9,100,200,40,-0,3,2,20,-0,1,-0,-0,
-"Back Throw",0.9,130,120,40,-0,3,2,20,-0,-0,-0,-0," untechable knockdown"
-"Fukiage ",-0,100,160," 30/40"," su/ju",8,8,31,-0,-0,-0,-0," launch, juggle(1), whiff vs ground"
-"Fukiage ",-0,100,160," 30/40"," su/ju",12,8,32,-0,-0,-0,-0," launch, juggle(1), whiff vs ground"
-"Fukiage ",-0,100,160," 30/40"," su/ju",15,8,32,-0,-0,-0,-0," launch, juggle(1), whiff vs ground"
-"Fukiage ",-0,140,200," -250/0"," su/ju",12,8,32,-0,-0,-0,-0," launch, juggle(1), whiff vs ground"
-"Hayate  (Lv1)"," HL",90,120," 20/40"," su"," (1~4)​+7",5," 23[17]",-8,0,19,21," launch vs air, juggle(1)"
-"Hayate  (Lv2)"," HL",105,135," 20/40"," su"," (5~24)​+7",5," 23[17]",-7,1,20,22," launch vs air, juggle(1), +5 on counter"
-"Hayate  (Lv3)"," HL",120,150," 20/40"," su"," (25~44)​+7",5," 23[17]",-6,2,21,23," launch vs air, juggle(1)"
-"Hayate  (Lv4)"," HL",135,165," 20/40"," su"," (45~64)​+7",5," 23[17]",-5,-0,22,-0," launch, juggle(1)"
-"Hayate  (Lv5)"," HL",150,180," 20/40"," su"," (65~124)​+7",5," 23[17]",-4,-0,23,-0," launch, juggle(1)"
-"Hayate  (Lv1)"," HL",100,120," 20/40"," su"," (1~4)​+14",5," 21[17]",-7,1,18,22," launch vs air, juggle(1)"
-"Hayate  (Lv2)"," HL",115,135," 20/40"," su"," (5~24)​+14",5," 21[17]",-6,2,19,23," launch vs air, juggle(1)"
-"Hayate  (Lv3)"," HL",130,150," 20/40"," su"," (25~44)​+14",5," 21[17]",-5,3,20,24," launch vs air, juggle(1)"
-"Hayate  (Lv4)"," HL",145,165," 20/40"," su"," (45~64)​+14",5," 21[17]",-4,-0,21,-0," launch, juggle(1)"
-"Hayate  (Lv5)"," HL",160,180," 20/40"," su"," (65~124)​+14",5," 21[17]",-3,-0,22,-0," launch, juggle(1)"
-"Hayate  (Lv1)"," HL",110,120," 20/40"," su"," (1~4)​+19",5," 19[17]",-6,2,17,23," launch vs air, juggle(1)"
-"Hayate  (Lv2)"," HL",125,135," 20/40"," su"," (5~24)​+19",5," 19[17]",-5,3,18,24," launch vs air, juggle(1)"
-"Hayate  (Lv3)"," HL",140,150," 20/40"," su"," (25~44)​+19",5," 19[17]",-4,4,19,25," launch vs air, juggle(1)"
-"Hayate  (Lv4)"," HL",155,165," 20/40"," su"," (45~64)​+19",5," 19[17]",-3,-0,20,-0," launch, juggle(1)"
-"Hayate  (Lv5)"," HL",170,180," 20/40"," su"," (65~124)​+19",5," 19[17]",-2,-0,21,-0," launch, juggle(1)"
-"Hayate "," HL",100,150," -250/0"," su",16,6,16,-4,-0,17,-0," launch, juggle (3+)"
-"Hayate Cancel",-0,-0,-0,-0,-0,4,-0,12,-0,-0,-0,-0,{{{14}}}
-"Oroshi "," H",90,200," 30/30"," su",22,6,16,-4," +4[+3]",17," 25[24]"," knockdown vs air, +3 on hit, armor break"
-"Oroshi "," H",100,200," 30/30"," su",23,6,15,-5," +5[+4]",15," 25[24]"," knockdown vs air, +4 on hit, armor break"
-"Oroshi "," H",150,200," 30/30"," su",24,6,14,-5,-0,14,-0," knockdown, armor break"
-"Oroshi "," H",120,200," -250/0"," su",18,6,19,-4,-0,20,-0," 1-12f strike invincible, knockdown, armor break, juggle(1)"
-"Karakusa ",0.93,40,80," 20/40",-0,7,2,47,-0,12,-0,-0,
-"Karakusa ",0.99,40,80," 20/40",-0,8,2,47,-0,12,-0,-0,
-"Karakusa ",1.06,40,80," 20/40",-0,9,2,47,-0,12,-0,-0,
-"Karakusa ",0.84,60,120," -250/0",-0,5,2,47,-0,12,-0,-0," 1-6f armor"
-"Tsurugi "," HL",90,120," 10/40",-0," 11​[7+11]",4," 11​[4+11]"," [-3]"," [+9]",15,27," launch vs air, juggle(1)"
-"Tsurugi "," HL",100,140," 10/40",-0," 13​[7+13]",4," 11​[2+11]"," [-1]"," [+11]",15,27," launch vs air, juggle(1)"
-"Tsurugi "," HL",150,200," 10/40",-0," 15​[7+15]",4," 11​[2+11]"," [-1]",-0,15,-0," knockdown, juggle(1)"
-"Tsurugi "," H"," 60*100"," 100*120"," -250/0",-0," 15​[6+15]"," 1*4​[1*3]"," 11​[2+11]"," [+4]",-0,19,-0," 1-15f projectile invincible, knockdown, juggle(2+)"
-"Super Combo"," HL",-0,-0," -1000/0",-0," 1+0",-0," 10[11]",-0,-0,-0,-0," fully invincible, 1f longer when left neutral, 25% damage increase for 10s"
-"Ultra Combo 1"," HL"," 150*330",0," 0/0",-0," 1+5",3,47,-29,-0,20,-0," 1-8f invincible, untechable knockdown, armor break, full animation on hit, cannot fast recover"
-"Ultra Combo 2 "," HL"," 105*75​*60*150​[60*45​*45*60]",0," 0/0"," ju/da"," 15+1+0",6,26,-28,-0," ?"," ?"," 1-15f invincible, launch vs air (untechable), 1st hit armor break, 4th hit cancellable unless 1st hit is blocked, juggle(1), 1st hit vs ground triggers full animation, brackets represent non-full damage"
-"Ultra Combo 2 "," HL"," 105*75​*60*150​[60*45​*45*60]",0," 0/0"," ju/da"," 15+1+0",7,26,-28,-0," ?"," ?",-0
-"Ultra Combo 2 "," HL"," 105*75​*60*150​[60*45​*45*60]",0," 0/0"," ju/da"," 15+1+3",11,26,-28,-0,-0,-0," as above, non-full 4th hit launch (fully hittable)"
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
+"Stand LP",HL,30,50,20,sp/su,4,4,5,+2,+5,,
+"Stand MP",HL,60,100,40,sp/su,5,7,7,+2,+5,,
+"Stand HP",HL,80,200,60,sp/su,6,3,24,-9,-5,,
+"Stand LK",HL,40,50,20,sp/su,5,3,8,0,+3,,
+"Stand MK",HL,70,100,40,sp/su,6,4,12,-2,+1,,
+"Stand HK",HL,100,250,60,su,8,8,12,-2,+2,,
+Right+LP,HL,30,50,20,sp/su,3,4,7,0,+3,,
+Right+MP,HL,90,100,40,su,7,6,8,0,+3,,
+Right+HP,HL,90,200,60,-,13,8,18,-8,-4,"-5 on hit for crouching opponents",
+Right+LK,HL,40,50,20,-,7,3,12,-4,-1,,
+Right+MK,HL,90,100,40,-,15,3,16,-1,+2,,
+Right+HK,L,110,200,60,-,19,3,23,-8,-,"Untechable knockdown, hold button to feint (total 27f)",
+"crouch LP",HL,20,50,20,ch/sp/su,4,4,6,+1,+4,,
+"crouch MP",HL,60,100,40,sp/su,7,6,9,-1,+2,,
+"crouch HP",L,90,100,60,-,7,3,24,-9,-,"Untechable knockdown",
+"crouch LK",L,30,50,20,sp/su,4,4,7,0,+3,,
+"crouch MK",HL,70,100,40,-,7,6,8,0,+3,,
+"crouch HK",HL,90,100,60,-,9,4,17,-3,+1,,
+"Jump up LP",H,50,50,20,-,4,9,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump up MP",H,80,100,40,-,5,6,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump up HP",H,100,250,60,-,8,2,-,-,-,"Legs are immune to projectiles until end of startup frames, can juggle",
+"Jump up LK",H,40,50,20,-,4,9,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump up MK",H,80,100,40,-,7,10,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump up HK",H,100,200,60,-,7,5,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump forward LP",H,50,50,20,--,4,9,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump forward MP",H,80,100,40,-,5,6,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump forward HP",H,100,200,60,-,6,5,-,-,-,"Legs are immune to projectiles until end of startup frames, can juggle",
+"Jump forward LK",H,40,50,40,-,4,9,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump forward MK",H,80,100,40,-,7,5,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Jump forward HK",H,100,200,60,-,9,5,-,-,-,"Legs are immune to projectiles until end of startup frames",
+"Yamase (Right+HP &gt; HP)",HL,50*80,50*100,20*20,-,7,3(3)5,18,-5,-1,,
+"LK &gt; MK",HL,50,100,40,-,2,4,14,-4,-1,,
+"Right+MK &gt; HK",HL,100,200,60,-,8,7,14,-3,+1,,
+"Focus Attack LVL1",HL,60,100,20,-,21,2,35,-21,-21,,
+"Focus Attack LVL2",HL,80,150,40,-,17+12,2,35,-15,-,,
+"Focus Attack LVL3",-,140,200,60,-,64,2,35,-,-,,
+"Forward Throw",0.90,100,200,40,-,3,2,20,-,+1,"Forces stand",
+"Back Throw",0.90,130,120,40,-,3,2,20,-,-,"Untechable knockdown",
+"Fukiage LP",HL,100,160,30/40,su,8,8,31,-,-,"Knockdown, can juggle, jump cancellable, cannot hit grounded opponents",
+"Fukiage MP",HL,100,160,30/40,su,10,8,32,-,-,"Knockdown, can juggle, jump cancellable, cannot hit grounded opponents",
+"Fukiage HP",HL,100,160,30/40,su,13,8,32,-,-,"Knockdown, can juggle, jump cancellable, cannot hit grounded opponents",
+"Fukiage EX",HL,140,200,-250/0,su,10,8,32,-,-,"Knockdown, can juggle, jump cancellable, cannot hit grounded opponents",
+"Hayate LP (Lv1)",HL,90,120,20/40,su,8,5,23,-8,0,"[Air hit] knockdown, can juggle, 8f startup from button release",
+"Hayate LP (Lv2)",HL,105,135,20/40,su,4+8,5,23,-7,+1,"[Air hit] knockdown, can juggle, charge 4~23f, 8f startup from button release",
+"Hayate LP (Lv3)",HL,120,150,20/40,su,24+8,5,23,-6,+2,"[Air hit] knockdown, can juggle, charge 24~43f, 8f startup from button release",
+"Hayate LP (Lv4)",HL,135,165,20/40,su,44+8,5,23,-5,-,"Knockdown, can juggle, charge 44~63f, 8f startup from button release",
+"Hayate LP (Lv5)",HL,150,180,20/40,su,64+8,5,23,-4,-,"Knockdown, can juggle, charge 64f, 8f startup from button release",
+"Hayate MP (Lv1)",HL,100,120,20/40,su,15,5,21,-7,+1,"[Air hit] knockdown, can juggle, 15f startup from button release",
+"Hayate MP (Lv2)",HL,115,135,20/40,su,4+15,5,21,-6,+2,"[Air hit] knockdown, can juggle, charge 4~23f, 15f startup from button release",
+"Hayate MP (Lv3)",HL,130,150,20/40,su,24+15,5,21,-5,+3,"[Air hit] knockdown, can juggle, charge 24~43f, 15f startup from button release",
+"Hayate MP (Lv4)",HL,145,165,20/40,su,44+15,5,21,-4,-,"Knockdown, can juggle, charge 44~63f, 15f startup from button release",
+"Hayate MP (Lv5)",HL,160,180,20/40,su,64+15,5,21,-3,-,"Knockdown, can juggle, charge 64f, 15f startup from button release",
+"Hayate HP (Lv1)",HL,110,120,20/40,su,20,5,19,-6,+2,"[Air hit] knockdown, can juggle, 20f startup from button release",
+"Hayate HP (Lv2)",HL,125,135,20/40,su,4+20,5,19,-5,+3,"[Air hit] knockdown, can juggle, charge 4~23f, 20f startup from button release",
+"Hayate HP (Lv3)",HL,140,150,20/40,su,24+20,5,19,-4,+4,"[Air hit] knockdown, can juggle, charge 24~43f, 20f startup from button release",
+"Hayate HP (Lv4)",HL,155,165,20/40,su,44+20,5,19,-3,-,"Knockdown, can juggle, charge 44~63f, 20f startup from button release",
+"Hayate HP (Lv5)",HL,170,180,20/40,su,64+20,5,19,-2,-,"Knockdown, can juggle, charge 64f, 20f startup from button release",
+"Hayate EX",HL,120,150,-250/0,su,13,6,16,-4,-,"Knockdown, can juggle, armor break",
+"Hayate Cancel",-,-,-,-,-,-,-,"Total 12",-,-,"Fastest cancel is 16f",
+"Oroshi LP",H,90,200,30/30,su,22,6,16,-4,+4,"[Air hit] knockdown, +3 hit advantage on crouching opponent, armor break",
+"Oroshi MP",H,100,200,30/30,su,23,6,15,-5,+5,"[Air hit] knockdown, +4 hit advantage on crouching opponent, armor break",
+"Oroshi HP",H,150,200,30/30,su,24,6,14,-5,-,"Untechable knockdown, armor break",
+"Oroshi EX",H,120,200,-250/0,su,18,6,19,-4,-,"1~12f immune to strikes and projectiles, untechable knockdown, armor break, can juggle",
+"Karakusa LK",0.93,40,80,20/40,-,7,2,47,-,+12,"Forces stand",
+"Karakusa MK",0.99,40,80,20/40,-,8,2,47,-,+12,"Forces stand",
+"Karakusa HK",1.06,40,80,20/40,-,9,2,47,-,+12,"Forces stand",
+"Karakusa EX",0.98,60,120,-250/0,-,5,2,47,-,+12,"1~6f armored, forces stand",
+"Tsurugi LK",HL,90,120,10/40,-,11,4,"After landing 11",-,-,"[Air hit] knockdown, can juggle",
+"Tsurugi MK",HL,100,140,10/40,-,13,4,"After landing 11",-,-,"[Air hit] knockdown, can juggle",
+"Tsurugi HK",HL,150,200,10/40,-,15,4,"After landing 11",-,-,"Untechable knockdown, can juggle",
+"Tsurugi EX",H,60*100,100*120,-250/0,-,15,1*4,"After landing 11",-,-,"1~15f immune to projectiles, knockdown, can juggle",
+"Super Combo",HL,-,-,-1000/0,-,1+0,720,11,-,-,"Fully invincible, increases damage by 25%",
+"Ultra Combo 1",HL,75*405,0,0/0,-,0+6,3,47,-29,-,"1~8f Invincible, untechable knockdown, armor break, can juggle, 1st hit goes into animation",
+"Ultra Combo 2 LK",HL,105*75*60*150[60*45*45*60],0,0/0,"See notes","From wall 0","until ground","After landing 26",-28,-,"Invincible until wall, fastest startup 16f, 4th floats opponent, armor break, 4th hit is jump/dash/backdash cancellable, can juggle, 1st ground hit goes into animation, [] refers to air hit, press button until wall to determine version",
+"Ultra Combo 2 MK",HL,105*75*60*150[60*45*45*60],0,0/0,"See notes","From wall 0","until ground","After landing 26",-28,-,"Invincible until wall, fastest startup 16f, 4th floats opponent, armor break, 4th hit is jump/dash/backdash cancellable, can juggle, 1st ground hit goes into animation, [] refers to air hit, press button until wall to determine version",
+"Ultra Combo 2 HK",HL,105*75*60*150[60*45*45*60],0,0/0,"See notes","From wall 3",8,"3+After landing 26",-28,-,"Invincible until wall, fastest startup 16f, 4th floats opponent, armor break, 4th hit is jump/dash/backdash cancellable, can juggle, 1st ground hit goes into animation, [] refers to air hit, press button until wall to determine version",
