@@ -16,12 +16,24 @@
  along with "WAMO".  If not, see <http://www.gnu.org/licenses/>.
 */
 wamo.model = {
+  varEval: function( a ) {
+      var b = a;
+      try {
+          a = eval(a);
+          b = a;
+      } catch (x) {
+          if (console && console.log) {
+              console.log("Failed eval for: " + b);
+          }
+      }
+      return b;
+  },
   fastest_startup: function( framedata ) {
     var fast_startup = 10;
 
     Meta.array.$(framedata).forEach( function( move ) {
-      if ( move.stun && move.startup < fast_startup ) {
-        fast_startup = move.startup;
+      if ( move.stun && wamo.model.varEval(move.startup) < fast_startup ) {
+        fast_startup = wamo.model.varEval(move.startup);
       }
     } );
 
@@ -73,7 +85,7 @@ wamo.model = {
     var links = [];
     var framedata = wamo.framedata[wamo.game][wamo.me];
     Meta.array.$( framedata ).forEach( function( nextMove ) {
-      var normalLink = nextMove.startup - move.frame_adv_hit;
+      var normalLink = wamo.model.varEval(nextMove.startup) - move.frame_adv_hit;
       if ( normalLink <= 0 ) {
         nextMove.frames = Math.abs( normalLink );
         links.push( nextMove );
@@ -98,7 +110,7 @@ wamo.model = {
     var chBonus = wamo.model.counterhitBonus( move );
 
     Meta.array.$( framedata ).forEach( function( nextMove ) {
-      var normalLink = nextMove.startup - move.frame_adv_hit;
+      var normalLink = wamo.model.varEval(nextMove.startup) - move.frame_adv_hit;
       if ( !(normalLink <= 0) && (normalLink - chBonus <= 0) ) {
         nextMove.frames = chBonus - normalLink;
         links.push( nextMove );
@@ -113,7 +125,7 @@ wamo.model = {
     var framedata = wamo.framedata[wamo.game][wamo.me];
 
     Meta.array.$( framedata ).forEach( function( punish ) {
-      var normalPunish = punish.startup + move.frame_adv_block;
+      var normalPunish = wamo.model.varEval(punish.startup) + move.frame_adv_block;
       if ( normalPunish <= 0 ) {
         punish.frames = Math.abs( normalPunish );
         punishments.push( punish );
@@ -129,7 +141,7 @@ wamo.model = {
     var fast_startup = wamo.model.fastest_startup( framedata );
 
     Meta.array.$( framedata ).forEach( function( punish ) {
-      var normalPunish = punish.startup + move.frame_adv_block;
+      var normalPunish = wamo.model.varEval(punish.startup) + move.frame_adv_block;
       if ( !(normalPunish <= 0) && normalPunish <= fast_startup ) {
         punish.frames = fast_startup - normalPunish;
         punishments.push( punish );
