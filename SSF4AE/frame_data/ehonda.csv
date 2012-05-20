@@ -29,7 +29,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump forward LK",H,50,50,20,-,6,6,-,-,-,,
 "Jump forward MK",H,90,100,40,-,6,8,-,-,-,,
 "Jump forward HK",H,110,200,60,-,6,7,-,-,-,,
-Downright+HK,H,130,200,60,sp/su,30,2,19,-3,-,,
+Downforward+HK,H,130,200,60,sp/su,30,2,19,-3,-,,
 "Target Combo 1",H,130,200,60,sp/su,30,2,19,-3,-,,
 "Focus Attack LVL 1",HL,80,100,20,-,21,2,35,-21,-21,,
 "Focus attack LVL 2",HL,100,150,40,-,17+12,2,35,-15,-,,

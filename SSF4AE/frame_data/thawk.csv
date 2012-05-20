@@ -31,7 +31,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump forward HK",H,120,200,60,-,10,5,-,-,-,"Legs immune to projectiles until end of startup frames",
 "Heavy Body Press (Down+HP air)",H,110,150,60,-,6,9,-,-,-,"Legs immune to projectiles until end of active frames",
 "Heavy Shoulder (Down+MP air)",-,80,90,40,-,7,10,-,-,-,"Legs immune to projectiles until end of active frames, cannot hit crouching opponents",
-"Thrust Peak (Downright+LP)",HL,40,50,20,sp/su,3,7,12,-8,-5,,
+"Thrust Peak (Downforward+LP)",HL,40,50,20,sp/su,3,7,12,-8,-5,,
 "Focus Attack LVL1",HL,90,100,20,-,23,5,32,-21,-21,,
 "Focus Attack LVL2",HL,120,150,40,-,17+16,5,32,-15,-,,
 "Focus Attack LVL3",-,170,200,60,-,65,5,32,-,-,,

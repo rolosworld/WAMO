@@ -51,7 +51,7 @@ Gohadoken,HL,55,50,10/20,su,17[8],-,41[32],+2,+6,"[Air hit] floats opponent, 20~
 "Hurricane Kick LK (air)",HL,100,200,10/30,-,6,2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
 "Hurricane Kick MK (air)",HL,110,200,10/30,-,6,2(4)2(3)2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
 "Hurricane Kick HK (air)",HL,120,200,10/30,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
-"Hurricane Kick EX (air)",HL,140,200,-250/0,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,20,-,-,"knocks down, Can control movement left or right",
+"Hurricane Kick EX (air)",HL,140,200,-250/0,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,20,-,-,"knocks down, Can control movement back or forward",
 "Demon Flip",-,-,-,30/-,-,-,-,-,-,-,"5~39f airborne, 27~37f can activate parry/kick/throw, Demon flip slide activates on frame 40.",
 "Demon Flip EX",-,-,-,-250/0,-,-,-,-,-,-,"1~26f Invincible, tracks opponent, 5~39f, 27~37f can activate parry/kick/throw, Demon flip slide actives on 40f.",
 "Demon Flip Slide",L,100,200,0/30,-,39+4,11,20,-13,-,"Untechable Knockdown",

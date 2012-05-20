@@ -31,7 +31,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump forward HK",H,110,200,60,-,7,6,-,-,-,,
 "Left or Right+MP(close)",HL,50*40,50*50,40*20,sp/su,7,2(1)5,11,-2,+3,,
 Overhead,H,50*40,50*50,40*20,-,25,2(1)4,11,-1,+4,"+2 on hit vs. crouching characters",
-Downright+HP,L,100,200,60,-,10,16,16,-11,-,"cannot fast recover",
+Downforward+HP,L,100,200,60,-,10,16,16,-11,-,"cannot fast recover",
 "Right+Kick Kick Kick",-,-,-,-,-,-,-,22,-,-,,
 "Left+Kick Kick Kick",-,-,-,-,-,-,-,29,-,-,,
 "Down+Punch Punch Punch",-,-,-,-,sp/su,-,-,-,53,-,,
