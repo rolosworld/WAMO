@@ -51,8 +51,16 @@ wamo.controller = {
     return wamo.model.getLinks(wamo.controller.getMoveObject());
   },
 
+  getMeatyLinks: function() {
+    return wamo.model.getMeatyLinks(wamo.controller.getMoveObject());
+  },
+
   getCounterhitLinks: function() {
     return wamo.model.getCounterhitLinks(wamo.controller.getMoveObject());
+  },
+
+  getMeatyCounterhitLinks: function() {
+    return wamo.model.getMeatyCounterhitLinks(wamo.controller.getMoveObject());
   },
 
   getPunishments: function() {
