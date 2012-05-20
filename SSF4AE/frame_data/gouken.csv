@@ -29,7 +29,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump  forward LK",H,40,50,20,-,7,8,-,-,-,"Legs projectile invincible until end of startup frames",
 "Jump  forward MK",H,70,100,40,-,7,4,-,-,-,"Legs projectile invincible until end of startup frames",
 "Jump  forward HK",H,100,200,60,-,8,3,-,-,-,"Legs projectile invincible until end of active frames air to air forces slam effect, knockdown on air hit",
-"Right+MP Overhead",H,80,100,40,-,17,2,15,-3,+2,"[Ground hit] Forces stand",
+"Forward+MP Overhead",H,80,100,40,-,17,2,15,-3,+2,"[Ground hit] Forces stand",
 "Dive Kick",H,60,100,40,-,12,"until ground",-,-,-,,
 "Focus Attack LVL 1",HL,65,100,20,-,21,2,35,-21,-21,"1~10f or Until after releasing button has armor, [air hit] knocks down, dash or backdash cancellable from 5~11f or on hit or block, charge time 17~49f, attack active 12f after button release",
 "Focus attack LVL 2",HL,85,150,40,-,17+12,2,35,-15,-,"1f~ button release armored, [Ground hit] crumples opponent, [air hit] floats opponent, dash or backdash cancellable from 5f~ or on hit or block, charge time 17~49f, attack active 12f after button release",

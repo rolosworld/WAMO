@@ -29,7 +29,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump forward LK",H,45,50,20,-,4,12,-,-,-,"Legs are immune to projectiles until end of startup frames",
 "Jump forward MK",H,85,100,40,-,7,4,-,-,-,"Legs are immune to projectiles until end of startup frames",
 "Jump forward HK",H,110,200,60,-,10,3,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jaguar Crunch (Right+MP)",H,30*50,50*50,40*20,-,23,2*2,13,-2,+4,"+2 Hit advantage on crouching opponent",
+"Jaguar Crunch (Forward+MP)",H,30*50,50*50,40*20,-,23,2*2,13,-2,+4,"+2 Hit advantage on crouching opponent",
 "Focus Attack LVL1",HL,60,100,20,-,21,2,39,-25,-25,,
 "Focus Attack LVL2",HL,80,150,40,-,17+12,2,39,-19,-,,
 "Focus Attack LVL3",-,140,200,60,-,61,2,44,-,-,,

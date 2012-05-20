@@ -29,7 +29,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Jump forward LK",H,40,50,20,-,5,6,-,-,-,,
 "Jump forward MK",H,70,100,40,-,5,6,-,-,-,,
 "Jump forward HK",H,100,200,60,-,6,6,-,-,-,,
-"Sekku (Right+MK)",H,70,70,40,-,20,2,17,-2,+2,,
+"Sekku (Forward+MK)",H,70,70,40,-,20,2,17,-2,+2,,
 "Focus Attack LVL1",HL,60,100,20,-,21,2,35,-21,-21,,
 "Focus Attack LVL2",HL,80,150,40,-,17+12,2,35,-15,-,,
 "Focus Attack LVL3",-,140,200,60,-,65,2,35,-,-,,

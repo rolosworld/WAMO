@@ -32,7 +32,7 @@ move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,fram
 "Triangle Jump",-,-,-,-,-,-,-,-,-,-,,
 "Tostada Press (wall Jump)",H,100,100,20/30,-,2+12,"until ground",35,-17,-,,
 "Fajita Buster (wall Jump)",1.91,150,150,20/60,-,2+12,"until ground",36,-,-,,
-Right+MK,H,50,100,40,-,16,2,11,+1,+5,,
+Forward+MK,H,50,100,40,-,16,2,11,+1,+5,,
 "Target Combo 1",HL,70,100,40,-,14,2,5+10,-3,0,,
 "Focus Attack LVL 1",HL,60,100,20,-,21,3,34,-21,-21,,
 "Focus attack LVL 2",HL,80,150,40,-,17+12,3,34,-15,-,,
