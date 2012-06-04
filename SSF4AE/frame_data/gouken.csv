@@ -1,69 +1,69 @@
 move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
-"Close LP",HL,30,50,20,ch/sp/su,4,2,9,0,+3,,
-"Close MP",HL,65,100,40,sp/su,5,2,11,+4,+7,,
-"Close HP",HL,100,200,60,sp/su,8,2,16,0,+4,,
-"Close LK",HL,35,50,20,-,5,2,9,0,+3,,
-"Close MK",HL,70,100,40,sp/su,3,2,13,-1,+2,,
-"Close HK",HL,40*70,125*75,60*20,su,4,2(4)3,15,0,+5,"+4 Hit advantage on crouching opponents",
-"Far LP",HL,30,50,20,ch/sp/su,5,2,9,0,+3,,
-"Far MP",HL,80,100,40,su,5,2,11,+1,+4,,
-"Far HP",HL,120,200,60,-,8,3,15,0,+4,,
-"Far LK",HL,40,50,20,ch,6,2,9,0,+3,,
-"Far MK",HL,75,100,40,-,7,2,13,-1,+2,,
-"Far HK",HL,110,200,60,-,8,2,19,-3,0,,
-"crouch LP",HL,20,50,20,ch/sp/su,4,2,9,0,+3,,
-"crouch MP",L,70,100,40,sp/su,5,2,14,-2,+1,,
-"crouch HP",HL,80,200,60,sp/su,6,4,22,-8,-4,,
-"crouch LK",L,40,50,20,sp/su,5,4,9,-2,+1,,
-"crouch MK",HL,70,100,40,sp/su,4,3,16,-5,-2,,
-"crouch HK",L,100,100,60,-,6,3,18,-3,-,"Untechable knockdown",
-"Jump  up LP",H,50,50,20,-,5,6,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  up MP",H,85,100,40,-,5,4,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  up HP",H,105,200,60,-,6,4,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  up LK",H,40,50,20,-,6,7,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  up MK",H,80,100,40,-,6,3,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  up HK",H,100,200,60,-,7,3,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  forward LP",H,50,50,20,-,5,5,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  forward MP",H,50*30,50*50,40*20,-,4,2*2,-,-,-,"Legs projectile invincible until end of active frames, 1st hit floats on air hit, 2nd hit knockdown on air hit , can juggle",
-"Jump  forward HP",H,100,200,60,-,5,3,-,-,-,"Legs projectile invincible until end of active frames",
-"Jump  forward LK",H,40,50,20,-,7,8,-,-,-,"Legs projectile invincible until end of startup frames",
-"Jump  forward MK",H,70,100,40,-,7,4,-,-,-,"Legs projectile invincible until end of startup frames",
-"Jump  forward HK",H,100,200,60,-,8,3,-,-,-,"Legs projectile invincible until end of active frames air to air forces slam effect, knockdown on air hit",
-"Forward+MP Overhead",H,80,100,40,-,17,2,15,-3,+2,"[Ground hit] Forces stand",
-"Dive Kick",H,60,100,40,-,12,"until ground",-,-,-,,
-"Focus Attack LVL 1",HL,65,100,20,-,21,2,35,-21,-21,"1~10f or Until after releasing button has armor, [air hit] knocks down, dash or backdash cancellable from 5~11f or on hit or block, charge time 17~49f, attack active 12f after button release",
-"Focus attack LVL 2",HL,85,150,40,-,17+12,2,35,-15,-,"1f~ button release armored, [Ground hit] crumples opponent, [air hit] floats opponent, dash or backdash cancellable from 5f~ or on hit or block, charge time 17~49f, attack active 12f after button release",
-"Focus attack LVL 3",-,150,200,60,-,65,2,35,-,-,"1~64 armored, armor break, [Ground hit] Crumples opponent, [air hit] floats opponent, dash and backdash cancellable 5~50f or on hit or block, charge 50f",
-"Forward Throw",0.91,140,150,40,-,3,2,20,-,-,"Untechable knockdown",
-"Back throw",0.90,1,0,40,-,5,2,24,-,-,"Float for 21f, untechable knockdown, throw damage is recoverable",
-Gohadoken,HL,55,50,10/20,su,17[8],-,41[32],+2,+6,"[Air hit] floats opponent, 20~21f [11~12f] focus cancellable, hold down the button to charge, [] refers to after button is released",
-"Gohadoken charge",HL,55*55,50*50,10/10*10,su,68,-,93,+9,+13,"[Air hit] floats opponent, 71-72f focus cancellable",
-"Gohadoken EX",HL,60*60,80*80,-250/0,su,17[8],-,55[46],+4,-,"[1st air hit] floats opponent, [2nd hit] floats opponent, 2nd fireball active on 33f [24f], 20-36f [11-27f] focus cancellable, hold down button to charge, [ ] refers to after button release",
-"Gohadoken EX charge",HL,60x4,80x4,-250/0,su,68,-,107,+13,-,"[1st, 2nd air hit] floats opponent, [3rd, 4th hit] floats opponent, 2nd fireball active on 86f, 71-89f focus cancellable",
-"Rush Punch LP",HL,90,150,10/20,su,9,4,21,-4,-,"knocks down, Armor Break",
-"Rush Punch MP",HL,130,200,10/20,su,27[17],4,23,-6,-,"5~19f [5~9f] Invincible, knocks down, Armor Break, startup is distant dependent, [] refers to fastest startup",
-"Rush Punch HP",HL,140,200,10/20,su,35[20],4,23,-6,-,"8~27f [8~12f] Invincible, knocksdown, Armor Break, startup is distant dependent, [] refers to fastest startup",
-"Rush Punch EX",HL,90*60,100*50,-250/0,su,32[17],4(11)4,22,-5,-,"5~24f [5~9f] Invincible,  [1st Grounded hit] forces stand, [air hit] knocks down, [2nd hit] floats opponent,  Armor break, can juggle (pursuit property), startup is distant dependent, [] refers to fastest startup",
-"Hurricane Kick LK",HL,60*20*40,100*25*25,10/20*10*10,su,7,2(8)2(10)2,41+26,-70,-,"9f~ airborne, [1st hit] floats opponent, [2nd, 3rd hit] knocks down, can juggle (pursuit property)",
-"Hurricane Kick MK",HL,65*20x2*50,100*25x3,10/20*10x3,su,10,2(8)2(8)2(10)2,44+26,-83,-,"12f~ airborne, [1st hit] floats opponent, [2nd-4th hit] knocks down, can juggle (pursuit property)",
-"Hurricane Kick HK",HL,70*20x3*55,100*20x3*40,10/20*10x4,su,13,2(8)2(7)2(8)2(11)2,53+26,-102,-,"15f~ airborne, [1st hit] floats opponent, [2nd-5th hit] knocks down, can juggle (pursuit property)",
-"Hurricane Kick EX",HL,80*10x6*60,100*10x6*40,-250/0,su,7,2(8)2(2)2(2)2(2)2(2)2(2)2(5)2,53+26,-97,-,"1~8f Invincible, 9f~ airborne, [1st hit] floats opponent, [2nd-8th hit] knocks down, can juggle (pursuit property), 1st hit locks opponent",
-"Hurricane Kick LK (air)",HL,100,200,10/30,-,6,2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
-"Hurricane Kick MK (air)",HL,110,200,10/30,-,6,2(4)2(3)2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
-"Hurricane Kick HK (air)",HL,120,200,10/30,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,"After landing 20",-,-,"knocks down, When jumping backwards, will travel backwards",
-"Hurricane Kick EX (air)",HL,140,200,-250/0,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,20,-,-,"knocks down, Can control movement back or forward",
-"Demon Flip",-,-,-,30/-,-,-,-,-,-,-,"5~39f airborne, 27~37f can activate parry/kick/throw, Demon flip slide activates on frame 40.",
-"Demon Flip EX",-,-,-,-250/0,-,-,-,-,-,-,"1~26f Invincible, tracks opponent, 5~39f, 27~37f can activate parry/kick/throw, Demon flip slide actives on 40f.",
-"Demon Flip Slide",L,100,200,0/30,-,39+4,11,20,-13,-,"Untechable Knockdown",
-"Demon Flip Focus",-,-,-,-,-,4,"Until ground","After landing 6",-,-,"4f~until landing has armor",
-"Demon Flip Kick",HL,80,100,0/20,-,12,"Until ground","After landing 4",-,-,"Forces stand on grounded opponent",
-"Demon Flip Throw",1.17,150,200,0/30,-,3,2,"After landing 12",-,-,"Untechable knockdown",
-Counter,-,-,-,10/-,su,1,14,18,-,-,"Frames 1~14 counter is active / LP: low, MP: mid, HP: high, EX: whole body.  Incurs grey damage on a successful counter.",
-"Counter activated",-,150,150,0/25,su,12,10,43,-,-,"7~21f, floats opponent, Armor Break",
-"Super Combo",HL,85*40x5*60,0,-1000/0,-,1+10,3*2*3*3*2*3*3,30+31,-57,-,"1~12f Invincible, 13f~ airborne, untechable knockdown, armor break, [2nd-7th hit] can juggle,  lock opponent upon first level hit, block disadvantage refers to 2nd hit",
-"Ultra Combo 1",HL,"135*40x5*90 [503]",0,0/0,-,0+11,2*3*3*2*3*3*2*4,42+51,-88,-,"1~12f Invincible, 13f~ airborne, untechable knockdown, armor break, [3rd-8th hit] can juggle, 1st hit goes into animation, block disadvantage refers to 2nd hit, [] refers to animation",
-"Ultra Combo 2 (Lv1)",HL,60x3*75,100x4,0/0,-,0+13,-,"Total 73",-9,-,"1~12f strike invincible, [1st-3rd air hit] or [4th hit] floats opponent and untechable knockdown, does 50x4 stun on block, fireball active 14f after button release",
-"Ultra Combo 2 (Lv2)",HL,60x4*75,100x5,0/0,-,3+14,-,"Total 74",+1,-,"1~3f Invincible, [1st-4th air hit] or [5th hit] floats opponent and untechable knockdown, does 50x5 stun on block, charge 3~17f, fireball active 14f after button release",
-"Ultra Combo 2 (Lv3)",HL,60x5*75,100x6,0/0,-,18+14,-,"Total 89",+11,-,"1~3f Invincible, [1st-5th air hit] or [6th hit] floats opponent and untechable knockdown, does 50x6 stun on block, charge 18~32f, fireball active 14f after button release",
-"Ultra Combo 2 (Lv4)",HL,60x6*75,100x7,0/0,-,33+14,-,"Total 104",+21,-,"1~3f Invincible, [1st-6th air hit] or [7th hit] floats opponent and untechable knockdown, does 50x7 stun on block, charge 33~47f, fireball active 14f after button release",
-"Ultra Combo 2 (Lv5)",HL,60x7*75,100x8,0/0,-,0+65,-,"Total 118",+31,-,"1~3f Invincible, [1st-3rd air hit] or [4th hit] floats opponent and untechable knockdown, does 50x8 stun on block, charge 48f~",
+Close LP,HL,30,50,20,ch/sp/su,4,2,9,0,3,
+Close MP,HL,65,100,40,sp/su,5,2,11,4,7,
+Close HP,HL,100,200,60,sp/su,8,2,16,0,4,
+Close LK,HL,35,50,20,-,5,2,9,0,3,
+Close MK,HL,70,100,40,sp/su,3,2,13,-1,2,
+Close HK,HL,40*70,125*75,60*20,su,4,5(4)3,15,0,5,+4 Hit advantage on crouching opponents
+Far LP,HL,30,50,20,ch/sp/su,5,2,9,0,3,
+Far MP,HL,80,100,40,sp/su,5,2,11,1,5,
+Far HP,HL,120,200,60,-,8,5,15,0,4,
+Far LK,HL,40,50,20,ch,6,2,9,0,3,
+Far MK,HL,75,100,40,-,7,2,13,-1,2,
+Far HK,HL,110,200,60,-,8,2,19,-3,0,
+crouch LP,HL,20,50,20,ch/sp/su,4,2,9,0,3,
+crouch MP,L,70,100,40,sp/su,5,2,14,-2,1,
+crouch HP,HL,80,200,60,sp/su,6,4,22,-7,-4,
+crouch LK,L,40,50,20,sp/su,5,4,9,-2,1,
+crouch MK,HL,70,100,40,sp/su,4,3,16,-5,-2,
+crouch HK,L,100,100,60,-,6,3,18,-3,-,Untechable knockdown
+Jump  up LP,H,50,50,20,-,5,6,-,-,-,Legs projectile invincible until end of active frames
+Jump  up MP,H,85,100,40,-,5,4,-,-,-,Legs projectile invincible until end of active frames
+Jump  up HP,H,105,200,60,-,6,4,-,-,-,Legs projectile invincible until end of active frames
+Jump  up LK,H,40,50,20,-,6,7,-,-,-,Legs projectile invincible until end of active frames
+Jump  up MK,H,80,100,40,-,6,3,-,-,-,Legs projectile invincible until end of active frames
+Jump  up HK,H,100,200,60,-,7,3,-,-,-,Legs projectile invincible until end of active frames
+Jump  forward LP,H,50,50,20,-,5,5,-,-,-,Legs projectile invincible until end of active frames
+Jump  forward MP,H,50*30,50*50,40*20,-,4,2*2,-,-,-,"Legs projectile invincible until end of active frames, 1st hit floats on air hit, 2nd hit knockdown on air hit , can juggle"
+Jump  forward HP,H,100,200,60,-,5,3,-,-,-,Legs projectile invincible until end of active frames
+Jump  forward LK,H,40,50,20,-,7,8,-,-,-,Legs projectile invincible until end of startup frames
+Jump  forward MK,H,70,100,40,-,7,4,-,-,-,Legs projectile invincible until end of startup frames
+Jump  forward HK,H,100,200,60,-,8,3,-,-,-,"Legs projectile invincible until end of active frames air to air forces slam effect, knockdown on air hit"
+Forward+MP Overhead,H,80,100,40,-,17,4,15,-3,2,[Ground hit] Forces stand
+Dive Kick,H,60,100,40,-,12,until ground,-,-,-,
+Focus Attack LVL 1,HL,65,100,20,-,21,2,35,-21,-21,"1~10f or Until after releasing button has armor, [air hit] knocks down, dash or backdash cancellable from 5~11f or on hit or block, charge time 17~49f, attack active 12f after button release"
+Focus attack LVL 2,HL,85,150,40,-,17+12,2,35,-15,-,"1f~ button release armored, [Ground hit] crumples opponent, [air hit] floats opponent, dash or backdash cancellable from 5f~ or on hit or block, charge time 17~49f, attack active 12f after button release"
+Focus attack LVL 3,-,150,200,60,-,65,2,35,-,-,"1~64 armored, armor break, [Ground hit] Crumples opponent, [air hit] floats opponent, dash and backdash cancellable 5~50f or on hit or block, charge 50f"
+Forward Throw,0.91,140,150,40,-,3,2,20,-,-,Untechable knockdown
+Back throw,0.9,1,0,40,-,5,2,24,-,-,"Float for 21f, untechable knockdown, throw damage is recoverable"
+Gohadoken,HL,55,50, 10/20,su,17[8],-,41[32],2,6,"[Air hit] floats opponent, 20~21f [11~12f] focus cancellable, hold down the button to charge, [] refers to after button is released"
+Gohadoken charge,HL,55*55,50*50,10/10*10,su,68,-,93,9,13,"[Air hit] floats opponent, 71-72f focus cancellable"
+Gohadoken EX,HL,60*60,80*80, -250/0,su,17[8],-,55[46],4,-,"[1st air hit] floats opponent, [2nd hit] floats opponent, 2nd fireball active on 33f [24f], 20-36f [11-27f] focus cancellable, hold down button to charge, [ ] refers to after button release"
+Gohadoken EX charge,HL,60x4,80x4, -250/0,su,68,-,107,13,-,"[1st, 2nd air hit] floats opponent, [3rd, 4th hit] floats opponent, 2nd fireball active on 86f, 71-89f focus cancellable"
+Rush Punch LP,HL,90,150, 10/20,su,9,4,21,-4,-,"knocks down, Armor Break"
+Rush Punch MP,HL,130,200, 10/20,su,27[17],4,23,-6,-,"5~19f [5~9f] Invincible, knocks down, Armor Break, startup is distant dependent, [] refers to fastest startup"
+Rush Punch HP,HL,140,200, 10/20,su,35[20],4,23,-6,-,"8~27f [8~12f] Invincible, knocksdown, Armor Break, startup is distant dependent, [] refers to fastest startup"
+Rush Punch EX,HL,90*60,100*50, -250/0,su,32[17],4(11)4,22,-5,-,"5~24f [5~9f] Invincible,  [1st Grounded hit] forces stand, [air hit] knocks down, [2nd hit] floats opponent,  Armor break, can juggle (pursuit property), startup is distant dependent, [] refers to fastest startup"
+Hurricane Kick LK,HL,60*20*40,100*25*25,10/20*10*10,su,7,2(8)2(10)2,41+26,-70,-,"9f~ airborne, [1st hit] floats opponent, [2nd, 3rd hit] knocks down, can juggle (pursuit property)"
+Hurricane Kick MK,HL,65*20x2*50,100*25x3,10/20*10x3,su,10,2(8)2(8)2(10)2,44+26,-83,-,"12f~ airborne, [1st hit] floats opponent, [2nd-4th hit] knocks down, can juggle (pursuit property)"
+Hurricane Kick HK,HL,70*20x3*55,100*20x3*40,10/20*10x4,su,13,2(8)2(7)2(8)2(11)2,53+26,-102,-,"15f~ airborne, [1st hit] floats opponent, [2nd-5th hit] knocks down, can juggle (pursuit property)"
+Hurricane Kick EX,HL,80*10x6*60,100*10x6*40, -250/0,su,7,2(8)2(2)2(2)2(2)2(2)2(2)2(5)2,53+26,-97,-,"1~8f Invincible, 9f~ airborne, [1st hit] floats opponent, [2nd-8th hit] knocks down, can juggle (pursuit property), 1st hit locks opponent"
+Hurricane Kick LK (air),HL,100,200, 10/30,-,6,2(4)2(3)2,After landing 20,-,-,"knocks down, When jumping backwards, will travel backwards"
+Hurricane Kick MK (air),HL,110,200, 10/30,-,6,2(4)2(3)2(4)2(3)2,After landing 20,-,-,"knocks down, When jumping backwards, will travel backwards"
+Hurricane Kick HK (air),HL,120,200, 10/30,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,After landing 20,-,-,"knocks down, When jumping backwards, will travel backwards"
+Hurricane Kick EX (air),HL,140,200, -250/0,-,6,2(4)2(3)2(4)2(3)2(4)2(3)2,20,-,-,"knocks down, Can control movement back or forward"
+Demon Flip,-,-,-,30/-,-,-,-,-,-,-,"5~39f airborne, 27~37f can activate parry/kick/throw, Demon flip slide activates on frame 40."
+Demon Flip EX,-,-,-, -250/0,-,-,-,-,-,-,"1~26f Invincible, tracks opponent, 5~39f, 27~37f can activate parry/kick/throw, Demon flip slide actives on 40f."
+Demon Flip Slide,L,100,200,0/30,-,39+4,11,20,-13,-,Untechable Knockdown
+Demon Flip Focus,-,-,-,-,-,4,Until ground,After landing 6,-,-,4f~until landing has armor
+Demon Flip Kick,HL,80,100,0/20,-,12,Until ground,After landing 4,-,-,Forces stand on grounded opponent
+Demon Flip Throw,1.17,150,200,0/30,-,3,2,After landing 12,-,-,Untechable knockdown
+Counter,-,-,-,10/-,su,1,14,18,-,-,"Frames 1~14 counter is active / LP: low, MP: mid, HP: high, EX: whole body.  Incurs grey damage on a successful counter."
+Counter activated,-,150,200,0/25,su,12,10,43,-,-,"7~21f, floats opponent, Armor Break"
+Super Combo,HL,85*40x5*60,0, -1000/0,-,1+2,3*2*3*3*2*3*3,30+31,-57,-,"1~12f Invincible, 13f~ airborne, untechable knockdown, armor break, [2nd-7th hit] can juggle,  lock opponent upon first level hit, block disadvantage refers to 2nd hit"
+Ultra Combo 1,HL,135*40x5*90 [503],0,0/0,-,0+11,2*3*3*2*3*3*2*4,42+51,-88,-,"1~12f Invincible, 13f~ airborne, untechable knockdown, armor break, [3rd-8th hit] can juggle, 1st hit goes into animation, block disadvantage refers to 2nd hit, [] refers to animation"
+Ultra Combo 2 (Lv1),HL,60x3*75,100x4,0/0,-,0+13,-,Total 73,-9,-,"1~12f strike invincible, [1st-3rd air hit] or [4th hit] floats opponent and untechable knockdown, does 50x4 stun on block, fireball active 14f after button release"
+Ultra Combo 2 (Lv2),HL,60x4*75,100x5,0/0,-,3+14,-,Total 74,1,-,"1~3f Invincible, [1st-4th air hit] or [5th hit] floats opponent and untechable knockdown, does 50x5 stun on block, charge 3~17f, fireball active 14f after button release"
+Ultra Combo 2 (Lv3),HL,60x5*75,100x6,0/0,-,18+14,-,Total 89,11,-,"1~3f Invincible, [1st-5th air hit] or [6th hit] floats opponent and untechable knockdown, does 50x6 stun on block, charge 18~32f, fireball active 14f after button release"
+Ultra Combo 2 (Lv4),HL,60x6*75,100x7,0/0,-,33+14,-,Total 104,21,-,"1~3f Invincible, [1st-6th air hit] or [7th hit] floats opponent and untechable knockdown, does 50x7 stun on block, charge 33~47f, fireball active 14f after button release"
+Ultra Combo 2 (Lv5),HL,60x7*75,100x8,0/0,-,0+65,-,Total 118,31,-,"1~3f Invincible, [1st-3rd air hit] or [4th hit] floats opponent and untechable knockdown, does 50x8 stun on block, charge 48f~"

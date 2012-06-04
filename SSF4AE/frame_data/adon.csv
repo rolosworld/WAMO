@@ -1,58 +1,58 @@
 move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
-"Close LP",HL,30,50,20,ch/sp/su,4,3,5,+3,+6,,
-"Close MP",HL,70,100,40,sp/su,5,5,15,-6,+6,,
-"Close HP",HL,90,200,60,sp/su,8,4,15,-1,+4,"Forces Stand",
-"Close LK",HL,35,50,20,sp/su,5,3,7,+1,+4,,
-"Close MK",HL,75,100,40,sp/su,6,6,9,-1,+5,"Forces Stand",
-"Close HK",HL,120,200,60,-,7,3,21,-6,-2,"Can juggle",
-"Far LP",HL,30,50,20,ch/sp/su,3,3,6,+2,+5,,
-"Far MP",HL,80,100,40,su,7,4,13,-3,0,,
-"Far HP",HL,120,200,60,-,8,3,14,+1,+5,,
-"Far LK",HL,40,50,20,sp/su,5,3,8,0,+3,,
-"Far MK",HL,75,100,40,-,8,4,13,-3,0,,
-"Far HK",HL,40*80,100*100,40*40,-,9,2*4,17,-3,+1,,
-"crouch LP",HL,30,50,20,sp/su,3,3,6,+2,+5,,
-"crouch MP",HL,60,100,40,sp/su,5,2,11,+1,+4,,
-"crouch HP",HL,100,200,60,su,9,3,16,-1,+4,"Forces stand",
-"crouch LK",L,40,50,20,sp/su,4,2,7,+2,+5,,
-"crouch MK",L,70,100,40,sp/su,6,2,14,-2,+1,,
-"crouch HK",L,110,200,60,-,9,2,21,-5,-,"Untechable knockdown",
-"Jump up LP",H,40,50,20,-,4,10,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump up MP",H,80,100,40,-,6,7,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump up HP",H,100,200,60,-,7,3,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump up LK",H,45,50,20,-,4,16,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump up MK",H,85,100,40,sp,5,8,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump up HK",H,110,200,60,-,5,6,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward LP",H,40,50,20,-,4,9,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward MP",H,80,100,40,-,7,7,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward HP",H,100,200,60,-,8,5,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward LK",H,45,50,20,-,4,12,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward MK",H,85,100,40,-,7,4,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jump forward HK",H,110,200,60,-,10,3,-,-,-,"Legs are immune to projectiles until end of startup frames",
-"Jaguar Crunch (Forward+MP)",H,30*50,50*50,40*20,-,23,2*2,13,-2,+4,"+2 Hit advantage on crouching opponent",
-"Focus Attack LVL1",HL,60,100,20,-,21,2,39,-25,-25,,
-"Focus Attack LVL2",HL,80,150,40,-,17+12,2,39,-19,-,,
-"Focus Attack LVL3",-,140,200,60,-,61,2,44,-,-,,
-"Forward Throw",0.93,130,140,40,-,3,2,20,-,-,"Untechable knockdown",
-"Back Throw",1.05,130,120,40,-,3,2,20,-,-,"Untechable knockdown",
-"Jaguar Kick LK",HL,140,180,20/40,-,20,6,21,-3,-2,"5~25f airborne, armor break",
-"Jaguar Kick MK",HL,140,180,20/40,-,21,7,20,-3,-2,"6~27f airborne, armor break",
-"Jaguar Kick HK",HL,140,180,20/40,-,22,8,20,-4,-2,"7~29f airborne, armor break, frame advantage assumes 2nd hit",
-"Jaguar Kick EX",H,80*70,90*110,-250/0,-,20,2*3,1+21,-2,-,"1~24f immune to projectiles, 2~25f airborne, [1st air hit] knockdown, [2nd hit] untechable knockdown, armor break, can juggle",
-"Air Jaguar Kick LK",HL,80,80,10/20,-,14,7,"After landing 12",-,-,,
-"Air Jaguar Kick MK",HL,80,160,10/20,-,15,5,"After landing 12",-,-,,
-"Air Jaguar Kick HK",HL,80,160,10/20,-,16,3,"After landing 12",-,-,,
-"Air Jaguar Kick EX",HL,90*70,110*90,-250/0,-,11,5*2,"After landing 12",-,-,"1~17f immune to projectiles, 2~25f airborne, [1st air hit] knockdown, [2nd hit] untechable knockdown, can juggle",
-"Rising Jaguar LK",HL,50*80,100*70,30/20*20,su,4,2(6)4,17+13,-13,-,"1~5f feet immune to strikes and projectiles, 6f~ airborne, knockdown, can juggle,",
-"Rising Jaguar MK",HL,90*50,110*70,30/20*20,su,5,2(6)5,22+13,-19,-,"1~6f upper body immune to strikes and projectiles, 1~5f unthrowable, 7f~ airborne, knockdown, can juggle,",
-"Rising Jaguar HK",HL,50*100,70*120,30/20*20,su,5,2(6)9,22+13,-23,-,"1~6f Invincible, 6f~ airborne, knockdown, can juggle",
-"Rising Jaguar EX",HL,80*40*40,100*60*60,-250/0,su,5,4(8)2*6,24+10,-33,-,"1~8f Invincible, 6f~ airborne, knockdown, can juggle, guard advantage based on 1st hit only",
-"Jaguar Tooth LK",HL,120,150,10/40,-,"From wall 12",4,"After landing 20",-4,+1,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break",
-"Jaguar Tooth MK",HL,120,150,10/40,-,"From wall 13",5,"After landing 17",-1,+3,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break",
-"Jaguar Tooth HK",HL,120,150,10/40,-,"From wall 14",7,"After landing 18",-2,0,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break",
-"Jaguar Tooth EX",HL,120,200,-250/0,-,"From wall 7",7,"After landing 20",-5,-,"22f to wall, 1f~ until landing immune to projectiles, 7f~ airborne towards wall, [air hit] knockdown, armor break",
-"Jaguar Varied Assault",HL,50x5*70,0,-1000/0,-,1+7,3(9)2(11)2(11)2(18)3(39)3,40,-64,-,"1~11f Invincible, 89~135f airborne, [2nd ground hit] forces stand (translate), [5th hit] knockdown, [6th hit] untechable knockdown, [1st-4th air hit] knockdown, can juggle, 4th hit is cancellable, frame advantage based on 5th hit",
-"Thousand Jaguar",HL,30*12xN,0,0/0,-,20,3(14)1(2)2(2)1(3)1(2)2,31,-12,-,"[1st ground hit] forces stand, untechable knockdown, can juggle, press buttons to extend damage",
-"Assassin Jaguar",HL,30x3*60,0,0/0,-,19,3(17)4(6)3(8)5,41+27,-83,-,"2nd hit onwards airborne, knockdown, can juggle, frame advantage based on 1st hit",
-"Ultra Combo 1",HL,60x3*330,0,0/0,-,0+12,7(18)4(18)4,34,-17,-,"1~3f Invincible, 4~11f immune to strikes and projectiles, 2~18f/23~40f/45~62f airborne, [air hit] knockdown, armor break, can juggle, 3rd ground hit goes into animation, distance can be adjusted by joystick",
-"Ultra Combo 2",HL,60x2*45*265,0,0/0,-,0+10,4(6)5(23)2,25+38,-82,-,"1~11f Invincible, 8f~ airborne, knockdown, armor break, can juggle, 3rd hit goes into animation",
+Close LP,HL,30,50,20,ch/sp/su,4,3,5,3,6,
+Close MP,HL,70,100,40,sp/su,5,5,15,-4,6,
+Close HP,HL,90,200,60,sp/su,8,4,15,-1,4,Forces Stand
+Close LK,HL,35,50,20,sp/su,5,3,7,1,4,
+Close MK,HL,75,100,40,sp/su,6,6,9,-1,5,Forces Stand
+Close HK,HL,120,200,60,-,7,3,21,-6,-2,Can juggle
+Far LP,HL,30,50,20,ch/sp/su,3,3,6,2,5,
+Far MP,HL,80,100,40,su,7,4,13,-3,0,
+Far HP,HL,120,200,60,-,8,3,14,1,5,
+Far LK,HL,40,50,20,sp/su,5,3,8,0,3,
+Far MK,HL,75,100,40,-,8,4,13,-3,0,
+Far HK,HL,40*80,100*100,40*40,-,9,2*4,17,-3,1,
+crouch LP,HL,30,50,20,sp/su,3,3,6,2,5,
+crouch MP,HL,60,100,40,sp/su,5,2,11,1,4,
+crouch HP,HL,100,200,60,su,9,3,16,-1,4,Forces stand
+crouch LK,L,40,50,20,sp/su,4,2,7,2,5,
+crouch MK,L,70,100,40,sp/su,6,2,14,-2,1,
+crouch HK,L,110,200,60,-,9,2,21,-5,-,Untechable knockdown
+Jump up LP,H,40,50,20,-,4,10,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump up MP,H,80,100,40,-,6,7,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump up HP,H,100,200,60,-,7,3,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump up LK,H,45,50,20,-,4,16,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump up MK,H,85,100,40,sp,5,8,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump up HK,H,110,200,60,-,5,6,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward LP,H,40,50,20,-,4,9,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward MP,H,80,100,40,-,7,7,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward HP,H,100,200,60,-,8,5,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward LK,H,45,50,20,-,4,12,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward MK,H,85,100,40,-,7,4,-,-,-,Legs are immune to projectiles until end of startup frames
+Jump forward HK,H,110,200,60,-,10,3,-,-,-,Legs are immune to projectiles until end of startup frames
+Jaguar Crunch (Forward+MP),H,30*50,50*50,40*20,-,23,2*2,13,-2,4,+2 Hit advantage on crouching opponent
+Focus Attack LVL1,HL,60,100,20,-,21,2,39,-25,-25,
+Focus Attack LVL2,HL,80,150,40,-,17+12,2,39,-19,-,
+Focus Attack LVL3,-,140,200,60,-,61,2,44,-,-,
+Forward Throw,0.93,130,140,40,-,3,2,20,-,-,Untechable knockdown
+Back Throw,1.05,130,120,40,-,3,2,20,-,-,Untechable knockdown
+Jaguar Kick LK,HL,140,180,20/40,-,20,6,21,-3,-2,"5~25f airborne, armor break"
+Jaguar Kick MK,HL,140,180,20/40,-,21,7,20,-3,-2,"6~27f airborne, armor break"
+Jaguar Kick HK,HL,130,180,20/40,-,22,8,20,-4,-2,"7~29f airborne, armor break, frame advantage assumes 2nd hit"
+Jaguar Kick EX,H,80*70,90*110, -250/0,-,20,2*3,1+21,-2,-,"1~24f immune to projectiles, 2~25f airborne, [1st air hit] knockdown, [2nd hit] untechable knockdown, armor break, can juggle"
+Air Jaguar Kick LK,HL,80,80, 10/20,-,14,7,After landing 12,-,-,
+Air Jaguar Kick MK,HL,80,160, 10/20,-,15,5,After landing 12,-,-,
+Air Jaguar Kick HK,HL,80,160, 10/20,-,16,3,After landing 12,-,-,
+Air Jaguar Kick EX,HL,90*70,110*90, -250/0,-,11,5*2,After landing 12,-,-,"1~17f immune to projectiles, 2~25f airborne, [1st air hit] knockdown, [2nd hit] untechable knockdown, can juggle"
+Rising Jaguar LK,HL,50*80,100*70,30/20*20,su,4,2(6)4,17+13,-13,-,"1~5f feet immune to strikes and projectiles, 6f~ airborne, knockdown, can juggle,"
+Rising Jaguar MK,HL,90*50,110*70,30/20*20,su,5,2(6)5,22+13,-19,-,"1~6f upper body immune to strikes and projectiles, 1~5f unthrowable, 7f~ airborne, knockdown, can juggle,"
+Rising Jaguar HK,HL,50*100,70*120,30/20*20,su,5,2(6)9,22+13,-23,-,"1~6f Invincible, 6f~ airborne, knockdown, can juggle"
+Rising Jaguar EX,HL,80*40*40,100*60*60, -250/0,su,5,4(8)2*6,24+10,-33,-,"1~8f Invincible, 6f~ airborne, knockdown, can juggle, guard advantage based on 1st hit only"
+Jaguar Tooth LK,HL,120,150, 10/40,-,From wall 12,4,After landing 20,-4,1,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break"
+Jaguar Tooth MK,HL,120,150, 10/40,-,From wall 13,5,After landing 17,-1,3,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break"
+Jaguar Tooth HK,HL,120,150, 10/40,-,From wall 14,7,After landing 18,-2,0,"22f to wall, 7f~ airborne towards wall, [air hit] knockdown, armor break"
+Jaguar Tooth EX,HL,120,200, -250/0,-,From wall 7,7,After landing 20,-5,-,"22f to wall, 1f~ until landing immune to projectiles, 7f~ airborne towards wall, [air hit] knockdown, armor break"
+Jaguar Varied Assault,HL,50x5*70,0, -1000/0,-,1+7,3(9)2(11)2(11)2(18)3(39)3,40,-64,-,"1~11f Invincible, 89~135f airborne, [2nd ground hit] forces stand (translate), [5th hit] knockdown, [6th hit] untechable knockdown, [1st-4th air hit] knockdown, can juggle, 4th hit is cancellable, frame advantage based on 5th hit"
+Thousand Jaguar,HL,30*12xN,0,0/0,-,20,3(14)1(2)2(2)1(3)1(2)2,31,-12,-,"[1st ground hit] forces stand, untechable knockdown, can juggle, press buttons to extend damage"
+Assassin Jaguar,HL,30x3*60,0,0/0,-,19,3(17)4(6)3(8)5,41+27,-83,-,"2nd hit onwards airborne, knockdown, can juggle, frame advantage based on 1st hit"
+Ultra Combo 1,HL,60x3*330,0,0/0,-,0+12,7(18)4(18)4,34,-17,-,"1~3f Invincible, 4~11f immune to strikes and projectiles, 2~18f/23~40f/45~62f airborne, [air hit] knockdown, armor break, can juggle, 3rd ground hit goes into animation, distance can be adjusted by joystick"
+Ultra Combo 2,HL,60x2*45*265,0,0/0,-,0+10,4(6)5(23)2,25+38,-82,-,"1~11f Invincible, 8f~ airborne, knockdown, armor break, can juggle, 3rd hit goes into animation"
