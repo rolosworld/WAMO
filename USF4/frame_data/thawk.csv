@@ -1,0 +1,56 @@
+move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
+Close LP,HL,40,50,20,ch/sp/su,3,2,6,3,7,
+Close MP,HL,70,100,40,sp/su,5,4,10,0,6,Forces stand
+Close HP,HL,130,200,60,-,8,3,14,1,6,+5 Hit advantage on crouching opponents
+Close LK,HL,30,50,20,sp/su,3,3,10,-2,1,
+Close MK,HL,90,100,40,sp/su,6,3,12,-1,2,
+Close HK,HL,140,200,60,-,7,3,14,0,4,
+Far LP,HL,40,50,20,sp/su,4,2,7,3,6,
+Far MP,HL,90,100,40,-,6,3,12,-1,2,
+Far HP,HL,120,200,60,-,8,2,21,-5,-1,
+Far LK,HL,30,50,20,sp/su,4,4,9,-2,1,
+Far MK,HL,70,100,40,-,6,3,11,0,3,
+Far HK,HL,120,200,60,-,10,5,22,-7,-3,
+crouch LP,HL,30,50,20,ch/sp/su,4,3,8,0,3,
+crouch MP,HL,80,100,40,-,6,3,13,-2,1,
+crouch HP,HL,90*50,100*100,60*20,-,8,2*3,20,-5,-1,
+crouch LK,L,40,50,20,sp/su,4,3,8,0,3,
+crouch MK,L,70,100,40,-,6,4,12,-2,1,
+crouch HK,L,120*50,100*100,30*30,-,11,2(9)2,20,-7,-,Untechable knockdown
+Jump up LP,H,60,50,20,sp,4,4,-,-,-,Legs immune to projectiles until end of active frames
+Jump up MP,H,90,100,40,-,6,5,-,-,-,Legs immune to projectiles until end of active frames
+Jump up HP,H,140,200,60,-,10,4,-,-,-,Legs immune to projectiles until end of active frames
+Jump up LK,H,50,50,20,-,4,3,-,-,-,Legs immune to projectiles until end of active frames
+Jump up MK,H,90,100,40,-,7,3,-,-,-,Legs immune to projectiles until end of active frames
+Jump up HK,H,120,200,60,-,10,4,-,-,-,Legs immune to projectiles until end of startup frames
+Jump forward LP,H,60,50,20,sp,4,6,-,-,-,Legs immune to projectiles until end of active frames
+Jump forward MP,H,90,100,40,-,8,4,-,-,-,Legs immune to projectiles until end of active frames
+Jump forward HP,H,120,200,60,-,10,3,-,-,-,Legs immune to projectiles until end of active frames
+Jump forward LK,H,50,50,20,-,4,8,-,-,-,Legs immune to projectiles until end of startup frames
+Jump forward MK,H,90,100,40,-,7,6,-,-,-,Legs immune to projectiles until end of startup frames
+Jump forward HK,H,120,200,60,-,10,5,-,-,-,Legs immune to projectiles until end of startup frames
+Heavy Body Press (Down+HP air),H,110,150,60,-,6,9,-,-,-,Legs immune to projectiles until end of active frames
+Heavy Shoulder (Down+MP air),-,80,90,40,-,7,10,-,-,-,"Legs immune to projectiles until end of active frames, cannot hit crouching opponents"
+Thrust Peak (Downforward+LP),HL,40,50,20,sp/su,3,7,12,-8,-4,
+Focus Attack LVL1,HL,90,100,20,-,23,5,32,-21,-21,
+Focus Attack LVL2,HL,120,150,40,-,17+16,5,32,-15,-,
+Focus Attack LVL3,-,170,200,60,-,65,5,32,-,-,
+Forward Throw,0.9,130,140,40,-,3,2,20,-,-,Untechable knockdown
+Back Throw,0.9,160,140,40,-,3,2,20,-,-,Untechable knockdown
+Mexican Typhoon LP,1.5,150,200,40/100,-,2,2,52,-,-,Untechable knockdown
+Mexican Typhoon MP,1.45,200,200,40/100,-,2,2,50,-,-,Untechable knockdown
+Mexican Typhoon HP,1.4,230,200,40/100,-,2,2,48,-,-,Untechable knockdown
+Mexican Typhoon EX,1.45,200,150, -250/0,-,4,2,47,-,-,"1~5f strike and projectile invincible, untechable knockdown"
+Tomahawk Buster LP,HL,130,200,30/40,-,5,4*7,17+11,-14,-,"5f~ airborne, knockdown"
+Tomahawk Buster MP,HL,150,200,30/40,-,6,4*7,21+11,-18,-,"1~5f upper body strike and projectile invincibility, 6f~ airborne, knockdown"
+Tomahawk Buster HP,HL,160,200,30/40,-,8,4*7,26+11,-23,-,"1~7f upper body strike and projectile invincibility, 8~11f strike and projectile invincible, 8f~ airborne, knockdown, can juggle"
+Tomahawk Buster EX,HL,80*50,150*150, -250/0,-,5,4*7,29+11,-26,-,"1~7f Invincible, 5f~ airborne, knockdown"
+Condor Dive,HL,120,100,20/30,-,11,until ground,22,-,-,"Knockdown, armor break"
+Condor Dive EX,H,100[150],50[100], -250/0,-,11,until ground,22,-,-,"Knockdown, armor break, can juggle, [] refers to jump version(translate), immune to projectiles until landing"
+Condor Spire LP,HL,120,200,30/30,-,20,9,4+7,-7,-5,"6~19f lower body strike and projectile invincible, 8f~ airborne, [air hit] knockdown"
+Condor Spire MP,HL,120,200,30/30,-,20,10,4+7,-8,-6,"6~19f lower body strike and projectile invincible, 8f~ airborne, [air hit] knockdown"
+Condor Spire HP,HL,120,200,30/30,-,20,11,5+7,-10,-8,"6~19f lower body strike and projectile invincible, 8f~ airborne, [air hit] knockdown"
+Condor Spire EX,HL,150,150, -250/0,-,15,9,4+7,-3,-,"6~14f strike invincible, 1~27f projectile invincible (24f legs only? (translate), 6f~ airborne, [air hit] knockdown"
+Super Combo,1.53,430,0, -1000/0,-,1+0,2,41,-,-,"2f Invincible, untechable knockdown"
+Ultra Combo 1,1.46,510,0,0/0,-,1+0,2,41,-,-,"1f Invincible, untechable knockdown"
+Ultra Combo 2,1.63,450,0,0/0,-,0+3,6,18+26,-,-,"1~8f Invincible, 1f~ airborne, untechable knockdown"
