@@ -46,16 +46,16 @@ wamo.model = {
       return move.frame_adv_hit + ( wamo.model.totalActive(move.active) - 1 );
   },
   framesNeededToLink: function( move1, move2 ) {
-      return move1.frame_adv_hit - wamo.model.varEval(move2.startup) + 1;
+      return move1.frame_adv_hit - wamo.model.varEval(move2.startup);
   },
   framesNeededToMeatyLink: function( move1, move2 ) {
-      return wamo.model.meatyAdvantage(move1) - wamo.model.varEval(move2.startup) + 1;
+      return wamo.model.meatyAdvantage(move1) - wamo.model.varEval(move2.startup);
   },
   framesNeededToPunish: function( move1, move2 ) {
-      return (wamo.model.varEval(move2.startup) + parseInt(move1.frame_adv_block,10)) * -1 + 1;
+      return wamo.model.varEval(move2.startup) + parseInt(move1.frame_adv_block,10);
   },
-  framesNeededToCounterPunish: function( move1, move2 ) {
-      return wamo.model.varEval(move2.startup) - parseInt(move1.frame_adv_block,10);
+  framesNeededToCounterPunish: function( move1, move2, his_fast_startup ) {
+      return wamo.model.framesNeededToPunish(move1, move2) - his_fast_startup;
   },
   fastest_startup: function( framedata ) {
     var fast_startup = 10;
@@ -112,12 +112,11 @@ wamo.model = {
 
   getLinks: function( move ) {
     var links = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var framedata = wamo.controller.getMeFrameData();
     Meta.array.$( framedata ).forEach( function( nextMove ) {
       var normalLink = wamo.model.framesNeededToLink(move,nextMove);
-      if ( normalLink > 0 ) {
-        nextMove.frames = Math.abs( normalLink );
-        links.push( nextMove );
+      if ( normalLink >= 0 ) {
+        links.push( Meta(nextMove).extend({frames: normalLink + 1}) );
       }
     });
     
@@ -126,12 +125,11 @@ wamo.model = {
 
   getMeatyLinks: function( move ) {
     var links = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var framedata = wamo.controller.getMeFrameData();
     Meta.array.$( framedata ).forEach( function( nextMove ) {
       var normalLink = wamo.model.framesNeededToMeatyLink(move,nextMove);
       if ( normalLink > 0 ) {
-        nextMove.frames = Math.abs( normalLink );
-        links.push( nextMove );
+        links.push( Meta(nextMove).extend({frames: Math.abs( normalLink )}) );
       }
     });
     
@@ -149,14 +147,13 @@ wamo.model = {
 
   getCounterhitLinks: function( move ) {
     var links = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var framedata = wamo.controller.getMeFrameData();
     var chBonus = wamo.model.counterhitBonus( move );
 
     Meta.array.$( framedata ).forEach( function( nextMove ) {
       var normalLink = wamo.model.framesNeededToLink(move,nextMove);
-      nextMove.frames = chBonus + normalLink;
       if ( normalLink > 0 || nextMove.frames > 0 ) {
-        links.push( nextMove );
+        links.push( Meta(nextMove).extend({frames: chBonus + normalLink}) );
       }
     });
     
@@ -165,15 +162,14 @@ wamo.model = {
 
   getMeatyCounterhitLinks: function( move ) {
     var links = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var framedata = wamo.controller.getMeFrameData();
     var chBonus = wamo.model.counterhitBonus( move );
 
     Meta.array.$( framedata ).forEach( function( nextMove ) {
       var normalLink = wamo.model.framesNeededToMeatyLink(move,nextMove);
       nextMove.frames = chBonus + normalLink;
       if ( normalLink > 0 || nextMove.frames > 0 ) {
-        nextMove.frames = nextMove.frames;
-        links.push( nextMove );
+        links.push( Meta(nextMove).extend({frames: nextMove.frames}) );
       }
     });
     
@@ -182,13 +178,12 @@ wamo.model = {
 
   getPunishments: function( move ) {
     var punishments = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
+    var framedata = wamo.controller.getMeFrameData();
 
     Meta.array.$( framedata ).forEach( function( punish ) {
       var normalPunish = wamo.model.framesNeededToPunish(move,punish);
-      if ( normalPunish > 0 ) {
-        punish.frames = normalPunish;
-        punishments.push( punish );
+      if ( normalPunish < 0 ) {
+        punishments.push( Meta(punish).extend({frames: normalPunish * -1}) );
       }
     } );
   
@@ -197,14 +192,13 @@ wamo.model = {
 
   getCounterhitPunishments: function( move ) {
     var punishments = [];
-    var framedata = wamo.framedata[wamo.game][wamo.me];
-    var fast_startup = wamo.model.fastest_startup( framedata );
+    var framedata = wamo.controller.getMeFrameData();
+    var his_fast_startup = wamo.model.fastest_startup( wamo.controller.getOpponentFrameData() );
 
     Meta.array.$( framedata ).forEach( function( punish ) {
-      var normalPunish = wamo.model.framesNeededToCounterPunish(move,punish);
-      if ( normalPunish <= fast_startup ) {
-        punish.frames = fast_startup - normalPunish + 1;
-        punishments.push( punish );
+      var normalPunish = wamo.model.framesNeededToCounterPunish(move, punish, his_fast_startup);
+      if ( normalPunish < 0 ) {
+        punishments.push(Meta(punish).extend({frames: normalPunish * -1}));
       }
     } );
   

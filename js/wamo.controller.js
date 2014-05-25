@@ -71,6 +71,19 @@ wamo.controller = {
     return wamo.model.getCounterhitPunishments(wamo.controller.getMoveObject());
   },
 
+  getAllPunishments: function() {
+    var moves = Meta(wamo.type.get().getFrameData());
+    var punishments = {};
+    Meta.each(moves, function(move) {
+      punishments[move.move] = {
+        normal: wamo.model.getPunishments(move),
+        counterhit: wamo.model.getCounterhitPunishments(move)
+      };
+    });
+
+    return punishments;
+  },
+    
   onGameChange: function() {
     wamo.model.setGame(wamo.controller.getGame());
     wamo.model.loadCharacters(function(){
