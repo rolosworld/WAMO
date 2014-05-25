@@ -14,6 +14,7 @@ js/wamo.type.hit.js
 js/wamo.type.meaty.js
 js/wamo.type.blocked.js
 js/wamo.type.framedata.js
+js/wamo.type.punishments.js
 SSF4AE/characters.js
 SSF4AE/dropdown.js
 SSF4AE/frame_data/abel.csv
