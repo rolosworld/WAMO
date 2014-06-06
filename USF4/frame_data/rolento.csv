@@ -1,0 +1,65 @@
+move,Hits,block,damage,stun,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,Notes
+close LP,1,HL,30,50,4,2,6,6,3,"SP, SU",
+close MP,1,HL,70,100,6,3,11,-3,-6,"SP, SU",Juggle Potential 2
+close HP,1,HL,90,200,6,8,15,0,-5,"SP, SU",Forces Stand
+close LK,1,HL,30,50,3,6,4,4,1,"SP, SU",
+close MK,1,HL,70,100,5,6,6,5,2,"SP, SU",
+close HK,1,HL,90,200,6,4,12,6,2,"SP, SU",
+far LP,1,HL,30,50,4,3,5,6,3,-,
+far MP,1,HL,70,100,6,3,11,3,0,-,
+far HP,2,HL,"70,50","150,50",8,"2,3",23,-4,-8,-,
+far LK,1,HL,30,50,4,3,5,6,3,-,
+far MK,1,HL,70,100,8,5,11,1,-2,-,
+far HK,1,HL,90,200,6,4,15,3,-1,-,
+cr.LP,1,HL,30,50,4,2,7,5,2,"SP, SU",
+cr.MP,3,HL,"20,20,30","20,20,60",8,9,5,6,4,-,
+cr.HP,1,HL,100,200,11,4,15,3,-1,-,
+cr.LK,1,L,30,50,4,4,5,5,2,"SP,SU",
+cr.MK,1,L,65,100,5,3,16,0,-5,"SP, SU",
+cr.HK,1,L,100,200,10,7,22,-,-11,-,Hard Knockdown
+j.LP,1,H,40,50,4,3,-,-,-,-,
+j.MP,3,H,"20,20,40 20,20,60",5,12,-,-,-,-,-,"1st hit causes limited juggle, 2nd juggle potential 1, 3rd 2"
+j.HP,1,H,100,200,7,4,-,-,-,-,
+j.LK,1,H,40,50,3,7,-,-,-,-,
+j.MK,1,H,70,100,6,6,-,-,-,-,
+j.HK,1,H,100,200,6,4,-,-,-,-,
+Trick Rod 6+MK,1,H,70,100,17,4,12,1,-2,-,"Low Crush, Airborne from 4-29"
+Spike Rod J.2+MK,1,HL,60,50,6,-,-,-,-,-,"9 airborne but ground level recovery frames after spike rod, then 28 frame airborne bounce in chosen direction, 4 landing recovery frames if jumping normal used during bounce, 7 landing recovery frames if no jumping normal used, forward bounce distance 1.28, backward bounce distance 1.9994"
+NJ Trick Landing 3xK,1,-,-,-,-,-,-,-,-,-,"1-24 airborne, 25-32 landing recovery"
+Forward Trick Landing 3xK,1,-,-,-,-,-,-,-,-,-,"1-30 airborne, 31-38 landing recovery, travels 2.46641"
+Back Trick Landing 3xK,1,-,-,-,-,-,-,-,-,-,"1-31 airborne, 32-39 landing recovery, travels 2.08"
+Forward throw,-,-,130,100,3,2,20,-,-,-,Range 0.886
+Back throw,-,-,130,100,3,2,20,-,-,-,Range 0.886
+Level 1 Focus,1,HL,60,100,10+11,2,36,-22(-2),-22(-2),-,"Crumple on Counter hit, hyper armor for 1 hit"
+Level 2 Focus,1,HL,80,150,17+11,2,36,-,-16(+4),-,"Crumple on hit, hyper armor for 1 hit"
+Level 3 Focus,1,-,140,200,64,2,34,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
+Level 1 Red Focus,1,HL,90,100,10+11,2,36,-22(-2),-22(-2),-,"Crumple on Counter hit, infinite hyper armor"
+Level 2 Red Focus,1,HL,120,150,17+11,2,36,-,-16(+4),-,"Crumple on hit, infinite hyper armor"
+Level 3 Red Focus,1,-,210,200,64,2,34,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
+Stinger P or K,1,HL,50,50,16,-,til landing +7 on ground,+19 max,+11 max,-,"button determines angle, causes free juggle state against airborne foe, juggle potential 2"
+LK Stinger,-,-,-,-,-,-,-,-,-,-,"Jump 1-29 projectile invincible, 12-45 airborne, 46-52 landing recovery (no knife thrown), knife throw possible after 9th frame"
+MK Stinger,-,-,-,-,-,-,-,-,-,-,"Jump 1-29 projectile invincible, 12-47 airborne, 48-54 landing recovery (no knife thrown), knife throw possible after 9th frame"
+HK Stinger,-,-,-,-,-,-,-,-,-,-,"Jump 1-29 projectile invincible, 12-52 airborne, 53-59 landing recovery (no knife thrown), knife throw possible after 9th frame"
+EX Stinger P or K,3,HL,30x3,50x3,9,-,til landing +6 on ground,-,-3,-,"1st hit causes free juggle state, all hits juggle potential 3, soft knockdown"
+EX Stinger,-,-,-,-,-,-,-,-,-,-,"Jump 1-22 projectile invincible, 6-22 airborne, 23-29 landing recovery (no knife thrown), knife throw possible after 9th frame"
+LP Patriot Circle,3,HL,"10,10,20","10,10,20",14,10,22,1,-3,"P.Circle, SU","limited juggle on airborne foe, 2nd hit juggle potential 1, 3rd hit juggle potential 2"
+MP Patriot Circle,3,HL,"10,10,20","10,10,20",16,10,24,-1,-4,"P.Circle, SU","limited juggle on airborne foe, 2nd hit juggle potential 1, 3rd hit juggle potential 2"
+HP Patriot Circle,3,HL,"10,10,20","10,10,20",18,10,26,-3,-6,"P.Circle, SU","limited juggle on airborne foe, 2nd hit juggle potential 1, 3rd hit juggle potential 2"
+Patriot Circle 2nd Hit,3,HL,"10,10,20","10,10,20",14,9,26,-3,-6,"P.Circle, SU","limited juggle on airborne foe, 2nd hit juggle potential 3, 3rd hit juggle potential 4"
+Patriot Circle 3rd Hit,3,HL,"20,20,40","20,20,40",15,13,31,-,-22,SU,"Soft Knockdown, sets up limited juggle state on airborn foe, 2nd hit juggle potential 5, 3rd hit juggle potential 6"
+EX Patriot Circle EP,7,HL,"15x6,10",10x7,12,19,21,-,-7,SU,"Soft knockdown, all hits cause limited juggle state, final hit causes free juggle state on ground foes, all hits juggle potential 7, first 6 hits don't increase juggle count"
+Backflip,-,-,-,-,-,-,-,-,-,-,"1-11 invincible, 12-26 airborn, 27-35 landing recovery (27-28 recovery with MDA cancel) distance back 0.84"
+LP M.D.Attack,1,HL,120,200,Backflip +3,14,10,-2,-8,SU,"Armor Break, soft knockdown on counterhit or vs airborn, 1-26 projectile invincible, travels 25% screen distance"
+MP M.D.Attack,1,HL,120,200,Backflip +3,14,10,-2,-8,SU,"Armor Break, soft knockdown on counterhit or vs airborn, 1-26 projectile invincible, travels 50% screen distance"
+HP M.D.Attack,1,HL,120,200,Backflip +3,16,9,-2,-8,SU,"Armor Break, soft knockdown on counterhit or vs airborne, 1-27 projectile invincible, travels 65% screen distance"
+EX M.D.Attack,5,HL,"30x4, 80","30x4, 100",Backflip +3,24,10,-,-10,-,"Armor Break, soft knockdown, juggle potential = hit number minus 1"
+LP M.D.Roll,-,-,-,-,-,-,-,-,-,-,"Rolls backward for 22 frames and 20% screen distance, Mekong Delta Air Raid possible after 6th frame"
+MP M.D.Roll,-,-,-,-,-,-,-,-,-,-,"Rolls backward for 36 frames and 40% screen distance, Mekong Delta Air Raid possible after 6th frame"
+HP M.D.Roll,-,-,-,-,-,-,-,-,-,-,"Rolls backward for 46 frames and 60% screen distance, Mekong Delta Air Raid possible after 6th frame"
+EX M.D.Roll,-,-,-,-,-,-,-,-,-,-,"backward for 45 frames and 80% screen distance, 1-39 projectile invincible, EX MDAR possible after 5th frame"
+M.D.Air Raid,1,H,90,150,Roll + 30,3,11,11,3,-,Hit vs airborne causes limited juggle state
+M.D.Escape,-,-,-,-,-,-,-,-,-,-,"Airborne starting on 12th frame, wall jump on 33rd frame, wall jump crosses 80% stage distance, 9 frames landing recovery if no jumping attack is performed after jump"
+EX M.D.Escape,-,-,-,-,-,-,-,-,-,-,"1-32 Invincible, airborne starting with wall jump on 33rd frame, can alter wall jump trajectory with 4 or 6, 9 frame landing recovery if no jumping attack is performed after jump"
+Super,4,HL,"50x3, 200",0,0+8,"11,16,17,19",26,-,-19,-,"1-18 invincible, 4 big projectile explosions detonate while Rolento rolls, hard knockdown, juggle potential = hit number"
+Ultra 1,12,HL,"15x7, 45, 15x2, 210,30",0,0+7,16(13) 8 (25) 11,39,-,-19,-,"Armor Break, Hard Knockdown, Juggle potential is number of hits +6"
+Ultra 2,2,L,"300, 180",0,0+7,14,43,-,-18,-,"Armor Break, 1-10 invincible, 11-20 projectile invincible, tripwire hits 20% screen distance frames 1-10, 40% screen distance frames 11-15, 60% screen distance 16-20"
