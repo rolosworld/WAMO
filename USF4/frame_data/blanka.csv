@@ -15,7 +15,7 @@ crouch LP,HL,30,50,20,sp/su,4,2,9,0,3,
 crouch MP,HL,90,100,40,su,7,4,15,-5,-2,
 crouch HP,HL,100,200,60,su,8,4,25,-10,-4,
 crouch LK,L,30,50,20,sp/su,4,3,7,1,4,
-crouch MK,L,70,100,40,sp/su,5,2,11,1,4,
+crouch MK,L,70,100,40,sp/su,5,2,11,1,5,
 crouch HK,L,90,150,60,-,6,5,21,-7,-,"cannot fast recover, opponent gets up 48F after recovery if hit on first active frame"
 Jump up LP,H,40,50,20,-,5,7,-,-,-,
 Jump up MP,H,70,100,40,-,6,3,-,-,-,
@@ -60,7 +60,5 @@ Electricity HP,HL,140,200,20/20,su,10,{1(1)}x16*2,9,10,-,
 Electricity EX,HL,150,200, -250/0,su,5,{1(1)}x16*2,11,8,-,
 Super Combo,HL,100x5,0, -1000/0,-,1+4,16*1x14,12,-32,-,"1~5f invincible, Pursuit property, charge 55f"
 Ultra Combo 1,L*H*H*HLx4,0*120*125x3,0,0/0,-,0+4,2(20)26*1x20,17,-41,-,"1~27f invincible, Pursuit property, charge 55f"
-"Ultra Combo 2
-Kick Kick Kick",L,120x2*90x3,0,0/0,-,0+12,2(7)2(33)90,31,-57,-,"1~10f invincible, charge 42f"
-"Ultra Combo 2
-Punch Punch Punch",-,30*195[470],0,0/0,-,0+7,55(10)6,80,-,-,charge 42f
+"Ultra Combo 2 Kick Kick Kick",L,120x2*90x3,0,0/0,-,0+12,2(7)2(33)90,31,-57,-,"1~10f invincible, charge 42f"
+"Ultra Combo 2 Punch Punch Punch",-,30*195[470],0,0/0,-,0+7,55(10)6,80,-,-,"charge 42f"

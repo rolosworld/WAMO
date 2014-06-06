@@ -1,118 +1,4 @@
-Abel
-
-Close Standing HP first hit hitbox greatly expanded downward
-Hitbox on the 2nd hit of C.HP extended lower
-Far Standing HK start-up reduced by 1 frame (14F → 13F); active frames increased by (2F → 3F); recovery reduced by 1 frame (19F → 18F)
-Falling Sky active frames increased by 1 frame (2F → 3F); upper-body invincibility frames increased by 1 (1F → 2F)
-EX Change of Direction starts up 3 frames faster (16F → 13F)
-2nd low hit advantage increased by 4 frames (+1F → +5F)
-Finish slow startup reduced by 5 frames (22F→ 17F)
-Heartless (Super Combo) active frames increased by 2 (2F→ 4F)
-Soulless (UC1) pushbox greatly expanded upward, less likely to cross under after Crouching HP in the corner
-
-
-Adon
-
-Crouching LP advantage on hit increased by 1 frame (+5F → +6F)
-Close Standing HK hitbox slightly expanded horizontally and upward
-Jaguar Crunch (6+MP) frame advantage against standing opponents reduced by 1 frame (+4F → +3F)
-L Rising Jaguar 2nd hit on grounded opponents floats higher upward and slightly more forward, easier to follow in the corner
-L, M and H Rising Jaguar → EX Focus Cancel → Forward Dash is now -5F on block
-L Jaguar Kick damage reduced by 50 against airborne opponents (140 → 90)
-M Jaguar Kick damage reduced by 10 on standing opponents (140 → 130); damage against airborne opponents reduced by 50 (140 → 90); chip damage changed to 33
-H Jaguar Kick damage reduced by 10 on standing opponents (130 → 120); damage against airborne opponents reduced by 40 (130 → 90); chip damage changed to 30; top side of the hitbox has been reduced slightly
-M and H Air Jaguar disadvantage on block increased (-2F when done from the lowest height)
-All versions of Air Jaguar Kick chip reduced by half
-EX Air Jaguar Kick 2nd hit now overhead
-Jaguar Revolver (UC1) forward movement from 2nd hit and after slightly shortened, easier to connect all hits on close opponents; damage reduced by 30 (510 → 480); Active frames on the first kick reduced by 1F (7F → 6F)
-Crouch lp has one more frame of hitstun added (+5F → +6F)
-  
-
-Akuma
-
-Close Standing MK now forces stand on hit; start-up reduced by 1 frame (5F → 4F); hitbox expanded downward; recognition range increased
-Far stand heavy punch now EX Red Focus/Special/EX Focus Cancellable; damage reduced by 30 (120 → 90)
-Crouching HK can no longer be cancelled into Wrath of the Raging Demon (UC1)
-All versions of Back Jump Zanku Hadoken recovery increased by 2F
-L, M and H Hyakkishu now have the same EX Zanku Hadoken follow-up as EX Hyakkishu
-M Goshoryuken 2nd hit can no longer be EX Focus-cancelled on block
-H Goshoryuken 2nd and 3rd hit can no longer be EX Focus-cancelled on block; invincibility time reduced by 1 frame (6F → 5F)
-L, M and H Goshoryuken → EX Focus Cancel → Forward Dash is now -5 on block
-EX Shakuretsu starts up 6 frames faster (25F → 19F)
-L Hurricane hitbox increased downward slightly
-
-
-Balrog
-
-L Dash Straight advantage on hit increased by 1 frame (-2F → -1F)
-M Dash Straight pushback on hit has been reduced
-L Dash Swing Blow damage reduced by 10 (80 → 70); stun reduced by 30 (100 → 70); advantage on hit reduced by 10 frames (+10F → 0F); disadvantage on block reduced by 3 frames (-5F → -2F); charge time reduced by 10 frames (55F → 45F)
-M Dash Swing Blow advantage on hit reduced by 8F (+10F → +2F); disadvantage on block reduced by 1 frame (-7F → -6F); charge time reduced by 5 frames (55F → 50F)
-Turn Punch charge from Level 2-4 has been adjusted to 2 seconds per level
-Turn Punch Lv2 disadvantage after block reduced by 1 frame ( -5F → -4F)
-Turn Punch Lv3 disadvantage after block reduced by 1 frame (-8F → -7F); disadvantage after hit reduced by 1 frame (-4F → -3F)
-Turn Punch Lv4 disadvantage after block reduced by 3 frames (-12F → -9F); disadvantage after hit reduced by 3 frames (-8F → -5F)
-Crazy Buffalo (Super Combo) last hit can be changed to a straight when holding P or an uppercut when holding K
-Dirty Bull (UC2) input command changed from 63214 x2+PPP to 720+PPP; recovery reduced by 10 frames (58F → 48F) after a successful Ultra; throw range extended from 1.09 to 1.30; damage reduced by 149 (399 → 250)
- 
-
-Blanka
-
-Forward Dash total frames reduced by 1 frame (21F → 20F)
-Close Standing MK now airborne 1 frame sooner (from 4F→ 3F)
-Crouching MK advantage on hit increased by 1 frame (+4F → +5F); pushback on guard and hit increased
-H Rolling Attack knocks down the opponent at all distances
-All versions of Backstep Roll cause 2F more block-stun
-All versions of Vertical Roll can be EX Focus-cancelled on hit or block
-Shout of Earth (P version) now has a larger hitbox on the 1st active frame; no longer hits standing opponents
- 
-
-C.Viper
-
-Far Standing HK hurtbox slightly reduced; can now be performed with 3+HK
-Crouching MK hitbox slightly expanded forward
-Crouching HP hurtbox added to the 2nd active frame; stun reduced by 50 (200 → 150)
-Level 1 Focus Attack start-up reduced by 3 frames (26F → 23F)
-Level 2 Focus Attack start-up reduced by 3 frames (17F → 14F)
-Level 3 Focus Attack start-up reduced by 2 frames (70F → 68F)
-Focus attack range has been reduced to her elbow
-L Thunder Knuckle hitbox slightly expanded; stun damage increased by 50 (150 → 200)
-M Thunder Knuckle now +4 after EX Focus-cancel → Forward Dash on hit; damage increased by 10 (110 → 120); stun reduced by 50 (200 → 150)
-H Thunder Knuckle cancel recovery increased by 1 frame (6F → 7F); H Thunder Knuckle → EX Focus Cancel → Forward Dash is now -5 on block
-Emergency Combination (Super Combo) damage increased by 20 (330 → 350); command changed to 214214+P
-Burst Time (UC1) smoke visual effects reduced
-Burning Dance (UC2) start-up reduced by 1 frame (10F → 9F); height restriction removed
-
-
-Cammy
-
-Close Standing HP damage reduced by 5 (85 → 80); stun reduced by 30 (150 → 120)
-Far Standing HP 1st active frame damage reduced by 10 (80 → 70)
-Crouching LK start-up increased by 1 frame (3F → 4F)
-Crouching HP damage reduced by 10 (90 → 80); stun reduced by 50 (200 → 150); advantage on hit decreased by 1 frame (+7F → +6F)
-H Spiral Arrow first hit now has one more frame of hit stun (+3F → +4F)
-L, M and H Cannon Strike height restriction slightly reduced; recovery increased by 2F (5F → 7F)
-EX Cannon Strike block-stun reduced by 5F
-Hooligan Combination now has L, M and H Cannon Strike follow-up
-L, M and H Cannon Spike → EX Focus Cancel → Forward Dash is now -5 on block
-Gyro Drive Smasher (UC1) non-cinematic last hit damage reduced by 40 (210 → 170)
- 
-
-Chun-Li
-
-Vitality increased by 50 (900 → 950)
-Rear Spin Kick (3+LK) hitbox expanded; start-up reduced by 2 frames (12F → 10F); active frames reduced by 1 frame (4F → 3F); recovery increased by 1 frame (15F → 16F)
-Yosokyaku (Jump 2+MK, all 3 hits) hitbox expanded downward and horizontally
-Light spinning bird kick now causes knockdown; damage reduced by 60 (160 → 100); recovery reduced by 2F (12F → 10F); stun reduced by 80 (180 → 100)
-Heavy spinning bird kick total damage increased by 10 (200 → 210); now causes knockdown on hit; (recovery increased by 4F (12F → 16F)
-EX Spinning Bird Kick hitbox slightly expanded forward and downward; 5th hit hitbox slightly expanded upward
-EX Kikoken now causes knockdown on hit
-EX Hazanshu now has armor-break properties
-UC1 now floats lower on hits 2-7; damage reduced on hits 2-9 by 10 each (30 → 20)
-Kikosho (UC2) invincibility increased by 1 frame (8F → 9F), damage increased by 35 (330 → 365) 
-
-
-Cody
+-Cody
 
 Back Dash distance slightly increased
 Walk speed slightly increased
@@ -328,21 +214,6 @@ Run-Neck Flip first hit slightly expanded downward
 EX Run-Neck Flip now knocks down on air hit
 EX Bushin Senpukyaku hitbox slightly expanded, easier to pull in opponent
 Bushin Goraisenpujin (UC1) 2nd hit movement distance slightly increased, easier to use in combos
- 
-
-Hakan
-
-Stand MP advantage on hit increased by 1 frame (+4F → +5F); block stun increased by 1 frame (+1F → +2F);  Recovery reduced by 1F (10F → 9F)
-Standing HP hitbox expanded upward
-Crouching LK recovery reduced by 1 frame (9F → 8F)
-Crouching MP now Special-, Super Combo- and EX Focus-cancellable
-6+HK (No Oil) knocks down the opponent
-Neutral Jump MP knocks down like Diagonal Jump MP
-Diagonal Jump MK hitbox expanded, easier to cross-up
-Hakan Tackle (6+MP) disadvantage on block reduced by 1 frame (-5F → -4F); advantage on hit increased by 2 frames (-2F → 0F)
-Air Throw damage increased by 10 (140 → 150)
-L, M and H Oil Rocket (No Oil) throw range increased by .08 (0.97 → 1.05)
-EX Oil Rocket (No Oil) throw range increased by .23 (0.97 → 1.20)
  
 
 Ibuki
@@ -562,7 +433,7 @@ Raging Slash (UC2) command changed from 63214 x2+PPP to 63214 x2+KKK; hitbox sli
 Vega
 
 Crouching HP active frames increased by 2 (2F → 4F)
-Close Stand MK hitstun increased by 2 frames (+2F → +4F)
+Close Stand MK hitstun increased by 3 frames (+2F → +5F)
 Diagonal Jump LK can cross up the opponents
 Mask Pick-up from ground is now a command, 2+PP when standing over the mask
 L, M, H and EX Rolling Crystal Flash charge time reduced by 10 frames (60F → 50F)
