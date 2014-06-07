@@ -1,71 +1,71 @@
 move,hits,block,damage,Stun,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,Notes
-close LP,1,HL,25,50,3,2,5,7,4,"Ch, Sp, SU",-
-close MP,1,HL,70,100,4,4,13,6,1,"Tc, Sp, SU",Juggle Potential 1
-close HP,2,HL,"40,50","50,50",9,3(6)3,23,6,1,"1st hit - SP, SU",Forces Stand
-close LK,1,HL,25,50,4,2,8,4,1,"Ch, Sp, SU",-
-close MK,1,HL,65,100,4,3,17,-3,-6,"Sp, SU",-
-close HK,1,HL,110,200,12,5,19,-2,-6,-,-
-far LP,1,HL,25,50,3,3,5,6,3,"Ch, Sp, SU",-
-far MP,1,HL,70,100,7,4,14,-1,-4,"Tc, Sp, SU",-
-far HP,1,HL,90,150,7,4,23,0,-4,-,-
-far LK,1,HL,30,50,4,3,6,5,2,"Sp, SU",-
-far MK,1,HL,70,100,7,2,13,2,-1,-,-
-far HK,1,HL,110,200,8,2,23,-3,-7,-,-
+"close LP",1,HL,25,50,3,2,5,7,4,"Ch, Sp, SU",-
+"close MP",1,HL,70,100,4,4,13,6,1,"Tc, Sp, SU","Juggle Potential 1"
+"close HP",2,HL,"40,50","50,50",9,3(6)3,23,6,1,"1st hit - SP, SU","Forces Stand"
+"close LK",1,HL,25,50,4,2,8,4,1,"Ch, Sp, SU",-
+"close MK",1,HL,65,100,4,3,17,-3,-6,"Sp, SU",-
+"close HK",1,HL,110,200,12,5,19,-2,-6,-,-
+"far LP",1,HL,25,50,3,3,5,6,3,"Ch, Sp, SU",-
+"far MP",1,HL,70,100,7,4,14,-1,-4,"Tc, Sp, SU",-
+"far HP",1,HL,90,150,7,4,23,0,-4,-,-
+"far LK",1,HL,30,50,4,3,6,5,2,"Sp, SU",-
+"far MK",1,HL,70,100,7,2,13,2,-1,-,-
+"far HK",1,HL,110,200,8,2,23,-3,-7,-,-
 cr.LP,1,HL,20,50,3,2,6,6,3,"Ch, Sp, SU",
 cr.MP,1,HL,65,100,5,4,7,6,3,"Sp, SU",
-cr.HP,1,HL,100,200,6,3,18,5,0,-,Forces Stand
+cr.HP,1,HL,100,200,6,3,18,5,0,-,"Forces Stand"
 cr.LK,1,L,25,50,4,3,9,2,-1,"Ch, Sp, SU",
 cr.MK,1,L,65,100,6,4,12,1,-2,"Sp, SU",
-cr.HK,1,L,95,100,7,2,24,-,-8,-,Hard Knockdown
-neutral jump LP,1,H,50,50,4,4,-,-,-,-,1-3f lower body projectile invincible
-neutral jump MP,1,H,80,100,5,4,-,-,-,-,1-4f lower body projectile invincible
-neutral jump HP,1,H,110,200,6,5,-,-,-,-,1-5f lower body projectile invincible
-neutral jump LK,1,H,30,50,5,5,-,-,-,-,1-4f lower body projectile invincible
-neutral jump MK,1,H,70,100,5,7,-,-,-,-,1-4f lower body projectile invincible
-neutral jump HK,1,H,100,200,5,3,-,-,-,-,1-4f lower body projectile invincible
-angled jump LP,1,H,50,50,4,5,-,-,-,-,1-3f lower body projectile invincible
-angled jump MP,1,H,80,100,5,3,-,-,-,-,1-4f lower body projectile invincible
-angled jump HP,1,H,100,200,5,4,-,-,-,-,1-4f lower body projectile invincible
-angled jump LK,1,H,30,50,4,7,-,-,-,-,1-3f lower body projectile invincible
-angled jump MK,1,H,70,100,5,4,-,-,-,-,1-4f lower body projectile invincible
-angled jump HK,1,H,100,200,6,5,-,-,-,-,1-5f lower body projectile invincible
-Target Combo 1,2,HL,"70,70",100100,4,4(5)4,22,-,-9,Jump,"2nd hit causes juggle state and soft knockdown, 2nd hit is forward jump cancelable on hit only"
-Target Combo 2,2,HL,"70,80",100100,04/07/14,4(7)4,26,-5,-11,-,
-Fox Tail 3MK,1,H,80,100,17,3,15,2,-3,-,
-Forward Throw,-,-,140,130,3,2,Recovery -20,-,-,-,Range: 0.799
-Back Throw,-,-,135,140,3,2,Recovery -20,-,-,-,Range: 0.799
-Air Throw,-,-,150,150,5,2,Until Landing,-,-,-,"Range: 0.98, Juggle Potential 1"
-Level 1 Focus,1,HL,60,100,10+11,2,35,-21(-2),-21(-2),-,"Crumple on Counterhit, Hyper Armor for 1 hit"
-Level 2 Focus,1,HL,80,150,18+11,2,35,-,-15(+4),-,"Crumple on hit, Hyper Armor for 1 hit"
-Level 3 Focus,1,-,120,200,66,2,35,-,-,-,"Unblockable, crumple state on hit, Hyper Armor for 1 hit"
-Level 1 Red Focus,1,HL,90,100,10+11,2,35,-21(-2),-21(-2),-,"Crumple on Counterhit, Infinite Hyper Armor"
-Level 2 Red Focus,1,HL,120,150,18+11,2,35,-,-15(+4),-,"Crumple on hit, Infinite Hyper Armor"
-Level 3 Red Focus,1,-,180,200,66,2,35,-,-,-,"Unblockable, crumple state on hit, Infinite Hyper Armor"
-LP Psycho Sting,1,HL,120,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, juggle potential 1, 54 frame charge"
-MP Psycho Sting,1,HL,140,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, juggle potential 1, 54 frame charge, 1-5f projectile invincible"
-HP Psycho Sting,1,HL,160,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, 54 frame charge, 1-5f throw invincible"
-EX Psycho Sting,1,HL,160,200,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, 54 frame charge, 1-5f invincible"
-Spiral Arrow (any kick),1,HL,100,100,8,Til Landing,18 on ground,-,+2 Max,-,"41 frame back-charge, soft knockdown, button press determines speed; from jump apex to first frame of landing recovery LK takes 31f, MK 27f, HK 25f"
-EX Spiral Arrow,1,HL,160,200,8,Til Landing,18 on ground,-,+9 Max,-,"41 frame back-charge, projectile invincible from first frame til landing, soft knockdown, from apex to first frame of landing recovery takes 25f"
-LP Rapid Dagger,4,HL,"16x3,32","20x2, 30,50",9,2(5)2(6)2(11)2,18,-,-3,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
-MP Rapid Dagger,6,HL,"10x5,40","20x4, 30,50",9,2(5)2(6)2(4) 2(5)2(12)2,19,-,-5,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
-HP Rapid Dagger,8,HL,"10x7,30","20x6, 30,50",9,2(5)2(6)2(4)2(6) 2(4)2(5)2(10)2,20,-,-7,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
-EX Rapid Dagger,8,HL,"15x6, 10,40","20x6, 30,100",9,2(5)2(6)2(4)2(6) 2(4)2(5)2(11)2,15,-,0,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
-LK and EX Ground Scramble,-,-,-,-,-,-,-,-,-,-,"Invincible starting on 13th frame while Decapre warps forward, cancelable into followups starting on 13th frame, vulnerability returns when Decapre either nears opponent or crosses a full screen's distance, 4 frames recovery after Decapre reappears if no Break is performed, requires 41 frames of charge"
-LP Break (ground),-,-,-,-,-,-,-,-,-,-,"10 frames backward evasive movement, 15 frames recovery - from EX Scramble, 1-23 invincible"
-MP Break (ground),-,-,-,-,-,-,-,-,-,-,"Stops Scramble motion with 20 frames recovery, same during EX version"
-HP Break (ground),-,-,-,-,-,-,-,-,-,-,"Moves forward 15 frames then recovers for 17 frames, 1-15 invincible can pass through foes during movement period. Same during EX version (ground)."
-LK Razor Edge Slicer,1,L,80,100,Scramble +2,6,21,-,-10,SU,"Hard Knockdown, Juggle potential 1"
-EX Razor Edge Slicer,2,L,80120,250,EX Scramble +10,14,28,-,-21,SU,"Hard Knockdown, Juggle Potential 1"
-MK and HK Scramble,-,-,-,-,-,-,-,-,-,-,"Frames 1-10 on ground, 11-12 airborne, 13-35 invincible, 36-56 airborne, 57-70 landing recovery if no Break or Air Normal used, cancelable into followups from 18-35, air normals and spiral arrow available after 35th frame, requires 41f charge - MK version crosses 120% screen distance, HK version crosses 45% screen distance"
+cr.HK,1,L,95,100,7,2,24,-,-8,-,"Hard Knockdown"
+"neutral jump LP",1,H,50,50,4,4,-,-,-,-,"1-3f lower body projectile invincible"
+"neutral jump MP",1,H,80,100,5,4,-,-,-,-,"1-4f lower body projectile invincible"
+"neutral jump HP",1,H,110,200,6,5,-,-,-,-,"1-5f lower body projectile invincible"
+"neutral jump LK",1,H,30,50,5,5,-,-,-,-,"1-4f lower body projectile invincible"
+"neutral jump MK",1,H,70,100,5,7,-,-,-,-,"1-4f lower body projectile invincible"
+"neutral jump HK",1,H,100,200,5,3,-,-,-,-,"1-4f lower body projectile invincible"
+"angled jump LP",1,H,50,50,4,5,-,-,-,-,"1-3f lower body projectile invincible"
+"angled jump MP",1,H,80,100,5,3,-,-,-,-,"1-4f lower body projectile invincible"
+"angled jump HP",1,H,100,200,5,4,-,-,-,-,"1-4f lower body projectile invincible"
+"angled jump LK",1,H,30,50,4,7,-,-,-,-,"1-3f lower body projectile invincible"
+"angled jump MK",1,H,70,100,5,4,-,-,-,-,"1-4f lower body projectile invincible"
+"angled jump HK",1,H,100,200,6,5,-,-,-,-,"1-5f lower body projectile invincible"
+"Target Combo 1",2,HL,"70,70",100100,4,4(5)4,22,-,-9,Jump,"2nd hit causes juggle state and soft knockdown, 2nd hit is forward jump cancelable on hit only"
+"Target Combo 2",2,HL,"70,80",100100,04/07/14,4(7)4,26,-5,-11,-,
+"Fox Tail 3MK",1,H,80,100,17,3,15,2,-3,-,
+"Forward Throw",-,-,140,130,3,2,"Recovery -20",-,-,-,"Range: 0.799"
+"Back Throw",-,-,135,140,3,2,"Recovery -20",-,-,-,"Range: 0.799"
+"Air Throw",-,-,150,150,5,2,"Until Landing",-,-,-,"Range: 0.98, Juggle Potential 1"
+"Level 1 Focus",1,HL,60,100,10+11,2,35,-21(-2),-21(-2),-,"Crumple on Counterhit, Hyper Armor for 1 hit"
+"Level 2 Focus",1,HL,80,150,18+11,2,35,-,-15(+4),-,"Crumple on hit, Hyper Armor for 1 hit"
+"Level 3 Focus",1,-,120,200,66,2,35,-,-,-,"Unblockable, crumple state on hit, Hyper Armor for 1 hit"
+"Level 1 Red Focus",1,HL,90,100,10+11,2,35,-21(-2),-21(-2),-,"Crumple on Counterhit, Infinite Hyper Armor"
+"Level 2 Red Focus",1,HL,120,150,18+11,2,35,-,-15(+4),-,"Crumple on hit, Infinite Hyper Armor"
+"Level 3 Red Focus",1,-,180,200,66,2,35,-,-,-,"Unblockable, crumple state on hit, Infinite Hyper Armor"
+"LP Psycho Sting",1,HL,120,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, juggle potential 1, 54 frame charge"
+"MP Psycho Sting",1,HL,140,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, juggle potential 1, 54 frame charge, 1-5f projectile invincible"
+"HP Psycho Sting",1,HL,160,180,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, 54 frame charge, 1-5f throw invincible"
+"EX Psycho Sting",1,HL,160,200,5,9,36,-,-28,Su,"Sets up limited juggle, soft knockdown, 54 frame charge, 1-5f invincible"
+"Spiral Arrow (any kick)",1,HL,100,100,8,"Til Landing","18 on ground",-,"+2 Max",-,"41 frame back-charge, soft knockdown, button press determines speed; from jump apex to first frame of landing recovery LK takes 31f, MK 27f, HK 25f"
+"EX Spiral Arrow",1,HL,160,200,8,"Til Landing","18 on ground",-,"+9 Max",-,"41 frame back-charge, projectile invincible from first frame til landing, soft knockdown, from apex to first frame of landing recovery takes 25f"
+"LP Rapid Dagger",4,HL,"16x3,32","20x2, 30,50",9,2(5)2(6)2(11)2,18,-,-3,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
+"MP Rapid Dagger",6,HL,"10x5,40","20x4, 30,50",9,"2(5)2(6)2(4) 2(5)2(12)2",19,-,-5,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
+"HP Rapid Dagger",8,HL,"10x7,30","20x6, 30,50",9,"2(5)2(6)2(4)2(6) 2(4)2(5)2(10)2",20,-,-7,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
+"EX Rapid Dagger",8,HL,"15x6, 10,40","20x6, 30,100",9,"2(5)2(6)2(4)2(6) 2(4)2(5)2(11)2",15,-,0,SU,"Soft Knockdown, all hits juggle potential 1, last hit causes limited juggle state that disallows more special move juggles, only U1 is possible after"
+"LK and EX Ground Scramble",-,-,-,-,-,-,-,-,-,-,"Invincible starting on 13th frame while Decapre warps forward, cancelable into followups starting on 13th frame, vulnerability returns when Decapre either nears opponent or crosses a full screen's distance, 4 frames recovery after Decapre reappears if no Break is performed, requires 41 frames of charge"
+"LP Break (ground)",-,-,-,-,-,-,-,-,-,-,"10 frames backward evasive movement, 15 frames recovery - from EX Scramble, 1-23 invincible"
+"MP Break (ground)",-,-,-,-,-,-,-,-,-,-,"Stops Scramble motion with 20 frames recovery, same during EX version"
+"HP Break (ground)",-,-,-,-,-,-,-,-,-,-,"Moves forward 15 frames then recovers for 17 frames, 1-15 invincible can pass through foes during movement period. Same during EX version (ground)."
+"LK Razor Edge Slicer",1,L,80,100,"Scramble +2",6,21,-,-10,SU,"Hard Knockdown, Juggle potential 1"
+"EX Razor Edge Slicer",2,L,80120,250,"EX Scramble +10",14,28,-,-21,SU,"Hard Knockdown, Juggle Potential 1"
+"MK and HK Scramble",-,-,-,-,-,-,-,-,-,-,"Frames 1-10 on ground, 11-12 airborne, 13-35 invincible, 36-56 airborne, 57-70 landing recovery if no Break or Air Normal used, cancelable into followups from 18-35, air normals and spiral arrow available after 35th frame, requires 41f charge - MK version crosses 120% screen distance, HK version crosses 45% screen distance"
 "EX Scramble (air, far, and short)",-,-,-,-,-,-,-,-,-,-,"Frames 1-3 on ground, 4-35 invincible, 36-56 airborne, 57-70 landing recovery if no Break or Air Normal used, cancelable into followups frames 18-35, air normals and Spiral Arrow available after 35th frame, requires 41f charge, MK+HK version crosses 120% screen distance, LK+HK version crosses 45% screen distance"
-LP Break (Air),-,-,-,-,-,-,-,-,-,-,"airborne and moving backwards frames 1-4 landing recovery frames 5-19, EX version 1-19f invincible"
-MP Break (Air),-,-,-,-,-,-,-,-,-,-,"airborne and descending frames 1-6, landing recovery frames 7-21, EX version; 14 total frames, 1-14f invincible"
-HP Break (Air),1,HL,120,180,Scramble (Air) + 12,9,12,-,-9,SU,"airborne frames 1-8, causes limited juggle state, Soft Knockdown"
-EX Break HP (Air),1,HL,120,150,Scramble (Air) + 12,9,12,-,-9,"jump cancelable on hit, SU","Invincible frames 1-6, airborne frames 7-8, causes free juggle state, soft knockdown"
-Cannon Strike,1,HL,60,100,Scramble (Air) 0+12,11,Til Landing +5,+16 Max,+6 Max,-,"Hit as low as possible to increase advantage, early hits high on target's body ends up as +2 on hit, -8 on block"
-EX Cannon Strike,1,HL,80,100,EX Scramble (Air)0+12,11,Landing +4,+15 Max,+15 Max,-,"Hit as low as possible to increase advantage, early hits high can end up at +1 Hit/Block"
-Super,10,HL,"30x9, 90",0,2,3(9)44(4) 2(17)3,60,-,-50,-,"Projectile Invincible through active frames, hard knockdown, juggle potential 1, requires 41f charge"
-Ultra 1,9,HL,33x9,0,0+15,-,20,-,-39,-,"Projectile lasts 300 frames, hard knockdown, requires 41f charge - all hits have infinite juggle potential, last hit causes free juggle state against ground foes"
-Ultra 2 (Ground),11,HL,"30,60, 30x7,60x2",0,0+7,4,56,-,-40,-,"Enters cinematic on hit, 1-10f invincible, hard knockdown, requires 41f charge"
-Ultra 2 (Anti-air),11,HL,"30,60, 30x7,60x2",0,0+4,4,53,-,-,-,"Enters cinematic on anti-air hit, hard knockdown, juggle potential 1, 1-7f invincible, 8-41f airborne, 42-61f landing recovery, requires 41f charge"
+"LP Break (Air)",-,-,-,-,-,-,-,-,-,-,"airborne and moving backwards frames 1-4 landing recovery frames 5-19, EX version 1-19f invincible"
+"MP Break (Air)",-,-,-,-,-,-,-,-,-,-,"airborne and descending frames 1-6, landing recovery frames 7-21, EX version; 14 total frames, 1-14f invincible"
+"HP Break (Air)",1,HL,120,180,"Scramble (Air) + 12",9,12,-,-9,SU,"airborne frames 1-8, causes limited juggle state, Soft Knockdown"
+"EX Break HP (Air)",1,HL,120,150,"Scramble (Air) + 12",9,12,-,-9,"jump cancelable on hit, SU","Invincible frames 1-6, airborne frames 7-8, causes free juggle state, soft knockdown"
+"Cannon Strike",1,HL,60,100,"Scramble (Air) 0+12",11,"Til Landing +5","+16 Max","+6 Max",-,"Hit as low as possible to increase advantage, early hits high on target's body ends up as +2 on hit, -8 on block"
+"EX Cannon Strike",1,HL,80,100,"EX Scramble (Air)0+12",11,"Landing +4","+15 Max","+15 Max",-,"Hit as low as possible to increase advantage, early hits high can end up at +1 Hit/Block"
+Super,10,HL,"30x9, 90",0,2,"3(9)44(4) 2(17)3",60,-,-50,-,"Projectile Invincible through active frames, hard knockdown, juggle potential 1, requires 41f charge"
+"Ultra 1",9,HL,33x9,0,0+15,-,20,-,-39,-,"Projectile lasts 300 frames, hard knockdown, requires 41f charge - all hits have infinite juggle potential, last hit causes free juggle state against ground foes"
+"Ultra 2 (Ground)",11,HL,"30,60, 30x7,60x2",0,0+7,4,56,-,-40,-,"Enters cinematic on hit, 1-10f invincible, hard knockdown, requires 41f charge"
+"Ultra 2 (Anti-air)",11,HL,"30,60, 30x7,60x2",0,0+4,4,53,-,-,-,"Enters cinematic on anti-air hit, hard knockdown, juggle potential 1, 1-7f invincible, 8-41f airborne, 42-61f landing recovery, requires 41f charge"

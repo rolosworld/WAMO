@@ -1,64 +1,64 @@
 move,block,damage,stun,meter,cancel,startup,active,recovery,frame_adv_block,frame_adv_hit,Notes
-Close LP,HL,30,50,20,sp/su,4,2,10,-1,2,
-Close MP,HL,80,100,40,su,6,2,10,2,5,
-Close HP,HL,110[90],200[150],60,su,7,4,22,-7,-1,Forces stand
-Close LK,HL,40,50,20,sp/su,4,3,10,-2,1,
-Close MK,HL,40*40,50*50,40*20,su,5,2(3)2,12,0,3,
-Close HK,HL,100[80],200[150],60,su,7,6,19,-6,-1,
-Far LP,HL,30,50,20,sp/su,3,2,9,0,3,
-Far MP,HL,80,100,40,su,7,4,9,1,4,
-Far HP,HL,120,200,60,-,7,6,20,-6,-1,
-Far LK,HL,30,50,20,su,5,2,12,-3,0,
-Far MK,HL,90,100,40,su,5,2,19,-7,-4,
-Far HK,HL,100[80],200[150],60,-,3,6,23,-10,-5,
-crouch LP,HL,30,50,20,sp/su,4,2,9,0,3,
-crouch MP,HL,90,100,40,su,7,4,15,-5,-2,
-crouch HP,HL,100,200,60,su,8,4,25,-10,-4,
-crouch LK,L,30,50,20,sp/su,4,3,7,1,4,
-crouch MK,L,70,100,40,sp/su,5,2,11,1,5,
-crouch HK,L,90,150,60,-,6,5,21,-7,-,"cannot fast recover, opponent gets up 48F after recovery if hit on first active frame"
-Jump up LP,H,40,50,20,-,5,7,-,-,-,
-Jump up MP,H,70,100,40,-,6,3,-,-,-,
-Jump up HP,H,120,200,60,-,4,3,-,-,-,
-Jump up LK,H,40,50,20,-,4,3,-,-,-,
-Jump up MK,H,60,100,40,-,5,5,-,-,-,
-Jump up HK,H,120,200,60,-,7,7,-,-,-,
-Jump forward LP,H,40,50,20,-,5,7,-,-,-,
-Jump forward MP,H,70,100,40,-,6,5,-,-,-,
-Jump forward HP,H,90,200,60,-,5,4,-,-,-,
-Jump forward LK,H,40,50,20,-,5,5,-,-,-,
-Jump forward MK,H,60,100,40,-,5,5,-,-,-,
-Jump forward HK,H,110,200,60,-,7,6,-,-,-,
-Back or Forward+MP(close),HL,50*40,50*50,40*20,sp/su,7,2(1)5,11,-2,5,
-Overhead,H,50*40,50*50,40*20,-,25,2(1)4,11,-1,5,+2 on hit vs. crouching characters
-Overhead on crouching opponent,H,50*40,50*50,40*20,-,25,2(1)4,11,-1,7,+2 on hit vs. crouching characters
-Downforward+HP,L,100,200,60,-,10,16,16,-11,-,cannot fast recover
-Forward+Kick Kick Kick,-,-,-,-,-,-,-,22,-,-,
-Back+Kick Kick Kick,-,-,-,-,-,-,-,29,-,-,
-Down+Punch Punch Punch,-,-,-,-,sp/su,-,-,-,53,-,
-Down+ Punch Punch Punch (???),-,-,-,-,sp/su,-,-,90,-,-,
-Focus Attack LVL 1,HL,60,100,20,-,20,2,38,-24,-24,
-Focus attack LVL 2,HL,90,150,40,-,17+11,2,38,-18,-,
-Focus attack LVL 3,-,150,200,60,-,63,2,39,-,-,
-Forward Throw,0.93,130,140,40,-,3,2,20,-,-,Cannot fast recover. Opponent gets up 81f after throw recovers
-Back throw,0.93,120,120,40,-,3,2,20,-,-,Cannot fast recover. Opponent gets up 54f after throw recovers
-Rolling Attack LP,HL,100,100,30/30,su,6,18,4+2,-24,-15,"Armor break, charge 55f"
-Rolling Attack MP,HL,110,150,30/30,su,6,33,4+2,-24,-15,"Armor break, charge 55f"
-Rolling Attack HP,HL,120,200,30/30,su,6,33,4+3,-24,-15,"Armor break, charge 55f"
-Rolling Attack EX,HL,110,150, -250/0,su,6,33,4+3,-24,-15,"Projectile invincible until end of active frames, Armor break, charge 55f"
-Backstep Rolling LK,HL,110,200,30/40,-,28,25,6,-,-,charge 55f
-Backstep Rolling MK,HL,120,200,30/40,-,28,29,6,-,-,charge 55f
-Backstep Rolling HK,HL,130,200,30/40,-,28,33,6,-,-,charge 55f
-Backstep Rolling EX,HL,120,200, -250/0,-,28,33,6,-,-,"1~22f invincible, 23~27f cannot be thrown, charge 55f"
-Anti Air Rolling LK,HL,100,200,30/30,-,4,18,40+5,-21,-17,charge 55f
-Anti Air Rolling MK,HL,110,200,30/30,-,4,15,42+10,-21,-17,charge 55f
-Anti Air Rolling HK,HL,120,200,30/30,-,4,12,46+4,-21,-17,charge 55f
-Anti Air Rolling EX,HL,120,200, -250/0,-,4,18,47+10,-21,-17,"1~5f invincible, charge 55f"
-Electricity LP,HL,120,200,20/20,su,5,{4(4)}x3*4,9,5,-,
-Electricity MP,HL,130,200,20/20,su,7,{2(2)}x7*2,9,8,-,
-Electricity HP,HL,140,200,20/20,su,10,{1(1)}x16*2,9,10,-,
-Electricity EX,HL,150,200, -250/0,su,5,{1(1)}x16*2,11,8,-,
-Super Combo,HL,100x5,0, -1000/0,-,1+4,16*1x14,12,-32,-,"1~5f invincible, Pursuit property, charge 55f"
-Ultra Combo 1,L*H*H*HLx4,0*120*125x3,0,0/0,-,0+4,2(20)26*1x20,17,-41,-,"1~27f invincible, Pursuit property, charge 55f"
+"Close LP",HL,30,50,20,sp/su,4,2,10,-1,2,
+"Close MP",HL,80,100,40,su,6,2,10,2,5,
+"Close HP",HL,110[90],200[150],60,su,7,4,22,-7,-1,"Forces stand"
+"Close LK",HL,40,50,20,sp/su,4,3,10,-2,1,
+"Close MK",HL,40*40,50*50,40*20,su,5,2(3)2,12,0,3,
+"Close HK",HL,100[80],200[150],60,su,7,6,19,-6,-1,
+"Far LP",HL,30,50,20,sp/su,3,2,9,0,3,
+"Far MP",HL,80,100,40,su,7,4,9,1,4,
+"Far HP",HL,120,200,60,-,7,6,20,-6,-1,
+"Far LK",HL,30,50,20,su,5,2,12,-3,0,
+"Far MK",HL,90,100,40,su,5,2,19,-7,-4,
+"Far HK",HL,100[80],200[150],60,-,3,6,23,-10,-5,
+"crouch LP",HL,30,50,20,sp/su,4,2,9,0,3,
+"crouch MP",HL,90,100,40,su,7,4,15,-5,-2,
+"crouch HP",HL,100,200,60,su,8,4,25,-10,-4,
+"crouch LK",L,30,50,20,sp/su,4,3,7,1,4,
+"crouch MK",L,70,100,40,sp/su,5,2,11,1,5,
+"crouch HK",L,90,150,60,-,6,5,21,-7,-,"cannot fast recover, opponent gets up 48F after recovery if hit on first active frame"
+"Jump up LP",H,40,50,20,-,5,7,-,-,-,
+"Jump up MP",H,70,100,40,-,6,3,-,-,-,
+"Jump up HP",H,120,200,60,-,4,3,-,-,-,
+"Jump up LK",H,40,50,20,-,4,3,-,-,-,
+"Jump up MK",H,60,100,40,-,5,5,-,-,-,
+"Jump up HK",H,120,200,60,-,7,7,-,-,-,
+"Jump forward LP",H,40,50,20,-,5,7,-,-,-,
+"Jump forward MP",H,70,100,40,-,6,5,-,-,-,
+"Jump forward HP",H,90,200,60,-,5,4,-,-,-,
+"Jump forward LK",H,40,50,20,-,5,5,-,-,-,
+"Jump forward MK",H,60,100,40,-,5,5,-,-,-,
+"Jump forward HK",H,110,200,60,-,7,6,-,-,-,
+"Back or Forward+MP(close)",HL,50*40,50*50,40*20,sp/su,7,2(1)5,11,-2,5,
+Overhead,H,50*40,50*50,40*20,-,25,2(1)4,11,-1,5,"+2 on hit vs. crouching characters"
+"Overhead on crouching opponent",H,50*40,50*50,40*20,-,25,2(1)4,11,-1,7,"+2 on hit vs. crouching characters"
+Downforward+HP,L,100,200,60,-,10,16,16,-11,-,"cannot fast recover"
+"Forward+Kick Kick Kick",-,-,-,-,-,-,-,22,-,-,
+"Back+Kick Kick Kick",-,-,-,-,-,-,-,29,-,-,
+"Down+Punch Punch Punch",-,-,-,-,sp/su,-,-,-,53,-,
+"Down+ Punch Punch Punch (???)",-,-,-,-,sp/su,-,-,90,-,-,
+"Focus Attack LVL 1",HL,60,100,20,-,20,2,38,-24,-24,
+"Focus attack LVL 2",HL,90,150,40,-,17+11,2,38,-18,-,
+"Focus attack LVL 3",-,150,200,60,-,63,2,39,-,-,
+"Forward Throw",0.93,130,140,40,-,3,2,20,-,-,"Cannot fast recover. Opponent gets up 81f after throw recovers"
+"Back throw",0.93,120,120,40,-,3,2,20,-,-,"Cannot fast recover. Opponent gets up 54f after throw recovers"
+"Rolling Attack LP",HL,100,100,30/30,su,6,18,4+2,-24,-15,"Armor break, charge 55f"
+"Rolling Attack MP",HL,110,150,30/30,su,6,33,4+2,-24,-15,"Armor break, charge 55f"
+"Rolling Attack HP",HL,120,200,30/30,su,6,33,4+3,-24,-15,"Armor break, charge 55f"
+"Rolling Attack EX",HL,110,150," -250/0",su,6,33,4+3,-24,-15,"Projectile invincible until end of active frames, Armor break, charge 55f"
+"Backstep Rolling LK",HL,110,200,30/40,-,28,25,6,-,-,"charge 55f"
+"Backstep Rolling MK",HL,120,200,30/40,-,28,29,6,-,-,"charge 55f"
+"Backstep Rolling HK",HL,130,200,30/40,-,28,33,6,-,-,"charge 55f"
+"Backstep Rolling EX",HL,120,200," -250/0",-,28,33,6,-,-,"1~22f invincible, 23~27f cannot be thrown, charge 55f"
+"Anti Air Rolling LK",HL,100,200,30/30,-,4,18,40+5,-21,-17,"charge 55f"
+"Anti Air Rolling MK",HL,110,200,30/30,-,4,15,42+10,-21,-17,"charge 55f"
+"Anti Air Rolling HK",HL,120,200,30/30,-,4,12,46+4,-21,-17,"charge 55f"
+"Anti Air Rolling EX",HL,120,200," -250/0",-,4,18,47+10,-21,-17,"1~5f invincible, charge 55f"
+"Electricity LP",HL,120,200,20/20,su,5,{4(4)}x3*4,9,5,-,
+"Electricity MP",HL,130,200,20/20,su,7,{2(2)}x7*2,9,8,-,
+"Electricity HP",HL,140,200,20/20,su,10,{1(1)}x16*2,9,10,-,
+"Electricity EX",HL,150,200," -250/0",su,5,{1(1)}x16*2,11,8,-,
+"Super Combo",HL,100x5,0," -1000/0",-,1+4,16*1x14,12,-32,-,"1~5f invincible, Pursuit property, charge 55f"
+"Ultra Combo 1",L*H*H*HLx4,0*120*125x3,0,0/0,-,0+4,2(20)26*1x20,17,-41,-,"1~27f invincible, Pursuit property, charge 55f"
 "Ultra Combo 2 Kick Kick Kick",L,120x2*90x3,0,0/0,-,0+12,2(7)2(33)90,31,-57,-,"1~10f invincible, charge 42f"
 "Ultra Combo 2 Punch Punch Punch",-,30*195[470],0,0/0,-,0+7,55(10)6,80,-,-,"charge 42f"

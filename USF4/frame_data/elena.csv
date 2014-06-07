@@ -1,6 +1,6 @@
 move,Hits,block,damage,stun,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,Notes
 LP,1,HL,30,50,5,4,11,-1,-4,"SP,SU",
-MP,2,HL,"40, 40","50, 50",6,"2,3",17,-3,-6,"SP,SU",Cancelable only on its 1st hit
+MP,2,HL,"40, 40","50, 50",6,"2,3",17,-3,-6,"SP,SU","Cancelable only on its 1st hit"
 HP,1,HL,100,200,13,5,21,-4,-8,"SP,SU",
 LK,1,HL,30,50,4,2,8,2,-1,"SP,SU",
 MK,1,HL,60,100,7,4,17,-4,-7,"SP,SU",
@@ -10,52 +10,52 @@ cr.MP,1,HL,60,100,5,5,11,1,-2,"SP,SU",
 cr.HP,1,HL,100,200,9,3,22,-2,-7,-,
 cr.LK,1,L,30,50,4,4,5,3,0,"SP,SU",
 cr.MK,1,L,100,60,6,3,15,-1,-4,"SP, SU",
-cr.HK,1,L,100,200,8,4,30,-,-16,-,Hard Knockdown
+cr.HK,1,L,100,200,8,4,30,-,-16,-,"Hard Knockdown"
 j.LP,1,H,30,50,4,10,-,-,-,-,
 j.MP,1,H,60,100,6,4,-,-,-,-,
 j.HP,1,H,90,150,6,4,-,-,-,-,
 j.LK,1,H,30,50,5,8,-,-,-,-,
 j.MK,1,H,60,100,7,4,-,-,-,-,
 j.HK,2,H,"50,70",100100,8,4(5)5,-,-,-,-,"1st hit causes limited juggle state, 2nd hit juggle potential 1"
-Handstand Kick 6+MP,1,H,70,100,20,3,19,3,-2,-,
-Handstand Whip 6+MK,1,H,50,100,12,3,20,2,-3,-,
-Round Arc 4+HK,1,HL,110,200,13,4,13,1,0,-,Airborne 6-28f
-Sliding 3+HK,1,L,100,200,11,10,25,-,-10,-,Hard Knockdown
-Target Combo 1 MP>MK,2,"HL,HL","100,50","200,25",13,5(8)3,19,-1,-4,-,
-Target Combo 2 MK>2+MP,2,"HL,HL","60,70","100,50",7,4(6)2,22,-,-3,-,Causes limited juggle state
-Target Combo 3 J.LP>MK,2,"H,H","60,40","100,50",4,10(2)6,-,-,-,-,
-Target Combo 4 J.MP>HP3,2,"H,H","30,60",50100,6,4(2)3,-,-,-,-,
-Forward throw,-,-,120,120,3,2,20,-,-,-,Range 0.885
-Back throw,-,-,120,120,3,2,20,-,-,-,Range 1.045
-Level 1 Focus,1,HL,60,100,10+14,2,33,-20 (-1),-20 (-1),-,"Crumple on Counter hit, hyper armor for 1 hit"
-Level 2 Focus,1,HL,80,150,18+13,2,33,-,-14 (+5),-,"Crumple on hit, hyper armor for 1 hit"
-Level 3 Focus,1,-,140,200,67,2,33,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
-Level 1 Red Focus,1,HL,90,100,10+14,2,33,-20 (-1),-20 (-1),-,"Crumple on Counter hit, infinite hyper armor"
-Level 2 Red Focus,1,HL,120,150,18+13,2,33,-,-14 (+5),-,"Crumple on hit, infinite hyper armor"
-Level 3 Red Focus,1,-,210,200,67,2,33,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
-LP Mallet Smash,2,"H,H","60,50","60,60",21,"2,2",25,0,-7,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
-MP Mallet Smash,2,"H,H","70,50","70,60",25,"2,2",24,3,-5,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
-HP Mallet Smash,2,"H,H","80,50","80,60",27,"2,2",22,6,-1,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
-EX Mallet Smash,2,"H,H","40,40","50,50",15,"2,2",18,4,-4,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
-LK Scratch Wheel,2,"HL,HL","60,40","80,20",6,"2,2",23+11 on ground,-,-14,SU,2nd hit juggle potential 1
-MK Scratch Wheel,2,"HL, HL","80, 60","120, 80",5,"2, 2",29+11 on ground,-,-19,SU,2nd hit juggle potential 1
-HK Scratch Wheel,3,"HL, HL, HL","60, 30, 30","100, 50, 50",4,"1, 1, 2",35+11 on ground,-,-23,SU,"4-6f invincible to throws, 5-42f airborn, soft knockdown, 2nd hit juggle potential 1, 3rd hit juggle potential 2"
-EX Scratch Wheel,4,"HL, HL, HL, HL","60, 30, 30, 30","80, 30, 30, 30",4,"1, 1, 2",34+11 on ground,-,-25,SU,"1-7f invincible, 5-41f airborne, 1st hit juggle potential 4, 2nd hit juggle potential 5, 3rd hit juggle potential 6, 4th hit juggle potential 7"
-LK Lynx Tail,1,L,60,90,10,3,25,-,-7,SU,
-MK Lynx Tail,2,"L, L","70, 60","70, 50",10,3(7) 3,21,-,-9,SU,Super cancelable on 2nd hit only
-HK Lynx Tail,4,"L, L, L, L","60, 20, 20, 30","50, 30, 20, 20",8,5(6) 4(22) 2(4) 2,28,-,-13,SU,Super cancelable on 2nd and 3rd hits only
-EX Lynx Tail,5,"L, L, L, L, L","40, 10, 10, 20, 20","50, 20, 20, 20, 20",10,4(4) 4(23) 3(5) 3(23) 5,29,-,-9,SU,"Causes limited juggle state, super cancelable on last hit only"
-LK Rhino Horn,3,"HL, HL, HL","40, 40, 40","50, 50, 50",14,2(2) 2(8) 5,7+15 on ground,-,-6,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
-MK Rhino Horn,3,"HL, HL, HL","50, 50, 50","50, 50, 50",18,2(2) 2(9) 5,9+12 on ground,-,-5,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
-HK Rhino Horn,3,"HL, HL, HL","60, 60, 60","50, 50, 50",23,2(2) 2(12) 5,11+8 on ground,-,-3,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
-EX Rhino Horn,3,"HL, HL, HL","50, 50, 50","50, 40, 40",12,2(2) 2(8) 5,5+14 on ground,-,-3,-,"1-35f projectile invincible, does not hit crouching opponents, all hits cause limited juggle state, 1st hit juggle potential 1, 2nd hit juggle potential 2, 3rd hit juggle potential 3"
-LK Spin Scythe,2,"HL, HL","20, 20","25, 25",12,3(9) 2,25,-,-6,SU,Super cancelable only after 1st hit
-MK Spin Scythe,2,"HL, HL","50, 50","80, 80",14,2(21) 2,27,-4,-7,SU,Super cancelable only after 1st hit
-HK Spin Scythe,2,"HL, HL","60, 60","90, 90",17,2(23) 2,30,-7,-10,SU,Super cancelable only after 1st hit
-EX Spin Scythe,4,"HL, HL","30, 30, 30","50, 50, 50, 50",15,2(20) 2(16) 2(8) 2,27,-,-8,-,Causes limited juggle state
-LK Spin Scythe Extension,2,"HL, HL","20, 20","25, 25",12,3(9)2,25,-,-6,-,Causes limited juggle state
-MK Spin Scythe Extension,2,"HL, HL","30, 30","25, 25",12,3(9)2,29,-,-10,-,Causes limited juggle state
-HK Spin Scythe Extension,2,"HL, HL","30, 30","25, 25",12,3(9)2,29,-,-10,-,Causes limited juggle state
-Spinning Beat,7,HLx7,"50, 25, 50, 25, 50, 75, 75",0,1+3,6(33) 8(33) 8,61,-,-44,-,"1-9f invincible, sequential juggle potential starting from 1st hit"
-Brave Dance,15,HLx15,"60, 29x4, 30x6, 23x3, 15",0,1+9,2,33,-,-14,-,"1-9f invincible, juggle potential 2"
-Healing,-,-,-,-,1+7 before healing starts,31 (time spent healing),65 (recovery when healing finishes),-,-,-,"1-4f invincible, at lowest level recovers 10 vitality points every 2 frames, raises to 11 vitality every 7th frame then drops to 10 (233 total), at max level 12 vitality every 2 frames, raises to 15 vitality every 7th frame (345 total), inputting Px3 enters 22 frame recovery and cancels vitality gain"
+"Handstand Kick 6+MP",1,H,70,100,20,3,19,3,-2,-,
+"Handstand Whip 6+MK",1,H,50,100,12,3,20,2,-3,-,
+"Round Arc 4+HK",1,HL,110,200,13,4,13,1,0,-,"Airborne 6-28f"
+"Sliding 3+HK",1,L,100,200,11,10,25,-,-10,-,"Hard Knockdown"
+"Target Combo 1 MP>MK",2,"HL,HL","100,50","200,25",13,5(8)3,19,-1,-4,-,
+"Target Combo 2 MK>2+MP",2,"HL,HL","60,70","100,50",7,4(6)2,22,-,-3,-,"Causes limited juggle state"
+"Target Combo 3 J.LP>MK",2,"H,H","60,40","100,50",4,10(2)6,-,-,-,-,
+"Target Combo 4 J.MP>HP3",2,"H,H","30,60",50100,6,4(2)3,-,-,-,-,
+"Forward throw",-,-,120,120,3,2,20,-,-,-,"Range 0.885"
+"Back throw",-,-,120,120,3,2,20,-,-,-,"Range 1.045"
+"Level 1 Focus",1,HL,60,100,10+14,2,33,"-20 (-1)","-20 (-1)",-,"Crumple on Counter hit, hyper armor for 1 hit"
+"Level 2 Focus",1,HL,80,150,18+13,2,33,-,"-14 (+5)",-,"Crumple on hit, hyper armor for 1 hit"
+"Level 3 Focus",1,-,140,200,67,2,33,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
+"Level 1 Red Focus",1,HL,90,100,10+14,2,33,"-20 (-1)","-20 (-1)",-,"Crumple on Counter hit, infinite hyper armor"
+"Level 2 Red Focus",1,HL,120,150,18+13,2,33,-,"-14 (+5)",-,"Crumple on hit, infinite hyper armor"
+"Level 3 Red Focus",1,-,210,200,67,2,33,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
+"LP Mallet Smash",2,"H,H","60,50","60,60",21,"2,2",25,0,-7,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
+"MP Mallet Smash",2,"H,H","70,50","70,60",25,"2,2",24,3,-5,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
+"HP Mallet Smash",2,"H,H","80,50","80,60",27,"2,2",22,6,-1,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
+"EX Mallet Smash",2,"H,H","40,40","50,50",15,"2,2",18,4,-4,-,"1st hit juggle potential 1, 2nd hit juggle potential 2"
+"LK Scratch Wheel",2,"HL,HL","60,40","80,20",6,"2,2","23+11 on ground",-,-14,SU,"2nd hit juggle potential 1"
+"MK Scratch Wheel",2,"HL, HL","80, 60","120, 80",5,"2, 2","29+11 on ground",-,-19,SU,"2nd hit juggle potential 1"
+"HK Scratch Wheel",3,"HL, HL, HL","60, 30, 30","100, 50, 50",4,"1, 1, 2","35+11 on ground",-,-23,SU,"4-6f invincible to throws, 5-42f airborn, soft knockdown, 2nd hit juggle potential 1, 3rd hit juggle potential 2"
+"EX Scratch Wheel",4,"HL, HL, HL, HL","60, 30, 30, 30","80, 30, 30, 30",4,"1, 1, 2","34+11 on ground",-,-25,SU,"1-7f invincible, 5-41f airborne, 1st hit juggle potential 4, 2nd hit juggle potential 5, 3rd hit juggle potential 6, 4th hit juggle potential 7"
+"LK Lynx Tail",1,L,60,90,10,3,25,-,-7,SU,
+"MK Lynx Tail",2,"L, L","70, 60","70, 50",10,"3(7) 3",21,-,-9,SU,"Super cancelable on 2nd hit only"
+"HK Lynx Tail",4,"L, L, L, L","60, 20, 20, 30","50, 30, 20, 20",8,"5(6) 4(22) 2(4) 2",28,-,-13,SU,"Super cancelable on 2nd and 3rd hits only"
+"EX Lynx Tail",5,"L, L, L, L, L","40, 10, 10, 20, 20","50, 20, 20, 20, 20",10,"4(4) 4(23) 3(5) 3(23) 5",29,-,-9,SU,"Causes limited juggle state, super cancelable on last hit only"
+"LK Rhino Horn",3,"HL, HL, HL","40, 40, 40","50, 50, 50",14,"2(2) 2(8) 5","7+15 on ground",-,-6,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
+"MK Rhino Horn",3,"HL, HL, HL","50, 50, 50","50, 50, 50",18,"2(2) 2(9) 5","9+12 on ground",-,-5,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
+"HK Rhino Horn",3,"HL, HL, HL","60, 60, 60","50, 50, 50",23,"2(2) 2(12) 5","11+8 on ground",-,-3,-,"Does not hit crouching opponents, 1st hit causes full juggle state, 2nd and 3rd hits juggle potential 1"
+"EX Rhino Horn",3,"HL, HL, HL","50, 50, 50","50, 40, 40",12,"2(2) 2(8) 5","5+14 on ground",-,-3,-,"1-35f projectile invincible, does not hit crouching opponents, all hits cause limited juggle state, 1st hit juggle potential 1, 2nd hit juggle potential 2, 3rd hit juggle potential 3"
+"LK Spin Scythe",2,"HL, HL","20, 20","25, 25",12,"3(9) 2",25,-,-6,SU,"Super cancelable only after 1st hit"
+"MK Spin Scythe",2,"HL, HL","50, 50","80, 80",14,"2(21) 2",27,-4,-7,SU,"Super cancelable only after 1st hit"
+"HK Spin Scythe",2,"HL, HL","60, 60","90, 90",17,"2(23) 2",30,-7,-10,SU,"Super cancelable only after 1st hit"
+"EX Spin Scythe",4,"HL, HL","30, 30, 30","50, 50, 50, 50",15,"2(20) 2(16) 2(8) 2",27,-,-8,-,"Causes limited juggle state"
+"LK Spin Scythe Extension",2,"HL, HL","20, 20","25, 25",12,3(9)2,25,-,-6,-,"Causes limited juggle state"
+"MK Spin Scythe Extension",2,"HL, HL","30, 30","25, 25",12,3(9)2,29,-,-10,-,"Causes limited juggle state"
+"HK Spin Scythe Extension",2,"HL, HL","30, 30","25, 25",12,3(9)2,29,-,-10,-,"Causes limited juggle state"
+"Spinning Beat",7,HLx7,"50, 25, 50, 25, 50, 75, 75",0,1+3,"6(33) 8(33) 8",61,-,-44,-,"1-9f invincible, sequential juggle potential starting from 1st hit"
+"Brave Dance",15,HLx15,"60, 29x4, 30x6, 23x3, 15",0,1+9,2,33,-,-14,-,"1-9f invincible, juggle potential 2"
+Healing,-,-,-,-,"1+7 before healing starts","31 (time spent healing)","65 (recovery when healing finishes)",-,-,-,"1-4f invincible, at lowest level recovers 10 vitality points every 2 frames, raises to 11 vitality every 7th frame then drops to 10 (233 total), at max level 12 vitality every 2 frames, raises to 15 vitality every 7th frame (345 total), inputting Px3 enters 22 frame recovery and cancels vitality gain"

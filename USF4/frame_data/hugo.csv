@@ -4,51 +4,51 @@ MP,1,HL,120,100,9,4,18,-1,-2,-,
 HP,1,H,120,200,17,8,17,-1,-6,"SP,SU","Armor from 7-16f, hard knockdown on aerial hit"
 LK,1,HL,50,50,8,2,10,3,-1,-,
 MK,2,"H,H","50,50","50,50",17,2(4)2,23,-2,-8,-,
-HK,1,H,130,200,22,9,33,-12,-16,-,Hard knockdown on aerial hit
+HK,1,H,130,200,22,9,33,-12,-16,-,"Hard knockdown on aerial hit"
 cr.LP,1,HL,50,50,5,2,12,1,-2,"CH,SP,SU",
 cr.MP,1,HL,110,100,8,4,17,2,-4,-,
-cr.HP,1,HL,130,200,15,5,49,-,-23,-,Hard knockdown
+cr.HP,1,HL,130,200,15,5,49,-,-23,-,"Hard knockdown"
 cr.LK,1,L,50,50,6,3,10,2,-2,"SP,SU",
-cr.MK,1,L,80,100,10,4,24,-,-7,-,Hard knockdown
-cr.HK,1,H,130,100,13,15,56,-,-40,-,Hard Knockdown
-j.LP,1,H,60,50,6,12,-,-,-,-,1-17f lower body projectile invinciblity
-j.MP,1,H,110,100,8,6,-,-,-,-,1-13f lower body projectile invinciblity
-j.HP,1,H,140,200,13,4,-,-,-,-,1-16f lower body projectile invinciblity
-j.LK,1,H,60,50,5,15,-,-,-,-,1-19f lower body projectile invinciblity
-j.MK,1,H,110,100,7,7,-,-,-,-,1-14f lower body projectile invinciblity
-j.HK,1,H,140,200,14,6,-,-,-,-,1-20f lower body projectile invinciblity
-Body Press j.2+HP,1,H,110,200,9,8,-,-,-,-,
-Hammer Hook 6+HP,1,HL,130,200,16,3,29,-2,-6,-,Hard knockdown on aerial hit
+cr.MK,1,L,80,100,10,4,24,-,-7,-,"Hard knockdown"
+cr.HK,1,H,130,100,13,15,56,-,-40,-,"Hard Knockdown"
+j.LP,1,H,60,50,6,12,-,-,-,-,"1-17f lower body projectile invinciblity"
+j.MP,1,H,110,100,8,6,-,-,-,-,"1-13f lower body projectile invinciblity"
+j.HP,1,H,140,200,13,4,-,-,-,-,"1-16f lower body projectile invinciblity"
+j.LK,1,H,60,50,5,15,-,-,-,-,"1-19f lower body projectile invinciblity"
+j.MK,1,H,110,100,7,7,-,-,-,-,"1-14f lower body projectile invinciblity"
+j.HK,1,H,140,200,14,6,-,-,-,-,"1-20f lower body projectile invinciblity"
+"Body Press j.2+HP",1,H,110,200,9,8,-,-,-,-,
+"Hammer Hook 6+HP",1,HL,130,200,16,3,29,-2,-6,-,"Hard knockdown on aerial hit"
 "Leap Attack 2,2+MK",1,H,50,100,17,10,4,5,2,-,"Juggle potential 1, 4-27f projectile invincibility"
-Forward throw,-,-,140,150,3,2,20,-,-,-,Range 0.930
-Back throw,-,-,150,140,3,2,20,-,-,-,Range 0.948
-Level 1 Focus,1,HL,90,100,10+16,5,29,-18 (-5),-18 (-5),-,"Crumple on Counter hit, hyper armor for 1 hit"
-Level 2 Focus,1,HL,120,150,18+18,5,29,-,-12 (+1),-,"Crumple on hit, hyper armor for 1 hit"
-Level 3 Focus,1,-,170,200,68,5,29,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
-Level 1 Red Focus,1,HL,135,100,10+16,5,29,-18 (-5),-18 (-5),-,"Crumple on Counter hit, infinite hyper armor"
-Level 2 Red Focus,1,HL,180,150,18+18,5,29,-,-12 (+1),-,"Crumple on hit, infinite hyper armor"
-Level 3 Red Focus,1,-,255,200,68,5,29,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
-LP Giant Palm Bomber,1,HL,80,100,15,4,12,9,1,SU,"Juggle potential 1, nullifies projectiles during active frames"
-MP Giant Palm Bomber,1,HL,100,100,19,4,6,18,7,SU,"Juggle potential 1, nullifies projectiles during active frames"
-HP Giant Palm Bomber,1,HL,110,100,24,4,5,21,8,SU,"Juggle potential 1, nullifies projectiles during active frames"
-EX Giant Palm Bomber,2,"HL,HL","60, 70","100, 100",17,3,7,16,12,SU,"1st hit juggle potential 2, 2nd hit juggle potential 4, nullifies projectiles during active frames"
-LP Moonsault Press,1,-,180,150,2,2,53,-,-,-,Reach: 1.651
-MP Moonsault Press,1,-,200,150,2,2,51,-,-,-,Reach: 1.501
-HP Moonsault Press,1,-,230,150,2,2,47,-,-,-,Reach: 1.401 EX Moonsault Press
-LK Shootdown Backbreaker,1,-,160,100,5,8,53,-,-,-,Juggle potential 1
-MK Shootdown Backbreaker,1,-,180,100,9,9,44,-,-,-,Juggle potential 1
-HK Shootdown Backbreaker,1,-,200,100,12,12,41,-,-,-,Juggle potential 1
-EX Shootdown Backbreaker,1,-,180,150,5,7,55,-,-,-,"Juggle potential 1, 1-4f invincible"
-Ultra Throw,1,-,80,150,7,2,52,-,-,-,"Range: 1.355, causes full juggle state"
-EX Ultra Throw,-,-,60,150,4,2,52,-,-,-,"Range: 1.685, causes full juggle state"
-LK Monster Lariat,1,HL,100,150,14,3,29,-,-11,-,Causes full juggle state on aerial hit
-MK Monster Lariat,1,HL,130,150,15,3,29,-,-11,-,Causes full juggle state on aerial hit
-HK Monster Lariat,1,HL,140,150,18,3,29,-,-11,-,Causes full juggle state on aerial hit
-EX Monster Lariat,1,HL,130,150,14,3,23,-,-6,SU,"Causes full juggle state on aerial hit, armor from 1-10f or until Hugo reaches enemy"
-LK Meat Squasher,1,-,200,150,8,2,62,-,-,-,Reach: 2.310
-MK Meat Squasher,1,-,200,150,17,2,62,-,-,-,Reach: 2.310
-HK Meat Squasher,1,-,200,150,18,2,62,-,-,-,Reach: 2.310
-EX Meat Squasher,1,-,225,200,14,2,62,-,-,-,"Reach: 2.270, armor from 1-13f or until Hugo reaches enemy"
-Hammer Mountain,5,HLx5,"40, 40, 40, 100, 80",0,1+11,4(15) 3(28) 3(16) 3(35)3,46,-,-14,-,"1-3f invincible if Hugo is directly next to opponent, 1-11f invincible if enemy is at a distance, final hit causes limited juggle state, final hit can be cancelled into LK, MK, or HK Shootdown backbreaker, holding P after activation enters a 58 frame feint, all hits have infinite juggle potential"
-Gigas Back breaker,3,-,"150, 150, 210",0,1+0,3,46,-,-,-,"Reach: 1.650, 1-4f invincible"
-Megaton Press,2,-,"150, 281",0,1+4,5,52,-,-,-,"1-10f invincible, infinite juggle potential"
+"Forward throw",-,-,140,150,3,2,20,-,-,-,"Range 0.930"
+"Back throw",-,-,150,140,3,2,20,-,-,-,"Range 0.948"
+"Level 1 Focus",1,HL,90,100,10+16,5,29,"-18 (-5)","-18 (-5)",-,"Crumple on Counter hit, hyper armor for 1 hit"
+"Level 2 Focus",1,HL,120,150,18+18,5,29,-,"-12 (+1)",-,"Crumple on hit, hyper armor for 1 hit"
+"Level 3 Focus",1,-,170,200,68,5,29,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
+"Level 1 Red Focus",1,HL,135,100,10+16,5,29,"-18 (-5)","-18 (-5)",-,"Crumple on Counter hit, infinite hyper armor"
+"Level 2 Red Focus",1,HL,180,150,18+18,5,29,-,"-12 (+1)",-,"Crumple on hit, infinite hyper armor"
+"Level 3 Red Focus",1,-,255,200,68,5,29,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
+"LP Giant Palm Bomber",1,HL,80,100,15,4,12,9,1,SU,"Juggle potential 1, nullifies projectiles during active frames"
+"MP Giant Palm Bomber",1,HL,100,100,19,4,6,18,7,SU,"Juggle potential 1, nullifies projectiles during active frames"
+"HP Giant Palm Bomber",1,HL,110,100,24,4,5,21,8,SU,"Juggle potential 1, nullifies projectiles during active frames"
+"EX Giant Palm Bomber",2,"HL,HL","60, 70","100, 100",17,3,7,16,12,SU,"1st hit juggle potential 2, 2nd hit juggle potential 4, nullifies projectiles during active frames"
+"LP Moonsault Press",1,-,180,150,2,2,53,-,-,-,"Reach: 1.651"
+"MP Moonsault Press",1,-,200,150,2,2,51,-,-,-,"Reach: 1.501"
+"HP Moonsault Press",1,-,230,150,2,2,47,-,-,-,"Reach: 1.401 EX Moonsault Press"
+"LK Shootdown Backbreaker",1,-,160,100,5,8,53,-,-,-,"Juggle potential 1"
+"MK Shootdown Backbreaker",1,-,180,100,9,9,44,-,-,-,"Juggle potential 1"
+"HK Shootdown Backbreaker",1,-,200,100,12,12,41,-,-,-,"Juggle potential 1"
+"EX Shootdown Backbreaker",1,-,180,150,5,7,55,-,-,-,"Juggle potential 1, 1-4f invincible"
+"Ultra Throw",1,-,80,150,7,2,52,-,-,-,"Range: 1.355, causes full juggle state"
+"EX Ultra Throw",-,-,60,150,4,2,52,-,-,-,"Range: 1.685, causes full juggle state"
+"LK Monster Lariat",1,HL,100,150,14,3,29,-,-11,-,"Causes full juggle state on aerial hit"
+"MK Monster Lariat",1,HL,130,150,15,3,29,-,-11,-,"Causes full juggle state on aerial hit"
+"HK Monster Lariat",1,HL,140,150,18,3,29,-,-11,-,"Causes full juggle state on aerial hit"
+"EX Monster Lariat",1,HL,130,150,14,3,23,-,-6,SU,"Causes full juggle state on aerial hit, armor from 1-10f or until Hugo reaches enemy"
+"LK Meat Squasher",1,-,200,150,8,2,62,-,-,-,"Reach: 2.310"
+"MK Meat Squasher",1,-,200,150,17,2,62,-,-,-,"Reach: 2.310"
+"HK Meat Squasher",1,-,200,150,18,2,62,-,-,-,"Reach: 2.310"
+"EX Meat Squasher",1,-,225,200,14,2,62,-,-,-,"Reach: 2.270, armor from 1-13f or until Hugo reaches enemy"
+"Hammer Mountain",5,HLx5,"40, 40, 40, 100, 80",0,1+11,"4(15) 3(28) 3(16) 3(35)3",46,-,-14,-,"1-3f invincible if Hugo is directly next to opponent, 1-11f invincible if enemy is at a distance, final hit causes limited juggle state, final hit can be cancelled into LK, MK, or HK Shootdown backbreaker, holding P after activation enters a 58 frame feint, all hits have infinite juggle potential"
+"Gigas Back breaker",3,-,"150, 150, 210",0,1+0,3,46,-,-,-,"Reach: 1.650, 1-4f invincible"
+"Megaton Press",2,-,"150, 281",0,1+4,5,52,-,-,-,"1-10f invincible, infinite juggle potential"

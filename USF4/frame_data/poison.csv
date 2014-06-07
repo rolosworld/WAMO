@@ -1,56 +1,56 @@
 move,hits,block,damage,stun,startup,active,recovery,frame_adv_hit,frame_adv_block,cancel,Notes
-close LP,1,HL,30,50,3,2,7,5,1,"CH, SP, SU",Whiffs against small crouching characters
-close MP,2,HL,"40, 40","50, 50",5,2(8)2,9,6,3,"SP, SU",2nd hit whiffs on crouching characters
-close HP,1,HL,100,200,5,4,20,-1,-6,"SP, SU",Forces Stand
-close LK,1,HL,30,50,4,3,5,6,3,CH,
-close MK,1,HL,70,100,5,2,11,4,1,"SP, SU",
-close HK,2,HL,"70, 40","150, 50",6,"2, 6",18,-2,-6,"SP, SU",Forces Stand
-far LP,1,HL,30,50,6,2,7,5,2,"SP, SU",Whiffs against small crouching characters
-far MP,1,HL,70,100,7,3,19,-5,-8,"SP, SU",
-far HP,1,HL,100,200,13,3,19,0,-4,-,
-far LK,1,HL,30,50,4,3,7,4,1,-,
-far MK,1,HL,70,100,5,3,14,0,-3,"SP, SU",
-far HK,1,HL,100,200,9,2,22,-2,-6,-,Whiffs against small and mid sized crouching characters
+"close LP",1,HL,30,50,3,2,7,5,1,"CH, SP, SU","Whiffs against small crouching characters"
+"close MP",2,HL,"40, 40","50, 50",5,2(8)2,9,6,3,"SP, SU","2nd hit whiffs on crouching characters"
+"close HP",1,HL,100,200,5,4,20,-1,-6,"SP, SU","Forces Stand"
+"close LK",1,HL,30,50,4,3,5,6,3,CH,
+"close MK",1,HL,70,100,5,2,11,4,1,"SP, SU",
+"close HK",2,HL,"70, 40","150, 50",6,"2, 6",18,-2,-6,"SP, SU","Forces Stand"
+"far LP",1,HL,30,50,6,2,7,5,2,"SP, SU","Whiffs against small crouching characters"
+"far MP",1,HL,70,100,7,3,19,-5,-8,"SP, SU",
+"far HP",1,HL,100,200,13,3,19,0,-4,-,
+"far LK",1,HL,30,50,4,3,7,4,1,-,
+"far MK",1,HL,70,100,5,3,14,0,-3,"SP, SU",
+"far HK",1,HL,100,200,9,2,22,-2,-6,-,"Whiffs against small and mid sized crouching characters"
 cr.LP,1,HL,30,50,3,3,6,5,2,"CH, SP, SU",
 cr.MP,1,HL,70,100,6,4,15,-2,-5,"SP, SU",
 cr.HP,1,HL,100,200,6,3,22,-3,-7,"SP, SU",
 cr.LK,1,L,30,50,4,2,12,0,-3,"CH, SP, SU",
 cr.MK,1,L,70,100,6,2,19,-4,-7,"SP, SU",
-cr.HK,1,L,90,100,9,2,31,-,-15,-,Hard Knockdown
-j.LP,1,H,50,50,4,5,-,-,-,-,1-3f lower body projectile invincible
-j.MP,1,H,80,100,6,2,-,-,-,-,1-5f lower body projectile invincible
-j.HP,1,H,100,200,7,2,-,-,-,-,1-6f lower body projectile invincible
-j.LK,1,H,50,50,5,5,-,-,-,-,1-4f lower body projectile invincible
-j.MK,1,H,80,100,5,6,-,-,-,-,1-10f lower body projectile invincible
-j.HK,1,H,100,200,6,5,-,-,-,-,1-5f lower body projectile invincible
-Elbow Drop 6+MP,1,H,60,50,16,10,10,-1,-8,-,Airborne from 7-25
-Backflip 3xK,-,-,-,-,-,-,-,-,-,-,"Backflip takes 48 frames, invincible during frames 1-33, backward movement distance 1.47516"
-Forward throw,-,-,150,150,3,2,20,-,-,-,Range 0.793
-Back throw,-,-,140,150,3,2,20,-,-,-,Range 0.843
-Level 1 Focus,1,HL,60,100,10+11,2,35,-21 (-1),-21 (-1),-,"Crumple on Counter hit, hyper armor for 1 hit"
-Level 2 Focus,1,HL,90,150,18+11,2,35,-,-15 (+5),-,"Crumple on hit, hyper armor for 1 hit"
-Level 3 Focus,1,-,150,200,65,2,35,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
-Level 1 Red Focus,1,HL,90,100,10+11,2,35,-21 (-1),-21 (-1),-,"Crumple on Counter hit, infinite hyper armor"
-Level 2 Red Focus,1,HL,135,150,18+11,2,35,-,-15 (+5),-,"Crumple on hit, infinite hyper armor"
-Level 3 Red Focus,1,-,225,200,65,2,35,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
-LP/ MP/ HP Whip of Love,1,HL,40,50,12/ 15/ 17,2,21,2,-4,"Whip follow up, SU","Forces stand, causes free juggle state against aerial opponent, juggle potential 2"
-Whip of Love 2nd,1,HL,50,50,13,3,25,-4,-9,"Whip follow up, SU",Juggle potential 2
-Whip of Love 3rd,1,HL,80,50,13,1,32,-,-12,-,"Hard Knockdown, juggle potential 2"
-EX Whip of Love,1,HL,40,50,13,3,21,1,-3,"Whip follow up, SU","Forces stand, causes free juggle state against aerial opponent, juggle potential 2"
-EX Whip of Love 2nd,1,HL,30,50,13,3,31,-9,-13,"Whip follow up, SU",Juggle potential 2
-EX Whip of Love 3rd,1,HL,30,50,13,5,28,-8,-12,"Whip follow up, SU",Juggle potential 2
-EX Whip of love 4th,1,HL,80,50,11,3,24,-,-6,-,"Jump cancelable on hit only, juggle potential 2"
-Love Me Tender,1,HL,90,150,27,5,16,4,-1,-,"Armor breaker, cancelable into followup attack on hit, puts airborn targts into free juggle state, airborn frames 9-32, hurtbox high enough to avoid most projectile frames 13-25"
-Love Me Tender Hit Throw,1,-,100,50,-,-,-,-,-,-,Hard Knockdown
-EX Love Me Tender,1,HL,"50, 150","50, 50",22,5,15,-,2,-,"Armor breaker, frames 1-26 projectile invincible, frames 2-26 airborne, hard knockdown"
-LK Kissed by a Goddess,2,HL,"80, 30","100, 50",5,2(3)2,39+12 on ground,-,-31,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, frames 1-4 invincible, airborn starting on frame 11, 1st hit causes free juggle state, 2nd hit juggle potential 1"
-MK Kissed by a Goddess,2,HL,"90, 40","100, 150",4,2(4)2,42+12 on ground,-,-46,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, frames 1-5 invincible, airborne starting on frame 11, 1st hit causes free juggle state, 2nd hit juggle potential 1"
-HK Kissed by a Goddess,3,HL,"80, 30, 30","100, 50, 50",10,3(6)3(3)3,43+13 on bground,-,-58,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, airborn starting on frame 20, 1st hit causes free juggle state, 2nd hit jugglep otential 1, 3rd hit juggle potential 2"
-EX Kissed by a Goddess,4,HL,"90,30,30,20","100, 50, 50, 30",4,"3, 2(1)3(1)3",37+13 on ground,-,-39,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, invincible frames 1-12 airborne starting on frame 13, 1st hit causes free juggle state with a potential of 2, 2nd hit juggle potential 3, 3rd hit juggle potential 4, 4th hit juggle potential 5"
-LP Aeolus Edge,1,HL,70,50,15,-,30,0,-3,SU,Causes free juggle state against aerial opponent
-MP Aeolus Edge,1,HL,70,50,17,-,27,3,0,SU,"Projectile travels for 41 frames (45% screen distance) then disappears, causes free juggle state against aerial opponent"
-HP Aeolus Edge,1,HL,70,50,23,-,20,10,7,SU,Projectile travels 41 frames (30% screen distance) causes free juggle state against aerial opponent
-EX Aeolus Edge,2,HL,"50,50","50,50",9,-,29,4,2,SU,"Projectile travels 41 frames (75% screen distance) then disappears, both hits cause free juggle state against aerial opponent, 1st hit juggle potential 1, 2nd hit juggle potential 2, neither hit raises juggle counter"
-Thunder Whip,6,HL,"40x3, 50, 100, 100",0,0+2,11 (19) 10,50,-,-35,-,"1-3 invincible, frame 4 projectile invincible, airborn frames 5-23 & 32-74, hard knockdown, every hit before the last one causes free juggle state"
-Love Storm,11,HL,"75, 30x2, 15, 30x6, 135",0,-,61,-,-,-34,-,"Frames 1-10 invincible, projectile hit triggers Ultra cutscene, hard knockdown, Ultra destroyed by other projectiles, juggle potential 1"
-Poison Kiss,3,-,"30x2, 450",0,0+2,4,79,-,-,-,"Ultra throw, frames 1-5 invincible, reach 0.649m, hard knockdown10, 40% screen distance frames 11-15, 60% screen distance 16-20"
+cr.HK,1,L,90,100,9,2,31,-,-15,-,"Hard Knockdown"
+j.LP,1,H,50,50,4,5,-,-,-,-,"1-3f lower body projectile invincible"
+j.MP,1,H,80,100,6,2,-,-,-,-,"1-5f lower body projectile invincible"
+j.HP,1,H,100,200,7,2,-,-,-,-,"1-6f lower body projectile invincible"
+j.LK,1,H,50,50,5,5,-,-,-,-,"1-4f lower body projectile invincible"
+j.MK,1,H,80,100,5,6,-,-,-,-,"1-10f lower body projectile invincible"
+j.HK,1,H,100,200,6,5,-,-,-,-,"1-5f lower body projectile invincible"
+"Elbow Drop 6+MP",1,H,60,50,16,10,10,-1,-8,-,"Airborne from 7-25"
+"Backflip 3xK",-,-,-,-,-,-,-,-,-,-,"Backflip takes 48 frames, invincible during frames 1-33, backward movement distance 1.47516"
+"Forward throw",-,-,150,150,3,2,20,-,-,-,"Range 0.793"
+"Back throw",-,-,140,150,3,2,20,-,-,-,"Range 0.843"
+"Level 1 Focus",1,HL,60,100,10+11,2,35,"-21 (-1)","-21 (-1)",-,"Crumple on Counter hit, hyper armor for 1 hit"
+"Level 2 Focus",1,HL,90,150,18+11,2,35,-,"-15 (+5)",-,"Crumple on hit, hyper armor for 1 hit"
+"Level 3 Focus",1,-,150,200,65,2,35,-,-,-,"Unblockable, crumple on hit, hyper armor for 1 hit"
+"Level 1 Red Focus",1,HL,90,100,10+11,2,35,"-21 (-1)","-21 (-1)",-,"Crumple on Counter hit, infinite hyper armor"
+"Level 2 Red Focus",1,HL,135,150,18+11,2,35,-,"-15 (+5)",-,"Crumple on hit, infinite hyper armor"
+"Level 3 Red Focus",1,-,225,200,65,2,35,-,-,-,"Unblockable, crumple on hit, infinite hyper armor"
+"LP/ MP/ HP Whip of Love",1,HL,40,50,"12/ 15/ 17",2,21,2,-4,"Whip follow up, SU","Forces stand, causes free juggle state against aerial opponent, juggle potential 2"
+"Whip of Love 2nd",1,HL,50,50,13,3,25,-4,-9,"Whip follow up, SU","Juggle potential 2"
+"Whip of Love 3rd",1,HL,80,50,13,1,32,-,-12,-,"Hard Knockdown, juggle potential 2"
+"EX Whip of Love",1,HL,40,50,13,3,21,1,-3,"Whip follow up, SU","Forces stand, causes free juggle state against aerial opponent, juggle potential 2"
+"EX Whip of Love 2nd",1,HL,30,50,13,3,31,-9,-13,"Whip follow up, SU","Juggle potential 2"
+"EX Whip of Love 3rd",1,HL,30,50,13,5,28,-8,-12,"Whip follow up, SU","Juggle potential 2"
+"EX Whip of love 4th",1,HL,80,50,11,3,24,-,-6,-,"Jump cancelable on hit only, juggle potential 2"
+"Love Me Tender",1,HL,90,150,27,5,16,4,-1,-,"Armor breaker, cancelable into followup attack on hit, puts airborn targts into free juggle state, airborn frames 9-32, hurtbox high enough to avoid most projectile frames 13-25"
+"Love Me Tender Hit Throw",1,-,100,50,-,-,-,-,-,-,"Hard Knockdown"
+"EX Love Me Tender",1,HL,"50, 150","50, 50",22,5,15,-,2,-,"Armor breaker, frames 1-26 projectile invincible, frames 2-26 airborne, hard knockdown"
+"LK Kissed by a Goddess",2,HL,"80, 30","100, 50",5,2(3)2,"39+12 on ground",-,-31,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, frames 1-4 invincible, airborn starting on frame 11, 1st hit causes free juggle state, 2nd hit juggle potential 1"
+"MK Kissed by a Goddess",2,HL,"90, 40","100, 150",4,2(4)2,"42+12 on ground",-,-46,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, frames 1-5 invincible, airborne starting on frame 11, 1st hit causes free juggle state, 2nd hit juggle potential 1"
+"HK Kissed by a Goddess",3,HL,"80, 30, 30","100, 50, 50",10,3(6)3(3)3,"43+13 on bground",-,-58,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, airborn starting on frame 20, 1st hit causes free juggle state, 2nd hit jugglep otential 1, 3rd hit juggle potential 2"
+"EX Kissed by a Goddess",4,HL,"90,30,30,20","100, 50, 50, 30",4,"3, 2(1)3(1)3","37+13 on ground",-,-39,SU,"Soft knockdown, Super/Focus cancelable on 1st hit only, invincible frames 1-12 airborne starting on frame 13, 1st hit causes free juggle state with a potential of 2, 2nd hit juggle potential 3, 3rd hit juggle potential 4, 4th hit juggle potential 5"
+"LP Aeolus Edge",1,HL,70,50,15,-,30,0,-3,SU,"Causes free juggle state against aerial opponent"
+"MP Aeolus Edge",1,HL,70,50,17,-,27,3,0,SU,"Projectile travels for 41 frames (45% screen distance) then disappears, causes free juggle state against aerial opponent"
+"HP Aeolus Edge",1,HL,70,50,23,-,20,10,7,SU,"Projectile travels 41 frames (30% screen distance) causes free juggle state against aerial opponent"
+"EX Aeolus Edge",2,HL,"50,50","50,50",9,-,29,4,2,SU,"Projectile travels 41 frames (75% screen distance) then disappears, both hits cause free juggle state against aerial opponent, 1st hit juggle potential 1, 2nd hit juggle potential 2, neither hit raises juggle counter"
+"Thunder Whip",6,HL,"40x3, 50, 100, 100",0,0+2,"11 (19) 10",50,-,-35,-,"1-3 invincible, frame 4 projectile invincible, airborn frames 5-23 & 32-74, hard knockdown, every hit before the last one causes free juggle state"
+"Love Storm",11,HL,"75, 30x2, 15, 30x6, 135",0,-,61,-,-,-34,-,"Frames 1-10 invincible, projectile hit triggers Ultra cutscene, hard knockdown, Ultra destroyed by other projectiles, juggle potential 1"
+"Poison Kiss",3,-,"30x2, 450",0,0+2,4,79,-,-,-,"Ultra throw, frames 1-5 invincible, reach 0.649m, hard knockdown10, 40% screen distance frames 11-15, 60% screen distance 16-20"
