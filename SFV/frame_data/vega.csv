@@ -1,4 +1,4 @@
-Move,Command,Startup,Active,Recovery,frame_adv_hit,frame_adv_block,Damage,Total,Hitstop,Stun,Chip,"Attack Level","Cancel Ability","CH hit adv.","CH Damage","CH Stun","KD Adv.","KDR Adv.","KDRB Adv."
+Move,Command,Startup,Active,Recovery,frame_adv_hit,frame_adv_block,Damage,Total,Hitstop,Stun,Chip,"block","Cancel Ability","CH hit adv.","CH Damage","CH Stun","KD Adv.","KDR Adv.","KDRB Adv."
 "stand LP",,5,2,9,5,1,30,,,70,0,H,"SP,V",7,36,84,,,
 "stand MP",,8,2,14,6,1,60,,,100,10,H,V,8,72,120,,,
 "stand HP",,8,2,21,5,-2,80,,,150,13,H,"SP,V",7,96,180,,,
