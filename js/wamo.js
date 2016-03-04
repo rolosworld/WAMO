@@ -44,7 +44,7 @@ function csv_to_objArray( csv ) {
         columns.
           set( row ).
           forEach( function( item, index ) {
-            this.set( item, index );
+              this.set( item.toLowerCase(), index );
           } );
         return;
       }
