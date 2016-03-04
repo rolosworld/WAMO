@@ -52,7 +52,7 @@ wamo.model = {
       return wamo.model.meatyAdvantage(move1) - wamo.model.varEval(move2.startup);
   },
   framesNeededToPunish: function( move1, move2 ) {
-      return wamo.model.varEval(move2.startup) + parseInt(move1.frame_adv_block,10);
+      return wamo.model.varEval(move2.startup) + parseInt(move1.frame_adv_block,10) - 1;
   },
   framesNeededToCounterPunish: function( move1, move2, his_fast_startup ) {
       return wamo.model.framesNeededToPunish(move1, move2) - his_fast_startup;
